@@ -1,20 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { Text, View, SafeAreaView, FlatList } from "react-native";
+import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
+import { useFonts } from "expo-font";
+import OnBoardingNavigation from "./Navigation/OnBoardingNavigation";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+const theme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    background: "grey",
   },
-});
+};
+
+const Stack = createNativeStackNavigator();
+
+const App = () => {
+
+
+
+  return (
+    <NavigationContainer>
+      <OnBoardingNavigation />
+    </NavigationContainer>
+  );
+};
+
+export default App;
