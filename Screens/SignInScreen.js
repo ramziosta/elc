@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { StyleSheet, View, Text, TextInput, Button } from "react-native";
+import { globalStyles } from "../Styles";
 // import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 
 const SignInScreen = (props) => {
@@ -31,9 +32,9 @@ const SignInScreen = (props) => {
   return (
     <View style={styles.layout}>
       <Text style={styles.title}>Sign In Screen</Text>
-      <View style={styles.container}>
+      <View >
         <TextInput
-          style={styles.input}
+           style={[styles.input, {color: 'white'}]}
           placeholder="email"
           keyboardType="email-address"
           value={email}
@@ -55,13 +56,14 @@ const SignInScreen = (props) => {
           autoCapitalize="none"
           autoCorrect={false}
         />
-        <Button title="Login" onPress={handleLogin} />
+        <Button title="Login" color="white" onPress={handleLogin} />
       </View>
       <View>
         <Text style={styles.text}>Dont have an account? </Text>
         <Button
           title="Register"
           onPress={() => nav.navigate("SignUp")}
+          color="white"
         />
       </View>
     </View>
@@ -75,20 +77,25 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     padding: 8,
+    backgroundColor: "#111111",
+   
   },
   title: {
+    color: "#E3C3FF",
     margin: 24,
     fontSize: 18,
     fontWeight: "bold",
     textAlign: "center",
   },
   text: {
+    color: "white",
     margin: 24,
     fontSize: 14,
     fontWeight: "bold",
     textAlign: "center",
   },
   input: {
+    color: "white",
     borderColor: "gray",
     width: "100%",
     borderBottomWidth: 1,

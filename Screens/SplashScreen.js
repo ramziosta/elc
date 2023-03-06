@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, SafeAreaView, View, Text, TextInput, Button } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-
+import { globalStyles } from "../Styles";
 const SplashScreen = () => {
   const nav = useNavigation();
   const handleNavigate = () => {
@@ -10,8 +10,8 @@ const SplashScreen = () => {
 
   return (
     <SafeAreaView style={styles.layout}>
-      <Text >Splash Screen</Text>
-      <Button onPress={handleNavigate} style={styles.text} title="Click Me!" />
+      <Text style={globalStyles.accentText}>Splash Screen</Text>
+      <Button onPress={handleNavigate} color="white" title="Click Me!" />
     </SafeAreaView>
   );
 };
@@ -24,6 +24,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
+    backgroundColor: "#111111",
   },
-
 });
