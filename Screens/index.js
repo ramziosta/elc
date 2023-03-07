@@ -4,7 +4,6 @@ import CategoryScreen from "./CategoryScreen";
 import AccountScreen from "./AccountScreen";
 import HomeScreen from "./HomeScreen";
 import SignInScreen from "./SignInScreen";
-import PaymentScreen from "./PaymentScreen";
 import ProductDetailsScreen from "./ProductDetailsScreen";
 import SignUpScreen from "./SignUpScreen";
 import SplashScreen from "./SplashScreen";
@@ -17,7 +16,6 @@ export {
   AccountScreen,
   HomeScreen,
   SignInScreen,
-  PaymentScreen,
   ProductDetailsScreen,
   SignUpScreen,
   SplashScreen,

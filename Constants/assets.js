@@ -5,13 +5,13 @@ import left from "../assets/icons/left.png";
 import search from "../assets/icons/search.png";
 
 import logo from "../assets/images/logo.png";
-import m1 from "../assets/images/m1.avif";
-import m2 from "../assets/images/m2.avif";
-import m3 from "../assets/images/m3.avif";
-import m4 from "../assets/images/m4.avif";
-import m5 from "../assets/images/m5.avif";
-import m6 from "../assets/images/m6.avif";
-import m7 from "../assets/images/m7.avif";
+import m1 from "../assets/images/m1.jpeg";
+import m2 from "../assets/images/m2.jpeg";
+import m3 from "../assets/images/m3.jpeg";
+import m4 from "../assets/images/m4.jpeg";
+import m5 from "../assets/images/m5.jpeg";
+import m6 from "../assets/images/m6.jpeg";
+import m7 from "../assets/images/m7.jpeg";
 
 import person01 from "../assets/images/person01.png";
 import person02 from "../assets/images/person02.png";
