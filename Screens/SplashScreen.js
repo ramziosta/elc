@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { StyleSheet, SafeAreaView, View, Text, TextInput, Button } from "react-native";
+import React from "react";
+import { StyleSheet, SafeAreaView,Text, Button } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { globalStyles } from "../Styles";
 const SplashScreen = () => {
@@ -13,7 +13,7 @@ const SplashScreen = () => {
       <Text style={globalStyles.accentText}>Splash Screen</Text>
       <Button onPress={handleNavigate} color="white" title="Click Me!" />
     </SafeAreaView>
-  );
+  )
 };
 
 export default SplashScreen;

@@ -1,16 +1,19 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { SignInScreen, SignUpScreen, SplashScreen } from "../Screens";
-import TabNavigation from "./TabNavigation";
+import TabsNavigation from "./TabsNavigation";
 const Stack = createNativeStackNavigator();
 
 const OnBoardingNavigation = () => {
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <Stack.Navigator
+      initialRouteName="SplashScreen"
+      screenOptions={{ headerShown: false }}
+    >
       <Stack.Screen name="SplashScreen" component={SplashScreen} />
       <Stack.Screen name="SignIn" component={SignInScreen} />
       <Stack.Screen name="SignUp" component={SignUpScreen} />
-      <Stack.Screen name="Tab" component={TabNavigation} />
+      <Stack.Screen name="Tabs" component={TabsNavigation} />
     </Stack.Navigator>
   );
 };

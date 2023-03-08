@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { StyleSheet, View, Text, TextInput, Button } from "react-native";
-import { globalStyles } from "../Styles";
 // import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 
 const SignInScreen = (props) => {
@@ -47,7 +46,7 @@ const SignInScreen = (props) => {
         <TextInput
           style={styles.input}
           placeholder="password"
-          keyboardType="password-address"
+          keyboardType="visible-password"
           value={password}
           onChangeText={(password) => {
             setPassword(password);

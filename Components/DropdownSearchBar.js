@@ -49,7 +49,7 @@ const DropdownSearchBar = () => {
         value={searchTerm}
         onChangeText={handleSearch}
         onFocus={() => setModalVisible(true)}
-        keyboardType="text"
+        keyboardType="default"
         autoCapitalize="none"
         autoCorrect={false}
       />

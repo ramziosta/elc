@@ -2,22 +2,24 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 // import DrawerNav from "./Drawer";
-import {HomeScreen, FavoriteScreen, AccountScreen} from "../Screens";
+import {HomeScreen, FavoriteScreen, ProductDetailsScreen} from "../Screens";
+import ProductStack from "./ProductStack";
 import { ImageBackground } from "react-native";
 const Tab = createBottomTabNavigator();
 
-const TabNavigation = () => {
+const TabsNavigation = () => {
   return (
-    <Tab.Navigator>
-      {/* <Tab.Screen name="Home Tab name" component={DrawerNav} /> */}
-      <Tab.Screen name="Home" component={HomeScreen} />
+    <Tab.Navigator
+    screenOptions={{ headerShown: false }}
+    >
+      <Tab.Screen name="ProductStack" component={HomeScreen} />
       <Tab.Screen name="Favorite" component={FavoriteScreen} />
-      <Tab.Screen name="Account" component={AccountScreen} />
+      <Tab.Screen name="ProductDetails" component={ProductDetailsScreen} />
     </Tab.Navigator>
   );
 };
 
-export default TabNavigation;
+export default TabsNavigation;
 
 /*
 

@@ -1,8 +1,7 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
-import { StyleSheet,SafeAreaView, View, Text, TextInput, Button } from "react-native";
+import { StyleSheet, View, Text, TextInput, Button } from "react-native";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { globalStyles } from "../Styles";
 const SignUpScreen = () => {
   const nav = useNavigation();
   // const auth = getAuth();
@@ -47,7 +46,7 @@ const SignUpScreen = () => {
         <TextInput
           style={styles.input}
           placeholder="password"
-          keyboardType="password-address"
+          keyboardType="visible-password"
           value={password}
           onChangeText={(password) => {
             setPassword(password);
@@ -60,7 +59,7 @@ const SignUpScreen = () => {
       </View>
       <Text style={styles.text}>Already registered? </Text>
       <Button title="Back to Login" onPress={() => nav.navigate("SignIn")} color="white" />
-      <Button title="Continue" onPress={() => nav.navigate("Tab")} color="white" />
+      <Button title="Continue" onPress={() => nav.navigate("Tabs")} color="white" />
     </View>
   );
 };
