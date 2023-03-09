@@ -1,11 +1,11 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View, SafeAreaView} from "react-native";
 
 function AccountScreen() {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Account</Text>
-    </View>
+    </SafeAreaView>
   );
 }
 

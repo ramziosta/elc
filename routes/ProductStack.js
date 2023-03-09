@@ -14,10 +14,10 @@ const Stack = createNativeStackNavigator();
 const ProductStack = () => {
   return (
     <Stack.Navigator
-      initialRouteName="Home"
+      initialRouteName="Main"
       screenOptions={{ headerShown: false }}
     >
-      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Main" component={HomeScreen} />
       <Stack.Screen name="ProductDetails" component={ProductDetailsScreen} />
       <Stack.Screen name="ThreeD" component={ThreeDScreen} />
       <Stack.Screen name="AR" component={ARScreen} />
@@ -27,4 +27,4 @@ const ProductStack = () => {
 
 
 
-export { ProductStack, };
+export default ProductStack;

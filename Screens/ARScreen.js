@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Text, View } from "react-native";
+import { Text, View, SafeAreaView } from "react-native";
 
 export default function AR() {
   return (
-    <View>
-      <Text>AR</Text>
-    </View>
+    <SafeAreaView>
+      <Text>AR Screen</Text>
+    </SafeAreaView>
   );
 }

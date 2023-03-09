@@ -27,6 +27,62 @@ const features = [
   { key: "6", text: "Easy Apply", image: require("../Assets/icons/brail.png") },
 ];
 
+const recentlyAdded = [
+  {
+    key: "1",
+    text: "Brush blissful",
+    brand: "YSL",
+    image: require("../Assets/images/m11.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+  {
+    key: "2",
+    text: "Rejuvenate bubbly",
+    brand: "Forbiden Beauty",
+    image: require("../Assets/images/m14.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+  {
+    key: "3",
+    text: "Fabulous glowy",
+    brand: "Gucci",
+    image: require("../Assets/images/m17.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+  {
+    key: "4",
+    text: "Fluffly cream dream",
+    brand: "Bobbi Brown",
+    image: require("../Assets/images/m16.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+  {
+    key: "5",
+    text: "Lipstick Berlin marvelous",
+    brand: "Chanel",
+    image: require("../Assets/images/m13.jpeg"),
+    heart: require("../Assets/images/m13.jpeg"),
+    pending: require("../Assets/images/m13.jpeg"),
+    review: "Pending Review",
+  },
+  {
+    key: "6",
+    text: "Hydrating lotion serene",
+    brand: "Miss Swiss",
+    image: require("../Assets/images/m15.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+];
 const highlyRated = [
   {
     key: "1",
@@ -95,7 +151,6 @@ const highlyRated = [
     pending: require("../Assets/icons/rating-circle-small.png"),
   },
 ];
-
 const accessibleBrands = [
   {
     key: "1",
@@ -140,61 +195,4 @@ const accessibleBrands = [
     brandLogo: require("../Assets/icons/icon6.png"),
   },
 ];
-const recentlyAdded = [
-  {
-    key: "1",
-    text: "Brush blissful",
-    brand: "YSL",
-    image: require("../Assets/images/m11.jpeg"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../Assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-  {
-    key: "2",
-    text: "Rejuvenate bubbly",
-    brand: "Forbiden Beauty",
-    image: require("../Assets/images/m14.jpeg"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../Assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-  {
-    key: "3",
-    text: "Fabulous glowy",
-    brand: "Gucci",
-    image: require("../Assets/images/m17.jpeg"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../Assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-  {
-    key: "4",
-    text: "Fluffly cream dream",
-    brand: "Bobbi Brown",
-    image: require("../Assets/images/m16.jpeg"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../Assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-  {
-    key: "5",
-    text: "Lipstick Berlin marvelous",
-    brand: "Chanel",
-    image: require("../Assets/images/m13.jpeg"),
-    heart: require("../Assets/images/m13.jpeg"),
-    pending: require("../Assets/images/m13.jpeg"),
-    review: "Pending Review",
-  },
-  {
-    key: "6",
-    text: "Hydrating lotion serene",
-    brand: "Miss Swiss",
-    image: require("../Assets/images/m15.jpeg"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../Assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-];
-
 export { features, highlyRated, accessibleBrands, recentlyAdded };
