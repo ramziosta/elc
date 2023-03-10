@@ -24,21 +24,22 @@ const graphQLQuery = async (token, query) => {
 }
 
 export const fetchAllProducts = (token, resultsIndex) => {
+	let toReturn = undefined;
 	const query = {
 		// "operationName": "Query",
 		"query": `query {
-			  products(limit: ${resultsPerQuery}, offset: ${resultsPerQuery * resultsIndex}) {
+			paginationResolver(input: { limit: ${resultsPerQuery}, offset: ${resultsPerQuery * resultsIndex} }) {
 				id
 				name
 			  }
 			}`,
 		// "variables": {}
 	};
-	graphQLQuery(token, query).then(v => {
-		console.log(v);
+	return graphQLQuery(token, query).then(v => {
+		// console.log(v)
 		return {
 			type: resultsIndex == 0 ? "init_fetch" : "fetch_more",
-			data: { allProducts: { ...v.products }, resultsIndex: resultsIndex + resultsPerQuery }
+			data: { allProducts: { ...v.paginationResolver }, resultsIndex: resultsIndex + resultsPerQuery }
 		}
 	}).catch(err => console.log(err));
 }
@@ -51,6 +52,7 @@ export const initProductState = {
 }
 
 export const productReducer = (state, action) => {
+	console.log(action)
 	switch (action.type) {
 		case "init_fetch": {
 			return { ...state, ...action.data };

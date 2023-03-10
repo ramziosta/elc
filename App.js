@@ -6,28 +6,26 @@ import OnBoardingNavigation from "./routes/OnBoardingNavigation";
 const Stack = createNativeStackNavigator();
 
 const App = () => {
-
+  const atlasToken = getAtlasToken();
   return (
     <NavigationContainer>
-      <OnBoardingNavigation />
+      <AtlasContext.Provider value={atlasToken}>
+       <OnBoardingNavigation />
+      </AtlasContext.Provider>
     </NavigationContainer>
   );
 };
 
 export default App;
 
-/*
-  // const atlasToken = getAtlasToken();
-  // if (!loaded) {
-  //   return null;
-  // }
-const theme = {
-  ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    background: "grey",
-  },
-};
+
+// const theme = {
+//   ...DefaultTheme,
+//   colors: {
+//     ...DefaultTheme.colors,
+//     background: "grey",
+//   },
+// };
 
 export const AtlasContext = createContext(undefined);
 
@@ -58,5 +56,3 @@ export const getAtlasToken = () => {
   }, []);
   return atlasToken;
 }
-
-*/
