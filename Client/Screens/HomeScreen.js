@@ -165,7 +165,7 @@ const RecentlyAdded = ({ data, handlePress }) => {
 const HomeScreen = () => {
   const nav = useNavigation();
   const handlePress = () => {
-    nav.navigate("ProductDetails");
+    nav.navigate("Category");
   };
 
   return (

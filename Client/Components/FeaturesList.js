@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, FlatList, Image } from "react-native";
-import globalStyles from "../Styles";
-
+import globalStyles from "../Styles/Styles";
 
 const FeaturesList = ({ data }) => {
   const renderItem = ({ item }) => (

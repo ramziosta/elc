@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import {
   ARScreen,
   HomeScreen,
+  CategoryScreen,
   ProductDetailsScreen,
   ThreeDScreen,
 } from "../Screens/index";
@@ -18,6 +19,7 @@ const ProductStack = () => {
       screenOptions={{ headerShown: false }}
     >
       <Stack.Screen name="Main" component={HomeScreen} />
+      <Stack.Screen name="Category" component={CategoryScreen} />
       <Stack.Screen name="ProductDetails" component={ProductDetailsScreen} />
       <Stack.Screen name="ThreeD" component={ThreeDScreen} />
       <Stack.Screen name="AR" component={ARScreen} />

@@ -12,7 +12,7 @@ const TabsNavigation = () => {
     <Tab.Navigator
       initialRouteName="ProductStack"
       screenOptions={{
-        activeTintColor: "#E3C3FF",
+        activeTintColor: "#E3C3FF", headerShown: false,
       }}
     >
       <Tab.Screen
@@ -32,7 +32,7 @@ const TabsNavigation = () => {
                 width: size,
                 height: size,
                 borderRadius: size,
-                backgroundColor: "black",
+                backgroundColor: "#111111",
               }}
             />
           ),
@@ -55,7 +55,7 @@ const TabsNavigation = () => {
                 width: size,
                 height: size,
                 borderRadius: size,
-                backgroundColor: "black",
+                backgroundColor: "#111111",
               }}
             />
           ),
@@ -77,7 +77,7 @@ const TabsNavigation = () => {
                 width: size,
                 height: size,
                 borderRadius: size,
-                backgroundColor: "black",
+                backgroundColor: "#111111",
               }}
             />
           ),
@@ -90,6 +90,5 @@ const TabsNavigation = () => {
 export default TabsNavigation;
 
 /*
-
 screenOptions={{headerBackground:()=> <ImageBackground source={require('../Assets/icons/icon3.png')}  style={{width:"100%", height:"100%"}}/>}}
 */

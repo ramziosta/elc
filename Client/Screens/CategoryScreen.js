@@ -32,6 +32,7 @@ const HighlyRated = ({ data, handlePress }) => {
           <Image source={item.pending} style={styles.pending} />
         </TouchableOpacity>
       </View>
+
       <TouchableOpacity onPress={handlePress} style={styles.textContainer}>
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
@@ -46,11 +47,12 @@ const HighlyRated = ({ data, handlePress }) => {
           {item.numberOfReviews} Reviews
         </Text>
       </TouchableOpacity>
+      
     </View>
   );
 
   return (
-    <View >
+    <View>
       <FlatList
         data={data}
         renderItem={renderItem}
@@ -62,10 +64,10 @@ const HighlyRated = ({ data, handlePress }) => {
   );
 };
 
-const Favorite = () => {
+const ProductDetailsScreen = () => {
   const nav = useNavigation();
   const handlePress = () => {
-    nav.navigate("ThreeD");
+    nav.navigate("ProductDetails");
   };
 
   return (
@@ -83,7 +85,7 @@ const Favorite = () => {
   );
 };
 
-export default Favorite;
+export default ProductDetailsScreen;
 
 const styles = StyleSheet.create({
   body: {
@@ -148,7 +150,7 @@ const styles = StyleSheet.create({
     zIndex: 10,
     left: 20,
   },
-ratingIconContainer: {
+  ratingIconContainer: {
     position: "absolute",
     top: 150,
     left: 140,

@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, FlatList, Image } from "react-native";
-import styles from "../Styles";
+import styles from "../Styles/Styles";
 
 const HighlyRated = ({ data }) => {
   const renderItem = ({ item }) => (
