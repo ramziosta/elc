@@ -27,62 +27,6 @@ const features = [
   { key: "6", text: "Easy Apply", image: require("../assets/icons/brail.png") },
 ];
 
-const recentlyAdded = [
-  {
-    key: "1",
-    text: "Brush blissful",
-    brand: "YSL",
-    image: require("../assets/images/m11.jpeg"),
-    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-  {
-    key: "2",
-    text: "Rejuvenate bubbly",
-    brand: "Forbiden Beauty",
-    image: require("../assets/images/m14.jpeg"),
-    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-  {
-    key: "3",
-    text: "Fabulous glowy",
-    brand: "Gucci",
-    image: require("../assets/images/m17.jpeg"),
-    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-  {
-    key: "4",
-    text: "Fluffly cream dream",
-    brand: "Bobbi Brown",
-    image: require("../assets/images/m16.jpeg"),
-    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-  {
-    key: "5",
-    text: "Lipstick Berlin marvelous",
-    brand: "Chanel",
-    image: require("../assets/images/m13.jpeg"),
-    heart: require("../assets/images/m13.jpeg"),
-    pending: require("../assets/images/m13.jpeg"),
-    review: "Pending Review",
-  },
-  {
-    key: "6",
-    text: "Hydrating lotion serene",
-    brand: "Miss Swiss",
-    image: require("../assets/images/m15.jpeg"),
-    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-pending.png"),
-    review: "Pending Review",
-  },
-];
 const highlyRated = [
   {
     key: "1",
@@ -151,6 +95,64 @@ const highlyRated = [
     pending: require("../assets/icons/rating-circle-small.png"),
   },
 ];
+
+const recentlyAdded = [
+  {
+    key: "1",
+    text: "Brush blissful",
+    brand: "YSL",
+    image: require("../Assets/images/m11.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+  {
+    key: "2",
+    text: "Rejuvenate bubbly",
+    brand: "Forbiden Beauty",
+    image: require("../Assets/images/m14.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+  {
+    key: "3",
+    text: "Fabulous glowy",
+    brand: "Gucci",
+    image: require("../Assets/images/m17.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+  {
+    key: "4",
+    text: "Fluffly cream dream",
+    brand: "Bobbi Brown",
+    image: require("../Assets/images/m16.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+  {
+    key: "5",
+    text: "Lipstick Berlin marvelous",
+    brand: "Chanel",
+    image: require("../Assets/images/m13.jpeg"),
+    heart: require("../Assets/images/m13.jpeg"),
+    pending: require("../Assets/images/m13.jpeg"),
+    review: "Pending Review",
+  },
+  {
+    key: "6",
+    text: "Hydrating lotion serene",
+    brand: "Miss Swiss",
+    image: require("../Assets/images/m15.jpeg"),
+    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../Assets/icons/rating-circle-pending.png"),
+    review: "Pending Review",
+  },
+];
+
 const accessibleBrands = [
   {
     key: "1",
@@ -195,4 +197,75 @@ const accessibleBrands = [
     brandLogo: require("../assets/icons/icon6.png"),
   },
 ];
-export { features, highlyRated, accessibleBrands, recentlyAdded };
+
+const productColorsIcons = [
+  {
+    key: "1",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48.png"),
+    iconColorName: "Greatful",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "2",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-1.png"),
+    iconColorName: "Joy",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "3",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-2.png"),
+    iconColorName: "Happy",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "4",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-3.png"),
+    iconColorName: "Lucky",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "5",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-4.png"),
+    iconColorName: "Bliss",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "6",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-5.png"),
+    iconColorName: "Faith",
+    accessibility: "Easy Open",
+  },
+  {
+    key: "7",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-6.png"),
+    iconColorName: "Grace",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "8",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-7.png"),
+    iconColorName: "Love",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "9",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-8.png"),
+    iconColorName: "Hope",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "10",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-9.png"),
+    iconColorName: "Believe",
+    accessibility: "Easy Open"
+  },
+  {
+    key: "11",
+    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-10.png"),
+    iconColorName: "Courage",
+    accessibility: "Easy Open"
+  },
+
+];
+
+export { features, highlyRated, accessibleBrands, recentlyAdded, productColorsIcons};

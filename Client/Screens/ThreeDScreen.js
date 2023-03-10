@@ -1,8 +1,9 @@
 import React from "react";
-import { StyleSheet, Text, View, SafeAreaView } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView, Button } from "react-native";
 import { WebView } from 'react-native-webview';
-
-const ProductDetailsScreen = () => {
+import { useNavigation } from "@react-navigation/native";
+const ThreeDScreen = () => {
+  const nav = useNavigation();
   return (
     <SafeAreaView  style={styles.container}>
       <WebView
@@ -10,7 +11,8 @@ const ProductDetailsScreen = () => {
         source={{ uri: 'https://app.vectary.com/p/7QzjYM09Su4mNhvSTzX0bv' }}
       />
 
-      
+<Button title="Try It On" onPress={()=>{nav.navigate("AR")}}/>
+      <Button title="Back" onPress={()=>{nav.navigate("ProductDetails")}}/>
     </SafeAreaView>
   );
 };
@@ -26,4 +28,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ProductDetailsScreen;
+export default ThreeDScreen;
