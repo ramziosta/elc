@@ -23,8 +23,7 @@ const graphQLQuery = async (token, query) => {
 	}
 }
 
-export const fetchAllProducts = (token, resultsIndex) => {
-	let toReturn = undefined;
+export const fetchAllProducts = async(token, resultsIndex) => {
 	const query = {
 		// "operationName": "Query",
 		"query": `query {
