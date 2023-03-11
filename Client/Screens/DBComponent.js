@@ -13,10 +13,13 @@ export default function ProductsListTest() {
   const [loading, setLoading] = React.useState(true);
 
   useEffect(() => {
-    const fetch = fetchAllProducts(atlasToken, productState?.allProducts.resultsIndex);
-    console.log(fetch);
-    dispatch(fetch);
-    setLoading(false);
+    fetchAllProducts(atlasToken, productState?.allProducts.resultsIndex).then(
+      v=>{
+        dispatch(v)
+        setLoading(false);
+      }
+    ).catch(err=> console.log(err));
+    
   }, [])
   if (loading) return (<><Text>Loading...</Text></>)
   else

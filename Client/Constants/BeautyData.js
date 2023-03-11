@@ -434,6 +434,7 @@ const data = [
 const features = [
   {
     key: "1",
+<<<<<<< HEAD
     image: require("../Assets/icons/ri_hand-heart-line.png"),
     heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
     pendingIcon: require("../Assets/icons/rating-circle-small.png"),
@@ -479,60 +480,122 @@ const features = [
  
 ];
 
+=======
+    text: "Ergonomic\n Design",
+    image: require("../assets/icons/ri_hand-heart-line.png"),
+  },
+  {
+    key: "2",
+    text: "Texture",
+    image: require("../assets/icons/icon-park-outline_foundation-makeup.png"),
+  },
+  {
+    key: "3",
+    text: "No Tools",
+    image: require("../assets/icons/mdi_lock-open-outline.png"),
+  },
+  {
+    key: "4",
+    text: "Tactile\n Markers",
+    image: require("../assets/icons/tabler_brush-off.png"),
+  },
+  {
+    key: "5",
+    text: "Easy Open",
+    image: require("../assets/icons/tabler_texture.png"),
+  },
+  { key: "6", text: "Easy Apply", image: require("../assets/icons/brail.png") },
+];
+
+>>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
 const highlyRated = [
   {
     key: "1", //id
     brand: "Rare Beauty",
     name: "Pink Lipstick",
+<<<<<<< HEAD
     image: require("../Assets/images/demo.png"), //image_Link
     accessibility: "Ergonomic Design", //tag_list
     buyItAgain: 92, //! NEW
     numberOfReviews: 1598, //! NEW
+=======
+    image: require("../assets/images/demo.png"),
+    accessibility: "Ergonomic Design",
+    buyItAgain: 92,
+    numberOfReviews: 1598,
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../assets/icons/rating-circle-small.png"),
+>>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "2",
     brand: "Kohls Kreative",
     name: "Soft Pinch Liquid....",
-    image: require("../Assets/images/m7.jpeg"),
+    image: require("../assets/images/m7.jpeg"),
     accessibility: "Texture",
     buyItAgain: 90,
     numberOfReviews: 2014,
+<<<<<<< HEAD
+=======
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../assets/icons/rating-circle-small.png"),
+>>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "3",
     brand: "Nora",
     name: "Zen Zone",
-    image: require("../Assets/images/m15.jpeg"),
+    image: require("../assets/images/m15.jpeg"),
     accessibility: "Easy Apply",
     buyItAgain: 88,
     numberOfReviews: 666,
+<<<<<<< HEAD
+=======
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../assets/icons/rating-circle-small.png"),
+>>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "4",
     brand: "Neauthy",
     name: "Mineral Plus Nigh...",
-    image: require("../Assets/images/m11.jpeg"),
+    image: require("../assets/images/m11.jpeg"),
     accessibility: "No Tools",
     buyItAgain: 92,
     numberOfReviews: 1294,
+<<<<<<< HEAD
+=======
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../assets/icons/rating-circle-small.png"),
+>>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "5",
     brand: "Cosmetic",
     name: "Daily Dose",
-    image: require("../Assets/images/m5.jpeg"),
+    image: require("../assets/images/m5.jpeg"),
     accessibility: "Tactile Markers",
     buyItAgain: 97,
     numberOfReviews: 894,
+<<<<<<< HEAD
+=======
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../assets/icons/rating-circle-small.png"),
+>>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "6",
     brand: "CORS",
     name: "Releaf Balm",
-    image: require("../Assets/images/m6.jpeg"),
+    image: require("../assets/images/m6.jpeg"),
     accessibility: "No Tools",
     buyItAgain: 86,
     numberOfReviews: 789,
+<<<<<<< HEAD
+=======
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pending: require("../assets/icons/rating-circle-small.png"),
+>>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
 ];
 
@@ -585,44 +648,50 @@ const accessibleBrands = [
   {
     key: "1", //id
     brand: "Rare Beauty",
+<<<<<<< HEAD
     text: "Ergonomic Design", //tag_list
     image: require("../Assets/images/m7.jpeg"),
     brandLogo: require("../Assets/icons/icon1.png"), //< assets????
+=======
+    text: "Ergonomic Design",
+    image: require("../assets/images/m7.jpeg"),
+    brandLogo: require("../assets/icons/icon1.png"),
+>>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "2",
     brand: "Kohls Kreative",
     text: "Texture",
-    image: require("../Assets/images/m8.jpeg"),
-    brandLogo: require("../Assets/icons/icon2.png"),
+    image: require("../assets/images/m8.jpeg"),
+    brandLogo: require("../assets/icons/icon2.png"),
   },
   {
     key: "3",
     brand: "Nora",
     text: "No Tools",
-    image: require("../Assets/images/m9.jpeg"),
-    brandLogo: require("../Assets/icons/icon3.png"),
+    image: require("../assets/images/m9.jpeg"),
+    brandLogo: require("../assets/icons/icon3.png"),
   },
   {
     key: "4",
     brand: "CORS",
     text: "Tactile Markers",
-    image: require("../Assets/images/m10.jpeg"),
-    brandLogo: require("../Assets/icons/icon4.png"),
+    image: require("../assets/images/m10.jpeg"),
+    brandLogo: require("../assets/icons/icon4.png"),
   },
   {
     key: "5",
     brand: "YSL",
     text: "Easy To Open",
-    image: require("../Assets/images/m11.jpeg"),
-    brandLogo: require("../Assets/icons/icon5.png"),
+    image: require("../assets/images/m11.jpeg"),
+    brandLogo: require("../assets/icons/icon5.png"),
   },
   {
     key: "6",
     brand: "Poko",
     text: "Easy To Apply",
-    image: require("../Assets/images/m12.jpeg"),
-    brandLogo: require("../Assets/icons/icon6.png"),
+    image: require("../assets/images/m12.jpeg"),
+    brandLogo: require("../assets/icons/icon6.png"),
   },
 ];
 
