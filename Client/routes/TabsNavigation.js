@@ -13,7 +13,8 @@ const TabsNavigation = () => {
     <Tab.Navigator
       initialRouteName="ProductStack"
       screenOptions={{
-        activeTintColor: "#E3C3FF", headerShown: false,
+        activeTintColor: "#E3C3FF",
+        headerShown: false,
       }}
     >
       <Tab.Screen
@@ -91,10 +92,6 @@ const TabsNavigation = () => {
 export default TabsNavigation;
 
 /*
-<<<<<<< HEAD:routes/TabsNavigation.js
 
 screenOptions={{headerBackground:()=> <ImageBackground source={require('../assets/icons/icon3.png')}  style={{width:"100%", height:"100%"}}/>}}
-=======
-screenOptions={{headerBackground:()=> <ImageBackground source={require('../Assets/icons/icon3.png')}  style={{width:"100%", height:"100%"}}/>}}
->>>>>>> d10a28945146226f0ca00f4f9a76990e63f34ba3:Client/routes/TabsNavigation.js
 */

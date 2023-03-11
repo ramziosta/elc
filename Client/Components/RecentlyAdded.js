@@ -28,7 +28,7 @@ const HighlyRated = ({ data, handlePress }) => {
           style={styles.pendingIconContainer}
         >
           <View style={styles.ratingContainer}>
-            <Text style={styles.rating}>{item.rating}</Text>
+            <Text style={styles.rating}>{item.pending}</Text>
           </View>
         </TouchableOpacity>
       </View>
@@ -40,10 +40,8 @@ const HighlyRated = ({ data, handlePress }) => {
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
-
-        <ProductAccessibilityTags data={features.slice(0, 1)} />
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          {item.buyItAgain}% would buy again
+          Pending Reviews
         </Text>
       </View>
     </TouchableOpacity>
@@ -52,7 +50,7 @@ const HighlyRated = ({ data, handlePress }) => {
   return (
     <View>
       <View style={styles.horizontal}>
-        <Text style={styles.text}>Highly Rated</Text>
+        <Text style={styles.text}>Recently Added</Text>
         <TouchableOpacity onPress={handlePress}>
           <Text style={styles.text2}>See All ⌲</Text>
         </TouchableOpacity>
@@ -87,8 +85,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginTop: 30,
-
+   
     marginBottom: 20,
     marginLeft: 10,
   },

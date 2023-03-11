@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export const globalStyles = StyleSheet.create({
+ const globalStyles = StyleSheet.create({
   global: {
     backgroundColor: "#111111",
     color: "#ffffff",
@@ -100,3 +100,9 @@ export const globalStyles = StyleSheet.create({
     borderBottomRightRadius: 20,
   },
 });
+
+
+export {
+  globalStyles,
+
+}

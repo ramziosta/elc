@@ -2,166 +2,19 @@
 
 //TODO handleSearch function
 //TODO create a button component that takes the name of the button as an argument and uses that name to call the handleSearch function.
-
 import React from "react";
+import { StyleSheet, ScrollView, Image, View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import {
-  StyleSheet,
-  Text,
-  View,
-  FlatList,
-  Image,
-  TouchableOpacity,
-  ScrollView,
-  SafeAreaView,
-} from "react-native";
-
 import DropdownSearchBar from "../Components/DropdownSearchBar";
-
-import { features, highlyRated, accessibleBrands, recentlyAdded } from "../Constants/BeautyData"
-
-const FeaturesList = ({ data, handlePress }) => {
-  const renderItem = ({ item }) => (
-    <TouchableOpacity onPress={handlePress}>
-      <View style={styles.item}>
-        <Image source={item.image} />
-      </View>
-      <Text style={styles.iconsText} numberOfLines={2}>
-        {item.text}
-      </Text>
-    </TouchableOpacity>
-  );
-
-  return (
-    <View style={{ justifyContent: "center" }}>
-      <FlatList
-        data={data}
-        horizontal={true}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.key}
-      />
-    </View>
-  );
-};
-
-const HighlyRated = ({ data, handlePress }) => {
-  const renderItem = ({ item }) => (
-    <View>
-      <View style={styles.items}>
-        <Image source={item.image} style={styles.image} />
-      </View>
-      <TouchableOpacity onPress={handlePress} style={styles.textContainer}>
-        <Text style={styles.brand} numberOfLines={2}>
-          {item.brand}
-        </Text>
-        <Text style={styles.brandNameText} numberOfLines={1}>
-          {item.name}
-        </Text>
-        <Text style={styles.accessibility} numberOfLines={1}>
-          {item.accessibility}
-        </Text>
-        <Text style={styles.buyItAgain} numberOfLines={1}>
-          {item.buyItAgain}% would buy again
-        </Text>
-      </TouchableOpacity>
-    </View>
-  );
-
-  return (
-    <View style={{ justifyContent: "center" }}>
-      <FlatList
-        data={data}
-        horizontal={true}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.key}
-      />
-    </View>
-  );
-};
-const AccessibleBrands = ({ data, handlePress }) => {
-  const renderItem = ({ item }) => (
-    <View>
-      <View style={styles.items}>
-        <Image source={item.image} style={styles.accessibleImage} />
-        <View style={styles.iconContainer}>
-          <Image source={item.brandLogo} style={styles.brandLogo} />
-        </View>
-      </View>
-      <TouchableOpacity
-        onPress={handlePress}
-        style={styles.accessibilityTextContainer}
-      >
-        <Text
-          style={[styles.brand, styles.accessibilityBrand]}
-          numberOfLines={2}
-        >
-          {item.brand}
-        </Text>
-        <Text style={styles.accessibilityText} numberOfLines={2}>
-          {item.text}
-        </Text>
-      </TouchableOpacity>
-    </View>
-  );
-
-  return (
-    <View style={{ justifyContent: "center" }}>
-      <FlatList
-        data={data}
-        horizontal={true}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.key}
-      />
-    </View>
-  );
-};
-
-const RecentlyAdded = ({ data, handlePress }) => {
-  const renderItem = ({ item }) => (
-    <View>
-      <View style={styles.items}>
-        <Image source={item.image} style={styles.image} />
-
-        <TouchableOpacity
-          onPress={handlePress}
-          style={styles.heartIconContainer}
-        >
-          <Image source={item.heart} style={styles.heart} tintColor="black" />
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          onPress={handlePress}
-          style={styles.pendingIconContainer}
-        >
-          <Image source={item.pending} style={styles.pending} />
-        </TouchableOpacity>
-      </View>
-      <TouchableOpacity onPress={handlePress} style={styles.textContainer}>
-        <Text style={styles.brand} numberOfLines={2}>
-          {item.brand}
-        </Text>
-        <Text style={styles.brandNameText} numberOfLines={1}>
-          {item.text}
-        </Text>
-        <Text style={styles.buyItAgain} numberOfLines={1}>
-          {item.review}
-        </Text>
-      </TouchableOpacity>
-    </View>
-  );
-
-  return (
-    <View style={{ justifyContent: "center" }}>
-      <FlatList
-        data={data}
-        horizontal={true}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.key}
-      />
-    </View>
-  );
-};
-
+import FeaturesList from "../Components/FeaturesList";
+import HighlyRated from "../Components/HighlyRated";
+import AccessibleBrands from "../Components/AccessibleBrands";
+import RecentlyAdded from "../Components/RecentlyAdded";
+import {
+  features,
+  highlyRated,
+  accessibleBrands,
+} from "../Constants/BeautyData";
 const HomeScreen = () => {
   const nav = useNavigation();
   const handlePress = () => {
@@ -169,35 +22,18 @@ const HomeScreen = () => {
   };
 
   return (
-    <SafeAreaView style={styles.body}>
+    <View style={styles.body}>
       <ScrollView>
+        <Image source={require("../assets/icons/NameLogo.png")} style={styles.logo} />
         <DropdownSearchBar />
         <View style={styles.scroll}>
-          <View style={styles.horizontal}>
-            <Text style={styles.text}>Browse Features</Text>
-            <Text style={styles.text2}>See All ⌲</Text>
-          </View>
           <FeaturesList data={features} handlePress={handlePress} />
-
-          <View style={styles.horizontal}>
-            <Text style={styles.text}>Highly Rated</Text>
-            <Text style={styles.text2}>See All ⌲</Text>
-          </View>
           <HighlyRated data={highlyRated} handlePress={handlePress} />
-
-          <View style={styles.horizontal}>
-            <Text style={styles.text}>Accessible Brands</Text>
-            <Text style={styles.text2}>See All ⌲</Text>
-          </View>
           <AccessibleBrands data={accessibleBrands} handlePress={handlePress} />
-          <View style={styles.horizontal}>
-            <Text style={styles.text}>Recently Added</Text>
-            <Text style={styles.text2}>See All ⌲</Text>
-          </View>
-          <RecentlyAdded data={recentlyAdded} handlePress={handlePress} />
+          <RecentlyAdded data={highlyRated} handlePress={handlePress} />
         </View>
       </ScrollView>
-    </SafeAreaView>
+    </View>
   );
 };
 
@@ -209,9 +45,18 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     backgroundColor: "#111111",
   },
+  logo:{
+    display: "flex",
+    justifyContent: "center",
+    alignSelf: "center",
+    marginTop: 10,
+    marginBottom: 10,
+    marginLeft: 10,
+    marginRight: 10,
+  },
   scroll: {
     height: "100%",
-    marginTop: 70,
+    marginTop: 20,
   },
   item: {
     display: "flex",

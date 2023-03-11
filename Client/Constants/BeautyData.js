@@ -1,82 +1,82 @@
 const assets = [
   {
     id: "1",
-    WhiteHeart: require("../Assets/icons/ri_hand-heart-line.png"),
-    WhiteHeart: require("../Assets/icons/ri_hand-heart-line.png"),
-    redHeart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48.png"),
+    WhiteHeart: require("../assets/icons/ri_hand-heart-line.png"),
+    WhiteHeart: require("../assets/icons/ri_hand-heart-line.png"),
+    redHeart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pendingIcon: require("../assets/icons/rating-circle-small.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48.png"),
     iconColorName: "Greatful",
-    brandLogo: require("../Assets/icons/icon1.png"), //< assets????
+    brandLogo: require("../assets/icons/icon1.png"), //< assets????
   },
   {
     id: "2",
-    image: require("../Assets/icons/icon-park-outline_foundation-makeup.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-1.png"),
+    image: require("../assets/icons/icon-park-outline_foundation-makeup.png"),
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pendingIcon: require("../assets/icons/rating-circle-small.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-1.png"),
     iconColorName: "Joy",
-    brandLogo: require("../Assets/icons/icon2.png"),
+    brandLogo: require("../assets/icons/icon2.png"),
   },
   {
     id: "3",
-    image: require("../Assets/icons/mdi_lock-open-outline.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-2.png"),
+    image: require("../assets/icons/mdi_lock-open-outline.png"),
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pendingIcon: require("../assets/icons/rating-circle-small.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-2.png"),
     iconColorName: "Happy",
-    brandLogo: require("../Assets/icons/icon3.png"),
+    brandLogo: require("../assets/icons/icon3.png"),
   },
   {
     id: "4",
-    image: require("../Assets/icons/tabler_brush-off.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-3.png"),
+    image: require("../assets/icons/tabler_brush-off.png"),
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pendingIcon: require("../assets/icons/rating-circle-small.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-3.png"),
     iconColorName: "Lucky",
-    brandLogo: require("../Assets/icons/icon4.png"),
+    brandLogo: require("../assets/icons/icon4.png"),
   },
   {
     id: "5",
-    image: require("../Assets/icons/tabler_texture.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-4.png"),
+    image: require("../assets/icons/tabler_texture.png"),
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pendingIcon: require("../assets/icons/rating-circle-small.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-4.png"),
     iconColorName: "Bliss",
-    brandLogo: require("../Assets/icons/icon5.png"),
+    brandLogo: require("../assets/icons/icon5.png"),
   },
   {
     id: "6",
-    image: require("../Assets/icons/brail.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-5.png"),
+    image: require("../assets/icons/brail.png"),
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    pendingIcon: require("../assets/icons/rating-circle-small.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-5.png"),
     iconColorName: "Faith",
-    brandLogo: require("../Assets/icons/icon6.png"),
+    brandLogo: require("../assets/icons/icon6.png"),
   },
   {
     id: "7",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-6.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-6.png"),
     iconColorName: "Grace",
   },
   {
     id: "8",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-7.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-7.png"),
     iconColorName: "Love",
   },
   {
     id: "9",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-8.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-8.png"),
     iconColorName: "Hope",
   },
   {
     id: "10",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-9.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-9.png"),
     iconColorName: "Believe",
   },
   {
     id: "11",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-10.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-10.png"),
     iconColorName: "Courage",
   },
 ];
@@ -433,113 +433,73 @@ const data = [
 
 const features = [
   {
-    key: "1",
-<<<<<<< HEAD
-    image: require("../Assets/icons/ri_hand-heart-line.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48.png"),
+    id: "1",
+    tag_list: "Easy Apply",
+    accessibilityIcon: require("../assets/icons/ri_hand-heart-line.png"),
+    rating: "A",
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
   },
   {
-    key: "2",
-    image: require("../Assets/icons/icon-park-outline_foundation-makeup.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-1.png"),
+    id: "2",
+    tag_list: "Ergonomic\n Design",
+    accessibilityIcon: require("../assets/icons/icon-park-outline_foundation-makeup.png"),
+    rating: "B",
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
   },
   {
-    key: "3",
-    image: require("../Assets/icons/mdi_lock-open-outline.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-2.png"),
+    id: "3",
+    tag_list: "Easy Open",
+    accessibilityIcon: require("../assets/icons/mdi_lock-open-outline.png"),
+    rating: "B",
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
   },
   {
-    key: "4",
-    image: require("../Assets/icons/tabler_brush-off.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-3.png"),
+    id: "4",
+    tag_list: "No Tools",
+    accessibilityIcon: require("../assets/icons/tabler_brush-off.png"),
+    rating: "A",
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
   },
   {
-    key: "5",
-
-    image: require("../Assets/icons/tabler_texture.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-4.png"),
+    id: "5",
+    tag_list: "Texture",
+    accessibilityIcon: require("../assets/icons/tabler_texture.png"),
+    rating: "A",
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
   },
   {
-    key: "6",
-
-    image: require("../Assets/icons/brail.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-   
+    id: "6",
+    tag_list: "Tactile\n Markers",
+    accessibilityIcon: require("../assets/icons/brail.png"),
+    rating: "B",
+    heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
   },
- 
 ];
 
-=======
-    text: "Ergonomic\n Design",
-    image: require("../assets/icons/ri_hand-heart-line.png"),
-  },
-  {
-    key: "2",
-    text: "Texture",
-    image: require("../assets/icons/icon-park-outline_foundation-makeup.png"),
-  },
-  {
-    key: "3",
-    text: "No Tools",
-    image: require("../assets/icons/mdi_lock-open-outline.png"),
-  },
-  {
-    key: "4",
-    text: "Tactile\n Markers",
-    image: require("../assets/icons/tabler_brush-off.png"),
-  },
-  {
-    key: "5",
-    text: "Easy Open",
-    image: require("../assets/icons/tabler_texture.png"),
-  },
-  { key: "6", text: "Easy Apply", image: require("../assets/icons/brail.png") },
-];
-
->>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
 const highlyRated = [
   {
     key: "1", //id
     brand: "Rare Beauty",
     name: "Pink Lipstick",
-<<<<<<< HEAD
-    image: require("../Assets/images/demo.png"), //image_Link
+    image: require("../assets/images/demo.png"), //image_Link
     accessibility: "Ergonomic Design", //tag_list
     buyItAgain: 92, //! NEW
     numberOfReviews: 1598, //! NEW
-=======
-    image: require("../assets/images/demo.png"),
-    accessibility: "Ergonomic Design",
-    buyItAgain: 92,
-    numberOfReviews: 1598,
+    rating: "A",
+    pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-small.png"),
->>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "2",
     brand: "Kohls Kreative",
-    name: "Soft Pinch Liquid....",
+    name: "Soft Pinch Liquid",
     image: require("../assets/images/m7.jpeg"),
     accessibility: "Texture",
     buyItAgain: 90,
     numberOfReviews: 2014,
-<<<<<<< HEAD
-=======
+    rating: "B",
+    pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-small.png"),
->>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "3",
@@ -549,11 +509,9 @@ const highlyRated = [
     accessibility: "Easy Apply",
     buyItAgain: 88,
     numberOfReviews: 666,
-<<<<<<< HEAD
-=======
+    rating: "B",
+    pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-small.png"),
->>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "4",
@@ -563,11 +521,9 @@ const highlyRated = [
     accessibility: "No Tools",
     buyItAgain: 92,
     numberOfReviews: 1294,
-<<<<<<< HEAD
-=======
+    rating: "A",
+    pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-small.png"),
->>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "5",
@@ -577,11 +533,9 @@ const highlyRated = [
     accessibility: "Tactile Markers",
     buyItAgain: 97,
     numberOfReviews: 894,
-<<<<<<< HEAD
-=======
+    rating: "B",
+    pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-small.png"),
->>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
   {
     key: "6",
@@ -591,11 +545,8 @@ const highlyRated = [
     accessibility: "No Tools",
     buyItAgain: 86,
     numberOfReviews: 789,
-<<<<<<< HEAD
-=======
+    rating: "A",pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
-    pending: require("../assets/icons/rating-circle-small.png"),
->>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
   },
 ];
 
@@ -604,42 +555,43 @@ const recentlyAdded = [
     key: "1", //id
     text: "Brush blissful", //name
     brand: "YSL",
-    image: require("../Assets/images/m11.jpeg"), //image_Link
+    image: require("../assets/images/m11.jpeg"), //image_Link
+
     review: "Pending Review", //!NEW
   },
   {
     key: "2",
     text: "Rejuvenate bubbly",
     brand: "Forbiden Beauty",
-    image: require("../Assets/images/m14.jpeg"),
+    image: require("../assets/images/m14.jpeg"),
     review: "Pending Review",
   },
   {
     key: "3",
     text: "Fabulous glowy",
     brand: "Gucci",
-    image: require("../Assets/images/m17.jpeg"),
+    image: require("../assets/images/m17.jpeg"),
     review: "Pending Review",
   },
   {
     key: "4",
     text: "Fluffly cream dream",
     brand: "Bobbi Brown",
-    image: require("../Assets/images/m16.jpeg"),
+    image: require("../assets/images/m16.jpeg"),
     review: "Pending Review",
   },
   {
     key: "5",
     text: "Lipstick Berlin marvelous",
     brand: "Chanel",
-    image: require("../Assets/images/m13.jpeg"),
+    image: require("../assets/images/m13.jpeg"),
     review: "Pending Review",
   },
   {
     key: "6",
     text: "Hydrating lotion serene",
     brand: "Miss Swiss",
-    image: require("../Assets/images/m15.jpeg"),
+    image: require("../assets/images/m15.jpeg"),
     review: "Pending Review",
   },
 ];
@@ -648,15 +600,9 @@ const accessibleBrands = [
   {
     key: "1", //id
     brand: "Rare Beauty",
-<<<<<<< HEAD
     text: "Ergonomic Design", //tag_list
-    image: require("../Assets/images/m7.jpeg"),
-    brandLogo: require("../Assets/icons/icon1.png"), //< assets????
-=======
-    text: "Ergonomic Design",
     image: require("../assets/images/m7.jpeg"),
-    brandLogo: require("../assets/icons/icon1.png"),
->>>>>>> f732aafadf4a8ec5c3d6f270f2fa12a6959f94c0
+    brandLogo: require("../assets/icons/icon1.png"), //< assets????
   },
   {
     key: "2",
@@ -698,72 +644,71 @@ const accessibleBrands = [
 const productColorsIcons = [
   {
     key: "1",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48.png"),
     iconColorName: "Greatful", //! NEW product_colors[color].product_name
     accessibility: "Easy Open", //tag_list
   },
   {
     key: "2",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-1.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-1.png"),
     iconColorName: "Joy",
     accessibility: "Easy Open",
   },
   {
     key: "3",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-2.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-2.png"),
     iconColorName: "Happy",
     accessibility: "Easy Open",
   },
   {
     key: "4",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-3.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-3.png"),
     iconColorName: "Lucky",
     accessibility: "Easy Open",
   },
   {
     key: "5",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-4.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-4.png"),
     iconColorName: "Bliss",
     accessibility: "Easy Open",
   },
   {
     key: "6",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-5.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-5.png"),
     iconColorName: "Faith",
     accessibility: "Easy Open",
   },
   {
     key: "7",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-6.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-6.png"),
     iconColorName: "Grace",
     accessibility: "Easy Open",
   },
   {
     key: "8",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-7.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-7.png"),
     iconColorName: "Love",
     accessibility: "Easy Open",
   },
   {
     key: "9",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-8.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-8.png"),
     iconColorName: "Hope",
     accessibility: "Easy Open",
   },
   {
     key: "10",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-9.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-9.png"),
     iconColorName: "Believe",
     accessibility: "Easy Open",
   },
   {
     key: "11",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-10.png"),
+    ColorOptionsIcon: require("../assets/icons/Ellipse%48-10.png"),
     iconColorName: "Courage",
     accessibility: "Easy Open",
   },
 ];
-
 
 export {
   data,
@@ -773,5 +718,4 @@ export {
   highlyRated,
   accessibleBrands,
   recentlyAdded,
-
 };

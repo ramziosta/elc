@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, SafeAreaView, Text, Button } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import { globalStyles } from "../Styles/Styles";
+import { globalStyles } from "../styles/Styles";
 const SplashScreen = () => {
   const nav = useNavigation();
   const handleNavigate = () => {

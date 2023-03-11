@@ -7,8 +7,8 @@ import {
   TextInput,
   Modal,
   TouchableOpacity,
-} from "react-native";
 
+} from "react-native";
 const data = [
   { id: 1, name: "Product Feature" },
   { id: 2, name: "Makeup" },
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   searchBar: {
     paddingLeft: 10,
     backgroundColor: "lightgrey",
-    margin: 10,
+    marginTop: 10,
     height: 40,
     borderRadius: 50,
     borderColor: "black",
@@ -113,3 +113,4 @@ const styles = StyleSheet.create({
 });
 
 export default DropdownSearchBar;
+

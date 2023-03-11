@@ -8,8 +8,7 @@
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link:
-      "https://www.purpicks.com/wp-content/uploads/2018/03/rejuva-minerals-bronzer.jpg",
+    image_link: "../assets/images/demo.png",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-bronzer-caribbean/",
     website_link: "https://purpicks.com/",

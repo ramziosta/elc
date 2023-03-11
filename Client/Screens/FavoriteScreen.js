@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   },
   scroll: {
     height: "100%",
-    marginTop: 70,
+    marginTop: 100,
   },
   
 });

@@ -12,30 +12,11 @@ import {
   Modal,
   ScrollView,
 } from "react-native";
-import { productColorsIcons } from "../Constants/BeautyData";
+import { productColorsIcons, features } from "../Constants/BeautyData";
 import { MaterialCommunityIcons } from "react-native-vector-icons";
-const ProductAccessibilityTags = ({ data }) => {
-  const renderItem = ({ item }) => (
-    <View style={styles.tagsBackgroundColor}>
-      <Text style={styles.tags}>{item.iconColorName}</Text>
-    </View>
-  );
 
-  return (
-    <View>
-      <FlatList
-        data={data.slice(0, 3)}
-        horizontal={false}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.key}
-        numColumns={3}
-        initialNumToRender={3}
-        maxToRenderPerBatch={3}
-        windowSize={3}
-      />
-    </View>
-  );
-};
+
+import ProductAccessibilityTags from "../Components/ProductAccessibilityTags";
 
 const ToggleProductDescription = ({ data }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -57,7 +38,7 @@ const ToggleProductDescription = ({ data }) => {
         <Text style={styles.toggleText}>Product Description</Text>
         <Image
           style={styles.toggleImage}
-          source={require("../Assets/icons/tabler_chevron-down.png")}
+          source={require("../assets/icons/tabler_chevron-down.png")}
         />
       </TouchableOpacity>
       <Modal visible={isModalVisible} animationType="slide">
@@ -71,6 +52,7 @@ const ToggleProductDescription = ({ data }) => {
     </View>
   );
 };
+
 const ToggleHowToUse = ({ data }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
@@ -91,7 +73,7 @@ const ToggleHowToUse = ({ data }) => {
         <Text style={styles.toggleText}>How To Use</Text>
         <Image
           style={styles.toggleImage}
-          source={require("../Assets/icons/tabler_chevron-down.png")}
+          source={require("../assets/icons/tabler_chevron-down.png")}
         />
       </TouchableOpacity>
       <Modal visible={isModalVisible} animationType="slide">
@@ -175,7 +157,7 @@ const ProductDetailsScreen = () => {
       <ScrollView>
         <Image
           style={styles.image}
-          source={require("../Assets/images/demo.png")}
+          source={require("../assets/images/demo.png")}
         />
 
         <Text
@@ -223,7 +205,7 @@ const ProductDetailsScreen = () => {
           >
             <Image
               style={styles.favoriteIcon}
-              source={require("../Assets/icons/mdi_cards-heart-outline-white.png")}
+              source={require("../assets/icons/mdi_cards-heart-outline-white.png")}
             />
           </TouchableOpacity>
         </View>
@@ -240,7 +222,7 @@ const ProductDetailsScreen = () => {
         <View style={styles.productHighlight}>
           <Text style={styles.highlightHeader}>Product Highlights</Text>
 
-          <ProductAccessibilityTags data={productColorsIcons} />
+          <ProductAccessibilityTags data={features.slice(0,3)} />
           <View style={styles.toggleBackground}>
             <ToggleProductDescription data={productColorsIcons} />
           </View>
@@ -265,7 +247,7 @@ const ProductDetailsScreen = () => {
           <Text style={styles.ratingsHeaderText}>Accessibility Rating</Text>
           <Image
             style={styles.ratingsImage}
-            source={require("../Assets/icons/Rating-circle-large.png")}
+            source={require("../assets/icons/Rating-circle-large.png")}
           />
           <Text style={styles.numberOfReviewsText}>
             40{productColorsIcons.numberOfReviews} Total Reviews
@@ -278,19 +260,19 @@ const ProductDetailsScreen = () => {
             <View style={styles.metersContainer}>
               <Text style={styles.prosConsText}>Easy Apply</Text>
               <View style={styles.metersBackground}>
-              <View style={styles.ratingsMeter}></View>
+                <View style={styles.ratingsMeter}></View>
               </View>
             </View>
             <View style={styles.metersContainer}>
               <Text style={styles.prosConsText}>Easy Open</Text>
               <View style={styles.metersBackground}>
-              <View style={styles.ratingsMeter}></View>
+                <View style={styles.ratingsMeter}></View>
               </View>
             </View>
             <View style={styles.metersContainer}>
               <Text style={styles.prosConsText}>Ergonomic</Text>
               <View style={styles.metersBackground}>
-              <View style={styles.ratingsMeter}></View>
+                <View style={styles.ratingsMeter}></View>
               </View>
             </View>
           </View>
@@ -299,32 +281,31 @@ const ProductDetailsScreen = () => {
             <View style={styles.metersContainer}>
               <Text style={styles.prosConsText}>{}Messy</Text>
               <View style={styles.metersBackground}>
-              <View style={styles.ratingsMeter}></View>
+                <View style={styles.ratingsMeter}></View>
               </View>
             </View>
             <View style={styles.metersContainer}>
               <Text style={styles.prosConsText}>{}No Markers</Text>
               <View style={styles.metersBackground}>
-              <View style={styles.ratingsMeter}></View>
+                <View style={styles.ratingsMeter}></View>
               </View>
             </View>
             <View style={styles.metersContainer}>
               <Text style={styles.prosConsText}>{}Inconvenient</Text>
               <View style={styles.metersBackground}>
-              <View style={styles.ratingsMeter}></View>
+                <View style={styles.ratingsMeter}></View>
               </View>
             </View>
           </View>
         </View>
 
-        <View style={[styles.divider,styles.marginTop]}></View>
+        <View style={[styles.divider, styles.marginTop]}></View>
 
         <View style={styles.reviewContainer}>
           <Text style={styles.reviewText}>User Reviews</Text>
-          <TouchableOpacity style={styles.leaveReviewButton} onPress={()=>{}}>
-          <Text style={styles.leaveReviewText}>Leave Review </Text>
+          <TouchableOpacity style={styles.leaveReviewButton} onPress={() => {}}>
+            <Text style={styles.leaveReviewText}>Leave Review </Text>
           </TouchableOpacity>
-          
         </View>
         <Reviews data={productColorsIcons} />
       </ScrollView>
@@ -522,7 +503,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
   },
-  metersBackground:{
+  metersBackground: {
     backgroundColor: "#434343",
     width: 55,
     height: 5,
@@ -532,48 +513,42 @@ const styles = StyleSheet.create({
     width: 35,
     height: 5,
   },
-marginTop:{
-  marginTop: 50,
-},
-reviewContainer: {
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "space-between",
-  alignItems: "center",
-  marginTop: 10,
-  marginHorizontal: 10,
-  paddingHorizontal: 0,
-},
-reviewText: {
- 
-  color: "white",
-  fontSize: 18,
-  fontWeight: 700,
-
-},
-leaveReviewButton:{
-  borderColor: "#E3C3FF",
-  borderRadius: 50,
-  borderWidth: 1,
-  width: 180,
-  height: 40,
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "center",
-  alignItems: "center",
-  paddingHorizontal: 20,
-
- 
-},
-leaveReviewText: {
-  color: "#E3C3FF",
-  fontSize: 18,
-  fontWeight: 700,
-  textAlign: "center",
-  paddingHorizontal: 10,
-
-
-},
+  marginTop: {
+    marginTop: 50,
+  },
+  reviewContainer: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginTop: 10,
+    marginHorizontal: 10,
+    paddingHorizontal: 0,
+  },
+  reviewText: {
+    color: "white",
+    fontSize: 18,
+    fontWeight: 700,
+  },
+  leaveReviewButton: {
+    borderColor: "#E3C3FF",
+    borderRadius: 50,
+    borderWidth: 1,
+    width: 180,
+    height: 40,
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    paddingHorizontal: 20,
+  },
+  leaveReviewText: {
+    color: "#E3C3FF",
+    fontSize: 18,
+    fontWeight: 700,
+    textAlign: "center",
+    paddingHorizontal: 10,
+  },
   modal: {
     position: "absolute",
     top: 70,
