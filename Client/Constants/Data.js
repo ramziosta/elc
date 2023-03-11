@@ -24655,8 +24655,8 @@
     brand: "revlon",
     name: "Revlon ColorStay Skinny Liquid Liner ",
     price: "11.99",
-    price_sign: null,
-    currency: null,
+    price_sign: "$",
+    currency: "USD",
     image_link:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
@@ -24664,10 +24664,16 @@
     website_link: "https://well.ca",
     description:
       "Revlon ColorStay Skinny Liquid Liner gives you bold, even colour with a precise skinny tip applicator!Features:0.1mm skinny tip liner that lasts all dayEasy to apply with mistake proof controlBold, even color in one strokeOphthalmologist Tested\n",
-    rating: null,
+    rating: 4.5,
     category: "liquid",
     product_type: "eyeliner",
-    tag_list: [],
+    tag_list: [
+      "purpicks",
+      "CertClean",
+      "Vegan",
+      "Chemical Free",
+      "Gluten Free",
+    ],
     created_at: "2016-10-01T18:28:10.785Z",
     updated_at: "2017-12-23T20:51:21.915Z",
     product_api_url:

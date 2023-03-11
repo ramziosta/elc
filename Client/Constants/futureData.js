@@ -1,87 +1,6 @@
-const assets = [
-  {
-    id: "1",
-    WhiteHeart: require("../Assets/icons/ri_hand-heart-line.png"),
-    WhiteHeart: require("../Assets/icons/ri_hand-heart-line.png"),
-    redHeart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48.png"),
-    iconColorName: "Greatful",
-    brandLogo: require("../Assets/icons/icon1.png"), //< assets????
-  },
-  {
-    id: "2",
-    image: require("../Assets/icons/icon-park-outline_foundation-makeup.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-1.png"),
-    iconColorName: "Joy",
-    brandLogo: require("../Assets/icons/icon2.png"),
-  },
-  {
-    id: "3",
-    image: require("../Assets/icons/mdi_lock-open-outline.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-2.png"),
-    iconColorName: "Happy",
-    brandLogo: require("../Assets/icons/icon3.png"),
-  },
-  {
-    id: "4",
-    image: require("../Assets/icons/tabler_brush-off.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-3.png"),
-    iconColorName: "Lucky",
-    brandLogo: require("../Assets/icons/icon4.png"),
-  },
-  {
-    id: "5",
-    image: require("../Assets/icons/tabler_texture.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-4.png"),
-    iconColorName: "Bliss",
-    brandLogo: require("../Assets/icons/icon5.png"),
-  },
-  {
-    id: "6",
-    image: require("../Assets/icons/brail.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-5.png"),
-    iconColorName: "Faith",
-    brandLogo: require("../Assets/icons/icon6.png"),
-  },
-  {
-    id: "7",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-6.png"),
-    iconColorName: "Grace",
-  },
-  {
-    id: "8",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-7.png"),
-    iconColorName: "Love",
-  },
-  {
-    id: "9",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-8.png"),
-    iconColorName: "Hope",
-  },
-  {
-    id: "10",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-9.png"),
-    iconColorName: "Believe",
-  },
-  {
-    id: "11",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-10.png"),
-    iconColorName: "Courage",
-  },
-];
 
-const data = [
+ 
+  [
   {
     id: 1,
     brand: "rejuva minerals",
@@ -99,7 +18,11 @@ const data = [
     rating: 4.5,
     category: "powder",
     product_type: "bronzer",
-    tag_list: ["Texture", "Easy Open", "No Tools"],
+    tag_list: [
+      "Texture",
+      "Easy Open",
+      "No Tools",
+    ],
     created_at: "2018-06-30T19:19:31.682Z",
     updated_at: "2018-09-02T22:52:06.643Z",
     product_api_url:
@@ -131,7 +54,11 @@ const data = [
     rating: 4.5,
     category: "liquid",
     product_type: "eyeliner",
-    tag_list: ["Easy Apply", "Tactile\n Markers", "Ergonomic\n Design"],
+    tag_list: [
+      "Easy Apply",
+      "Tactile\n Markers",
+      "Ergonomic\n Design"
+    ],
     created_at: "2016-10-01T18:28:10.785Z",
     updated_at: "2017-12-23T20:51:21.915Z",
     product_api_url:
@@ -162,7 +89,11 @@ const data = [
     rating: 4.0,
     category: null,
     product_type: "mascara",
-    tag_list: ["Easy Open", "Easy Apply", "Ergonomic\n Design"],
+    tag_list: [
+      "Easy Open",
+      "Easy Apply",
+      "Ergonomic\n Design"
+    ],
     created_at: "2016-10-01T18:10:55.406Z",
     updated_at: "2017-12-23T20:31:47.606Z",
     product_api_url: "https://makeup-api.herokuapp.com/api/v1/products/8.json",
@@ -188,7 +119,11 @@ const data = [
     rating: null,
     category: "concealer",
     product_type: "foundation",
-    tag_list: ["Texture", , "No Tools", "Ergonomic\n Design"],
+    tag_list: [
+      "Texture",,
+      "No Tools",
+      "Ergonomic\n Design"
+    ],
     created_at: "2017-12-03T23:22:24.860Z",
     updated_at: "2017-12-23T20:58:46.299Z",
     product_api_url:
@@ -220,7 +155,11 @@ const data = [
     rating: null,
     category: null,
     product_type: "blush",
-    tag_list: ["Texture", "Easy Apply", "Tactile\n Markers"],
+    tag_list: [
+      "Texture",
+      "Easy Apply",
+      "Tactile\n Markers",
+    ],
     created_at: "2017-12-03T23:22:36.467Z",
     updated_at: "2017-12-23T20:58:48.998Z",
     product_api_url:
@@ -249,7 +188,11 @@ const data = [
     rating: null,
     category: "liquid",
     product_type: "foundation",
-    tag_list: ["Texture", "No Tools", "Tactile\n Markers"],
+    tag_list: [
+      "Texture",
+      "No Tools",
+      "Tactile\n Markers",
+    ],
     created_at: "2016-10-01T18:32:08.987Z",
     updated_at: "2017-12-23T21:08:25.277Z",
     product_api_url:
@@ -285,7 +228,11 @@ const data = [
     rating: 5.0,
     category: "palette",
     product_type: "eyeshadow",
-    tag_list: ["Easy Open", "Tactile\n Markers", "Ergonomic\n Design"],
+    tag_list: [
+      "Easy Open",
+      "Tactile\n Markers",
+      "Ergonomic\n Design"
+    ],
     created_at: "2016-10-01T18:30:44.974Z",
     updated_at: "2017-12-26T00:33:00.289Z",
     product_api_url:
@@ -318,7 +265,7 @@ const data = [
       "No Tools",
       "Easy Apply",
       "Tactile\n Markers",
-      "Ergonomic\n Design",
+      "Ergonomic\n Design"
     ],
     created_at: "2016-10-02T01:32:54.786Z",
     updated_at: "2017-12-26T00:33:00.593Z",
@@ -346,7 +293,12 @@ const data = [
     rating: null,
     category: "lipstick",
     product_type: "lipstick",
-    tag_list: ["Texture", "Easy Open", "No Tools", "Easy Apply"],
+    tag_list: [
+      "Texture",
+      "Easy Open",
+      "No Tools",
+      "Easy Apply",
+    ],
     created_at: "2017-12-03T23:21:45.703Z",
     updated_at: "2017-12-23T20:58:41.827Z",
     product_api_url:
@@ -380,7 +332,11 @@ const data = [
     rating: null,
     category: "lipstick",
     product_type: "lipstick",
-    tag_list: ["Texture", "No Tools", "Ergonomic\n Design"],
+    tag_list: [
+      "Texture",
+      "No Tools",
+      "Ergonomic\n Design"
+    ],
     created_at: "2017-12-24T02:25:46.851Z",
     updated_at: "2017-12-24T02:26:39.313Z",
     product_api_url:
@@ -413,7 +369,11 @@ const data = [
     rating: null,
     category: "liquid",
     product_type: "eyeliner",
-    tag_list: ["Texture", "Easy Open", "Ergonomic\n Design"],
+    tag_list: [
+      "Texture",
+      "Easy Open",
+      "Ergonomic\n Design"
+    ],
     created_at: "2017-12-24T02:31:43.106Z",
     updated_at: "2017-12-24T02:31:43.448Z",
     product_api_url:
@@ -431,278 +391,3 @@ const data = [
   },
 ];
 
-const features = [
-  {
-    key: "1",
-    image: require("../Assets/icons/ri_hand-heart-line.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48.png"),
-  },
-  {
-    key: "2",
-    image: require("../Assets/icons/icon-park-outline_foundation-makeup.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-1.png"),
-  },
-  {
-    key: "3",
-    image: require("../Assets/icons/mdi_lock-open-outline.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-2.png"),
-  },
-  {
-    key: "4",
-    image: require("../Assets/icons/tabler_brush-off.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-3.png"),
-  },
-  {
-    key: "5",
-
-    image: require("../Assets/icons/tabler_texture.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-4.png"),
-  },
-  {
-    key: "6",
-
-    image: require("../Assets/icons/brail.png"),
-    heart: require("../Assets/icons/mdi_cards-heart-outline-white.png"),
-    pendingIcon: require("../Assets/icons/rating-circle-small.png"),
-   
-  },
- 
-];
-
-const highlyRated = [
-  {
-    key: "1", //id
-    brand: "Rare Beauty",
-    name: "Pink Lipstick",
-    image: require("../Assets/images/demo.png"), //image_Link
-    accessibility: "Ergonomic Design", //tag_list
-    buyItAgain: 92, //! NEW
-    numberOfReviews: 1598, //! NEW
-  },
-  {
-    key: "2",
-    brand: "Kohls Kreative",
-    name: "Soft Pinch Liquid....",
-    image: require("../Assets/images/m7.jpeg"),
-    accessibility: "Texture",
-    buyItAgain: 90,
-    numberOfReviews: 2014,
-  },
-  {
-    key: "3",
-    brand: "Nora",
-    name: "Zen Zone",
-    image: require("../Assets/images/m15.jpeg"),
-    accessibility: "Easy Apply",
-    buyItAgain: 88,
-    numberOfReviews: 666,
-  },
-  {
-    key: "4",
-    brand: "Neauthy",
-    name: "Mineral Plus Nigh...",
-    image: require("../Assets/images/m11.jpeg"),
-    accessibility: "No Tools",
-    buyItAgain: 92,
-    numberOfReviews: 1294,
-  },
-  {
-    key: "5",
-    brand: "Cosmetic",
-    name: "Daily Dose",
-    image: require("../Assets/images/m5.jpeg"),
-    accessibility: "Tactile Markers",
-    buyItAgain: 97,
-    numberOfReviews: 894,
-  },
-  {
-    key: "6",
-    brand: "CORS",
-    name: "Releaf Balm",
-    image: require("../Assets/images/m6.jpeg"),
-    accessibility: "No Tools",
-    buyItAgain: 86,
-    numberOfReviews: 789,
-  },
-];
-
-const recentlyAdded = [
-  {
-    key: "1", //id
-    text: "Brush blissful", //name
-    brand: "YSL",
-    image: require("../Assets/images/m11.jpeg"), //image_Link
-    review: "Pending Review", //!NEW
-  },
-  {
-    key: "2",
-    text: "Rejuvenate bubbly",
-    brand: "Forbiden Beauty",
-    image: require("../Assets/images/m14.jpeg"),
-    review: "Pending Review",
-  },
-  {
-    key: "3",
-    text: "Fabulous glowy",
-    brand: "Gucci",
-    image: require("../Assets/images/m17.jpeg"),
-    review: "Pending Review",
-  },
-  {
-    key: "4",
-    text: "Fluffly cream dream",
-    brand: "Bobbi Brown",
-    image: require("../Assets/images/m16.jpeg"),
-    review: "Pending Review",
-  },
-  {
-    key: "5",
-    text: "Lipstick Berlin marvelous",
-    brand: "Chanel",
-    image: require("../Assets/images/m13.jpeg"),
-    review: "Pending Review",
-  },
-  {
-    key: "6",
-    text: "Hydrating lotion serene",
-    brand: "Miss Swiss",
-    image: require("../Assets/images/m15.jpeg"),
-    review: "Pending Review",
-  },
-];
-
-const accessibleBrands = [
-  {
-    key: "1", //id
-    brand: "Rare Beauty",
-    text: "Ergonomic Design", //tag_list
-    image: require("../Assets/images/m7.jpeg"),
-    brandLogo: require("../Assets/icons/icon1.png"), //< assets????
-  },
-  {
-    key: "2",
-    brand: "Kohls Kreative",
-    text: "Texture",
-    image: require("../Assets/images/m8.jpeg"),
-    brandLogo: require("../Assets/icons/icon2.png"),
-  },
-  {
-    key: "3",
-    brand: "Nora",
-    text: "No Tools",
-    image: require("../Assets/images/m9.jpeg"),
-    brandLogo: require("../Assets/icons/icon3.png"),
-  },
-  {
-    key: "4",
-    brand: "CORS",
-    text: "Tactile Markers",
-    image: require("../Assets/images/m10.jpeg"),
-    brandLogo: require("../Assets/icons/icon4.png"),
-  },
-  {
-    key: "5",
-    brand: "YSL",
-    text: "Easy To Open",
-    image: require("../Assets/images/m11.jpeg"),
-    brandLogo: require("../Assets/icons/icon5.png"),
-  },
-  {
-    key: "6",
-    brand: "Poko",
-    text: "Easy To Apply",
-    image: require("../Assets/images/m12.jpeg"),
-    brandLogo: require("../Assets/icons/icon6.png"),
-  },
-];
-
-const productColorsIcons = [
-  {
-    key: "1",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48.png"),
-    iconColorName: "Greatful", //! NEW product_colors[color].product_name
-    accessibility: "Easy Open", //tag_list
-  },
-  {
-    key: "2",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-1.png"),
-    iconColorName: "Joy",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "3",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-2.png"),
-    iconColorName: "Happy",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "4",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-3.png"),
-    iconColorName: "Lucky",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "5",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-4.png"),
-    iconColorName: "Bliss",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "6",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-5.png"),
-    iconColorName: "Faith",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "7",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-6.png"),
-    iconColorName: "Grace",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "8",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-7.png"),
-    iconColorName: "Love",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "9",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-8.png"),
-    iconColorName: "Hope",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "10",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-9.png"),
-    iconColorName: "Believe",
-    accessibility: "Easy Open",
-  },
-  {
-    key: "11",
-    ColorOptionsIcon: require("../Assets/icons/Ellipse%48-10.png"),
-    iconColorName: "Courage",
-    accessibility: "Easy Open",
-  },
-];
-
-
-export {
-  data,
-  features,
-  assets,
-  productColorsIcons,
-  highlyRated,
-  accessibleBrands,
-  recentlyAdded,
-
-};
