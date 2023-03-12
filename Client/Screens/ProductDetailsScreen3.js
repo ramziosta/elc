@@ -155,7 +155,7 @@ const ProductDetailsScreen = ({route}) => {
       <ScrollView>
         <Image
           style={styles.image}
-          source={require("../assets/images/demo.png")}
+          source={require("../assets/images/m15.jpeg")}
         />
 
         <Text
@@ -172,7 +172,7 @@ const ProductDetailsScreen = ({route}) => {
             style={[styles.button, styles.viewInThreeD]}
             title="View In 3D"
             onPress={() => {
-              nav.navigate("ThreeD");
+              nav.navigate("ThreeD3");
             }}
           >
             <Text style={styles.buttonText}>View In 3D</Text>

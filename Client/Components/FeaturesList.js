@@ -16,8 +16,8 @@ const FeaturesList = ({ data, handlePress }) => {
   return (
     <View >
         <View style={styles.horizontal}>
-            <Text style={styles.text}>Accessible Brands</Text>
-            <TouchableOpacity onPress={handlePress} >
+            <Text style={styles.text}>Browse Features</Text>
+            <TouchableOpacity >
             <Text style={styles.text2}>See All ⌲</Text>
             </TouchableOpacity>
           </View>
@@ -32,6 +32,7 @@ const FeaturesList = ({ data, handlePress }) => {
 };
 
 export default FeaturesList;
+
 const styles = StyleSheet.create({
   body: {
     display: "flex",

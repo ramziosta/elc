@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, SafeAreaView} from "react-native";
 
-function AccountScreen() {
+function AccountScreen(props) {
   return (
     <SafeAreaView>
       <Text>Account</Text>

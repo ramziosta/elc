@@ -10,39 +10,41 @@ import {
   SafeAreaView,
 } from "react-native";
 import DropdownSearchBar from "../Components/DropdownSearchBar";
-import { highlyRated } from "../Constants/BeautyData";
+import { highlyRated, features} from "../Constants/BeautyData";
+import ProductAccessibilityTags from "../Components/ProductAccessibilityTags";
+
+const tag_list = {tag: "Easy Open"};
+
 
 const HighlyRated = ({ data, handlePress }) => {
-  const renderItem = ({ item }) => (
+  const renderItem = ({ item, index }) => (
     <View>
       <View>
         <Image source={item.image} style={styles.image} />
 
         <TouchableOpacity
-          onPress={handlePress}
+           onPress={() => handlePress(index)}
           style={styles.heartIconContainer}
         >
           <Image source={item.heart} style={styles.heart} tintColor="black" />
         </TouchableOpacity>
 
         <TouchableOpacity
-          onPress={handlePress}
+          onPress={() => handlePress(index)}
           style={styles.ratingIconContainer}
         >
           <Image source={item.pending} style={styles.pending} />
         </TouchableOpacity>
       </View>
 
-      <TouchableOpacity onPress={handlePress} style={styles.textContainer}>
+      <TouchableOpacity  onPress={() => handlePress(index)} style={styles.textContainer}>
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
         </Text>
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
-        <Text style={styles.accessibility} numberOfLines={1}>
-          {item.accessibility}
-        </Text>
+        <ProductAccessibilityTags data={features.slice(0, 1)} />
         <Text style={styles.buyItAgain} numberOfLines={1}>
           {item.numberOfReviews} Reviews
         </Text>
@@ -64,10 +66,20 @@ const HighlyRated = ({ data, handlePress }) => {
   );
 };
 
-const ProductDetailsScreen = () => {
+const CategoryScreen = (props) => {
+
   const nav = useNavigation();
-  const handlePress = () => {
-    nav.navigate("ProductDetails");
+  const handlePress = (index) => {
+    if (index === 0) {
+      nav.navigate('ProductDetails');
+      console.log(index)
+    } else if (index === 1) {
+      nav.navigate("ProductDetails2" );
+      console.log(index)
+    } else if (index === 2) {
+      nav.navigate("ProductDetails3" );
+      console.log(index)
+    }
   };
 
   return (
@@ -75,8 +87,8 @@ const ProductDetailsScreen = () => {
       <DropdownSearchBar />
       <View style={styles.scroll}>
         <View style={styles.horizontal}>
-          <Text data={highlyRated} style={styles.text2}>
-            Search Results:{highlyRated.accessibility}
+          <Text style={styles.text2}>
+            Search Results:{tag_list.tag}
           </Text>
         </View>
         <HighlyRated data={highlyRated} handlePress={handlePress} />
@@ -85,7 +97,7 @@ const ProductDetailsScreen = () => {
   );
 };
 
-export default ProductDetailsScreen;
+export default CategoryScreen;
 
 const styles = StyleSheet.create({
   body: {

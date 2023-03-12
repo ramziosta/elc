@@ -438,6 +438,8 @@ const features = [
     accessibilityIcon: require("../assets/icons/ri_hand-heart-line.png"),
     rating: "A",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    screenName: "Category",
+    navigate: "ThreeD",
   },
   {
     id: "2",
@@ -445,6 +447,8 @@ const features = [
     accessibilityIcon: require("../assets/icons/icon-park-outline_foundation-makeup.png"),
     rating: "B",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    screenName: "Category",
+    navigate: "ThreeD2",
   },
   {
     id: "3",
@@ -452,6 +456,8 @@ const features = [
     accessibilityIcon: require("../assets/icons/mdi_lock-open-outline.png"),
     rating: "B",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    screenName: "Category",
+    navigate: "ThreeD3",
   },
   {
     id: "4",
@@ -459,13 +465,16 @@ const features = [
     accessibilityIcon: require("../assets/icons/tabler_brush-off.png"),
     rating: "A",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    screenName: "Category",
   },
   {
     id: "5",
     tag_list: "Texture",
     accessibilityIcon: require("../assets/icons/tabler_texture.png"),
+    screenName: "Category",
     rating: "A",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    screenName: "Category",
   },
   {
     id: "6",
@@ -473,6 +482,7 @@ const features = [
     accessibilityIcon: require("../assets/icons/brail.png"),
     rating: "B",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    screenName: "Category",
   },
 ];
 
@@ -556,8 +566,8 @@ const recentlyAdded = [
     text: "Brush blissful", //name
     brand: "YSL",
     image: require("../assets/images/m11.jpeg"), //image_Link
-
     review: "Pending Review", //!NEW
+    screenName: "ThreeD"
   },
   {
     key: "2",
@@ -565,6 +575,7 @@ const recentlyAdded = [
     brand: "Forbiden Beauty",
     image: require("../assets/images/m14.jpeg"),
     review: "Pending Review",
+    screenName: "ThreeD2"
   },
   {
     key: "3",
@@ -572,6 +583,7 @@ const recentlyAdded = [
     brand: "Gucci",
     image: require("../assets/images/m17.jpeg"),
     review: "Pending Review",
+    screenName: "ThreeD3"
   },
   {
     key: "4",

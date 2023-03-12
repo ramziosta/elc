@@ -8,7 +8,7 @@ const ThreeDScreen = () => {
     <SafeAreaView  style={styles.container}>
       <WebView
         style={styles.iframe}
-        source={{ uri: 'https://app.vectary.com/p/7QzjYM09Su4mNhvSTzX0bv' }}
+        source={{ uri: "https://app.vectary.com/p/46e37tHYb6euVgFOCSyzVE" }}
       />
 
 <Button title="Try It On" onPress={()=>{nav.navigate("AR")}}/>

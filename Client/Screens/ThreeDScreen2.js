@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, SafeAreaView, Button } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView, Button } from "react-native";
 import { WebView } from 'react-native-webview';
 import { useNavigation } from "@react-navigation/native";
 const ThreeDScreen = () => {
@@ -8,7 +8,7 @@ const ThreeDScreen = () => {
     <SafeAreaView  style={styles.container}>
       <WebView
         style={styles.iframe}
-        source={{ uri: 'https://app.vectary.com/p/7QzjYM09Su4mNhvSTzX0bv' }}
+        source={{ uri: "https://app.vectary.com/p/5M009m9LNSonRTxa2Ohkjp"  }}
       />
 
 <Button title="Try It On" onPress={()=>{nav.navigate("AR")}}/>

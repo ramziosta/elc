@@ -10,13 +10,14 @@ const Tab = createBottomTabNavigator();
 
 const TabsNavigation = () => {
   return (
-    <Tab.Navigator
-      initialRouteName="ProductStack"
+<Tab.Navigator
       screenOptions={{
-        activeTintColor: "#E3C3FF",
         headerShown: false,
-      }}
-    >
+        tabBarShowLabel: false,
+        tabBarStyle: {backgroundColor: '#111111'},
+        tabBarInactiveTintColor: '#fff',
+        tabBarActiveTintColor: '#E3C3FF',
+      }}>
       <Tab.Screen
         name="Home"
         style={{ backgroundColor: "#111111" }}

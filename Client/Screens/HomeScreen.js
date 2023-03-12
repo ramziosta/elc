@@ -15,7 +15,7 @@ import {
   highlyRated,
   accessibleBrands,
 } from "../Constants/BeautyData";
-const HomeScreen = () => {
+const HomeScreen = (props) => {
   const nav = useNavigation();
   const handlePress = () => {
     nav.navigate("Category");

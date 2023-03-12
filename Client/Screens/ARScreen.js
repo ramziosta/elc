@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { Text, View, SafeAreaView, Button } from "react-native";
 
-export default function AR() {
+export default function AR(props) {
   const nav = useNavigation();
   return (
     <SafeAreaView>

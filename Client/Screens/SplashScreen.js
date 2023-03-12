@@ -1,17 +1,19 @@
 import React from "react";
-import { StyleSheet, SafeAreaView, Text, Button } from "react-native";
+import { StyleSheet, SafeAreaView, Text, Button, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { globalStyles } from "../styles/Styles";
+import { TouchableOpacity } from "react-native-gesture-handler";
 const SplashScreen = () => {
   const nav = useNavigation();
   const handleNavigate = () => {
-    nav.navigate("SignIn");
+    nav.navigate("Loading");
   };
 
   return (
     <SafeAreaView style={styles.layout}>
-      <Text style={globalStyles.accentText}>Splash Screen</Text>
-      <Button onPress={handleNavigate} color="white" title="Click Me!" />
+      <TouchableOpacity onPress={handleNavigate} >
+      <Image source={require("../assets/icons/MainLogo.png")}   />
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };
