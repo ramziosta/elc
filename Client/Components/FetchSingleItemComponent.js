@@ -82,7 +82,7 @@ const Product = ({ productId, children } ) => {
   } = productData;
 
   return (
-    //maybe use context or something to pass data to children
+    //maybe use context or something to pass data to children, this component should pass data into the UI component for product details
     <>{children}</>
   );
 };
