@@ -7,7 +7,7 @@ import {
   Image,
   StyleSheet,
 } from "react-native";
-import ProductAccessibilityTags from "./ProductAccessibilityTags";
+import ProductAccessibilityTags from  "./ProductAccessibilityTags";
 import { features } from "../Constants/BeautyData";
 import { useNavigation } from "@react-navigation/native";
 

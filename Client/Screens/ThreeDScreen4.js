@@ -6,7 +6,7 @@ const ThreeDScreen4 = () => {
   const nav = useNavigation();
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={{ textAlign: "center",fontSize: 20, fontWeight: 700}} >C E Ferulic (1 fl. oz.)</Text>
+      <Text style={{ textAlign: "center",fontSize: 20, fontWeight: 700}} >Eye Color Bold Eyeshadow Palette</Text>
       <WebView
         style={styles.iframe}
         source={{ uri: "https://app.vectary.com/p/4wC3LQIAPyYvvnCHjzTCn9"     }}
