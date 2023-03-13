@@ -10,34 +10,27 @@ import {
   SafeAreaView,
 } from "react-native";
 import DropdownSearchBar from "../Components/DropdownSearchBar";
-import { highlyRated, features} from "../Constants/BeautyData";
+import { highlyRated, features } from "../Constants/BeautyData";
 import ProductAccessibilityTags from "../Components/ProductAccessibilityTags";
 
-const tag_list = {tag: "Easy Open"};
+const tag_list = { tag: "Easy Open" };
 
-
-const HighlyRated = ({ data, handlePress }) => {
-  const renderItem = ({ item, index }) => (
+const HighlyRated = ({ data }) => {
+  const nav = useNavigation();
+  const renderItem = ({ item }) => (
     <View>
       <View>
-        <Image source={item.image} style={styles.image} />
-
-        <TouchableOpacity
-           onPress={() => handlePress(index)}
-          style={styles.heartIconContainer}
-        >
+        <TouchableOpacity onPress={() => nav.navigate(item.navRoute)}>
+          <Image source={item.image} style={styles.image} />
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.heartIconContainer}>
           <Image source={item.heart} style={styles.heart} tintColor="black" />
         </TouchableOpacity>
-
-        <TouchableOpacity
-          onPress={() => handlePress(index)}
-          style={styles.ratingIconContainer}
-        >
+        <TouchableOpacity style={styles.ratingIconContainer}>
           <Image source={item.pending} style={styles.pending} />
         </TouchableOpacity>
       </View>
-
-      <TouchableOpacity  onPress={() => handlePress(index)} style={styles.textContainer}>
+      <TouchableOpacity style={styles.textContainer}>
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
         </Text>
@@ -49,16 +42,13 @@ const HighlyRated = ({ data, handlePress }) => {
           {item.numberOfReviews} Reviews
         </Text>
       </TouchableOpacity>
-      
     </View>
   );
-
   return (
     <View>
       <FlatList
         data={data}
         renderItem={renderItem}
-        keyExtractor={(item) => item.key}
         numColumns={2}
         horizontal={false}
       />
@@ -67,19 +57,11 @@ const HighlyRated = ({ data, handlePress }) => {
 };
 
 const CategoryScreen = (props) => {
-
   const nav = useNavigation();
-  const handlePress = (index) => {
-    if (index === 0) {
-      nav.navigate('ProductDetails');
-      console.log(index)
-    } else if (index === 1) {
-      nav.navigate("ProductDetails2" );
-      console.log(index)
-    } else if (index === 2) {
-      nav.navigate("ProductDetails3" );
-      console.log(index)
-    }
+
+  const handlePress = (item, index) => {
+    console.log(JSON.stringify(item, null, 2));
+    nav.navigate(item.navRoute);
   };
 
   return (
@@ -87,11 +69,133 @@ const CategoryScreen = (props) => {
       <DropdownSearchBar />
       <View style={styles.scroll}>
         <View style={styles.horizontal}>
-          <Text style={styles.text2}>
-            Search Results:{tag_list.tag}
-          </Text>
+          <Text style={styles.text2}>Search Results:{tag_list.tag}</Text>
         </View>
-        <HighlyRated data={highlyRated} handlePress={handlePress} />
+
+        {/* //! ================================= */}
+{/* 
+        <View>
+          <View>
+            <TouchableOpacity
+              onPress={() => {
+                nav.navigate("ProductDetails");
+              }}
+            >
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.image}
+              />
+            </TouchableOpacity>
+            <View style={styles.heartIconContainer}>
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.heart}
+                tintColor="red"
+              />
+            </View>
+            <View style={styles.ratingIconContainer}>
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.pending}
+              />
+            </View>
+          </View>
+          <View style={styles.textContainer}>
+            <Text style={styles.brand} numberOfLines={2}>
+              Maybe? Maybe Not?
+            </Text>
+            <Text style={styles.brandNameText} numberOfLines={1}>
+              Lipstick Galore
+            </Text>
+            <ProductAccessibilityTags data={features.slice(0, 1)} />
+            <Text style={styles.buyItAgain} numberOfLines={1}>
+              1458 Reviews
+            </Text>
+          </View>
+        </View> */}
+        {/* //! ================================= */}
+        {/* <View>
+          <View>
+            <TouchableOpacity
+              onPress={() => {
+                nav.navigate("ProductDetails2");
+              }}
+            >
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.image}
+              />
+            </TouchableOpacity>
+            <View style={styles.heartIconContainer}>
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.heart}
+                tintColor="red"
+              />
+            </View>
+            <View style={styles.ratingIconContainer}>
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.pending}
+              />
+            </View>
+          </View>
+          <View style={styles.textContainer}>
+            <Text style={styles.brand} numberOfLines={2}>
+              Maybe? Maybe Not?
+            </Text>
+            <Text style={styles.brandNameText} numberOfLines={1}>
+              Lipstick Galore
+            </Text>
+            <ProductAccessibilityTags data={features.slice(0, 1)} />
+            <Text style={styles.buyItAgain} numberOfLines={1}>
+              1458 Reviews
+            </Text>
+          </View>
+        </View> */}
+        {/* //! ================================= */}
+        {/* <View>
+          <View>
+            <TouchableOpacity
+              onPress={() => {
+                nav.navigate("ProductDetails3");
+              }}
+            >
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.image}
+              />
+            </TouchableOpacity>
+            <View style={styles.heartIconContainer}>
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.heart}
+                tintColor="red"
+              />
+            </View>
+            <View style={styles.ratingIconContainer}>
+              <Image
+                source={require("../assets/icons/Ellipse%48-10.png")}
+                style={styles.pending}
+              />
+            </View>
+          </View>
+          <View style={styles.textContainer}>
+            <Text style={styles.brand} numberOfLines={2}>
+              Maybe? Maybe Not?
+            </Text>
+            <Text style={styles.brandNameText} numberOfLines={1}>
+              Lipstick Galore
+            </Text>
+            <ProductAccessibilityTags data={features.slice(0, 1)} />
+            <Text style={styles.buyItAgain} numberOfLines={1}>
+              1458 Reviews
+            </Text>
+          </View>
+        </View> */}
+        {/* //! ================================= */}
+
+        <HighlyRated handlePress={handlePress} />
       </View>
     </SafeAreaView>
   );

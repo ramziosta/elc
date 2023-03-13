@@ -7,8 +7,10 @@ import {
   Image,
   StyleSheet,
 } from "react-native";
+
 import ProductAccessibilityTags from "./ProductAccessibilityTags";
 import { features } from "../Constants/BeautyData";
+
 
 const HighlyRated = ({ data, handlePress }) => {
   const renderItem = ({ item }) => (
@@ -85,7 +87,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-   
+
     marginBottom: 20,
     marginLeft: 10,
   },

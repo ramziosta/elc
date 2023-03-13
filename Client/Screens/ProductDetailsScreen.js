@@ -146,7 +146,7 @@ const ColorOptionsIcons = ({ data }) => {
   );
 };
 
-const ProductDetailsScreen = ({route}) => {
+const ProductDetailsScreen = (props) => {
   const [favorite, setFavorite] = useState(false);
 
   const nav = useNavigation();
@@ -158,7 +158,7 @@ const ProductDetailsScreen = ({route}) => {
           source={require("../assets/images/demo.png")}
         />
 
-        <Text
+        {/* <Text
           style={styles.backButton}
           title="Back"
           onPress={() => {
@@ -166,7 +166,7 @@ const ProductDetailsScreen = ({route}) => {
           }}
         >
           ← Back
-        </Text>
+        </Text> */}
         <View style={styles.buttonsContainer}>
           <TouchableOpacity
             style={[styles.button, styles.viewInThreeD]}
@@ -220,7 +220,7 @@ const ProductDetailsScreen = ({route}) => {
         <View style={styles.productHighlight}>
           <Text style={styles.highlightHeader}>Product Highlights</Text>
 
-          <ProductAccessibilityTags data={features.slice(0,3)} />
+          <ProductAccessibilityTags data={features.slice(0, 3)} />
           <View style={styles.toggleBackground}>
             <ToggleProductDescription data={productColorsIcons} />
           </View>
@@ -326,6 +326,9 @@ const styles = StyleSheet.create({
   image: {
     width: 450,
     height: 450,
+    display: "flex",
+    justifyContent: "center",
+    alignSelf: "center",
   },
   buttonsContainer: {
     top: -65,

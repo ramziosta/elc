@@ -9,30 +9,29 @@ import {
 } from "react-native";
 import ProductAccessibilityTags from "./ProductAccessibilityTags";
 import { features } from "../Constants/BeautyData";
+import { useNavigation } from "@react-navigation/native";
 
-const HighlyRated = ({ data, handlePress }) => {
+const HighlyRated = ({ data }) => {
+  const nav = useNavigation();
+
   const renderItem = ({ item }) => (
-    <TouchableOpacity onPress={handlePress} style={styles.container}>
+    <TouchableOpacity
+      onPress={() => {
+        nav.navigate(item.navRoute);
+      }}
+      style={styles.container}
+    >
       <View>
         <Image source={item.image} style={styles.image} />
-
-        <TouchableOpacity
-          onPress={handlePress}
-          style={styles.heartIconContainer}
-        >
+        <TouchableOpacity style={styles.heartIconContainer}>
           <Image source={item.heart} style={styles.heart} tintColor="black" />
         </TouchableOpacity>
-
-        <TouchableOpacity
-          onPress={handlePress}
-          style={styles.pendingIconContainer}
-        >
+        <TouchableOpacity style={styles.pendingIconContainer}>
           <View style={styles.ratingContainer}>
             <Text style={styles.rating}>{item.rating}</Text>
           </View>
         </TouchableOpacity>
       </View>
-
       <View style={styles.textContainer}>
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
@@ -40,7 +39,6 @@ const HighlyRated = ({ data, handlePress }) => {
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
-
         <ProductAccessibilityTags data={features.slice(0, 1)} />
         <Text style={styles.buyItAgain} numberOfLines={1}>
           {item.buyItAgain}% would buy again
@@ -53,7 +51,7 @@ const HighlyRated = ({ data, handlePress }) => {
     <View>
       <View style={styles.horizontal}>
         <Text style={styles.text}>Highly Rated</Text>
-        <TouchableOpacity onPress={handlePress}>
+        <TouchableOpacity>
           <Text style={styles.text2}>See All ⌲</Text>
         </TouchableOpacity>
       </View>

@@ -146,7 +146,7 @@ const ColorOptionsIcons = ({ data }) => {
   );
 };
 
-const ProductDetailsScreen = ({route}) => {
+const ProductDetailsScreen2 = (props) => {
   const [favorite, setFavorite] = useState(false);
 
   const nav = useNavigation();
@@ -155,10 +155,10 @@ const ProductDetailsScreen = ({route}) => {
       <ScrollView>
         <Image
           style={styles.image}
-          source={require("../assets/images/m12.jpeg")}
+          source={require("../assets/images/m11.jpeg")}
         />
 
-        <Text
+        {/* <Text
           style={styles.backButton}
           title="Back"
           onPress={() => {
@@ -166,7 +166,7 @@ const ProductDetailsScreen = ({route}) => {
           }}
         >
           ← Back
-        </Text>
+        </Text> */}
         <View style={styles.buttonsContainer}>
           <TouchableOpacity
             style={[styles.button, styles.viewInThreeD]}
@@ -220,7 +220,7 @@ const ProductDetailsScreen = ({route}) => {
         <View style={styles.productHighlight}>
           <Text style={styles.highlightHeader}>Product Highlights</Text>
 
-          <ProductAccessibilityTags data={features.slice(0,3)} />
+          <ProductAccessibilityTags data={features.slice(0, 3)} />
           <View style={styles.toggleBackground}>
             <ToggleProductDescription data={productColorsIcons} />
           </View>
@@ -311,7 +311,7 @@ const ProductDetailsScreen = ({route}) => {
   );
 };
 
-export default ProductDetailsScreen;
+export default ProductDetailsScreen2;
 
 const styles = StyleSheet.create({
   body: {
@@ -324,6 +324,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
   image: {
+    display: "flex",
     width: 450,
     height: 450,
   },

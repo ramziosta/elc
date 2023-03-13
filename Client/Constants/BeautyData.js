@@ -439,7 +439,7 @@ const features = [
     rating: "A",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     screenName: "Category",
-    navigate: "ThreeD",
+    navigate: "ProductDetails",
   },
   {
     id: "2",
@@ -448,7 +448,7 @@ const features = [
     rating: "B",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     screenName: "Category",
-    navigate: "ThreeD2",
+    navigate: "ProductDetails2",
   },
   {
     id: "3",
@@ -457,7 +457,7 @@ const features = [
     rating: "B",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     screenName: "Category",
-    navigate: "ThreeD3",
+    navigate: "ProductDetails3",
   },
   {
     id: "4",
@@ -490,7 +490,7 @@ const highlyRated = [
   {
     key: "1", //id
     brand: "Rare Beauty",
-    name: "Pink Lipstick",
+    name: "Soft Pinch Liquid Blush",
     image: require("../assets/images/demo.png"), //image_Link
     accessibility: "Ergonomic Design", //tag_list
     buyItAgain: 92, //! NEW
@@ -498,42 +498,46 @@ const highlyRated = [
     rating: "A",
     pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    navRoute: "ProductDetails",
   },
   {
     key: "2",
-    brand: "Kohls Kreative",
-    name: "Soft Pinch Liquid",
-    image: require("../assets/images/m7.jpeg"),
+    brand: "YSL",
+    name: "Slim Matte Longwear Lipstick",
+    image: require("../assets/images/m11.jpeg"),
     accessibility: "Texture",
     buyItAgain: 90,
     numberOfReviews: 2014,
     rating: "B",
     pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    navRoute: "ProductDetails2",
   },
   {
     key: "3",
-    brand: "Nora",
-    name: "Zen Zone",
-    image: require("../assets/images/m15.jpeg"),
+    brand: "SkinCeuticals",
+    name: "C E Ferulic (1 fl. oz.)",
+    image: require("../assets/images/m4.jpeg"),
     accessibility: "Easy Apply",
     buyItAgain: 88,
     numberOfReviews: 666,
     rating: "B",
     pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    navRoute: "ProductDetails3",
   },
   {
     key: "4",
-    brand: "Neauthy",
-    name: "Mineral Plus Nigh...",
-    image: require("../assets/images/m11.jpeg"),
+    brand: "TOM FORD",
+    name: "Eye Color Bold Eyeshadow Palette",
+    image: require("../assets/images/m7.jpeg"),
     accessibility: "No Tools",
     buyItAgain: 92,
     numberOfReviews: 1294,
     rating: "A",
     pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
+    navRoute: "ProductDetails4",
   },
   {
     key: "5",
@@ -555,7 +559,8 @@ const highlyRated = [
     accessibility: "No Tools",
     buyItAgain: 86,
     numberOfReviews: 789,
-    rating: "A",pending: "...",
+    rating: "A",
+    pending: "...",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
   },
 ];
@@ -567,7 +572,7 @@ const recentlyAdded = [
     brand: "YSL",
     image: require("../assets/images/m11.jpeg"), //image_Link
     review: "Pending Review", //!NEW
-    screenName: "ThreeD"
+    screenName: "ThreeD",
   },
   {
     key: "2",
@@ -575,7 +580,7 @@ const recentlyAdded = [
     brand: "Forbiden Beauty",
     image: require("../assets/images/m14.jpeg"),
     review: "Pending Review",
-    screenName: "ThreeD2"
+    screenName: "ThreeD2",
   },
   {
     key: "3",
@@ -583,7 +588,7 @@ const recentlyAdded = [
     brand: "Gucci",
     image: require("../assets/images/m17.jpeg"),
     review: "Pending Review",
-    screenName: "ThreeD3"
+    screenName: "ThreeD3",
   },
   {
     key: "4",

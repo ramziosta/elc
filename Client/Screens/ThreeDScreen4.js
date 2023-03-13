@@ -1,15 +1,15 @@
 import React from "react";
-import { StyleSheet, Text, View, SafeAreaView, Button } from "react-native";
+import { StyleSheet, SafeAreaView, Button, Text } from "react-native";
 import { WebView } from "react-native-webview";
 import { useNavigation } from "@react-navigation/native";
-const ThreeDScreen2 = () => {
+const ThreeDScreen4 = () => {
   const nav = useNavigation();
   return (
     <SafeAreaView style={styles.container}>
-       <Text style={{ textAlign: "center",fontSize: 20, fontWeight: 700}}>Slim Matte Longwear Lipstick</Text>
+      <Text style={{ textAlign: "center",fontSize: 20, fontWeight: 700}} >C E Ferulic (1 fl. oz.)</Text>
       <WebView
         style={styles.iframe}
-        source={{ uri: "https://app.vectary.com/p/7QzjYM09Su4mNhvSTzX0bv"  }}
+        source={{ uri: "https://app.vectary.com/p/4wC3LQIAPyYvvnCHjzTCn9"     }}
       />
 
       <Button
@@ -21,7 +21,7 @@ const ThreeDScreen2 = () => {
       <Button
         title="Back"
         onPress={() => {
-          nav.navigate("ProductDetails2");
+          nav.navigate("ProductDetails3");
         }}
       />
     </SafeAreaView>
@@ -38,5 +38,4 @@ const styles = StyleSheet.create({
     width: "100%",
   },
 });
-
-export default ThreeDScreen2;
+export default ThreeDScreen4;

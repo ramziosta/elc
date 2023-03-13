@@ -145,7 +145,7 @@ const ColorOptionsIcons = ({ data }) => {
   );
 };
 
-const ProductDetailsScreen3 = (props) => {
+const ProductDetailsScreen4 = (props) => {
   const [favorite, setFavorite] = useState(false);
 
   const nav = useNavigation();
@@ -154,7 +154,7 @@ const ProductDetailsScreen3 = (props) => {
       <ScrollView>
         <Image
           style={styles.image}
-          source={require("../assets/images/m4.jpeg")}
+          source={require("../assets/images/m7.jpeg")}
         />
 
         {/* <Text
@@ -171,7 +171,7 @@ const ProductDetailsScreen3 = (props) => {
             style={[styles.button, styles.viewInThreeD]}
             title="View In 3D"
             onPress={() => {
-              nav.navigate("ThreeD3");
+              nav.navigate("ThreeD4");
             }}
           >
             <Text style={styles.buttonText}>View In 3D</Text>
@@ -310,7 +310,7 @@ const ProductDetailsScreen3 = (props) => {
   );
 };
 
-export default ProductDetailsScreen3;
+export default ProductDetailsScreen4;
 
 const styles = StyleSheet.create({
   body: {

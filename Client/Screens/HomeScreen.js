@@ -16,21 +16,19 @@ import {
   accessibleBrands,
 } from "../Constants/BeautyData";
 const HomeScreen = (props) => {
-  const nav = useNavigation();
-  const handlePress = () => {
-    nav.navigate("Category");
-  };
-
   return (
     <View style={styles.body}>
       <ScrollView>
-        <Image source={require("../assets/icons/NameLogo.png")} style={styles.logo} />
+        <Image
+          source={require("../assets/icons/NameLogo.png")}
+          style={styles.logo}
+        />
         <DropdownSearchBar />
         <View style={styles.scroll}>
-          <FeaturesList data={features} handlePress={handlePress} />
-          <HighlyRated data={highlyRated} handlePress={handlePress} />
-          <AccessibleBrands data={accessibleBrands} handlePress={handlePress} />
-          <RecentlyAdded data={highlyRated} handlePress={handlePress} />
+          <FeaturesList data={features} />
+          <HighlyRated data={highlyRated} />
+          <AccessibleBrands data={accessibleBrands} />
+          <RecentlyAdded data={highlyRated} />
         </View>
       </ScrollView>
     </View>
@@ -45,7 +43,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     backgroundColor: "#111111",
   },
-  logo:{
+  logo: {
     display: "flex",
     justifyContent: "center",
     alignSelf: "center",

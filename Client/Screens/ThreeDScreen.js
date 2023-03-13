@@ -1,18 +1,29 @@
 import React from "react";
-import { StyleSheet, SafeAreaView, Button } from "react-native";
-import { WebView } from 'react-native-webview';
+import { StyleSheet, Text, View, SafeAreaView, Button } from "react-native";
+import { WebView } from "react-native-webview";
 import { useNavigation } from "@react-navigation/native";
-const ThreeDScreen = () => {
+const ThreeDScreen2 = () => {
   const nav = useNavigation();
   return (
-    <SafeAreaView  style={styles.container}>
+    <SafeAreaView style={styles.container}>
+      <Text style={{ textAlign: "center",fontSize: 20, fontWeight: 700}}>Soft Pink Blush</Text>
       <WebView
         style={styles.iframe}
-        source={{ uri: 'https://app.vectary.com/p/7QzjYM09Su4mNhvSTzX0bv' }}
+        source={{ uri: "https://app.vectary.com/p/6pjbbQ2acabreCDAOL9ZhH"  }}
       />
 
-<Button title="Try It On" onPress={()=>{nav.navigate("AR")}}/>
-      <Button title="Back" onPress={()=>{nav.navigate("ProductDetails")}}/>
+      <Button
+        title="Try It On"
+        onPress={() => {
+          nav.navigate("AR");
+        }}
+      />
+      <Button
+        title="Back"
+        onPress={() => {
+          nav.navigate("ProductDetails");
+        }}
+      />
     </SafeAreaView>
   );
 };
@@ -24,8 +35,8 @@ const styles = StyleSheet.create({
   iframe: {
     marginTop: 20,
     marginBottom: 0,
-    width: '100%',
+    width: "100%",
   },
 });
 
-export default ThreeDScreen;
+export default ThreeDScreen2;
