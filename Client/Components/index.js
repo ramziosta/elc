@@ -6,6 +6,9 @@ import FeaturesList from "./FeaturesList";
 import HighlyRated from "./HighlyRated";
 import ProductAccessibilityTags from "./ProductAccessibilityTags";
 import RecentlyAdded from "./RecentlyAdded";
+import ReviewCard from "./ReviewCard";
+import FireBaseCard from "./FireBaseCard"
+
 export {
     DropdownSearchBar,
     FeaturesList,
@@ -15,7 +18,8 @@ export {
     Card,
     RatingsButtons,
     RatingsFaceCards,
+    ReviewCard,
+    FireBaseCard,
 
-    
     
 }

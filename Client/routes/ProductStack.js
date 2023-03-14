@@ -11,6 +11,7 @@ import {
   ProductDetailsScreen3,
   ProductDetailsScreen4,
   ReviewScreen,
+  ReviewDetailsScreen,
   ThreeDScreen,
   ThreeDScreen2,
   ThreeDScreen3,
@@ -32,6 +33,7 @@ const ProductStack = () => {
       <Stack.Screen name="ProductDetails3" component={ProductDetailsScreen3} />
       <Stack.Screen name="ProductDetails4" component={ProductDetailsScreen4} />
       <Stack.Screen name="Review" component={ReviewScreen} />
+      <Stack.Screen name="ReviewDetails" component={ReviewDetailsScreen} />
       <Stack.Screen name="ThreeD" component={ThreeDScreen} />
       <Stack.Screen name="ThreeD2" component={ThreeDScreen2} />
       <Stack.Screen name="ThreeD3" component={ThreeDScreen3} />

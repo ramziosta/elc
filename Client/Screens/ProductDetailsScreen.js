@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import {
-
   KeyboardAvoidingView,
   TextInput,
   Platform,
@@ -20,26 +19,12 @@ import {
 import { productColorsIcons, features } from "../Constants/BeautyData";
 import { MaterialCommunityIcons } from "react-native-vector-icons";
 import ProductAccessibilityTags from "../Components/ProductAccessibilityTags";
-import { modalStyles } from "../styles/Styles";
-import { Formik } from "formik";
-import Button from "../Components/Button.js";
-import * as Yup from "yup";
-import { collection, addDoc } from "firebase/firestore";
+import Card from "../Components/ReviewCard";
 import { db } from "../config";
+import { collection, getDocs } from "firebase/firestore";
 
-//yup
-const reviewSchema = Yup.object({
-  title: Yup.string().required().min(4),
-  body: Yup.string().required().min(8),
-  rating: Yup.number()
-    .required()
-    .min(1)
-    .max(5)
-    .test("is-num-1-5", "Rating must be a number 1- 5", (val) => {
-      return parseInt(val) < 6 && parseInt(val) > 0;
-    }),
- 
-});
+
+
 const ToggleProductDescription = ({ data }) => {
   const [isProductDescriptionModalVisible, setIsProductDescriptionModalVisible] = useState(false);
 
@@ -127,137 +112,51 @@ const LeaveReviewButton = ({ data }) => {
       <TouchableOpacity style={styles.leaveReviewButton} onPress={()=>nav.navigate("Review")}>
         <Text style={styles.leaveReviewText}>Leave Review </Text>
       </TouchableOpacity>
-      <Modal visible={isReviewModalVisible} animationType="slide" style={styles.reviewModal}>
-        <SafeAreaView>
-
-
-
-        <KeyboardAvoidingView
-      behavior={Platform.OS === "ios" ? "padding" : "height"}
-      style={modalStyles.container2}
-    >
-      <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-        <View style={modalStyles.container}>
-          <Formik
-            initialValues={{ title: "", body: "", rating: "" }}
-            validationSchema={reviewSchema}
-  //!  ---------- submit function----------------- 
-            onSubmit={(values, actions) => {
-             
-              // values.key = listKey.toString();
-
-              addDoc(collection(db, "article"), values);
-              console.log(values);
-              addReview(values);
-              actions.resetForm();
-              // setListKey(listKey + 1);
-              // console.log(listKey);
-            }}
-          >
-            {(props) => (
-              <View>
-                <View style={modalStyles.formField}>
-                  <Text style={modalStyles.lableText}>Title:</Text>
-                  <TextInput
-                    style={modalStyles.input}
-                    placeholder="title"
-                    onChangeText={props.handleChange("title")}
-                    onBlur={props.handleBlur("title")}
-                    value={props.values.title}
-                  />
-                  <Text style={modalStyles.errorText}>
-                    {props.touched.title && props.errors.title}
-                  </Text>
-                </View>
-
-                <View style={modalStyles.formField}>
-                  <Text style={modalStyles.lableText}>Content:</Text>
-                  <TextInput
-                    style={modalStyles.input}
-                    multiline
-                    minHeight={60}
-                    placeholder="body"
-                    onChangeText={props.handleChange("body")}
-                    onBlur={props.handleBlur("body")}
-                    value={props.values.body}
-                  />
-                  <Text style={modalStyles.errorText}>
-                    {props.touched.body && props.errors.body}
-                  </Text>
-                </View>
-
-                <View style={modalStyles.formField}>
-                  <Text style={modalStyles.lableText}>Rating:</Text>
-                  <TextInput
-                    style={modalStyles.input}
-                    placeholder="rating"
-                    onChangeText={props.handleChange("rating")}
-                    onBlur={props.handleBlur("rating")}
-                    value={props.values.rating}
-                    keyboardType="numeric"
-                  />
-                  <Text style={modalStyles.errorText}>
-                    {props.touched.rating && props.errors.rating}
-                  </Text>
-                </View>
-
-                <Button onPress={props.handleSubmit} buttonTitle="submit" />
-                {/* 
-                <Button
-                  onPress={props.handleSubmit}
-                  title="Submit"
-                  color="green"
-                  style={modalStyles.button}
-                /> */}
-              </View>
-            )}
-          </Formik>
-        </View>
-      </TouchableWithoutFeedback>
-    </KeyboardAvoidingView>
-          <Text style={styles.text}>This is the content of the modal</Text>
-          <TouchableOpacity onPress={handleModalClose}>
-            <Text style={styles.text}>Close modal</Text>
-          </TouchableOpacity>
-
-
-
-
-
-
-
-        </SafeAreaView>
-      </Modal>
     </View>
   );
 };
 
-const Reviews = ({ data }) => {
-  const renderItem = ({ item }) => (
-    <View style={styles.background}>
-      <Image />
-      <Text style={styles.pageText} numberOfLines={1}>
-        {item.numberOfLines} Month Ago
-      </Text>
-      <Text style={styles.pageText} numberOfLines={1}>
-        {item.iconColorNames}
-      </Text>
-      <Text style={styles.pageText} numberOfLines={1}>
-        Title{item.reviewTitle}
-      </Text>
-      <Text style={styles.pageText} numberOfLines={1}>
-        Body{item.reviewBody}
-      </Text>
-    </View>
-  );
+const Reviews = ({ navigation }) => {
+  const nav = useNavigation();
 
+  const [Articles, setArticles] = useState([]);
+
+
+  //> ------retrieve data from database----------
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const querySnapshot = await getDocs(collection(db, "article"));
+        const Articles = [];
+        querySnapshot.forEach((doc) => {
+          Articles.push({ ...doc.data() });
+        });
+        setArticles(Articles);
+      } catch (err) {
+        console.log(err);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  //< ---------send data to the database-------------
+
+
+ 
   return (
-    <View style={{ justifyContent: "center" }}>
+    <View >
       <FlatList
-        data={data}
-        horizontal={false}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.key}
+        data={Articles}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            onPress={() => nav.navigate("ReviewDetails", item)}
+          >
+            <Card>
+              <Text style={{color: "black",}}>{item.title}</Text>
+            </Card>
+          </TouchableOpacity>
+        )}
       />
     </View>
   );
@@ -294,9 +193,10 @@ const ColorOptionsIcons = ({ data }) => {
 
 const ProductDetailsScreen = (props) => {
   const [favorite, setFavorite] = useState(false);
-
+  const [listKey, setListKey] = useState(5);
   const nav = useNavigation();
-  return (
+
+return (
     <SafeAreaView style={styles.body}>
       <ScrollView>
         <Image
@@ -447,6 +347,7 @@ const ProductDetailsScreen = (props) => {
           <Text style={styles.reviewText}>User Reviews</Text>
           <LeaveReviewButton />
         </View>
+        
         <Reviews data={productColorsIcons} />
       </ScrollView>
     </SafeAreaView>

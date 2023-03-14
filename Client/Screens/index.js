@@ -12,6 +12,7 @@ import ProductDetailsScreen3 from "./ProductDetailsScreen3";
 import ProductDetailsScreen4 from "./ProductDetailsScreen4";
 
 import ReviewScreen from "./ReviewScreen";
+import ReviewDetailsScreen from "./ReviewDetailsScreen";
 
 import ThreeDScreen from "./ThreeDScreen";
 import ThreeDScreen2 from "./ThreeDScreen2";
@@ -37,13 +38,13 @@ export {
 
   HomeScreen,
 
-
   ProductDetailsScreen,
   ProductDetailsScreen2,
   ProductDetailsScreen3,
   ProductDetailsScreen4,
  
   ReviewScreen,
+  ReviewDetailsScreen,
   
   ThreeDScreen,
   ThreeDScreen2,
