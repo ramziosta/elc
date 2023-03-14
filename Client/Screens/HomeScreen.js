@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     display: "flex",
     justifyContent: "center",
     alignSelf: "center",
-    marginTop: 10,
+    marginTop: 30,
     marginBottom: 10,
     marginLeft: 10,
     marginRight: 10,

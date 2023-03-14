@@ -157,15 +157,13 @@ const ProductDetailsScreen4 = (props) => {
           source={require("../assets/images/m7.jpeg")}
         />
 
-        {/* <Text
+        <Text
           style={styles.backButton}
           title="Back"
-          onPress={() => {
-            nav.navigate("Category");
-          }}
+          onPress={() => props.navigation.goBack()}
         >
           ← Back
-        </Text> */}
+        </Text> 
         <View style={styles.buttonsContainer}>
           <TouchableOpacity
             style={[styles.button, styles.viewInThreeD]}
@@ -373,7 +371,7 @@ const styles = StyleSheet.create({
     marginLeft: 100,
     display: "flex",
     justifyContent: "center",
-    justifySelf: "center",
+    alignSelf: "center",
   },
   iconsText: {
     fontSize: 20,

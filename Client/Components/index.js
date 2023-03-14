@@ -1,4 +1,7 @@
 import DropdownSearchBar from "./DropdownSearchBar";
+import Card from "./Card";
+import RatingsButtons from "./RatingsButtons";
+import RatingsFaceCards from "./RatingsFaceCards";
 import FeaturesList from "./FeaturesList";
 import HighlyRated from "./HighlyRated";
 import ProductAccessibilityTags from "./ProductAccessibilityTags";
@@ -9,6 +12,10 @@ export {
     HighlyRated,
     ProductAccessibilityTags,
     RecentlyAdded,
+    Card,
+    RatingsButtons,
+    RatingsFaceCards,
+
     
     
 }
