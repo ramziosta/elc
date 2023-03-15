@@ -2,11 +2,21 @@ import React from "react";
 import { StyleSheet, Text, View, SafeAreaView, Button } from "react-native";
 import { WebView } from "react-native-webview";
 import { useNavigation } from "@react-navigation/native";
-const ThreeDScreen2 = () => {
+
+
+const ThreeDScreen = () => {
+
   const nav = useNavigation();
+  // //< FOT THE DATA TO BE DYNAMIC< ROUTE CAN BE SAVED IN DB ↓
+  const { uri } = route.params;
+
+
   return (
     <SafeAreaView style={styles.container}>
       <Text style={{ textAlign: "center",fontSize: 20, fontWeight: 700}}>Soft Pink Blush</Text>
+     
+
+     {/*//< data that  need so be dynamic  */}
       <WebView
         style={styles.iframe}
         source={{ uri: "https://app.vectary.com/p/6pjbbQ2acabreCDAOL9ZhH"  }}
@@ -39,4 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ThreeDScreen2;
+export default ThreeDScreen;

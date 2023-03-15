@@ -5,7 +5,7 @@ const FeaturesList = ({ data, handlePress }) => {
 const nav = useNavigation();
 
 
-  const renderItem = ({ item }) => (
+  const renderItem = ({ item, key }) => (
     
     <TouchableOpacity onPress={handlePress}>
       <View style={styles.item}>

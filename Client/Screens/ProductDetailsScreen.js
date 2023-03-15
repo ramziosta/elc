@@ -43,14 +43,22 @@ const ToggleProductDescription = ({ data }) => {
         style={styles.toggleContainer}
       >
         <Text style={styles.toggleText}>Product Description</Text>
+
+        {/* //< DATA HERE------ Icon can stay in app */}
         <Image
           style={styles.toggleImage}
           source={require("../assets/icons/tabler_chevron-down.png")}
         />
+
+
       </TouchableOpacity>
       <Modal visible={isProductDescriptionModalVisible} animationType="slide">
+
         <SafeAreaView>
+          {/* //< DATA HERE {item.description}  --------------------- */}
           <Text style={styles.text}>Product Decription goes here </Text>
+
+
           <TouchableOpacity onPress={handleModalClose}>
             <Text style={styles.text}>Close</Text>
           </TouchableOpacity>
@@ -78,13 +86,18 @@ const ToggleHowToUse = ({ data }) => {
         style={styles.toggleContainer}
       >
         <Text style={styles.toggleText}>How To Use</Text>
+
+        {/* //< DATA HERE --------- Icon can stay in App */}
         <Image
           style={styles.toggleImage}
           source={require("../assets/icons/tabler_chevron-down.png")}
         />
+
       </TouchableOpacity>
       <Modal visible={isHowToModal} animationType="slide">
         <SafeAreaView>
+
+      {/* //< DATA HERE ----------- {item.content} */}
           <Text style={styles.text}>This is the content of the modal</Text>
           <TouchableOpacity onPress={handleModalClose}>
             <Text style={styles.text}>Close modal</Text>
