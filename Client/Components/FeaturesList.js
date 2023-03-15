@@ -1,13 +1,14 @@
 import React from "react";
 import { FlatList, TouchableOpacity, View, Text, Image, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+
 const FeaturesList = ({ data, handlePress }) => {
 const nav = useNavigation();
 
 
-  const renderItem = ({ item, key }) => (
+  const renderItem = ({ item, id }) => (
     
-    <TouchableOpacity onPress={handlePress}>
+    <TouchableOpacity key={item.id} onPress={handlePress}>
       <View style={styles.item}>
         {/* //< Data Here ICON can be saved in app */}
         <Image source={item.accessibilityIcon} />

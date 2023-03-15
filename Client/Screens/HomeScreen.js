@@ -14,6 +14,9 @@ import {
   highlyRated,
   accessibleBrands,
 } from "../Constants/BeautyData";
+import {Data} from '../Constants/Data'
+console.log(Data);
+
 const HomeScreen = (props) => {
   return (
     <View style={styles.body}>
@@ -25,10 +28,10 @@ const HomeScreen = (props) => {
         />
         <DropdownSearchBar />
         <View style={styles.scroll}>
-          <FeaturesList data={features} />
-          <HighlyRated data={highlyRated} />
-          <AccessibleBrands data={accessibleBrands} />
-          <RecentlyAdded data={highlyRated} />
+          <FeaturesList data={Data} />
+          <HighlyRated data={Data} />
+          <AccessibleBrands data={Data} />
+          <RecentlyAdded data={Data} />
         </View>
       </ScrollView>
     </View>

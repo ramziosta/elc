@@ -1,10 +1,12 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-const Card = (props) => {
+const Card = ({data}) => {
     return (
       <View style={styles.container}>
         <View style={styles.imageContainer}>
+          {/* //< Data Here -------------- item.image_link */}
+          
           <Image  source={require("../assets/images/demo.png")} style={styles.image} />
         </View>
         <View style={styles.textContainer}>

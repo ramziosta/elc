@@ -488,7 +488,7 @@ const features = [
 
 const highlyRated = [
   {
-    key: "1", //id
+    id: "1", //id
     brand: "Rare Beauty",
     name: "Soft Pinch Liquid Blush",
     image_link: require("../assets/images/demo.png"), //image_Link
@@ -501,7 +501,7 @@ const highlyRated = [
     navRoute: "ProductDetails",
   },
   {
-    key: "2",
+    id: "2",
     brand: "YSL",
     name: "Slim Matte Longwear Lipstick",
     image_link: require("../assets/images/m11.jpeg"),
@@ -514,7 +514,7 @@ const highlyRated = [
     navRoute: "ProductDetails2",
   },
   {
-    key: "3",
+    id: "3",
     brand: "SkinCeuticals",
     name: "C E Ferulic (1 fl. oz.)",
     image_link: require("../assets/images/m4.jpeg"),
@@ -527,7 +527,7 @@ const highlyRated = [
     navRoute: "ProductDetails3",
   },
   {
-    key: "4",
+    id: "4",
     brand: "TOM FORD",
     name: "Eye Color Bold Eyeshadow Palette",
     image_link: require("../assets/images/m7.jpeg"),
@@ -540,7 +540,7 @@ const highlyRated = [
     navRoute: "ProductDetails4",
   },
   {
-    key: "5",
+    id: "5",
     brand: "Cosmetic",
     name: "Daily Dose",
     image_link: require("../assets/images/m5.jpeg"),
@@ -552,7 +552,7 @@ const highlyRated = [
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
   },
   {
-    key: "6",
+    id: "6",
     brand: "CORS",
     name: "Releaf Balm",
     image_link: require("../assets/images/m6.jpeg"),
@@ -567,7 +567,7 @@ const highlyRated = [
 
 const recentlyAdded = [
   {
-    key: "1", //id
+    id: "1", //id
     text: "Brush blissful", //name
     brand: "YSL",
     image_link: require("../assets/images/m11.jpeg"), //image_Link
@@ -575,7 +575,7 @@ const recentlyAdded = [
     screenName: "ThreeD",
   },
   {
-    key: "2",
+    id: "2",
     text: "Rejuvenate bubbly",
     brand: "Forbiden Beauty",
     image_link: require("../assets/images/m14.jpeg"),
@@ -583,7 +583,7 @@ const recentlyAdded = [
     screenName: "ThreeD2",
   },
   {
-    key: "3",
+    id: "3",
     text: "Fabulous glowy",
     brand: "Gucci",
     image_link: require("../assets/images/m17.jpeg"),
@@ -591,21 +591,21 @@ const recentlyAdded = [
     screenName: "ThreeD3",
   },
   {
-    key: "4",
+    id: "4",
     text: "Fluffly cream dream",
     brand: "Bobbi Brown",
     image_link: require("../assets/images/m16.jpeg"),
     review: "Pending Review",
   },
   {
-    key: "5",
+    id: "5",
     text: "Lipstick Berlin marvelous",
     brand: "Chanel",
     image_link: require("../assets/images/m13.jpeg"),
     review: "Pending Review",
   },
   {
-    key: "6",
+    id: "6",
     text: "Hydrating lotion serene",
     brand: "Miss Swiss",
     image_link: require("../assets/images/m15.jpeg"),
@@ -615,42 +615,42 @@ const recentlyAdded = [
 
 const accessibleBrands = [
   {
-    key: "1", //id
+    id: "1", //id
     brand: "Rare Beauty",
     text: "Ergonomic Design", //tag_list
     image_link: require("../assets/images/m7.jpeg"),
     brandLogo: require("../assets/icons/icon1.png"), //< assets????
   },
   {
-    key: "2",
+    id: "2",
     brand: "Kohls Kreative",
     text: "Texture",
     image_link: require("../assets/images/m8.jpeg"),
     brandLogo: require("../assets/icons/icon2.png"),
   },
   {
-    key: "3",
+    id: "3",
     brand: "Nora",
     text: "No Tools",
     image_link: require("../assets/images/m9.jpeg"),
     brandLogo: require("../assets/icons/icon3.png"),
   },
   {
-    key: "4",
+    id: "4",
     brand: "CORS",
     text: "Tactile Markers",
     image_link: require("../assets/images/m10.jpeg"),
     brandLogo: require("../assets/icons/icon4.png"),
   },
   {
-    key: "5",
+    id: "5",
     brand: "YSL",
     text: "Easy To Open",
     image_link: require("../assets/images/m11.jpeg"),
     brandLogo: require("../assets/icons/icon5.png"),
   },
   {
-    key: "6",
+    id: "6",
     brand: "Poko",
     text: "Easy To Apply",
     image_link: require("../assets/images/m12.jpeg"),
@@ -660,67 +660,67 @@ const accessibleBrands = [
 
 const productColorsIcons = [
   {
-    key: "1",
+    id: "1",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48.png"),
     iconColorName: "Greatful", //! NEW product_colors[color].product_name
     accessibility: "Easy Open", //tag_list
   },
   {
-    key: "2",
+    id: "2",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-1.png"),
     iconColorName: "Joy",
     accessibility: "Easy Open",
   },
   {
-    key: "3",
+    id: "3",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-2.png"),
     iconColorName: "Happy",
     accessibility: "Easy Open",
   },
   {
-    key: "4",
+    id: "4",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-3.png"),
     iconColorName: "Lucky",
     accessibility: "Easy Open",
   },
   {
-    key: "5",
+    id: "5",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-4.png"),
     iconColorName: "Bliss",
     accessibility: "Easy Open",
   },
   {
-    key: "6",
+    id: "6",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-5.png"),
     iconColorName: "Faith",
     accessibility: "Easy Open",
   },
   {
-    key: "7",
+    id: "7",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-6.png"),
     iconColorName: "Grace",
     accessibility: "Easy Open",
   },
   {
-    key: "8",
+    id: "8",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-7.png"),
     iconColorName: "Love",
     accessibility: "Easy Open",
   },
   {
-    key: "9",
+    id: "9",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-8.png"),
     iconColorName: "Hope",
     accessibility: "Easy Open",
   },
   {
-    key: "10",
+    id: "10",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-9.png"),
     iconColorName: "Believe",
     accessibility: "Easy Open",
   },
   {
-    key: "11",
+    id: "11",
     ColorOptionsIcon: require("../assets/icons/Ellipse%48-10.png"),
     iconColorName: "Courage",
     accessibility: "Easy Open",

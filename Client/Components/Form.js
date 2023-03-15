@@ -81,13 +81,6 @@ const Form = ({ addReview }) => {
                   onPress={props.handleSubmit}
                   buttonTitle="Submit Review"
                 />
-                {/* 
-                  <Button
-                    onPress={props.handleSubmit}
-                    title="Submit"
-                    color="green"
-                    style={globalStyles.button}
-                  /> */}
               </View>
             )}
           </Formik>

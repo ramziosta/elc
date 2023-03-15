@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
-export default function Card(props) {
+export default function ReviewCard(props) {
   return (
     <View style={styles.ReviewCard}>
       <View style={styles.cardContent}>{props.children}</View>

@@ -3,6 +3,7 @@ import { TouchableOpacity, View, Text, Image, StyleSheet } from "react-native";
 
 const RatingsFaceCards = ({ data, onPress }) => {
   const [selectedButton, setSelectedButton] = useState(null);
+  //< DATA HERE ICONS Can stay in App
   const [imageSource, setImageSource] = useState(
     require("../assets/icons/gg_smile-mouth-open.png")
   );

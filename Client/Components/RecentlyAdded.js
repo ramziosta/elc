@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import {
   FlatList,
   TouchableOpacity,
@@ -8,30 +8,32 @@ import {
   StyleSheet,
 } from "react-native";
 
-
 const HighlyRated = ({ data, handlePress }) => {
-const [numReviews, setNumReviews] = useState(0);
-const [favorites, setFavorites] = useState([]);
+  const [number_of_reviews, setNumReviews] = useState(0);
+  const [favorites, setFavorites] = useState([]);
 
-const toggleFavorite = (id) => {
-  if (favorites.includes(id)) {
-    setFavorites(favorites.filter((item) => item !== id));
-  } else {
-    setFavorites([...favorites, id]);
-  }
-};
+  const toggleFavorite = (id) => {
+    if (favorites.includes(id)) {
+      setFavorites(favorites.filter((item) => item !== id));
+    } else {
+      setFavorites([...favorites, id]);
+    }
+  };
 
-const isFavorite = (id) => {
-  return favorites.includes(id);
-};
-
+  const isFavorite = (id) => {
+    return favorites.includes(id);
+  };
 
   const renderItem = ({ item }) => (
-    <TouchableOpacity onPress={handlePress} style={styles.container}>
+    <TouchableOpacity
+      key={item.id}
+      onPress={handlePress}
+      style={styles.container}
+    >
       <View>
-        {/* //< DATA HERE------- */}
+        {/* //< DATA HERE Image------- */}
         <Image source={item.image_link} style={styles.image} />
-        
+
         <TouchableOpacity
           style={styles.heartIconContainer}
           onPress={() => toggleFavorite(item.id)}
@@ -44,22 +46,19 @@ const isFavorite = (id) => {
                 : require("../assets/icons/blackheart.png")
             }
             style={styles.heart}
-         
           />
         </TouchableOpacity>
 
-        <View
-          style={styles.pendingIconContainer}
-        >
+        <View style={styles.pendingIconContainer}>
           <View style={styles.ratingContainer}>
-            {/* //< DATA HERE--------------- */}
+            {/* //< DATA HERE --------------- */}
             <Text style={styles.rating}>{item.pending}</Text>
           </View>
         </View>
       </View>
 
       <View style={styles.textContainer}>
-           {/* //< DATA HERE ___________ */}
+        {/* //< DATA HERE ___________ */}
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
         </Text>
@@ -70,9 +69,8 @@ const isFavorite = (id) => {
 
         {/* //< DATA HERE ----------- need number of reviews from DB */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          {numReviews? numReviews +  "reviews": "Pending Reviews"} 
+          {number_of_reviews ? number_of_reviews + "reviews" : "Pending Reviews"}
         </Text>
-
       </View>
     </TouchableOpacity>
   );
@@ -81,7 +79,8 @@ const isFavorite = (id) => {
     <View>
       <View style={styles.horizontal}>
         <Text style={styles.text}>Recently Added</Text>
-        <TouchableOpacity onPress={handlePress}>
+        {/* //< SEE ALL Navigates to Category Screen  */}
+        <TouchableOpacity onPress={() => nav.navigate("Category")}>
           <Text style={styles.text2}>See All ⌲</Text>
         </TouchableOpacity>
       </View>

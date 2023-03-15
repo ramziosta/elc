@@ -9,15 +9,20 @@ import {
 } from "react-native";
 
 const AccessibleBrands = ({ data, handlePress }) => {
+
   const renderItem = ({ item }) => (
-    <TouchableOpacity onPress={handlePress} style={styles.container}>
+    //< DATA HERE -------ID-----
+    <TouchableOpacity
+      key={item.id}
+      onPress={handlePress}
+      style={styles.container}
+    >
       <View style={styles.items}>
         {/* //<  DATA HERE------- */}
         <Image source={item.image_link} style={styles.accessibleImage} />
-    
 
         <View style={styles.iconContainer}>
-              {/* //< DATA HERE  needs to come from DB but this one is tricky as not easy to obtain for a product, need a DB of brand logos!?----------- */}
+          {/* //< DATA HERE  needs to come from DB but this one is tricky as not easy to obtain for a product, need a DB of brand logos!?----------- */}
           <Image source={item.brandLogo} style={styles.brandLogo} />
         </View>
       </View>
@@ -41,7 +46,8 @@ const AccessibleBrands = ({ data, handlePress }) => {
     <View>
       <View style={styles.horizontal}>
         <Text style={styles.text}>Accessible Brands</Text>
-        <TouchableOpacity onPress={handlePress}>
+        {/* //< SEE ALL navigates to Category screen */}
+        <TouchableOpacity onPress={() => nav.navigate("Category")}>
           <Text style={styles.text2}>See All ⌲</Text>
         </TouchableOpacity>
       </View>

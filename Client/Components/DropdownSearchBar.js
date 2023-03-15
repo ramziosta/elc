@@ -7,7 +7,6 @@ import {
   TextInput,
   Modal,
   TouchableOpacity,
-
 } from "react-native";
 const data = [
   { id: 1, name: "Product Feature" },
@@ -35,7 +34,9 @@ const DropdownSearchBar = () => {
 
   const renderItem = ({ item }) => {
     return (
-      <TouchableOpacity onPress={() => setModalVisible(false)}>
+      <TouchableOpacity
+      key={item.id} onPress={() => setModalVisible(false)}>
+        {/* //< Data HERE --------- Name */}
         <Text style={styles.item}>{item.name}</Text>
       </TouchableOpacity>
     );
@@ -70,9 +71,6 @@ const DropdownSearchBar = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
-    // alignItems: "center",
-    // justifyContent: "center",
   },
   searchBar: {
     paddingLeft: 10,
@@ -104,13 +102,10 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     margin: 10,
     borderRadius: 4,
-
   },
-  list :{
+  list: {
     marginTop: 50,
-   
-  }
+  },
 });
 
 export default DropdownSearchBar;
-

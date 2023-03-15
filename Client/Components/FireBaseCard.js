@@ -51,6 +51,7 @@ function FireBaseCard({ navigation }) {
             onPress={() => nav.navigate("ReviewDetails", item)}
           >
             <Card>
+              {/* //< DATA HERE TITLE for the review */}
               <Text style={{color: "black",}}>{item.title}</Text>
             </Card>
           </TouchableOpacity>

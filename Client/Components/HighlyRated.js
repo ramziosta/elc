@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import {
   FlatList,
   TouchableOpacity,
@@ -30,20 +30,21 @@ const HighlyRated = ({ data }) => {
 
   const renderItem = ({ item, id }) => (
     <TouchableOpacity
+      key={item.id}
       onPress={() => {
         nav.navigate(item.navRoute);
       }}
       style={styles.container}
     >
       <View>
-        {/* //< --DATA HERE------- */}
+        {/* //< --DATA HERE Image------- */}
         <Image source={item.image_link} style={styles.image} />
 
         <TouchableOpacity
           style={styles.heartIconContainer}
           onPress={() => toggleFavorite(item.id)}
         >
-          {/* //<HEART TOGGLE FAVORITE HERE ----------- */}
+          {/* //<HEART TOGGLE FAVORITE HERE Icon can stay in App----------- */}
           <Image
             source={
               isFavorite(item.id)
@@ -51,12 +52,11 @@ const HighlyRated = ({ data }) => {
                 : require("../assets/icons/blackheart.png")
             }
             style={styles.heart}
-         
           />
         </TouchableOpacity>
 
         <View style={styles.pendingIconContainer}>
-          {/* //< DATA HERE ----------- */}
+          {/* //< DATA HERE Rating----------- */}
           <View style={styles.ratingContainer}>
             <Text style={styles.rating}>{item.rating}</Text>
           </View>
@@ -66,14 +66,14 @@ const HighlyRated = ({ data }) => {
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
         </Text>
-        {/* //< DATA HERE  -----------*/}
+        {/* //< DATA HERE  Name-----------*/}
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
         <ProductAccessibilityTags data={features.slice(0, 1)} />
-        {/* //< ------DATA HERE needs to have logic based YES --------------  */}
+        {/* //< ------DATA HERE needs to have logic based YES --------------Buy It Again  */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          {item.buyItAgain}% would buy again
+          {item.buyAgain}% would buy again
         </Text>
       </View>
     </TouchableOpacity>
