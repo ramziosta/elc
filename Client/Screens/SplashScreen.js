@@ -1,19 +1,31 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { StyleSheet, SafeAreaView, Text, Button, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { TouchableOpacity } from "react-native-gesture-handler";
+
+
 const SplashScreen = () => {
-  const nav = useNavigation();
-  const handleNavigate = () => {
-    nav.navigate("Loading");
-  };
+
+
+    const navigation = useNavigation();
+  
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        navigation.navigate('Loading');
+      }, 3000); // navigate to the new screen after 2 seconds
+  
+      // cleanup function to clear the timer when the component unmounts
+      return () => {
+        clearTimeout(timer);
+      };
+    }, [navigation]);
 
   return (
     <SafeAreaView style={styles.layout}>
-      <TouchableOpacity onPress={handleNavigate} >
+  
         {/* //< DATA HERE APP Logo can stay in App */}
       <Image source={require("../assets/icons/MainLogo.png")}   />
-      </TouchableOpacity>
+     
     </SafeAreaView>
   );
 };

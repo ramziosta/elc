@@ -165,6 +165,7 @@ const Reviews = ({ navigation }) => {
           <TouchableOpacity
             onPress={() => nav.navigate("ReviewDetails", item)}
           >
+            {/* //< DATA HERE -----------------------  */}
             <Card>
               <Text style={{color: "black",}}>{item.title}</Text>
             </Card>
@@ -175,6 +176,7 @@ const Reviews = ({ navigation }) => {
   );
 };
 
+//! NEEDS ALL NEW WORK!!!!!!!!!!!!
 const ColorOptionsIcons = ({ data }) => {
   const renderItem = ({ item }) => (
     <View style={styles.colorOptionsContainer}>
