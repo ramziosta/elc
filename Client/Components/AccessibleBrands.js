@@ -12,8 +12,12 @@ const AccessibleBrands = ({ data, handlePress }) => {
   const renderItem = ({ item }) => (
     <TouchableOpacity onPress={handlePress} style={styles.container}>
       <View style={styles.items}>
-        <Image source={item.image} style={styles.accessibleImage} />
+        {/* //<  DATA HERE------- */}
+        <Image source={item.image_link} style={styles.accessibleImage} />
+    
+
         <View style={styles.iconContainer}>
+              {/* //< DATA HERE  needs to come from DB but this one is tricky as not easy to obtain for a product, need a DB of brand logos!?----------- */}
           <Image source={item.brandLogo} style={styles.brandLogo} />
         </View>
       </View>
@@ -23,6 +27,7 @@ const AccessibleBrands = ({ data, handlePress }) => {
           style={[styles.brand, styles.accessibilityBrand]}
           numberOfLines={2}
         >
+          {/* //< DATA HERE -------------- */}
           {item.brand}
         </Text>
         <Text style={styles.accessibilityText} numberOfLines={2}>
@@ -33,13 +38,13 @@ const AccessibleBrands = ({ data, handlePress }) => {
   );
 
   return (
-    <View >
-         <View style={styles.horizontal}>
-            <Text style={styles.text}>Accessible Brands</Text>
-            <TouchableOpacity onPress={handlePress} >
-            <Text style={styles.text2}>See All ⌲</Text>
-            </TouchableOpacity>
-          </View>
+    <View>
+      <View style={styles.horizontal}>
+        <Text style={styles.text}>Accessible Brands</Text>
+        <TouchableOpacity onPress={handlePress}>
+          <Text style={styles.text2}>See All ⌲</Text>
+        </TouchableOpacity>
+      </View>
       <FlatList
         data={data}
         horizontal={true}

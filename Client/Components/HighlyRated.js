@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   FlatList,
   TouchableOpacity,
@@ -7,14 +7,28 @@ import {
   Image,
   StyleSheet,
 } from "react-native";
-import ProductAccessibilityTags from  "./ProductAccessibilityTags";
+import ProductAccessibilityTags from "./ProductAccessibilityTags";
 import { features } from "../Constants/BeautyData";
 import { useNavigation } from "@react-navigation/native";
 
 const HighlyRated = ({ data }) => {
   const nav = useNavigation();
 
-  const renderItem = ({ item }) => (
+  const [favorites, setFavorites] = useState([]);
+
+  const toggleFavorite = (id) => {
+    if (favorites.includes(id)) {
+      setFavorites(favorites.filter((item) => item !== id));
+    } else {
+      setFavorites([...favorites, id]);
+    }
+  };
+
+  const isFavorite = (id) => {
+    return favorites.includes(id);
+  };
+
+  const renderItem = ({ item, id }) => (
     <TouchableOpacity
       onPress={() => {
         nav.navigate(item.navRoute);
@@ -22,24 +36,42 @@ const HighlyRated = ({ data }) => {
       style={styles.container}
     >
       <View>
-        <Image source={item.image} style={styles.image} />
-        <TouchableOpacity style={styles.heartIconContainer}>
-          <Image source={item.heart} style={styles.heart} tintColor="black" />
+        {/* //< --DATA HERE------- */}
+        <Image source={item.image_link} style={styles.image} />
+
+        <TouchableOpacity
+          style={styles.heartIconContainer}
+          onPress={() => toggleFavorite(item.id)}
+        >
+          {/* //<HEART TOGGLE FAVORITE HERE ----------- */}
+          <Image
+            source={
+              isFavorite(item.id)
+                ? require("../assets/icons/mdi_cards-heart-pink.png")
+                : require("../assets/icons/blackheart.png")
+            }
+            style={styles.heart}
+         
+          />
         </TouchableOpacity>
-        <TouchableOpacity style={styles.pendingIconContainer}>
+
+        <View style={styles.pendingIconContainer}>
+          {/* //< DATA HERE ----------- */}
           <View style={styles.ratingContainer}>
             <Text style={styles.rating}>{item.rating}</Text>
           </View>
-        </TouchableOpacity>
+        </View>
       </View>
       <View style={styles.textContainer}>
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
         </Text>
+        {/* //< DATA HERE  -----------*/}
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
         <ProductAccessibilityTags data={features.slice(0, 1)} />
+        {/* //< ------DATA HERE needs to have logic based YES --------------  */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
           {item.buyItAgain}% would buy again
         </Text>
@@ -51,7 +83,8 @@ const HighlyRated = ({ data }) => {
     <View>
       <View style={styles.horizontal}>
         <Text style={styles.text}>Highly Rated</Text>
-        <TouchableOpacity>
+        {/* //< navigation only needs to go to category based on search result */}
+        <TouchableOpacity onPress={() => nav.navigate("Category")}>
           <Text style={styles.text2}>See All ⌲</Text>
         </TouchableOpacity>
       </View>
@@ -59,7 +92,7 @@ const HighlyRated = ({ data }) => {
         data={data}
         horizontal={true}
         renderItem={renderItem}
-        keyExtractor={(item) => item.key}
+        keyExtractor={(item) => item.id}
       />
     </View>
   );

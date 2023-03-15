@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, SafeAreaView, Text, Button, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import { globalStyles } from "../styles/Styles";
 import { TouchableOpacity } from "react-native-gesture-handler";
 const SplashScreen = () => {
   const nav = useNavigation();
@@ -12,6 +11,7 @@ const SplashScreen = () => {
   return (
     <SafeAreaView style={styles.layout}>
       <TouchableOpacity onPress={handleNavigate} >
+        {/* //< DATA HERE APP Logo can stay in App */}
       <Image source={require("../assets/icons/MainLogo.png")}   />
       </TouchableOpacity>
     </SafeAreaView>

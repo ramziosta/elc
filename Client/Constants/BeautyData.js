@@ -491,7 +491,7 @@ const highlyRated = [
     key: "1", //id
     brand: "Rare Beauty",
     name: "Soft Pinch Liquid Blush",
-    image: require("../assets/images/demo.png"), //image_Link
+    image_link: require("../assets/images/demo.png"), //image_Link
     accessibility: "Ergonomic Design", //tag_list
     buyItAgain: 92, //! NEW
     numberOfReviews: 1598, //! NEW
@@ -504,7 +504,7 @@ const highlyRated = [
     key: "2",
     brand: "YSL",
     name: "Slim Matte Longwear Lipstick",
-    image: require("../assets/images/m11.jpeg"),
+    image_link: require("../assets/images/m11.jpeg"),
     accessibility: "Texture",
     buyItAgain: 90,
     numberOfReviews: 2014,
@@ -517,7 +517,7 @@ const highlyRated = [
     key: "3",
     brand: "SkinCeuticals",
     name: "C E Ferulic (1 fl. oz.)",
-    image: require("../assets/images/m4.jpeg"),
+    image_link: require("../assets/images/m4.jpeg"),
     accessibility: "Easy Apply",
     buyItAgain: 88,
     numberOfReviews: 666,
@@ -530,7 +530,7 @@ const highlyRated = [
     key: "4",
     brand: "TOM FORD",
     name: "Eye Color Bold Eyeshadow Palette",
-    image: require("../assets/images/m7.jpeg"),
+    image_link: require("../assets/images/m7.jpeg"),
     accessibility: "No Tools",
     buyItAgain: 92,
     numberOfReviews: 1294,
@@ -543,7 +543,7 @@ const highlyRated = [
     key: "5",
     brand: "Cosmetic",
     name: "Daily Dose",
-    image: require("../assets/images/m5.jpeg"),
+    image_link: require("../assets/images/m5.jpeg"),
     accessibility: "Tactile Markers",
     buyItAgain: 97,
     numberOfReviews: 894,
@@ -555,7 +555,7 @@ const highlyRated = [
     key: "6",
     brand: "CORS",
     name: "Releaf Balm",
-    image: require("../assets/images/m6.jpeg"),
+    image_link: require("../assets/images/m6.jpeg"),
     accessibility: "No Tools",
     buyItAgain: 86,
     numberOfReviews: 789,
@@ -570,7 +570,7 @@ const recentlyAdded = [
     key: "1", //id
     text: "Brush blissful", //name
     brand: "YSL",
-    image: require("../assets/images/m11.jpeg"), //image_Link
+    image_link: require("../assets/images/m11.jpeg"), //image_Link
     review: "Pending Review", //!NEW
     screenName: "ThreeD",
   },
@@ -578,7 +578,7 @@ const recentlyAdded = [
     key: "2",
     text: "Rejuvenate bubbly",
     brand: "Forbiden Beauty",
-    image: require("../assets/images/m14.jpeg"),
+    image_link: require("../assets/images/m14.jpeg"),
     review: "Pending Review",
     screenName: "ThreeD2",
   },
@@ -586,7 +586,7 @@ const recentlyAdded = [
     key: "3",
     text: "Fabulous glowy",
     brand: "Gucci",
-    image: require("../assets/images/m17.jpeg"),
+    image_link: require("../assets/images/m17.jpeg"),
     review: "Pending Review",
     screenName: "ThreeD3",
   },
@@ -594,21 +594,21 @@ const recentlyAdded = [
     key: "4",
     text: "Fluffly cream dream",
     brand: "Bobbi Brown",
-    image: require("../assets/images/m16.jpeg"),
+    image_link: require("../assets/images/m16.jpeg"),
     review: "Pending Review",
   },
   {
     key: "5",
     text: "Lipstick Berlin marvelous",
     brand: "Chanel",
-    image: require("../assets/images/m13.jpeg"),
+    image_link: require("../assets/images/m13.jpeg"),
     review: "Pending Review",
   },
   {
     key: "6",
     text: "Hydrating lotion serene",
     brand: "Miss Swiss",
-    image: require("../assets/images/m15.jpeg"),
+    image_link: require("../assets/images/m15.jpeg"),
     review: "Pending Review",
   },
 ];
@@ -618,42 +618,42 @@ const accessibleBrands = [
     key: "1", //id
     brand: "Rare Beauty",
     text: "Ergonomic Design", //tag_list
-    image: require("../assets/images/m7.jpeg"),
+    image_link: require("../assets/images/m7.jpeg"),
     brandLogo: require("../assets/icons/icon1.png"), //< assets????
   },
   {
     key: "2",
     brand: "Kohls Kreative",
     text: "Texture",
-    image: require("../assets/images/m8.jpeg"),
+    image_link: require("../assets/images/m8.jpeg"),
     brandLogo: require("../assets/icons/icon2.png"),
   },
   {
     key: "3",
     brand: "Nora",
     text: "No Tools",
-    image: require("../assets/images/m9.jpeg"),
+    image_link: require("../assets/images/m9.jpeg"),
     brandLogo: require("../assets/icons/icon3.png"),
   },
   {
     key: "4",
     brand: "CORS",
     text: "Tactile Markers",
-    image: require("../assets/images/m10.jpeg"),
+    image_link: require("../assets/images/m10.jpeg"),
     brandLogo: require("../assets/icons/icon4.png"),
   },
   {
     key: "5",
     brand: "YSL",
     text: "Easy To Open",
-    image: require("../assets/images/m11.jpeg"),
+    image_link: require("../assets/images/m11.jpeg"),
     brandLogo: require("../assets/icons/icon5.png"),
   },
   {
     key: "6",
     brand: "Poko",
     text: "Easy To Apply",
-    image: require("../assets/images/m12.jpeg"),
+    image_link: require("../assets/images/m12.jpeg"),
     brandLogo: require("../assets/icons/icon6.png"),
   },
 ];

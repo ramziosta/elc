@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useState} from "react";
 import {
   FlatList,
   TouchableOpacity,
@@ -8,43 +8,71 @@ import {
   StyleSheet,
 } from "react-native";
 
-import ProductAccessibilityTags from "./ProductAccessibilityTags";
-import { features } from "../Constants/BeautyData";
-
 
 const HighlyRated = ({ data, handlePress }) => {
+const [numReviews, setNumReviews] = useState(0);
+const [favorites, setFavorites] = useState([]);
+
+const toggleFavorite = (id) => {
+  if (favorites.includes(id)) {
+    setFavorites(favorites.filter((item) => item !== id));
+  } else {
+    setFavorites([...favorites, id]);
+  }
+};
+
+const isFavorite = (id) => {
+  return favorites.includes(id);
+};
+
+
   const renderItem = ({ item }) => (
     <TouchableOpacity onPress={handlePress} style={styles.container}>
       <View>
-        <Image source={item.image} style={styles.image} />
-
+        {/* //< DATA HERE------- */}
+        <Image source={item.image_link} style={styles.image} />
+        
         <TouchableOpacity
-          onPress={handlePress}
           style={styles.heartIconContainer}
+          onPress={() => toggleFavorite(item.id)}
         >
-          <Image source={item.heart} style={styles.heart} tintColor="black" />
+          {/* //<HEART TOGGLE FAVORITE HERE Icon can stay In App ----------- */}
+          <Image
+            source={
+              isFavorite(item.id)
+                ? require("../assets/icons/mdi_cards-heart-pink.png")
+                : require("../assets/icons/blackheart.png")
+            }
+            style={styles.heart}
+         
+          />
         </TouchableOpacity>
 
-        <TouchableOpacity
-          onPress={handlePress}
+        <View
           style={styles.pendingIconContainer}
         >
           <View style={styles.ratingContainer}>
+            {/* //< DATA HERE--------------- */}
             <Text style={styles.rating}>{item.pending}</Text>
           </View>
-        </TouchableOpacity>
+        </View>
       </View>
 
       <View style={styles.textContainer}>
+           {/* //< DATA HERE ___________ */}
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
         </Text>
+        {/* //< DATA HERE ___________ */}
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
+
+        {/* //< DATA HERE ----------- need number of reviews from DB */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          Pending Reviews
+          {numReviews? numReviews +  "reviews": "Pending Reviews"} 
         </Text>
+
       </View>
     </TouchableOpacity>
   );

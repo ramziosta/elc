@@ -1,13 +1,19 @@
 import React from "react";
 import { FlatList, TouchableOpacity, View, Text, Image, StyleSheet } from "react-native";
-
+import { useNavigation } from "@react-navigation/native";
 const FeaturesList = ({ data, handlePress }) => {
+const nav = useNavigation();
+
+
   const renderItem = ({ item }) => (
+    
     <TouchableOpacity onPress={handlePress}>
       <View style={styles.item}>
+        {/* //< Data Here ICON can be saved in app */}
         <Image source={item.accessibilityIcon} />
       </View>
       <Text style={styles.iconsText} numberOfLines={2}>
+        {/* //< Suplimentary data tag list */}
         {item.tag_list}
       </Text>
     </TouchableOpacity>
@@ -16,11 +22,13 @@ const FeaturesList = ({ data, handlePress }) => {
   return (
     <View >
         <View style={styles.horizontal}>
-            <Text style={styles.text}>Browse Features</Text>
-            <TouchableOpacity >
-            <Text style={styles.text2}>See All ⌲</Text>
+            <Text style={styles.title}>Browse Features</Text>
+            {/* //< navigation only needs to go to category based on search result */}
+            <TouchableOpacity  onPress={()=>nav.navigate("Category")}>
+            <Text style={styles.text}>See All ⌲</Text>
             </TouchableOpacity>
           </View>
+
       <FlatList
         data={data}
         horizontal={true}
@@ -63,14 +71,14 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     marginLeft: 10,
   },
-  text: {
+  title: {
     display: "flex",
     flexDirection: "column",
     fontSize: 24,
     fontWeight: 700,
     color: "white",
   },
-  text2: {
+  text: {
     color: "white",
     textDecorationLine: "underline",
     marginRight: 10,

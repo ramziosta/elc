@@ -16,7 +16,7 @@ const LoadingScreen = () => {
       clearTimeout(timer);
     };
   }, [navigation]);
-// SVG is not a motion => ceck for motion
+                //! SVG is notmotion => check for motion!!!
   return (
     <SafeAreaView style={styles.layout}>
      

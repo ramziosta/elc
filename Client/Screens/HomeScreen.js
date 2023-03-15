@@ -4,7 +4,6 @@
 //TODO create a button component that takes the name of the button as an argument and uses that name to call the handleSearch function.
 import React from "react";
 import { StyleSheet, ScrollView, Image, View } from "react-native";
-import { useNavigation } from "@react-navigation/native";
 import DropdownSearchBar from "../Components/DropdownSearchBar";
 import FeaturesList from "../Components/FeaturesList";
 import HighlyRated from "../Components/HighlyRated";
@@ -19,6 +18,7 @@ const HomeScreen = (props) => {
   return (
     <View style={styles.body}>
       <ScrollView>
+        {/* //< DATA HERE ICON App logo can stay in App */}
         <Image
           source={require("../assets/icons/NameLogo.png")}
           style={styles.logo}

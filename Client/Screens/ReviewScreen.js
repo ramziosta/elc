@@ -30,7 +30,7 @@ const categories2 = [
   { label: "Messy", value: "messy", id: 3 },
   { label: "Ergonomic design", value: "ergonomic_design", id: 4 },
   { label: "Easy apply", value: "easy_apply", id: 5 },
-  { label: "Has tactile markers", value: "tactile_markers", id: 6 },
+  { label: "No tactile markers", value: "tactile_markers", id: 6 },
 ];
 
 

@@ -287,10 +287,13 @@ return (
 
         <View style={styles.ratingsContainer}>
           <Text style={styles.ratingsHeaderText}>Accessibility Rating</Text>
-          <Image
+          {/* <Image
             style={styles.ratingsImage}
             source={require("../assets/icons/Rating-circle-large.png")}
-          />
+          /> */}
+          <View style={styles.ratingsTextContainer}>
+          <Text style={styles.ratingsText}>Maybe</Text>
+          </View>
           <Text style={styles.numberOfReviewsText}>
             40{productColorsIcons.numberOfReviews} Total Reviews
           </Text>
@@ -555,6 +558,22 @@ const styles = StyleSheet.create({
   ratingsContainer: {
     display: "flex",
     alignItems: "center",
+  },
+  ratingsTextContainer: {
+    borderColor: "#E3C3FF",
+    borderWidth: 3,
+    borderRadius: 50,
+    marginHorizontal: 21,
+    marginVertical: 20,
+    paddingHorizontal: 10,
+    paddingVertical: 27,
+
+  },
+  ratingsText: {
+    color: "white",
+   fontSize:18,
+    fontWeight: 700,
+
   },
   ratingsImage: {
     marginVertical: 10,

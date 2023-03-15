@@ -28,6 +28,7 @@ const InfoScreen = (props) => {
           <Text style={[styles.text, styles.howItWorks]}>How it works:</Text>
   
           <View style={styles.infoContainer}>
+            {/* //< DATA HERE icon can stay in with the APP */}
             <Image
               source={require("../assets/icons/material-symbols_star-rate-rounded.png")}
             />
@@ -36,6 +37,7 @@ const InfoScreen = (props) => {
             </Text>
           </View>
           <View style={styles.infoContainer}>
+            {/* //< DATA HERE icon can stay in with the APP */}
             <Image
               source={require("../assets/icons/material-symbols_search-rounded-pink.png")}
             />
@@ -44,6 +46,7 @@ const InfoScreen = (props) => {
             </Text>
           </View>
           <View style={styles.infoContainer}>
+            {/* //< DATA HERE icon can stay in with the APP */}
             <Image
               source={require("../assets/icons/material-symbols_familiar-face-and-zone-outline-rounded.png")}
             />

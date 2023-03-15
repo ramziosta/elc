@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { useNavigation } from "@react-navigation/native";
 import {
   StyleSheet,
@@ -13,45 +13,113 @@ import DropdownSearchBar from "../Components/DropdownSearchBar";
 import { highlyRated, features } from "../Constants/BeautyData";
 import ProductAccessibilityTags from "../Components/ProductAccessibilityTags";
 
-const tag_list = { tag: "Easy Open" };
+
+
+//from home screen SEE ALL brings user to this screen this page can be used to display the cards from search results or links like see all 
+
+
+
+
+{/* //< -------- data here for search result? ---------- */}
+const tag_list = {
+
+  tag: "Tactile Markers",
+};
+
 
 const HighlyRated = ({ data }) => {
   const nav = useNavigation();
-  const renderItem = ({ item }) => (
-    <View>
+  const [favorites, setFavorites] = useState([]);
+
+  //< data comes here for the ratings image item rating is needed 
+
+  const ProductRatingImage = ({ rating }) => {
+    const ratingImages = {
+      A: require("../assets/icons/badge.png"),
+      B: require("../assets/icons/badge.png"),
+      C: require("../assets/icons/badge.png"),
+      D: require("../assets/icons/badge.png"),
+      F: require("../assets/icons/badge.png"),
+    };
+
+    return (
       <View>
-        <TouchableOpacity onPress={() => nav.navigate(item.navRoute)}>
-          <Image source={item.image} style={styles.image} />
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.heartIconContainer}>
-          <Image source={item.heart} style={styles.heart} tintColor="black" />
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.ratingIconContainer}>
-          <Image source={item.pending} style={styles.pending} />
+        {rating ? (
+          <Image source={ratingImages[rating]} style={styles.pending} />
+        ) : (
+          <Image source={require("../assets/icons/badge.png")} style={styles.pending} />
+        )}
+      </View>
+    );
+  };
+
+
+  //> for the favorites list
+  const handleFavoriteToggle = (productId) => {
+
+    const isFavorited = favorites.includes(productId);
+    if (isFavorited) {
+      setFavorites(favorites.filter((id) => id !== productId));
+    } else {
+      setFavorites([...favorites, productId]);
+    }
+  };
+
+  const renderItem = ({ item }) => {
+    const isFavorited = favorites.includes(item.id);
+
+    return (
+      <View>
+        <View>
+          <TouchableOpacity onPress={() => nav.navigate(item.navRoute)}>
+            {/* //< -------- data here ---------- */}
+            <Image source={item.image_link} style={styles.image} />
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.heartIconContainer}
+            onPress={() => handleFavoriteToggle(item.id)}
+          >
+             {/* //< -------- data here toggle icons can stay in DB---------- */}
+            <Image
+              source={isFavorited ? require("../assets/icons/mdi_cards-heart-pink.png") : require("../assets/icons/blackheart.png")}
+              style={styles.heart}
+        
+            />
+          </TouchableOpacity>
+
+          <View style={styles.ratingIconContainer}>
+             {/* //< -------- data here  need the rating for the product Pending or ABCDF---------- */}
+            <ProductRatingImage rating={item.rating} />
+          </View>
+        </View>
+
+        <TouchableOpacity style={styles.textContainer}>
+          <Text style={styles.brand} numberOfLines={2}>
+             {/* //< -------- data here ---------- */}
+            {item.brand}
+          </Text>
+
+          <Text style={styles.brandNameText} numberOfLines={1}>
+             {/* //< -------- data here ---------- */}
+            {item.name}
+          </Text>
+
+ {/* //< -------- data here THIS NEEDS LOGIC USING TAGS LIST FOR DISPLAY ONLY SHOULD BE item.tag_list---------- */}
+          <ProductAccessibilityTags data={features.slice(0, 1)} />
+
+          <Text style={styles.buyItAgain} numberOfLines={1}>
+           {/* //< -------- data here ---------- */}
+            {item.numberOfReviews} Reviews
+          </Text>
         </TouchableOpacity>
       </View>
-      <TouchableOpacity style={styles.textContainer}>
-        <Text style={styles.brand} numberOfLines={2}>
-          {item.brand}
-        </Text>
-        <Text style={styles.brandNameText} numberOfLines={1}>
-          {item.name}
-        </Text>
-        <ProductAccessibilityTags data={features.slice(0, 1)} />
-        <Text style={styles.buyItAgain} numberOfLines={1}>
-          {item.numberOfReviews} Reviews
-        </Text>
-      </TouchableOpacity>
-    </View>
-  );
+    );
+  };
+
   return (
     <View>
-      <FlatList
-        data={data}
-        renderItem={renderItem}
-        numColumns={2}
-        horizontal={false}
-      />
+      <FlatList data={data} renderItem={renderItem} numColumns={2} horizontal={false} />
     </View>
   );
 };
@@ -69,133 +137,10 @@ const CategoryScreen = (props) => {
       <DropdownSearchBar />
       <View style={styles.scroll}>
         <View style={styles.horizontal}>
+          {/* //< -------- data here  using tag list for cosmetic only needs to come from DB for the selected group or search result hard coded now doe tactile markers ---------- */}
           <Text style={styles.text2}>Search Results:{tag_list.tag}</Text>
         </View>
-
-        {/* //! ================================= */}
-{/* 
-        <View>
-          <View>
-            <TouchableOpacity
-              onPress={() => {
-                nav.navigate("ProductDetails");
-              }}
-            >
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.image}
-              />
-            </TouchableOpacity>
-            <View style={styles.heartIconContainer}>
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.heart}
-                tintColor="red"
-              />
-            </View>
-            <View style={styles.ratingIconContainer}>
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.pending}
-              />
-            </View>
-          </View>
-          <View style={styles.textContainer}>
-            <Text style={styles.brand} numberOfLines={2}>
-              Maybe? Maybe Not?
-            </Text>
-            <Text style={styles.brandNameText} numberOfLines={1}>
-              Lipstick Galore
-            </Text>
-            <ProductAccessibilityTags data={features.slice(0, 1)} />
-            <Text style={styles.buyItAgain} numberOfLines={1}>
-              1458 Reviews
-            </Text>
-          </View>
-        </View> */}
-        {/* //! ================================= */}
-        {/* <View>
-          <View>
-            <TouchableOpacity
-              onPress={() => {
-                nav.navigate("ProductDetails2");
-              }}
-            >
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.image}
-              />
-            </TouchableOpacity>
-            <View style={styles.heartIconContainer}>
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.heart}
-                tintColor="red"
-              />
-            </View>
-            <View style={styles.ratingIconContainer}>
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.pending}
-              />
-            </View>
-          </View>
-          <View style={styles.textContainer}>
-            <Text style={styles.brand} numberOfLines={2}>
-              Maybe? Maybe Not?
-            </Text>
-            <Text style={styles.brandNameText} numberOfLines={1}>
-              Lipstick Galore
-            </Text>
-            <ProductAccessibilityTags data={features.slice(0, 1)} />
-            <Text style={styles.buyItAgain} numberOfLines={1}>
-              1458 Reviews
-            </Text>
-          </View>
-        </View> */}
-        {/* //! ================================= */}
-        {/* <View>
-          <View>
-            <TouchableOpacity
-              onPress={() => {
-                nav.navigate("ProductDetails3");
-              }}
-            >
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.image}
-              />
-            </TouchableOpacity>
-            <View style={styles.heartIconContainer}>
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.heart}
-                tintColor="red"
-              />
-            </View>
-            <View style={styles.ratingIconContainer}>
-              <Image
-                source={require("../assets/icons/Ellipse%48-10.png")}
-                style={styles.pending}
-              />
-            </View>
-          </View>
-          <View style={styles.textContainer}>
-            <Text style={styles.brand} numberOfLines={2}>
-              Maybe? Maybe Not?
-            </Text>
-            <Text style={styles.brandNameText} numberOfLines={1}>
-              Lipstick Galore
-            </Text>
-            <ProductAccessibilityTags data={features.slice(0, 1)} />
-            <Text style={styles.buyItAgain} numberOfLines={1}>
-              1458 Reviews
-            </Text>
-          </View>
-        </View> */}
-        {/* //! ================================= */}
-
-        <HighlyRated handlePress={handlePress} />
+        <HighlyRated data={highlyRated} handlePress={handlePress} />
       </View>
     </SafeAreaView>
   );
