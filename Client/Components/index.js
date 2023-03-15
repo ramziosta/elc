@@ -5,6 +5,7 @@ import RatingsFaceCards from "./RatingsFaceCards";
 import FeaturesList from "./FeaturesList";
 import HighlyRated from "./HighlyRated";
 import ProductAccessibilityTags from "./ProductAccessibilityTags";
+import Form from "./Form";
 import RecentlyAdded from "./RecentlyAdded";
 import ReviewCard from "./ReviewCard";
 import FireBaseCard from "./FireBaseCard"
@@ -20,6 +21,8 @@ export {
     RatingsFaceCards,
     ReviewCard,
     FireBaseCard,
+    Form,
+
 
     
 }

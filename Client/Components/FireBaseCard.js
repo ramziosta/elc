@@ -14,7 +14,7 @@ import { collection, getDocs } from "firebase/firestore";
 
 import { useNavigation } from "@react-navigation/native";
 
-export function FireBaseCard({ navigation }) {
+function FireBaseCard({ navigation }) {
   const nav = useNavigation();
 
   const [Articles, setArticles] = useState([]);
@@ -60,3 +60,4 @@ export function FireBaseCard({ navigation }) {
   );
 }
 
+export default FireBaseCard;
