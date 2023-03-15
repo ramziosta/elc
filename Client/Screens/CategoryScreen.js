@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import {
   StyleSheet,
@@ -13,25 +13,20 @@ import DropdownSearchBar from "../Components/DropdownSearchBar";
 import { highlyRated, features } from "../Constants/BeautyData";
 import ProductAccessibilityTags from "../Components/ProductAccessibilityTags";
 
+//from home screen SEE ALL brings user to this screen this page can be used to display the cards from search results or links like see all
 
-
-//from home screen SEE ALL brings user to this screen this page can be used to display the cards from search results or links like see all 
-
-
-
-
-{/* //< -------- data here for search result? ---------- */}
+{
+  /* //< -------- data here for search result? ---------- */
+}
 const tag_list = {
-
   tag: "Tactile Markers",
 };
-
 
 const HighlyRated = ({ data }) => {
   const nav = useNavigation();
   const [favorites, setFavorites] = useState([]);
 
-  //< data comes here for the ratings image item rating is needed 
+  //< data comes here for the ratings image item rating is needed
 
   const ProductRatingImage = ({ rating }) => {
     const ratingImages = {
@@ -47,16 +42,17 @@ const HighlyRated = ({ data }) => {
         {rating ? (
           <Image source={ratingImages[rating]} style={styles.pending} />
         ) : (
-          <Image source={require("../assets/icons/badge.png")} style={styles.pending} />
+          <Image
+            source={require("../assets/icons/badge.png")}
+            style={styles.pending}
+          />
         )}
       </View>
     );
   };
 
-
   //> for the favorites list
   const handleFavoriteToggle = (productId) => {
-
     const isFavorited = favorites.includes(productId);
     if (isFavorited) {
       setFavorites(favorites.filter((id) => id !== productId));
@@ -73,43 +69,46 @@ const HighlyRated = ({ data }) => {
         <View>
           <TouchableOpacity onPress={() => nav.navigate(item.navRoute)}>
             {/* //< -------- data here ---------- */}
-            <Image source={item.image_link} style={styles.image} />
+            <Image source={item.api_featured_image} style={styles.image} />
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.heartIconContainer}
             onPress={() => handleFavoriteToggle(item.id)}
           >
-             {/* //< -------- data here toggle icons can stay in DB---------- */}
+            {/* //< -------- data here toggle icons can stay in DB---------- */}
             <Image
-              source={isFavorited ? require("../assets/icons/mdi_cards-heart-pink.png") : require("../assets/icons/blackheart.png")}
+              source={
+                isFavorited
+                  ? require("../assets/icons/mdi_cards-heart-pink.png")
+                  : require("../assets/icons/blackheart.png")
+              }
               style={styles.heart}
-        
             />
           </TouchableOpacity>
 
           <View style={styles.ratingIconContainer}>
-             {/* //< -------- data here  need the rating for the product Pending or ABCDF---------- */}
+            {/* //< -------- data here  need the rating for the product Pending or ABCDF---------- */}
             <ProductRatingImage rating={item.rating} />
           </View>
         </View>
 
         <TouchableOpacity style={styles.textContainer}>
           <Text style={styles.brand} numberOfLines={2}>
-             {/* //< -------- data here ---------- */}
+            {/* //< -------- data here ---------- */}
             {item.brand}
           </Text>
 
           <Text style={styles.brandNameText} numberOfLines={1}>
-             {/* //< -------- data here ---------- */}
+            {/* //< -------- data here ---------- */}
             {item.name}
           </Text>
 
- {/* //< -------- data here THIS NEEDS LOGIC USING TAGS LIST FOR DISPLAY ONLY SHOULD BE item.tag_list---------- */}
+          {/* //< -------- data here THIS NEEDS LOGIC USING TAGS LIST FOR DISPLAY ONLY SHOULD BE item.tag_list---------- */}
           <ProductAccessibilityTags data={features.slice(0, 1)} />
 
           <Text style={styles.buyItAgain} numberOfLines={1}>
-           {/* //< -------- data here ---------- */}
+            {/* //< -------- data here ---------- */}
             {item.numberOfReviews} Reviews
           </Text>
         </TouchableOpacity>
@@ -119,7 +118,12 @@ const HighlyRated = ({ data }) => {
 
   return (
     <View>
-      <FlatList data={data} renderItem={renderItem} numColumns={2} horizontal={false} />
+      <FlatList
+        data={data}
+        renderItem={renderItem}
+        numColumns={2}
+        horizontal={false}
+      />
     </View>
   );
 };

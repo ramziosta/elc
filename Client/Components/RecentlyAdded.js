@@ -32,7 +32,7 @@ const HighlyRated = ({ data, handlePress }) => {
     >
       <View>
         {/* //< DATA HERE Image------- */}
-        <Image source={item.image_link} style={styles.image} />
+        <Image source={item.api_featured_image} style={styles.image} />
 
         <TouchableOpacity
           style={styles.heartIconContainer}
@@ -69,7 +69,9 @@ const HighlyRated = ({ data, handlePress }) => {
 
         {/* //< DATA HERE ----------- need number of reviews from DB */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          {number_of_reviews ? number_of_reviews + "reviews" : "Pending Reviews"}
+          {number_of_reviews
+            ? number_of_reviews + "reviews"
+            : "Pending Reviews"}
         </Text>
       </View>
     </TouchableOpacity>

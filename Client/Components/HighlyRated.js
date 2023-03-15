@@ -38,7 +38,7 @@ const HighlyRated = ({ data }) => {
     >
       <View>
         {/* //< --DATA HERE Image------- */}
-        <Image source={item.image_link} style={styles.image} />
+        <Image source={item.api_featured_image} style={styles.image} />
 
         <TouchableOpacity
           style={styles.heartIconContainer}

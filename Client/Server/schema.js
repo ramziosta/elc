@@ -9,7 +9,7 @@ const ProductType = new GraphQLObjectType({
     price: { type: GraphQLFloat },
     price_sign: { type: GraphQLString },
     currency: { type: GraphQLString },
-    image_link: { type: GraphQLString },
+    api_featured_image: { type: GraphQLString },
     product_link: { type: GraphQLString },
     website_link: { type: GraphQLString },
     description: { type: GraphQLString },
@@ -41,7 +41,7 @@ const ProductColorType = new GraphQLObjectType({
 // add numOfReviews: numOfReviews: { type: GraphQLFloat },
 //add review: review: { type: GraphQLString },
 
-//add not sure about this one yet?? brandLogo: image_link: { type: GraphQLString },
+//add not sure about this one yet?? brandLogo: api_featured_image: { type: GraphQLString },
 
 /*
 
@@ -53,7 +53,7 @@ const ProductColorType = new GraphQLObjectType({
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorstay-skinny-liquid-liner_101103.html",
@@ -92,7 +92,7 @@ const ProductColorType = new GraphQLObjectType({
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorstay-skinny-liquid-liner_101103.html",

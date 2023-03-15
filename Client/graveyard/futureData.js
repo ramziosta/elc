@@ -1,6 +1,4 @@
-
- 
-  [
+[
   {
     id: 1,
     brand: "rejuva minerals",
@@ -8,7 +6,7 @@
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link: "../assets/images/demo.png",
+    api_featured_image: "../assets/images/demo.png",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-bronzer-caribbean/",
     website_link: "https://purpicks.com/",
@@ -17,11 +15,7 @@
     rating: 4.5,
     category: "powder",
     product_type: "bronzer",
-    tag_list: [
-      "Texture",
-      "Easy Open",
-      "No Tools",
-    ],
+    tag_list: ["Texture", "Easy Open", "No Tools"],
     created_at: "2018-06-30T19:19:31.682Z",
     updated_at: "2018-09-02T22:52:06.643Z",
     product_api_url:
@@ -43,7 +37,7 @@
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorstay-skinny-liquid-liner_101103.html",
@@ -53,11 +47,7 @@
     rating: 4.5,
     category: "liquid",
     product_type: "eyeliner",
-    tag_list: [
-      "Easy Apply",
-      "Tactile\n Markers",
-      "Ergonomic\n Design"
-    ],
+    tag_list: ["Easy Apply", "Tactile\n Markers", "Ergonomic\n Design"],
     created_at: "2016-10-01T18:28:10.785Z",
     updated_at: "2017-12-23T20:51:21.915Z",
     product_api_url:
@@ -78,7 +68,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/812b5ae27df9be983052063d52d7ab7a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-lash-stiletto-ultimate_17287.html",
@@ -88,11 +78,7 @@
     rating: 4.0,
     category: null,
     product_type: "mascara",
-    tag_list: [
-      "Easy Open",
-      "Easy Apply",
-      "Ergonomic\n Design"
-    ],
+    tag_list: ["Easy Open", "Easy Apply", "Ergonomic\n Design"],
     created_at: "2016-10-01T18:10:55.406Z",
     updated_at: "2017-12-23T20:31:47.606Z",
     product_api_url: "https://makeup-api.herokuapp.com/api/v1/products/8.json",
@@ -108,7 +94,7 @@
     price: "23.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0929603_f092960100.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/primers/pr-primers-y0929603_f092960100-2-in-1-prime-colour-correct-face-eyes-lips.html",
@@ -118,11 +104,7 @@
     rating: null,
     category: "concealer",
     product_type: "foundation",
-    tag_list: [
-      "Texture",,
-      "No Tools",
-      "Ergonomic\n Design"
-    ],
+    tag_list: ["Texture", , "No Tools", "Ergonomic\n Design"],
     created_at: "2017-12-03T23:22:24.860Z",
     updated_at: "2017-12-23T20:58:46.299Z",
     product_api_url:
@@ -144,7 +126,7 @@
     price: "0.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715928_F071592864.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0715928_f071592864-vibrant-colour-powderblush.html",
@@ -154,11 +136,7 @@
     rating: null,
     category: null,
     product_type: "blush",
-    tag_list: [
-      "Texture",
-      "Easy Apply",
-      "Tactile\n Markers",
-    ],
+    tag_list: ["Texture", "Easy Apply", "Tactile\n Markers"],
     created_at: "2017-12-03T23:22:36.467Z",
     updated_at: "2017-12-23T20:58:48.998Z",
     product_api_url:
@@ -177,7 +155,7 @@
     price: "18.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c207687e567547445338321ae28c9b96_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-visible-lift-blur_96664.html",
@@ -187,11 +165,7 @@
     rating: null,
     category: "liquid",
     product_type: "foundation",
-    tag_list: [
-      "Texture",
-      "No Tools",
-      "Tactile\n Markers",
-    ],
+    tag_list: ["Texture", "No Tools", "Tactile\n Markers"],
     created_at: "2016-10-01T18:32:08.987Z",
     updated_at: "2017-12-23T21:08:25.277Z",
     product_api_url:
@@ -217,7 +191,7 @@
     price: "14.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b35505ef545ea7e478d0da882d8e93d8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-photoready-primer-shadow_67144.html",
@@ -227,11 +201,7 @@
     rating: 5.0,
     category: "palette",
     product_type: "eyeshadow",
-    tag_list: [
-      "Easy Open",
-      "Tactile\n Markers",
-      "Ergonomic\n Design"
-    ],
+    tag_list: ["Easy Open", "Tactile\n Markers", "Ergonomic\n Design"],
     created_at: "2016-10-01T18:30:44.974Z",
     updated_at: "2017-12-26T00:33:00.289Z",
     product_api_url:
@@ -248,7 +218,7 @@
     price: "52.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_60560_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/34102/eyes/eye-shadow/full-exposure-palette",
@@ -264,7 +234,7 @@
       "No Tools",
       "Easy Apply",
       "Tactile\n Markers",
-      "Ergonomic\n Design"
+      "Ergonomic\n Design",
     ],
     created_at: "2016-10-02T01:32:54.786Z",
     updated_at: "2017-12-26T00:33:00.593Z",
@@ -282,7 +252,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027830.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0027830_f002783028-couture-colour-from-satin-to-matte-comfort-wear.html",
@@ -292,12 +262,7 @@
     rating: null,
     category: "lipstick",
     product_type: "lipstick",
-    tag_list: [
-      "Texture",
-      "Easy Open",
-      "No Tools",
-      "Easy Apply",
-    ],
+    tag_list: ["Texture", "Easy Open", "No Tools", "Easy Apply"],
     created_at: "2017-12-03T23:21:45.703Z",
     updated_at: "2017-12-23T20:58:41.827Z",
     product_api_url:
@@ -321,7 +286,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa19d7c26/ProductImages/Lips/Liquid_Suede_Cream_Lipstick/liquidsuedecreamlipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/liquid-suede-cream-lipstick/NYX_201.html?cgid=lipstick",
@@ -331,11 +296,7 @@
     rating: null,
     category: "lipstick",
     product_type: "lipstick",
-    tag_list: [
-      "Texture",
-      "No Tools",
-      "Ergonomic\n Design"
-    ],
+    tag_list: ["Texture", "No Tools", "Ergonomic\n Design"],
     created_at: "2017-12-24T02:25:46.851Z",
     updated_at: "2017-12-24T02:26:39.313Z",
     product_api_url:
@@ -358,7 +319,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa801b855/ProductImages/2016/Eyes/Colored_Felt_Tip_Liner/coloredfelttipliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/colored-felt-tip-liner/NYX_307.html?cgid=eyeliner",
@@ -368,11 +329,7 @@
     rating: null,
     category: "liquid",
     product_type: "eyeliner",
-    tag_list: [
-      "Texture",
-      "Easy Open",
-      "Ergonomic\n Design"
-    ],
+    tag_list: ["Texture", "Easy Open", "Ergonomic\n Design"],
     created_at: "2017-12-24T02:31:43.106Z",
     updated_at: "2017-12-24T02:31:43.448Z",
     product_api_url:
@@ -389,4 +346,3 @@
     ],
   },
 ];
-

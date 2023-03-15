@@ -6,7 +6,7 @@
     price: "5.0",
     price_sign: "$",
     currency: "CAD",
-    image_link:
+    api_featured_image:
       "https://cdn.shopify.com/s/files/1/1338/0845/collections/lippie-pencil_grande.jpg?v=1512588769",
     product_link: "https://colourpop.com/collections/lippie-pencil",
     website_link: "https://colourpop.com",
@@ -66,7 +66,7 @@
     price: "5.5",
     price_sign: "$",
     currency: "CAD",
-    image_link:
+    api_featured_image:
       "https://cdn.shopify.com/s/files/1/1338/0845/products/brain-freeze_a_800x1200.jpg?v=1502255076",
     product_link:
       "https://colourpop.com/collections/lippie-stix?filter=blotted-lip",
@@ -100,7 +100,7 @@
     price: "5.5",
     price_sign: "$",
     currency: "CAD",
-    image_link:
+    api_featured_image:
       "https://cdn.shopify.com/s/files/1/1338/0845/collections/blottedlip-lippie-stix_grande.jpg?v=1512588803",
     product_link: "https://colourpop.com/collections/lippie-stix",
     website_link: "https://colourpop.com",
@@ -172,7 +172,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "CAD",
-    image_link:
+    api_featured_image:
       "https://cdn.shopify.com/s/files/1/1338/0845/products/foundations-lineup_800x1200.jpg?v=1528927785",
     product_link: "https://colourpop.com/products/no-filter-matte-foundation",
     website_link: "https://colourpop.com/products/no-filter-matte-foundation",
@@ -240,7 +240,7 @@
     price: "26.0",
     price_sign: "$",
     currency: "CAD",
-    image_link:
+    api_featured_image:
       "https://cdn.shopify.com/s/files/1/1016/3243/products/LIPBALM_LID_grande.jpg?v=1496848378",
     product_link: "https://www.boosh.ca/collections/all",
     website_link: "https://www.boosh.ca/",
@@ -281,7 +281,7 @@
     price: "6.7",
     price_sign: "$",
     currency: "CAD",
-    image_link:
+    api_featured_image:
       "https://3bc01d2807fb1bc0d25c-a86d2521f1af8989841b9619f5314be5.ssl.cf1.rackcdn.com/products/market-img/rdn-serum-foundation-30-r-30ml.png?v=6ab9fcb8ca2abb9828afcf9dcdad9f94",
     product_link: "https://deciem.com/product/rdn-serum-foundation-30-r-30ml",
     website_link: "https://deciem.com/",
@@ -336,7 +336,7 @@
     price: "6.9",
     price_sign: "$",
     currency: "CAD",
-    image_link:
+    api_featured_image:
       "https://3bc01d2807fb1bc0d25c-a86d2521f1af8989841b9619f5314be5.ssl.cf1.rackcdn.com/products/market-img/rdn-coverage-foundation-33-n-30ml.png?v=daa322f179d80e450613c75826602292",
     product_link:
       "https://deciem.com/product/rdn-coverage-foundation-33-n-30ml",
@@ -392,7 +392,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Zorah-Biocosmetiques-Liquid-Liner.png",
     product_link:
       "https://www.purpicks.com/product/zorah-biocosmetiques-liquid-liner/",
@@ -418,7 +418,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/02/Ombre-Amazonie-CC.png",
     product_link: "https://www.purpicks.com/product/zorah-eyeshadow/",
     website_link: "https://purpicks.com/",
@@ -447,7 +447,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/w3llpeople-Realist-Invisible-Setting-Powder.jpg",
     product_link:
       "https://www.purpicks.com/product/w3llpeople-realist-invisible-setting-powder/",
@@ -473,7 +473,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Sally-B_s-Skin-Yummies-B-Smudged-1.jpg",
     product_link:
       "https://www.purpicks.com/product/sally-bs-skin-yummies-b-smudged/",
@@ -499,7 +499,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Sally-B_s-Skin-Yummies-B-Glossy-Lip-Gloss.jpg",
     product_link:
       "https://www.purpicks.com/product/sally-bs-skin-yummies-b-glossy-lip-gloss/",
@@ -532,7 +532,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Rejuva-Minerals-Multi-Purpose-Powder-Blush-_-Eye-1.jpg",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-multi-purpose-powder-blush-eye/",
@@ -562,7 +562,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Rejuva-Minerals-Multi-Purpose-Powder-Blush-_-Eye-1.jpg",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-multi-purpose-powder-blush-eye/",
@@ -592,7 +592,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Rejuva-Minerals-Multi-Purpose-Powder-Eye-Shadow-Face-1.jpg",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-multi-purpose-powder-eye-shadow-face/",
@@ -626,7 +626,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Rejuva-Minerals-Multi-Purpose-Powder-Eye-Shadow-Face-1.jpg",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-multi-purpose-powder-eye-shadow-face/",
@@ -663,7 +663,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/03/rejuva-minerals-bronzer.jpg",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-bronzer-caribbean/",
@@ -689,7 +689,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/03/rejuva-minerals-bronzer.jpg",
     product_link: "https://www.purpicks.com/product/rejuva-bronzer-light/",
     website_link: "https://purpicks.com/",
@@ -717,7 +717,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/csm/sunset-bronze-pennylaneorganics1.jpg",
     product_link:
       "https://www.purpicks.com/product/penny-lane-organics-lip-gloss/",
@@ -757,7 +757,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Nudus-Amalia.jpg",
     product_link: "https://www.purpicks.com/product/nudus-amalia/",
     website_link: "https://purpicks.com/",
@@ -798,7 +798,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/csm/caramel_1024x1024_e5fbf151-0cfd-42c9-a5ec-f49d6104bcbc1.jpg",
     product_link:
       "https://www.purpicks.com/product/marie-natie-pressed-foundation/",
@@ -834,7 +834,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/csm/pressed_eyeshadow_LORES_1024x1024_55deb6c3-b7cd-4cb5-9ede-f2931c07312a1.jpg",
     product_link:
       "https://www.purpicks.com/product/marie-natie-pressed-eye-shadow/",
@@ -874,7 +874,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/csm/Blush_copy_1024x1024_edd99d6d-301e-4ba1-aa74-a33d21147b7c1.jpg",
     product_link: "https://www.purpicks.com/product/marie-natie-mineral-blush/",
     website_link: "https://purpicks.com/",
@@ -902,7 +902,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2017/06/marie-natie-perfect-lash-mascara.png",
     product_link:
       "https://www.purpicks.com/product/marie-natie-perfect-lash-mascara/",
@@ -928,7 +928,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/csm/Loose_MineralEyeshadow_1024x1024_a958d62b-c518-4548-a2cd-9c8981f5edee1.jpg",
     product_link:
       "https://www.purpicks.com/product/marie-natie-loose-mineral-eyeshadow/",
@@ -968,7 +968,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/csm/Evelyn_Pic1.jpg",
     product_link: "https://www.purpicks.com/product/marie-natie-lipstick/",
     website_link: "https://purpicks.com/",
@@ -998,7 +998,8 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link: "https://www.purpicks.com/wp-content/uploads/csm/Envy1.jpg",
+    api_featured_image:
+      "https://www.purpicks.com/wp-content/uploads/csm/Envy1.jpg",
     product_link: "https://www.purpicks.com/product/lip-gloss/",
     website_link: "https://purpicks.com/",
     description:
@@ -1031,7 +1032,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/csm/Photo10_12001.jpg",
     product_link: "https://www.purpicks.com/product/marie-natie-gel-liner/",
     website_link: "https://purpicks.com/",
@@ -1056,7 +1057,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/csm/Eyeliner-Group_300dpi_1024x1024_a2ac069c-f517-46bf-a215-8d31f5e948c91.jpg",
     product_link: "https://www.purpicks.com/product/marie-natie-eyeliner/",
     website_link: "https://purpicks.com/",
@@ -1085,7 +1086,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Maia%E2%80%99s-Mineral-Galaxy-Mineral-Eye-Brow-Liner-Charcoal-Brown.jpg",
     product_link:
       "https://www.purpicks.com/product/maias-mineral-galaxy-mineral-eye-brow-liner-charcoal-brown/",
@@ -1116,7 +1117,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/03/lotus-cosmetics-usa-mascara-black.png",
     product_link:
       "https://www.purpicks.com/product/lotus-cosmetics-usa-mascara/",
@@ -1142,7 +1143,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/03/lotus-cosmetics-usa-creme-to-powder-blush.png",
     product_link:
       "https://www.purpicks.com/product/lotus-cosmetics-usa-creme-powder-blush/",
@@ -1172,7 +1173,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "http://www.purpicks.com/wp-content/uploads/2018/03/lotus-cosmetics-usa-eye-shadow-palette-mesmerize.png",
     product_link: "https://www.purpicks.com/product/lotus-cosmetics-usa/",
     website_link: "https://purpicks.com/",
@@ -1202,7 +1203,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "http://www.purpicks.com/wp-content/uploads/2018/03/lotus-cosmetics-usa-eye-shadow-palette-deluxe.png",
     product_link: "https://www.purpicks.com/product/lotus-cosmetics-usa/",
     website_link: "https://purpicks.com/",
@@ -1232,7 +1233,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "http://www.purpicks.com/wp-content/uploads/2018/03/lotus-cosmetics-usa-eye-shadow-palette-smokey.png",
     product_link: "https://www.purpicks.com/product/lotus-cosmetics-usa/",
     website_link: "https://purpicks.com/",
@@ -1262,7 +1263,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "http://www.purpicks.com/wp-content/uploads/2018/03/lotus-cosmetics-usa-eye-shadow-palette-seduction.png",
     product_link: "https://www.purpicks.com/product/lotus-cosmetics-usa/",
     website_link: "https://purpicks.com/",
@@ -1292,7 +1293,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/03/lotus-cosmetics-usa-eye-shadow-palette-cocoa.png",
     product_link: "https://www.purpicks.com/product/lotus-cosmetics-usa/",
     website_link: "https://purpicks.com/",
@@ -1322,7 +1323,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/Green-People-Volumising-Mascara-Black.jpg",
     product_link:
       "https://www.purpicks.com/product/green-people-volumising-mascara-black/",
@@ -1348,7 +1349,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/06/coastal-classic-creations-conch-lipstick.png",
     product_link:
       "https://www.purpicks.com/product/coastal-classic-creations-conch-lipstick/",
@@ -1390,7 +1391,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/04/cest-moi-reflect-lip-gloss-1.png",
     product_link: "https://www.purpicks.com/product/reflect-lip-gloss/",
     website_link: "https://purpicks.com/",
@@ -1419,7 +1420,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/04/cest-moi-muse-mascara.png",
     product_link: "https://www.purpicks.com/product/muse-mascara/",
     website_link: "https://purpicks.com/",
@@ -1444,7 +1445,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/04/cest-moi-luminary-lip-crayon.png",
     product_link: "https://www.purpicks.com/product/luminary-lip-crayon/",
     website_link: "https://purpicks.com/",
@@ -1476,7 +1477,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/04/cest-moi-fearless-eyeliner-pencil.png",
     product_link: "https://www.purpicks.com/product/fearless-eyeliner/",
     website_link: "https://purpicks.com/",
@@ -1501,7 +1502,7 @@
     price: "9.95",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "http://www.purpicks.com/wp-content/uploads/2018/06/Alva-Liquid-Eye-Shadow-1-Pale-Almond.png",
     product_link:
       "http://www.purpicks.com/product/alva-liquid-eye-shadow-1-pale-almond/",
@@ -1527,7 +1528,7 @@
     price: "22.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://static-assets.glossier.com/production/spree/images/attachments/000/001/631/portrait_normal/SC_Carousel_1_copy_2.jpg?1506948615",
     product_link: "https://www.glossier.com/products/stretch-concealer",
     website_link: "https://www.glossier.com",
@@ -1558,7 +1559,7 @@
     price: "22.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://static-assets.glossier.com/production/spree/images/attachments/000/001/241/portrait_normal/CP_PDP_02.jpg?1488382023",
     product_link: "https://www.glossier.com/products/cloud-paint",
     website_link: "https://www.glossier.com",
@@ -1588,7 +1589,7 @@
     price: "27.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://static-assets.glossier.com/production/spree/images/attachments/000/001/476/portrait_normal/carousel-1.jpg?1501534121",
     product_link: "https://www.glossier.com/products/wowder",
     website_link: "https://www.glossier.com",
@@ -1617,7 +1618,7 @@
     price: "27.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://static-assets.glossier.com/production/spree/images/attachments/000/001/109/portrait_normal/Haloscope_01-compressor.jpg?1498613775",
     product_link: "https://www.glossier.com/products/haloscope",
     website_link: "https://www.glossier.com",
@@ -1646,7 +1647,7 @@
     price: "32.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://static-assets.glossier.com/production/spree/images/attachments/000/000/726/portrait_normal/PST_Carousel_02-compressor.jpg?1470088244",
     product_link: "https://www.glossier.com/products/perfecting-skin-tint",
     website_link: "https://www.glossier.com",
@@ -1677,7 +1678,7 @@
     price: "20.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://static-assets.glossier.com/production/spree/images/attachments/000/001/239/portrait_normal/GenG2.jpg?1487709747",
     product_link: "https://www.glossier.com/products/generation-g",
     website_link: "https://www.glossier.com",
@@ -1709,7 +1710,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd5e25f68/ProductImages/Eyes/Fly_With_Me_Mascara/800897141431_flywithmemascara_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/fly-with-me-mascara/NYX_018.html?cgid=mascara",
@@ -1735,7 +1736,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8068dbc4/ProductImages/Eyes/Propel_My_Eyes_Mascara/propelmyeyesmascara_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/propel-my-eyes-mascara/NYX_020.html?cgid=mascara",
@@ -1761,7 +1762,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw31cb2063/ProductImages/Eyes/Proof_It_Waterproof_Mascara_Top_Coat/proofitwaterproofmascaratopcoat_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/proof-it-waterproof-mascara-top-coat/NYX_179.html?cgid=mascara",
@@ -1787,7 +1788,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa4949d3a/ProductImages/Eyes/Big_And_Loud_Lash_Primer/bigandloudlashprimer_alt1.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/big-and-loud-lash-primer/NYX_166.html?cgid=mascara",
@@ -1813,7 +1814,7 @@
     price: "15.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw255fbdae/ProductImages/2016/Eyes/Double_Stacked_Mascara/doublestackedmascara_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/double-stacked-mascara/NYX_341.html?cgid=mascara",
@@ -1838,7 +1839,7 @@
     price: "9.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2e036256/ProductImages/Eyes/Doll_Eye_Mascara/800897123543_dolleyemascara_longlash_black_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/doll-eye-mascara/NYX_017.html?cgid=mascara",
@@ -1866,7 +1867,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwcb91e11f/ProductImages/Eyes/The_Skinny_Mascara/theskinnymascara_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/the-skinny-mascara/NYX_183.html?cgid=mascara",
@@ -1892,7 +1893,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb654afff/ProductImages/2018/Eyes/Worth_The_Hype_Volumizing_Mascara/800897140250_worththehypevolumizingmascara_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/worth-the-hype-volumizing-lengthening-mascara/NYX_590.html?cgid=mascara",
@@ -1918,7 +1919,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwda9f6cec/ProductImages/Eyes/Boudoir_Mascara_Collection/boudoirmascaracollection_main.jpg.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/boudoir-mascara-collection/NYX_060.html?cgid=mascara",
@@ -1952,7 +1953,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8044f7e7/ProductImages/Eyes/Color_Mascara/colormascara_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/color-mascara/NYX_124.html?cgid=mascara",
@@ -1987,7 +1988,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw97d7c9f2/ProductImages/Eyes/Super_Luscious_Mascara/superlusciousmascara_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/super-luscious-mascara/NYX_122.html?cgid=mascara",
@@ -2020,7 +2021,7 @@
     price: "9.75",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwe10bfffa/ProductImages/Eyes/Eyebrow_Marker/eyebrowmarker_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/eyebrow-marker/NYX_034.html?cgid=brows",
@@ -2049,7 +2050,7 @@
     price: "15.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2636bb00/ProductImages/Eyes/Eyebrow_Kit_with_Stencils/800897142957_eyebrowkitstencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/eyebrow-kit-with-stencil/NYX_033.html?cgid=brows",
@@ -2075,7 +2076,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwadba3ae6/ProductImages/Eyes/Eyebrow_Push_Up_Bra/eyebrowpushupbra_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/eyebrow-push-up-bra/NYX_030.html?cgid=brows",
@@ -2101,7 +2102,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1e63b16f/ProductImages/2017/Eyes/3Dimensional_Brow_Marker/3dimensionalbrowmarker_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/3-dimensional-brow-marker/NYX_499.html?cgid=brows",
@@ -2133,7 +2134,7 @@
     price: "8.75",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7bb4049d/ProductImages/Eyes/Eyebrow_Shaper/eyebrowshaper_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/eyebrow-shaper/NYX_031.html?cgid=brows",
@@ -2159,7 +2160,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw837424ec/ProductImages/2017/Eyes/Build_Em_Up_Brow_Powder/buildemupbrowpowder_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/build-em-up-brow-powder/NYX_446.html?cgid=brows",
@@ -2193,7 +2194,7 @@
     price: "13.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw840d556c/ProductImages/2017/Eyes/3_in_1_Brow_Pencil/3in1browpencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/3-in-1-brow-pencil/NYX_407.html?cgid=brows",
@@ -2227,7 +2228,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa61027e6/ProductImages/Eyes/Proof_It_Waterproof_Eyebrow_Primer/proofitwaterproofeyebrowprimer_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/proof-it-waterproof-eyebrow-primer/NYX_153.html?cgid=brows",
@@ -2253,7 +2254,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw85601149/ProductImages/2017/Eyes/Eyebrow_Powder_Pencil/eyebrowpowderpencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/eyebrow-powder-pencil/NYX_408.html?cgid=brows",
@@ -2289,7 +2290,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9929b8e6/ProductImages/2017/Eyes/Precision_Brow_Pencil/precisionbrowpencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/precision-brow-pencil/NYX_450.html?cgid=brows",
@@ -2323,7 +2324,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2d356326/ProductImages/2016/Eyes/Sculpt_And_Highlight_Brow_Contour/sculptandhighlightbrowcontour_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/sculpt-and-highlight-brow-contour/NYX_322.html?cgid=brows",
@@ -2358,7 +2359,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwdf8d06a2/ProductImages/Eyes/Control_Freak_Eyebrow_Gel/controlfreakeyebrowgel_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/control-freak-eyebrow-gel/NYX_123.html?cgid=brows",
@@ -2384,7 +2385,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw0e17c958/ProductImages/Eyes/Eyebrow_Cake_Powder/800897123864_eyebrowcakepowder_blackgrey_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/eyebrow-cake-powder/NYX_032.html?cgid=brows",
@@ -2417,7 +2418,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw4093ace1/ProductImages/Eyes/Tinted_Brow_Mascara/tintedbrowmascara_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/tinted-brow-mascara/NYX_169.html?cgid=brows",
@@ -2449,7 +2450,7 @@
     price: "4.75",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2a31f0af/ProductImages/Eyes/Auto_Eyebrow_Pencil/autoeyebrowpencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/auto-eyebrow-pencil/NYX_029.html?cgid=brows",
@@ -2484,7 +2485,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9ad6ed1a/ProductImages/Eyes/Eyebrow_Gel/800897831585_eyebrowgel_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/eyebrow-gel/NYX_159.html?cgid=brows",
@@ -2516,7 +2517,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw3f349e2f/ProductImages/Eyes/Tame_And_Frame_Brow_Pomade/tameandframebrowpomade_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/tame-and-frame-brow-pomade/NYX_173.html?cgid=brows",
@@ -2548,7 +2549,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw14cbffac/ProductImages/Eyes/Micro_Brow_Pencil/microbrowpencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/micro-brow-pencil/NYX_181.html?cgid=brows",
@@ -2583,7 +2584,7 @@
     price: "11.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwc135311a/ProductImages/2018/Eyes/Holographic_Halo_Cream_Liner/holographichalocreamliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/holographic-halo-cream-eyeliner/NYX_582.html?cgid=eyeliner",
@@ -2615,7 +2616,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb7f857fa/ProductImages/2017/Eyes/Cake_That_Powder_Eyeliner/cakethatpowdereyeliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/cake-that-powder-eyeliner/NYX_448.html?cgid=eyeliner",
@@ -2640,7 +2641,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1f473566/ProductImages/Eyes/Epic_Black_Mousse_Liner/800897832162_epicblackmousseliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/epic-black-mousse-liner/NYX_158.html?cgid=eyeliner",
@@ -2666,7 +2667,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw62a7d3b0/ProductImages/2016/Eyes/Cosmic_Gel_Liner/800897016364_cosmicgelliner_interstellar_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/cosmic-gel-liner/NYX_335.html?cgid=eyeliner",
@@ -2696,7 +2697,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7fa3d736/ProductImages/Eyes/Gel_Liner_And_Smudger/gellinerandsmudger_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/gel-liner-and-smudger/NYX_080.html?cgid=eyeliner",
@@ -2730,7 +2731,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1a50507a/ProductImages/2018/Eyes/Metallic_Eyeliner/metalliceyeliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/metallic-eyeliner/NYX_602.html?cgid=eyeliner",
@@ -2763,7 +2764,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw85212794/ProductImages/Eyes/Tres_Jolie_Gel_Pencil_Liner/tresjoliegelpencilliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/tres-jolie-gel-pencil-liner/NYX_182.html?cgid=eyeliner",
@@ -2792,7 +2793,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd6f5e770/ProductImages/2017/Eyes/Faux_Whites_Eye_Brightener/fauxwhiteseyebrightener_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/faux-whites-eye-brightener/NYX_404.html?cgid=eyeliner",
@@ -2827,7 +2828,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw52b6a577/ProductImages/2017/Eyes/Faux_Blacks_Eyeliner/fauxblackseyeliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/faux-blacks-eyeliner/NYX_405.html?cgid=eyeliner",
@@ -2862,7 +2863,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5a58329e/ProductImages/Eyes/Collection_Noir/collectionnoir_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/collection-noir/NYX_065.html?cgid=eyeliner",
@@ -2895,7 +2896,7 @@
     price: "4.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd6b2499f/ProductImages/Eyes/Slim_Eye_Pencil/slimeyepencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/slim-eye-pencil/NYX_023.html?cgid=eyeliner",
@@ -2953,7 +2954,7 @@
     price: "5.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw83169760/ProductImages/Eyes/Retractable_Eye_Liner/retractableeyeliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/retractable-eye-liner/NYX_021.html?cgid=eyeliner",
@@ -2993,7 +2994,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwbdf94a20/ProductImages/Eyes/Slide_On_Pencil/slideonpencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/slide-on-pencil/NYX_022.html?cgid=eyeliner",
@@ -3036,7 +3037,7 @@
     price: "4.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwda543a41/ProductImages/Eyes/Jumbo_Eye_Pencil/jumboeyepencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/jumbo-eye-pencil/NYX_001.html?cgid=eyeliner",
@@ -3094,7 +3095,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwcd8987df/ProductImages/Eyes/Two_Timer_Dual_Ended_Eyeliner/twotimerdualendedeyeliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/two-timer-dual-ended-eyeliner/NYX_135.html?cgid=eyeliner",
@@ -3120,7 +3121,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1498d09f/ProductImages/2018/Eyes/Strictly_Vinyl_Eyeliner/strictlyvinyleyeliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/strictly-vinyl-eyeliner/NYX_600.html?cgid=eyeliner",
@@ -3155,7 +3156,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwbccef58f/ProductImages/Eyes/Collection_Chocolate/collectionchocolate_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/collection-chocolate/NYX_090.html?cgid=eyeliner",
@@ -3188,7 +3189,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8c640821/ProductImages/Eyes/Super_Fat_Eye_Marker/superfateyemarker_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/super-fat-eye-marker/NYX_026.html?cgid=eyeliner",
@@ -3214,7 +3215,7 @@
     price: "9.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwea7c51df/ProductImages/Eyes/Super_Skinny_Eye_Marker/superskinnyeyemarker_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/super-skinny-eye-marker/NYX_027.html?cgid=eyeliner",
@@ -3240,7 +3241,7 @@
     price: "9.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw16b77618/ProductImages/Eyes/Felt_Tip_Liner/feltipliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/felt-tip-liner/NYX_024.html?cgid=eyeliner",
@@ -3270,7 +3271,7 @@
     price: "15.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw6a4af1d6/ProductImages/Eyes/The_Curve/thecurve_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/the-curve/NYX_084.html?cgid=eyeliner",
@@ -3296,7 +3297,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa801b855/ProductImages/2016/Eyes/Colored_Felt_Tip_Liner/coloredfelttipliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/colored-felt-tip-liner/NYX_307.html?cgid=eyeliner",
@@ -3329,7 +3330,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9723d9ae/ProductImages/Eyes/Vinyl_Liquid_Liner/vinylliquidliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/vinyl-liquid-liner/NYX_187.html?cgid=eyeliner",
@@ -3355,7 +3356,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwed5f712e/ProductImages/2017/Eyes/Thats_The_Point_Eyeliner/thatsthepointeyeliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/thats-the-point-eyeliner/NYX_452.html?cgid=eyeliner",
@@ -3388,7 +3389,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw0fd19ef1/ProductImages/Eyes/White_Liquid_Liner/whiteliquidliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/white-liquid-liner/NYX_188.html?cgid=eyeliner",
@@ -3414,7 +3415,7 @@
     price: "4.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1a631541/ProductImages/Eyes/Studio_Liquid_Liner/studioliquidliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/studio-liquid-liner/NYX_028.html?cgid=eyeliner",
@@ -3453,7 +3454,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1c0eb02f/ProductImages/2017/Eyes/Epic_Ink_Liner/800897085605_epicinkliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/epic-ink-liner/NYX_409.html?cgid=eyeliner",
@@ -3479,7 +3480,7 @@
     price: "5.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw37148f7b/ProductImages/Eyes/Glam_Liner_Aqua_Luxe_Collection/glamlineraqualuxecollection_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/glam-liner-aqua-luxe-collection/NYX_073.html?cgid=eyeliner",
@@ -3515,7 +3516,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwac1a91b0/ProductImages/Eyes/Matte_Liquid_Liner/800897836573_matteliquidliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/matte-liquid-liner/NYX_189.html?cgid=eyeliner",
@@ -3541,7 +3542,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5b4da1c3/ProductImages/2016/Eyes/Vivid_Brights_Liner/vividbrightsliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/vivid-brights-liner/NYX_326.html?cgid=eyeliner",
@@ -3576,7 +3577,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd3ce6c29/ProductImages/2016/More/SFX_Setting_Powder/sfxsettingpowder_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/sfx-setting-powder/NYX_391.html?cgid=powder",
@@ -3601,7 +3602,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2945b62d/ProductImages/2018/Face/Holographic_Halo_Finishing_Powder/holographichalofinishingpowder_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/holographic-halo-finishing-powder/NYX_607.html?cgid=powder",
@@ -3630,7 +3631,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1f4a57e0/ProductImages/Face/Blotting_Powder/800897822620_blottingpowder_light_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/blotting-powder/NYX_125.html?cgid=powder",
@@ -3661,7 +3662,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd7e25eb8/ProductImages/2016/Face/No_Filter_Finishing_Powder/nofilterfinishingpowder_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/no-filter-finishing-powder/NYX_358.html?cgid=powder",
@@ -3703,7 +3704,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw78639528/ProductImages/Face/Color_Correcting_Powder/colorcorrectingpowder_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/color-correcting-powder/NYX_167.html?cgid=powder",
@@ -3733,7 +3734,7 @@
     price: "3.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw63a5fdce/ProductImages/2017/Face/High_Definition_Finishing_Powder_Mini/800897846015_highdefinitionfinishingpowdermini_translucent_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/high-definition-finishing-powder-mini/NYX_507.html?cgid=powder",
@@ -3763,7 +3764,7 @@
     price: "5.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2872d6ca/ProductImages/Eyes/Primal_Colors/primalcolors_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/primal-colors/NYX_108.html?cgid=powder",
@@ -3798,7 +3799,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwf8ec0855/ProductImages/Face/Radiant_Finishing_Powder/radiantfinishingpowder_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/radiant-finishing-powder/NYX_138.html?cgid=powder",
@@ -3827,7 +3828,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw66d2b512/ProductImages/Face/Mineral_Finishing_Powder/800897815455_mineralfinishingpowder_lightmedium_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/mineral-finishing-powder/NYX_081.html?cgid=powder",
@@ -3856,7 +3857,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw090ffa50/ProductImages/Face/High_Definition_Finishing_Power/800897834661_highdefinitionfinishingpowder_translucent_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/high-definition-finishing-powder/NYX_186.html?cgid=powder",
@@ -3886,7 +3887,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw3aaafbb3/ProductImages/Face/Studio_Finishing_Powder/studiofinishingpowder_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/studio-finishing-powder/NYX_079.html?cgid=powder",
@@ -3912,7 +3913,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw99f3e999/ProductImages/Face/Tango_With_Bronzing_Powder/tangowithbronzingpowder_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/tango-with-bronzing-powder/NYX_014.html?cgid=bronzer",
@@ -3944,7 +3945,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5248da3f/ProductImages/Face/Illuminator/800897809003_illuminator_narcissistic_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/illuminator/NYX_062.html?cgid=bronzer",
@@ -3976,7 +3977,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwed153ea9/ProductImages/Face/Matte_Bronzer/800897809058_mattebronzer_light_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/matte-bronzer/NYX_063.html?cgid=bronzer",
@@ -4008,7 +4009,7 @@
     price: "20.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa0a9cf48/ProductImages/2016/Face/Sweet_Cheeks_Blush_Palette/sweetcheeksblushpalette_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/sweet-cheeks-blush-palette/NYX_359.html?cgid=blush",
@@ -4034,7 +4035,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb9e0511a/ProductImages/2016/Face/Cheek_Contour_Duo_Palette/800897012007_cheekcontourduopalette_doubledate_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/cheek-contour-duo-palette/NYX_309.html?cgid=blush",
@@ -4066,7 +4067,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw587b93a7/ProductImages/Face/High_Definition_Pro_Blush_Refills/highdefinitionproblushrefills_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/high-definition-blush-pro-refills/NYX_254.html?cgid=blush",
@@ -4116,7 +4117,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwc8112b7d/ProductImages/2016/Face/Bright_Idea_Illuminating_Stick/brightideailluminatingstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/bright-idea-illuminating-stick/NYX_347.html?cgid=bronzer",
@@ -4155,7 +4156,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw91979480/ProductImages/Face/Rouge_Cream_Blush/rougecreamblush_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/rouge-cream-blush/NYX_010.html?cgid=blush",
@@ -4191,7 +4192,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5b50439f/ProductImages/Face/Mosaic_Powder_Blush/800897124533_mosaicpowderblush_highlighter_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/mosaic-powder-blush/NYX_008.html?cgid=bronzer",
@@ -4227,7 +4228,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwfdfb0cd6/ProductImages/Face/Baked_Blush/800897824181_bakedblush_fullonfemme_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/baked-blush/NYX_128.html?cgid=blush",
@@ -4266,7 +4267,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa51d41b7/ProductImages/Face/Bronzer_And_Blusher_Combo/bronzerandblushercombo_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/bronzer-and-blusher-combo/NYX_066.html?cgid=bronzer",
@@ -4296,7 +4297,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw565af449/ProductImages/Face/High_Definition_Blush/highdefinitionblush_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/high-definition-blush/NYX_178.html?cgid=blush",
@@ -4347,7 +4348,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw87fb4a6b/ProductImages/2016/Face/Ombre_Blush/ombreblush_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/ombre-blush/NYX_318.html?cgid=blush",
@@ -4382,7 +4383,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb08ab0fe/ProductImages/Face/Stick_Blush/stickblush_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/stick-blush/NYX_064.html?cgid=blush",
@@ -4417,7 +4418,7 @@
     price: "5.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw12ca4942/ProductImages/Face/Powder_Blush/powderblush_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/powder-blush/NYX_009.html?cgid=bronzer",
@@ -4450,7 +4451,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8ad0514f/ProductImages/2016/Face/Gotcha_Covered_Concealer_Pencil/gotchacoveredconcealerpencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/gotcha-covered-concealer-pencil/NYX_346.html?cgid=concealer",
@@ -4496,7 +4497,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwbef45c94/ProductImages/Face/Conceal_Correct_Contour_Palette/800897831479_concealcorrectcontourpalette_light_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/conceal-correct-contour-palette/NYX_170.html?cgid=concealer",
@@ -4526,7 +4527,7 @@
     price: "4.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5e345fad/ProductImages/Face/Wonder_Pencil/wonderpencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/wonder-pencil/NYX_091.html?cgid=eyeliner",
@@ -4556,7 +4557,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw477d3d9a/ProductImages/Face/Dark_Circle_Concealer/800897822958_darkcircleconcealer_light_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/dark-circle-concealer/NYX_133.html?cgid=concealer",
@@ -4587,7 +4588,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw947da0d5/ProductImages/Face/Gotcha_Covered_Concealer/gotchacoveredconcealer_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/gotcha-covered-concealer/NYX_203.html?cgid=concealer",
@@ -4634,7 +4635,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb6d96368/ProductImages/Face/Color_Correcting_Palette/800897834722_colorcorrectingpalette_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/color-correcting-palette/NYX_171.html?cgid=concealer",
@@ -4660,7 +4661,7 @@
     price: "5.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw04c31800/ProductImages/Face/Concealer_Jar/concealerjar_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/concealer-jar/NYX_011.html?cgid=concealer",
@@ -4711,7 +4712,7 @@
     price: "5.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw10ab1d12/ProductImages/2016/Face/HD_Photogenic_Concealer_Wand/concealerwand_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/hd-photogenic-concealer-wand/NYX_013.html?cgid=concealer",
@@ -4761,7 +4762,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw8cbca26c/ProductImages/Face/Tinted_Moisturizer/tintedmoisturizer_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/tinted-moisturizer/NYX_131.html?cgid=foundation",
@@ -4795,7 +4796,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwe1ce6d79/ProductImages/Face/Define_And_Refine_Powder_Foundation/defineandrefinepowderfoundation_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/define-and-refine-powder-foundation/NYX_172.html?cgid=powder",
@@ -4828,7 +4829,7 @@
     price: "13.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa8106b14/ProductImages/Face/BB_Cream/800897822927_bbcream_natural_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/bb-cream/NYX_137.html?cgid=foundation",
@@ -4858,7 +4859,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw84635185/ProductImages/2016/Face/Invincible_Foundation/invinciblefoundation_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/invincible-fullest-coverage-foundation/NYX_140.html?cgid=foundation",
@@ -4905,7 +4906,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw25bdfa2c/ProductImages/Face/Mineral_Stick_Foundation/mineralstickfoundation_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/mineral-stick-foundation/NYX_130.html?cgid=foundation",
@@ -4947,7 +4948,7 @@
     price: "7.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw98d18f1b/ProductImages/Face/Stay_Matte_But_Not_Flat_Liquid_Foundation/staymattebutnotflatliquidfoundation_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/stay-matte-but-not-flat-liquid-foundation/NYX_067.html?cgid=foundation",
@@ -5004,7 +5005,7 @@
     price: "9.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7771a0c9/ProductImages/Face/Stay_Matte_But_Not_Flat_Powder_Foundation/staymattebutnotflatpowderfoundation_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/stay-matte-but-not-flat-powder-foundation/NYX_002.html?cgid=powder",
@@ -5061,7 +5062,7 @@
     price: "18.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw37943ebb/ProductImages/2017/Face/High_Definition_Foundation/800897051822_highdefinitionfoundation_chestnut_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/hd-studio-photogenic-foundation/NYX_185.html?cgid=foundation",
@@ -5108,7 +5109,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw0bf2e8ad/ProductImages/Face/Hydra_Touch_Powder_Foundation/hydratouchpowderfoundation_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/hydra-touch-powder-foundation/NYX_229.html?cgid=powder",
@@ -5155,7 +5156,7 @@
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9dcfebd8/ProductImages/2016/Face/Pro_Foundation_Mixer/profoundationmixer_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/pro-foundation-mixer/NYX_320.html?cgid=foundation",
@@ -5188,7 +5189,7 @@
     price: "14.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2afa7b45/ProductImages/2017/Face/Total_Control_Drop_Foundation/800897068837_totalcontroldropfoundation_buff_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/total-control-drop-foundation/NYX_413.html?cgid=foundation",
@@ -5244,7 +5245,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw226b9283/ProductImages/2016/Lips/Lip_Of_The_Day_Liquid_Lip_Liner/lipoftheday_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/lotd-lip-of-the-day-liquid-lip-liner/NYX_350.html?cgid=lip-liner",
@@ -5281,7 +5282,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2696bfe3/ProductImages/2017/Lips/Slide_On_Lip_Pencil_2017/slideonlippencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/slide-on-lip-pencil/NYX_234.html?cgid=lip-liner",
@@ -5336,7 +5337,7 @@
     price: "5.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw2524f26b/ProductImages/Lips/Retractable_Lip_Liner/retractablelipliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/retractable-lip-liner/NYX_051.html?cgid=lip-liner",
@@ -5382,7 +5383,7 @@
     price: "4.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7477bc7c/ProductImages/2016/Lips/Suede_Matte_Lip_Liner/suedemattelipliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/suede-matte-lip-liner/NYX_355.html?cgid=lip-liner",
@@ -5445,7 +5446,7 @@
     price: "4.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwbbca9dd2/ProductImages/Lips/Slim_Lip_Pencil/Slim_Lip_Pencil/slimlippencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/slim-lip-pencil/NYX_052.html?cgid=lip-liner",
@@ -5522,7 +5523,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw063995a2/ProductImages/2017/Lips/Luv_Out_Loud_Liquid_Lipstick/luvoutloudliquidlipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/luv-out-loud-liquid-lipstick/NYX_512.html?cgid=lipstick",
@@ -5555,7 +5556,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw88030be7/ProductImages/Lips/Vamped_Up_Lip_Top_Coat/vampedupliptopcoat_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/vamped-up-lip-top-coat/NYX_174.html?cgid=lipstick",
@@ -5581,7 +5582,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw013dc65e/ProductImages/Lips/Simply_Pink_Lip_Cream/simplypinklipcream_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/simply-pink-lip-cream/NYX_162.html?cgid=lipstick",
@@ -5614,7 +5615,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw4879365d/ProductImages/Lips/Simply_Red_Lip_Cream/simplyredlipcream_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/simply-red-lip-cream/NYX_163.html?cgid=lipstick",
@@ -5647,7 +5648,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw6790cad4/ProductImages/Lips/Simply_Nude_Lip_Cream/simplynudlipcream_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/simply-nude-lip-cream/NYX_161.html?cgid=lipstick",
@@ -5680,7 +5681,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw09b47e3c/ProductImages/Lips/Macaron_Lippie/macaronlippies_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/macaron-lippies/NYX_145.html?cgid=lipstick",
@@ -5719,7 +5720,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwda28cbbe/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_metal/inyourelementlipstickmetal_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/in-your-element-lipstick-metal/NYX_554.html?cgid=lipstick",
@@ -5749,7 +5750,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwcffa1f2c/ProductImages/Lips/Whipped_Lip_And_Cheek_Souffle/whippedlipandcheeksouffle_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/whipped-lip-and-cheek-souffle/NYX_233.html?cgid=blush",
@@ -5784,7 +5785,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5d579d16/ProductImages/Lips/Wicked_Lippies/wickedlippies_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/wicked-lippies/NYX_165.html?cgid=lipstick",
@@ -5823,7 +5824,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw48514b30/ProductImages/Lips/Simply_Vamp_Lip_Cream/simplyvamplipcream_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/simply-vamp-lip-cream/NYX_164.html?cgid=lipstick",
@@ -5856,7 +5857,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw649c09f1/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_water/inyourelementlipstickwater_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/in-your-element-lipstick-water/NYX_556.html?cgid=lipstick",
@@ -5886,7 +5887,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb5cd298c/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_wind/inyourelementlipstickwind_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/in-your-element-lipstick-wind/NYX_553.html?cgid=lipstick",
@@ -5916,7 +5917,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwf9f0c84b/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_fire/inyourelementlipstickfire_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/in-your-element-lipstick-fire/NYX_555.html?cgid=lipstick",
@@ -5946,7 +5947,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7fdf92ae/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_air/inyourelementlipstickair_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/in-your-element-lipstick-air/NYX_558.html?cgid=lipstick",
@@ -5975,7 +5976,7 @@
     price: "4.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw20d954dc/ProductImages/Lips/Jumbo_Lip_Pencil/jumboeyepencil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/jumbo-lip-pencil/NYX_003.html?cgid=lip-liner",
@@ -6016,7 +6017,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw16c5dd05/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_earth/inyourelementlipstickearth_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/in-your-element-lipstick-earth/NYX_557.html?cgid=lipstick",
@@ -6046,7 +6047,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwf73b3195/ProductImages/2016/Lips/Butter_Lipstick_Extension/butterlipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/butter-lipstick/NYX_120.html?cgid=lipstick",
@@ -6107,7 +6108,7 @@
     price: "0.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw0048a5ab/ProductImages/Lips/Extra_Creamy_Round_Lipstick/extracreamyroundlipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/extra-creamy-round-lipstick/NYX_006.html?cgid=lipstick",
@@ -6220,7 +6221,7 @@
     price: "6.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw190a6040/ProductImages/2016/Lips/Matte_Lipstick_Extension/mattelipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/matte-lipstick/NYX_005.html?cgid=lipstick",
@@ -6292,7 +6293,7 @@
     price: "12.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw46507c8a/ProductImages/2016/Lips/Pro_Lip_Cream_Palette/prolipcreampalette_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/pro-lip-cream-palette/NYX_321.html?cgid=lipstick",
@@ -6323,7 +6324,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw96029c57/ProductImages/2016/Lips/Full_Throttle_Lipstick/fullthrottlelipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/full-throttle-lipstick/NYX_312.html?cgid=lipstick",
@@ -6362,7 +6363,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9c3f0820/ProductImages/2016/Lips/Plush_Gel_Lipstick/plushgellipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/plush-gel-lipstick/NYX_334.html?cgid=lipstick",
@@ -6401,7 +6402,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1e94f54f/ProductImages/2016/Lips/Velvet_Matte_Lipstick/velvetmattelipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/velvet-matte-lipstick/NYX_348.html?cgid=lipstick",
@@ -6440,7 +6441,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5c4a6ee3/ProductImages/2016/Lips/Turnt_Up_Lipstick/turntuplipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/turnt-up-lipstick/NYX_395.html?cgid=lipstick",
@@ -6489,7 +6490,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5c89147f/ProductImages/2017/Lips/Pin_Up_Pout_Lipstick/pinuppoutlipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/pin-up-pout-lipstick/NYX_399.html?cgid=lipstick",
@@ -6540,7 +6541,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw6dcbd51c/ProductImages/2017/Lips/Super_Cliquey_Satin_Matte_Lipstick/supercliqueysatinmattelipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/super-cliquey-matte-lipstick/NYX_451.html?cgid=lipstick",
@@ -6578,7 +6579,7 @@
     price: "8.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw481c25c3/ProductImages/2018/Lips/Powder_Puff_Lippie/powderpufflippie_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/powder-puff-lippie-powder-lip-cream/NYX_586.html?cgid=lipstick",
@@ -6613,7 +6614,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw42117915/ProductImages/2016/Lips/Lip_Lustre_Glossy_Lip_Tint/liplustreglossyliptint_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/lip-lustre-glossy-lip-tint/NYX_362.html?cgid=lipgloss",
@@ -6652,7 +6653,7 @@
     price: "7.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwffc4644e/ProductImages/2017/Lips/Cosmic_Metals_Lip_Cream/cosmicmetalslipcream_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/cosmic-metals-lip-cream/NYX_343.html?cgid=lipgloss",
@@ -6697,7 +6698,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7d8fe312/ProductImages/2017/Lips/Epic_Ink_Lip_Dye/epicinklipdye_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/epic-ink-lip-dye/NYX_397.html?cgid=lipgloss",
@@ -6736,7 +6737,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd10df14c/ProductImages/2018/Lips/Strictly_Vinyl_Lip_Gloss/strictlyvinyllipgloss_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/strictly-vinyl-lip-gloss/NYX_592.html?cgid=lipgloss",
@@ -6771,7 +6772,7 @@
     price: "8.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwf51cf9e7/ProductImages/2018/Lips/Duo_Chromatic_Lip_Gloss/duochromaticlipgloss_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/duo-chromatic-lip-gloss/NYX_579.html?cgid=lipgloss",
@@ -6808,7 +6809,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd377cdfa/ProductImages/2017/Lips/Slip_Tease_Full_Color_Lip_Oil/slipteasefullcolorlipoil_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/slip-tease-full-color-lip-oil/NYX_444.html?cgid=lipgloss",
@@ -6846,7 +6847,7 @@
     price: "7.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9d2f72a4/ProductImages/2017/Lips/Liquid_Suede_Metallic_Matte/liquidsuedemetallicmatte_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/liquid-suede-metallic-matte/NYX_441.html?cgid=lipstick",
@@ -6885,7 +6886,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa19d7c26/ProductImages/Lips/Liquid_Suede_Cream_Lipstick/liquidsuedecreamlipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/liquid-suede-cream-lipstick/NYX_201.html?cgid=lipstick",
@@ -6936,7 +6937,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw00c7446b/ProductImages/2017/Lips/Lip_Lingerie_Extension/liplingerie_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/lip-lingerie/NYX_315.html?cgid=lipstick",
@@ -6987,7 +6988,7 @@
     price: "6.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw663a4cdb/ProductImages/Lips/Soft_Matte_Lip_Cream/softmattelipcream_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/soft-matte-lip-cream/NYX_007.html?cgid=lipstick",
@@ -7048,7 +7049,7 @@
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw21376be0/ProductImages/2018/Lips/Soft_Matte_Metallic_Lip_Cream/softmattelipcream_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/soft-matte-metallic-lip-cream/NYX_593.html?cgid=liquid-lipstick",
@@ -7087,7 +7088,7 @@
     price: "18.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dwc8c6d1b8/hi-res/FB40005_FB4014.jpg?sw=550 550w",
     product_link:
       "https://www.fentybeauty.com/mattemoiselle/plush-matte-lipstick/FB40005.html?dwvar_FB40005_color=FB4014",
@@ -7131,7 +7132,7 @@
     price: "20.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dw361a8ee8/hi-res/FB40002_FB4006.jpg?sw=550 550w",
     product_link:
       "https://www.fentybeauty.com/eclipse/2-in-1-glitter-release-eyeliner/FB40002.html?dwvar_FB40002_color=FB4006",
@@ -7170,7 +7171,7 @@
     price: "19.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dwc6450206/hi-res/FB40001_FB4001.jpg?sw=550 550w",
     product_link:
       "https://www.fentybeauty.com/cosmic-gloss/lip-glitter/FB40001.html?dwvar_FB40001_color=FB4001",
@@ -7210,7 +7211,7 @@
     price: "25.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dw50617083/hi-res/FB30003_FB3009.jpg?sw=550 550w",
     product_link:
       "https://www.fentybeauty.com/match-stix/matte-skinstick/FB30003.html?dwvar_FB30003_color=FB3009",
@@ -7257,7 +7258,7 @@
     price: "32.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7M81_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/24867/makeup/foundations/even-better-compact-makeup-broad-spectrum-spf-15",
@@ -7304,7 +7305,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_70JW_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/13188/makeup/foundations/redness-solutions-makeupbroad-spectrum-spf-15with-probiotic-technology",
@@ -7336,7 +7337,7 @@
     price: "26.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7KXC_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/21954/makeup/foundations/stay-matte-oil-free-makeup",
@@ -7383,7 +7384,7 @@
     price: "36.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7C5H01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/19314/makeup/foundations/repairwear-laser-focus-all-smooth-makeup-broad-spectrum-spf-15",
@@ -7421,7 +7422,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6GTY_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/5273/makeup/foundations/perfectly-real-compact-makeup",
@@ -7464,7 +7465,7 @@
     price: "25.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGH001_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/39658/makeup/foundations/chubby-in-the-nude-foundation-stick",
@@ -7501,7 +7502,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZJE002_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/40932/makeup/foundations/super-city-blocktm-bb-cushion-compact-broad-spectrum-spf-50",
@@ -7532,7 +7533,7 @@
     price: "24.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_647J_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/6077/makeup/foundations/superpowder-double-face-makeup",
@@ -7567,7 +7568,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6AL9_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/5238/makeup/foundations/perfectly-real-makeup",
@@ -7616,7 +7617,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGH6AA_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/37389/makeup/foundations/beyond-perfecting-powder-foundation-concealer",
@@ -7659,7 +7660,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6WPR_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/9285/makeup/foundations/acne-solutions-liquid-makeup",
@@ -7702,7 +7703,7 @@
     price: "26.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_60QH_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/4989/makeup/foundations/superbalanced-makeup",
@@ -7749,7 +7750,7 @@
     price: "26.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_645J_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/6069/makeup/foundations/stay-matte-sheer-pressed-powder",
@@ -7788,7 +7789,7 @@
     price: "26.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGH401_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/42938/makeup/foundations/superbalancedtm-silk-makeup-broad-spectrum-spf-15",
@@ -7835,7 +7836,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6MNY_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/5276/makeup/foundations/even-better-makeup-broad-spectrum-spf-15",
@@ -7892,7 +7893,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_Z9FF_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/34817/makeup/foundations/beyond-perfecting-foundation-concealer",
@@ -7946,7 +7947,7 @@
     price: "29.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_K4NG01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/50973/makeup/foundations/cliniquefittm-workout-makeup-broad-spectrum-spf-40",
@@ -7977,7 +7978,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6MPY02_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/47832/makeup/foundations/almost-powder-makeup",
@@ -8010,7 +8011,7 @@
     price: "33.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZWXK0A_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/45511/makeup/foundations/clinique-biy-blend-it-yourself-pigment-drops",
@@ -8050,7 +8051,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZY5X_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/51043/makeup/foundations/even-better-glow-light-reflecting-makeup-broad-spectrum-spf-15",
@@ -8107,7 +8108,7 @@
     price: "18.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6N4T_181x209.png",
     product_link:
       "https://www.clinique.com/product/1596/6045/makeup/concealers/acne-solutions-clearing-concealer",
@@ -8137,7 +8138,7 @@
     price: "20.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_65EF_181x209.png",
     product_link:
       "https://www.clinique.com/product/1596/6088/makeup/concealers/line-smoothing-concealer",
@@ -8170,7 +8171,7 @@
     price: "20.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6FKW_181x209.png",
     product_link:
       "https://www.clinique.com/product/1596/5161/makeup/concealers/all-about-eyes-concealer",
@@ -8202,7 +8203,7 @@
     price: "20.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6296_181x209.png",
     product_link:
       "https://www.clinique.com/product/1596/6278/makeup/concealers/advanced-concealer",
@@ -8228,7 +8229,7 @@
     price: "22.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6CM2_181x209.png",
     product_link:
       "https://www.clinique.com/product/1596/5011/makeup/concealers/airbrush-concealer",
@@ -8267,7 +8268,7 @@
     price: "26.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_647G_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/5642/makeup/foundations/continuous-coverage-makeup-broad-spectrum-spf-15",
@@ -8297,7 +8298,7 @@
     price: "19.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_K2HW01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1596/50424/makeup/concealers/beyond-perfecting-super-concealer-camouflage-24-hour-wear",
@@ -8342,7 +8343,7 @@
     price: "39.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7WCP_181x209.png",
     product_link:
       "https://www.clinique.com/product/11480/25255/makeup/foundations/bb-and-cc-cream/moisture-surge-cc-cream-hydrating-colour-corrector-broad-spectrum-spf-30",
@@ -8375,7 +8376,7 @@
     price: "39.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_Z54E_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/35075/makeup/foundations/acne-solutions-bb-cream-broad-spectrum-spf-40",
@@ -8407,7 +8408,7 @@
     price: "38.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7KYL01_181x209.png",
     product_link:
       "https://www.clinique.com/product/11480/19517/makeup/foundations/bb-and-cc-cream/age-defense-bb-creambroad-spectrum-spf-30",
@@ -8438,7 +8439,7 @@
     price: "25.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLE601_181x209.png",
     product_link:
       "https://www.clinique.com/product/1599/41917/makeup/foundations/super-city-blocktm-bb-cushion-compact-broad-spectrum-spf-50-refill",
@@ -8468,7 +8469,7 @@
     price: "37.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZCAE02_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/33862/makeup/eye-shadows/wear-everywhere-neutrals-all-about-shadow-8-pan-palette",
@@ -8500,7 +8501,7 @@
     price: "22.25",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZJPL01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/38686/makeup/eye-shadows/pretty-easytm-eye-palette",
@@ -8535,7 +8536,7 @@
     price: "21.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7W5C_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/27035/makeup/eye-shadows/all-about-shadow-primer-for-eyes",
@@ -8565,7 +8566,7 @@
     price: "21.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_791P01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/18485/makeup/eye-shadows/lid-smoothie-antioxidant-8-hour-eye-colour",
@@ -8597,7 +8598,7 @@
     price: "17.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6339_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/5169/makeup/eye-shadows/touch-base-for-eyes",
@@ -8629,7 +8630,7 @@
     price: "18.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZKJT02_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/39911/makeup/eye-shadows/lid-poptm",
@@ -8664,7 +8665,7 @@
     price: "16.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7PWG_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/27031/makeup/eye-shadows/all-about-shadow-single",
@@ -8716,7 +8717,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7NYF01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/22855/makeup/eye-shadows/chubby-stick-shadow-tint-for-eyes",
@@ -8759,7 +8760,7 @@
     price: "28.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7PWL06_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/27033/makeup/eye-shadows/all-about-shadow-quad",
@@ -8854,7 +8855,7 @@
     price: "22.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7PWK_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/27032/makeup/eye-shadows/all-about-shadow-duo",
@@ -8906,7 +8907,7 @@
     price: "14.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_K2NX10_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/49854/makeup/eye-shadows/clinique-jonathan-adler-lid-pop",
@@ -8937,7 +8938,7 @@
     price: "27.3",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_K2NY01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1598/49855/makeup/eye-shadows/clinique-jonathan-adler-limited-edition-chic-colour-kit",
@@ -8963,7 +8964,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6FP2_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/6140/makeup/eyeliners/cream-shaper-for-eyes",
@@ -8993,7 +8994,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_62A405_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/4770/makeup/eyeliners/quickliner-for-eyes",
@@ -9031,7 +9032,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZP4R01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/41979/makeup/eyeliners/high-impacttm-custom-black-kajal",
@@ -9061,7 +9062,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6GAP_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/6150/makeup/eyeliners/kohl-shaper-for-eyes",
@@ -9090,7 +9091,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_75X3_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/12313/makeup/eyeliners/quickliner-for-eyes-intense",
@@ -9132,7 +9133,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6H3F_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/5363/makeup/eyeliners/brush-on-cream-liner",
@@ -9158,7 +9159,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6337_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/4985/makeup/eyeliners/water-resistant-eyeliner",
@@ -9187,7 +9188,7 @@
     price: "17.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZHK411_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/36517/makeup/eyeliners/clinique-skinny-stick",
@@ -9221,7 +9222,7 @@
     price: "21.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGC001_181x209.png",
     product_link:
       "https://www.clinique.com/product/1597/36520/makeup/eyeliners/pretty-easytm-liquid-eyelining-pen",
@@ -9250,7 +9251,7 @@
     price: "9.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_71FJ02_181x209.png",
     product_link:
       "https://www.clinique.com/product/1595/8417/makeup/brows/instant-lift-for-brows",
@@ -9282,7 +9283,7 @@
     price: "18.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_68A9_181x209.png",
     product_link:
       "https://www.clinique.com/product/1595/6332/makeup/brows/superfine-liner-for-brows",
@@ -9314,7 +9315,7 @@
     price: "34.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZJPG01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1595/38685/makeup/brows/pretty-easy-brow-palette",
@@ -9340,7 +9341,7 @@
     price: "18.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGHJ01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1595/37422/makeup/brows/brow-keeper",
@@ -9369,7 +9370,7 @@
     price: "18.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGH501_181x209.png",
     product_link:
       "https://www.clinique.com/product/1595/36585/makeup/brows/just-browsing-brush-on-styling-mousse",
@@ -9400,7 +9401,7 @@
     price: "18.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6346_181x209.png",
     product_link:
       "https://www.clinique.com/product/1595/5634/makeup/brows/brow-shaper",
@@ -9431,7 +9432,7 @@
     price: "23.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZA1N01_181x209.png",
     product_link:
       "https://www.clinique.com/product/14346/34748/makeup/contouring/chubby-stick-sculpting-highlight",
@@ -9457,7 +9458,7 @@
     price: "23.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZCP701_181x209.png",
     product_link:
       "https://www.clinique.com/product/14346/34749/makeup/contouring/chubby-stick-sculpting-contour",
@@ -9483,7 +9484,7 @@
     price: "39.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_K2MG80_181x209.png",
     product_link:
       "https://www.clinique.com/product/14346/51296/makeup/contouring/limited-edition-highlighting-kit",
@@ -9508,7 +9509,7 @@
     price: "26.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6362_181x209.png",
     product_link:
       "https://www.clinique.com/product/1594/6271/makeup/bronzers/blended-face-powder-and-brush",
@@ -9543,7 +9544,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6L1X_181x209.png",
     product_link:
       "https://www.clinique.com/product/1594/6429/makeup/bronzers/up-lighting-liquid-illuminator",
@@ -9569,7 +9570,7 @@
     price: "27.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6FW2_181x209.png",
     product_link:
       "https://www.clinique.com/product/1594/5737/makeup/bronzers/true-bronze-pressed-powder-bronzer",
@@ -9599,7 +9600,7 @@
     price: "27.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZEFR01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1594/42256/makeup/bronzers/uplighting-illuminating-powder",
@@ -9629,7 +9630,7 @@
     price: "28.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZMAT01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1594/41442/makeup/bronzers/sun-kissed-face-gelee-complexion-multitasker",
@@ -9655,7 +9656,7 @@
     price: "34.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dw6a5f14c4/hi-res/FB30006_FB0320.jpg?sw=550 550w",
     product_link:
       "https://www.fentybeauty.com/pro-filtr/soft-matte-longwear-foundation/FB30006.html",
@@ -9722,7 +9723,7 @@
     price: "34.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZAMN_181x209.png",
     product_link:
       "https://www.clinique.com/product/1593/34892/makeup/blushers/sculptionary-cheek-contouring-palette",
@@ -9755,7 +9756,7 @@
     price: "23.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6FLK_181x209.png",
     product_link:
       "https://www.clinique.com/product/1593/5265/makeup/blushers/blushing-blush-powder-blush",
@@ -9790,7 +9791,7 @@
     price: "23.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7THL_181x209.png",
     product_link:
       "https://www.clinique.com/product/1593/29770/makeup/blushers/cheek-pop",
@@ -9831,7 +9832,7 @@
     price: "18.9",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_K22102_181x209.png",
     product_link:
       "https://www.clinique.com/product/1593/50730/makeup/blushers/clinique-jonathan-adler-cheek-pop",
@@ -9865,7 +9866,7 @@
     price: "23.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_618J_181x209.png",
     product_link:
       "https://www.clinique.com/product/1593/5164/makeup/blushers/soft-pressed-powder-blusher",
@@ -9900,7 +9901,7 @@
     price: "23.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_Z47M_181x209.png",
     product_link:
       "https://www.clinique.com/product/1593/30944/makeup/blushers/chubby-stick-cheek-colour-balm",
@@ -9931,7 +9932,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZKJM01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1593/40007/makeup/blushers/clinique-pop-oil-lip-cheek-glow",
@@ -9956,7 +9957,7 @@
     price: "23.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_K5GX01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1593/50978/makeup/blushers/cliniquefittm-lip-cheek-flush",
@@ -9982,7 +9983,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZWP101_181x209.png",
     product_link:
       "https://www.clinique.com/product/1603/45451/makeup/lip-glosses/chubby-plump-shine-liquid-lip-plumping-gloss",
@@ -10017,7 +10018,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_61EM_181x209.png",
     product_link:
       "https://www.clinique.com/product/1604/4771/makeup/lip-liner/quickliner-for-lips",
@@ -10060,7 +10061,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGGY01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1604/37967/makeup/lip-liner/quickliner-for-lips-intense",
@@ -10099,7 +10100,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6359_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/4772/makeup/lipsticks/almost-lipstick",
@@ -10128,7 +10129,7 @@
     price: "8.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6F8X_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/5072/makeup/lipsticks/butter-shine-lipstick",
@@ -10168,7 +10169,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6LX5_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/5778/makeup/lipsticks/high-impact-lip-colour",
@@ -10209,7 +10210,7 @@
     price: "17.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_7THM03_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/24146/makeup/lipsticks/chubby-stick-intense-moisturizing-lip-colour-balm",
@@ -10245,7 +10246,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_6280_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/31112/makeup/lipsticks/long-last-soft-matte-lipstick",
@@ -10275,7 +10276,7 @@
     price: "17.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_63N2_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/5404/makeup/lipsticks/long-last-lipstick",
@@ -10331,7 +10332,7 @@
     price: "18.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPM01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/42886/makeup/lipsticks/clinique-pop-liquidtm-matte-lip-colour-primer",
@@ -10366,7 +10367,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_Z4CF_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/30955/makeup/lipsticks/chubby-stick-baby-tint-moisturizing-lip-colour-balm",
@@ -10397,7 +10398,7 @@
     price: "15.4",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_K22002_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/49842/makeup/lipsticks/clinique-jonathan-adler-pop-lip-colour-primer",
@@ -10435,7 +10436,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_617G_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/5887/makeup/lipsticks/different-lipstick",
@@ -10477,7 +10478,7 @@
     price: "18.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPR_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/39139/makeup/lipsticks/clinique-poptm-lacquer-lip-colour-primer",
@@ -10513,7 +10514,7 @@
     price: "18.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPR02_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/39138/makeup/lipsticks/clinique-pop-glaze-sheer-lip-colour-primer",
@@ -10545,7 +10546,7 @@
     price: "17.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_749K01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/15520/makeup/lipsticks/chubby-stick-moisturizing-lip-colour-balm",
@@ -10591,7 +10592,7 @@
     price: "18.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZTPH01_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/42767/makeup/lipsticks/clinique-poptm-matte-lip-colour-primer",
@@ -10634,7 +10635,7 @@
     price: "18.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZEK2_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/35082/makeup/lipsticks/clinique-pop-lip-colour-primer",
@@ -10677,7 +10678,7 @@
     price: "19.5",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.clinique.com/media/export/cms/products/181x209/clq_ZXH101_181x209.png",
     product_link:
       "https://www.clinique.com/product/1605/45673/makeup/lipsticks/clinique-pop-lip-shadow-cushion-matte-lip-powder",
@@ -10712,7 +10713,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/v6_packshots_sku_pdg%252FPDG_Y0002959-F000355494.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0002959_f000355494-couture-colour-gel-shine-long-wear.html",
@@ -10760,7 +10761,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/v6_packshots_sku_pdg%252FPDG_Y0002959-F000355999.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003759_f000375999-couture-colour-long-wear-nail-lacquer.html",
@@ -10791,7 +10792,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003559_F000355979.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003759_f000355979-couture-colour-long-wear-nail-lacquer.html",
@@ -10822,7 +10823,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003759_F000355614.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003759_f000355614-couture-colour-long-wear-nail-lacquer.html",
@@ -10853,7 +10854,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003759_F000355162.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003759_f000355162-couture-colour-long-wear-nail-lacquer.html",
@@ -10884,7 +10885,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003567_F000355201.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003567_f000355201-true-colour-ultra-shiny-long-wear.html",
@@ -10910,7 +10911,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003565_F002880924.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003565_f000355924-couture-colour-gel-shine-long-wear-nail-lacquer.html",
@@ -10940,7 +10941,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003565_F002880684.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003565_f000355684-couture-colour-gel-shine-long-wear-nail-lacquer.html",
@@ -10970,7 +10971,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0003565_F002880550.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/nails/nail-lacquers/pr-naillacquers-y0003565_f000355550-couture-colour-gel-shine-long-wear-nail-lacquer.html",
@@ -11000,7 +11001,7 @@
     price: "20.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0002880_F000288001.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0002880_f000288001-nail-liner-shine-precision.html",
@@ -11028,7 +11029,7 @@
     price: "20.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0002986_F000298998.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0002986_f000298998-couture-colour-gel-shine-long-wear.html",
@@ -11059,7 +11060,7 @@
     price: "20.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0002986_F000298809.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0002986_f000298809-couture-colour-gel-shine-long-wear.html",
@@ -11090,7 +11091,7 @@
     price: "0.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0002986_F000298745.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0002986_f000298745-couture-colour-gel-shine-long-wear.html",
@@ -11121,7 +11122,7 @@
     price: "20.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/214/90/0/packshots%252FPDG_Y0002986_F000298673.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0002986_f000298673-couture-colour-gel-shine-long-wear.html",
@@ -11152,7 +11153,7 @@
     price: "43.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0929580_f092958001.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyebrows/pr-eyebrows-y0929580_f092958001-long-wear-brow-contour-kit.html",
@@ -11178,7 +11179,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0746300.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyebrows/pr-eyebrows-y0746300_f074630093-powder-eyebrow-pencil-with-a-brush-and-sharpener.html",
@@ -11211,7 +11212,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0726130.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyebrows/pr-eyebrows-y0726130_f072613001-ultra-fine-precision-brow-pencil.html",
@@ -11242,7 +11243,7 @@
     price: "22.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0929631_F092963004.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0929631_f092963004-brow-mascara-structure-shine-gold-edition.html",
@@ -11268,7 +11269,7 @@
     price: "22.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0929630.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/metallics-collection/pr-metallicslook-y0929630_f092963002-instant-volumizing-brow-mascara.html",
@@ -11297,7 +11298,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0775300.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/liners/pr-liners-y0775300_f077530095-intense-professional-felt-tip-eyeliner-long-lasting-wear.html",
@@ -11323,7 +11324,7 @@
     price: "27.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0775101.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/liners/pr-liners-y0775101_f077510098-precision-eyeliner.html",
@@ -11352,7 +11353,7 @@
     price: "26.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0777200.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/liners/pr-liners-y0777200_f077720099-liquid-eyeliner-fabulous-line-and-vibrant-colour.html",
@@ -11377,7 +11378,7 @@
     price: "20.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0803050.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/liners/pr-liners-y0803050_f080305594-long-wear-waterproof-eyeliner-pencil.html",
@@ -11407,7 +11408,7 @@
     price: "19.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0739300_F073930009.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/liners/pr-liners-y0739300_f073930099-high-intensity-pencil-waterproof-hold-with-blending-tip-and-sharpener.html",
@@ -11437,7 +11438,7 @@
     price: "20.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0775350.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/liners/pr-liners-y0775350_f077535062-bevel-tip-eyeliner-long-lasting-spectacular-line.html",
@@ -11474,7 +11475,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/0/90/0/packshots%252FPDG_landscape_Y0696100.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/mascaras/pr-mascaras-y0696100-high-definition-lash-curler-mascara.html",
@@ -11503,7 +11504,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/0/90/0/packshots%252FPDG_landscape_Y0697170.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/mascaras/pr-mascaras-y0697170-spectacular-volume-and-curl-professional-mascara.html",
@@ -11533,7 +11534,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/0/90/0/packshots%252FPDG_landscape_Y0698100_v2.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/mascaras/pr-mascaras-y0698100-fabulous-impact-vibrant-colour-volume-length-mascara.html",
@@ -11559,7 +11560,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/0/90/0/packshots%252FPDG_landscape_Y0697100.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/mascaras/pr-mascaras-y0697100-lash-multiplying-effect-volume-care.html",
@@ -11588,7 +11589,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/0/90/0/packshots%252FPDG_landscape_Y0726100.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/mascaras/pr-mascaras-y0726100-spectacular-volume-intense-black-khol-mascara.html",
@@ -11614,7 +11615,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/0/90/0/packshots%252FPDG_landscape_Y0697400.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/mascaras/pr-mascaras-y0697400-lash-extension-effect-volume-mascara.html",
@@ -11649,7 +11650,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/0/90/0/packshots%252FPDG_landscape_Y0697600_inter.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/mascaras/pr-mascaras-y0697600-instant-oversize-volume-squeezable-mascara.html",
@@ -11675,7 +11676,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/0/90/0/packshots%252FPDG_landscape_Y0697970.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyes-primers/pr-eyeprimers-y0697970-triple-volume-plumping-lash-primer.html",
@@ -11701,7 +11702,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y9185255_F918525500.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y9185255-oversize-couture-eye-makeup.html",
@@ -11726,7 +11727,7 @@
     price: "65.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y9185280_F918528000.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y9185280-holiday-multi-use-eyes-and-lips-palette.html",
@@ -11752,7 +11753,7 @@
     price: "45.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y9185290_F918529000.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y9185290-holiday-eyes-palette.html",
@@ -11778,7 +11779,7 @@
     price: "43.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0929540.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/backstage-pros/eyes/pr-eyepros-y0929540-illuminating-neutrals-eye-palette.html",
@@ -11804,7 +11805,7 @@
     price: "45.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148140_f014814208_112016.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148140-the-makeup-artist-tutorial-palette.html",
@@ -11837,7 +11838,7 @@
     price: "43.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148228_F014822857_v2.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0148223-high-fidelity-colours-effects-eyeshadow-palette.html",
@@ -11866,7 +11867,7 @@
     price: "45.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148410.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148410-high-fidelity-colours-effects-eyeshadow-palette.html",
@@ -11904,7 +11905,7 @@
     price: "25.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0147160_f014716623.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0147160-professional-eye-shadow-spectacular-effects-long-wear.html",
@@ -11959,7 +11960,7 @@
     price: "0.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148310_F014831761_012016.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148310-long-wear-professional-eyeshadow.html",
@@ -11988,7 +11989,7 @@
     price: "25.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0148300_F014830821_012016.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0148300-long-wear-professional-mirror-shine-eyeshadow.html",
@@ -12021,7 +12022,7 @@
     price: "22.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0146000_032016.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/eyes/eyeshadows/pr-eyeshadows-y0146000-10h-color-locking-and-crease-preventing-eyelid-primer.html",
@@ -12047,7 +12048,7 @@
     price: "32.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715100.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/blush/pr-blush-y0715100_f071510001-healthy-glow-booster-blush.html",
@@ -12073,7 +12074,7 @@
     price: "0.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715928_F071592864.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0715928_f071592864-vibrant-colour-powderblush.html",
@@ -12101,7 +12102,7 @@
     price: "32.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0716250.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/blush/pr-blush-y0716250_f071625001-professional-contouring-powder-blush.html",
@@ -12132,7 +12133,7 @@
     price: "32.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715255.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/blush/pr-blush-y0715255_f071525556-vibrant-colour-powder-blush.html",
@@ -12173,7 +12174,7 @@
     price: "36.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0712400.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/healthy-glow-makeup/pr-sunmakeup-y0712400_f071240001-healthy-glow-sun-powder.html",
@@ -12204,7 +12205,7 @@
     price: "39.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0778920.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/powders/pr-powders-y0778920_f077892001-healthy-glow-radiance-powder.html",
@@ -12234,7 +12235,7 @@
     price: "36.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0720350.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/powders/pr-powders-y0720350_f072035010-healthy-glow-invisible-loose-powder.html",
@@ -12265,7 +12266,7 @@
     price: "36.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0332400.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/powders/pr-powders-y0332400_f033240020-healthy-glow-invisible-powder.html",
@@ -12294,7 +12295,7 @@
     price: "40.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0719390_F071939001_v2.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0719390_f071939001-golden-glow-loose-powder.html",
@@ -12322,7 +12323,7 @@
     price: "36.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0720700.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/powders/pr-powders-y0720700_f072070001-extreme-perfection-matte-finish-loose-powder.html",
@@ -12348,7 +12349,7 @@
     price: "23.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0929603_f092960100.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/primers/pr-primers-y0929603_f092960100-2-in-1-prime-colour-correct-face-eyes-lips.html",
@@ -12379,7 +12380,7 @@
     price: "21.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0339200.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/concealers/pr-concealers-y0339200_f033920010-one-coat-camouflage-everlasting-concealer-waterproof.html",
@@ -12417,7 +12418,7 @@
     price: "23.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0929570.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/backstage-pros/complexion/pr-complexionpros-y0929570_f092957001-2-in-1-prime-conceal-face-eyes-lips.html",
@@ -12447,7 +12448,7 @@
     price: "29.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0883558_F088075002.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/concealers/pr-concealers-y0883558_f088075500-radiance-booster-pen.html",
@@ -12476,7 +12477,7 @@
     price: "25.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0028670.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/gloss/pr-gloss-y0028670_f002867001-collagen-active-lip-gloss.html",
@@ -12504,7 +12505,7 @@
     price: "24.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0285300.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/gloss/pr-gloss-y0285300_f028530004-sensational-mirror-shine-hydra-plumping-volume.html",
@@ -12553,7 +12554,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0880550_112016.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/backstage-pros/lips/pr-lipspros-y0880550_f088055001-instant-blushing-rosy-tint.html",
@@ -12579,7 +12580,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0278001_F027800006_v2.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0278001_f027800005-lip-cheek-velvet-colour.html",
@@ -12608,7 +12609,7 @@
     price: "29.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0027647_F002764751.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0027647_f002764341-powder-lipstick-ultra-pigmented-long-wear-intensity.html",
@@ -12640,7 +12641,7 @@
     price: "29.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027600.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0027600_f002760005-haute-couture-long-wearing-lipstick.html",
@@ -12677,7 +12678,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0028752.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0028752_f002875465-hydra-gel-core-mirror-shine.html",
@@ -12709,7 +12710,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0028757_F002875435.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0028757_f002875435-hydra-gel-core-mirror-shine.html",
@@ -12771,7 +12772,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0028808.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0028808_f002880344-liquified-shine-saturated-lip-colour-weightless-wear.html",
@@ -12818,7 +12819,7 @@
     price: "25.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0028967_v4.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0028967_f002896421-coloured-tint-bare-lip-sensation-extreme-weightless-wear.html",
@@ -12851,7 +12852,7 @@
     price: "29.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0027859_F002785999.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0027859_f002785999-jewel-lipstick-couture-colour-comfort-wear.html",
@@ -12877,7 +12878,7 @@
     price: "77.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y9185275_F918527500.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y9185275_f918527500-rouge-dior-colour-lipstick-trio.html",
@@ -12903,7 +12904,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0027837.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/metallics-collection/pr-metallicslook-y0027837_f002784426-couture-colour-lipstick-comfort-wear.html",
@@ -12934,7 +12935,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027830.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0027830_f002783028-couture-colour-from-satin-to-matte-comfort-wear.html",
@@ -12997,7 +12998,7 @@
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027279.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0027279_f002727288-matte-metal-colour-couture-contour-lipstick.html",
@@ -13030,7 +13031,7 @@
     price: "26.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027269.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0027269_f002726162-liquid-lip-stain.-intense-couture-colour.-extreme-long-wear.-3-effects-matte-metal-satin.html",
@@ -13081,7 +13082,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/bf6fb914366ec31a747de52909cfcadb.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/face/cover-cream/clay-medium-deep",
@@ -13113,7 +13114,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/85a2fea7e732950138372ef267748a36.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/face/corrective-concealer/clay",
@@ -13142,7 +13143,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/CC_Creme-Medium-Deep_Ecom.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/skincare/cc-creme/clay-medium-deep",
@@ -13174,7 +13175,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/786cee296437aad03a74bba37a11f2a2.jpg",
     product_link: "http://imancosmetics.com/shop/products/face/blush/posh",
     website_link: "http://imancosmetics.com/",
@@ -13205,7 +13206,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://s3.amazonaws.com/imancosmetics.com/resources/uploads/product_colors/a35f689153e4120726821fc42e27a2cc.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/skincare/bb-creme/clay-medium",
@@ -13237,7 +13238,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/EyeshadowPencil_Deception1.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/eyes/eyeshadow-pencil/deception",
@@ -13270,7 +13271,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/53e470d05bb1531b758c4ed0f6063812.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/eyes/volumize-mascara/black-ink",
@@ -13296,7 +13297,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/708992b9f3326d3565424001d44af67d.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/eyes/perfect-mascara/black",
@@ -13321,7 +13322,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/081fb8969ded21fd9beda8000e61c460.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/eyes/amplify-mascara/black-ink",
@@ -13347,7 +13348,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/1a62206fbf4800fd0cc9e6690ae7aa9d.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/eyes/browpencil/blackest-brown",
@@ -13373,7 +13374,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/EyePencil_Ebony.jpg",
     product_link: "http://imancosmetics.com/shop/products/eyes/eyepencil/ebony",
     website_link: "http://imancosmetics.com/",
@@ -13402,7 +13403,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/d7bbcae0b6eff8013fda0a15280037c4.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/lips/lipstick/iman-nude",
@@ -13449,7 +13450,7 @@
     price: null,
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "http://imancosmetics.com/resources/uploads/product_colors/EyeShadow_Bejeweled.jpg",
     product_link:
       "http://imancosmetics.com/shop/products/eyes/eyeshadow/bejeweled",
@@ -13490,7 +13491,7 @@
     price: "39.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/porefessional-agent-zero-shine-component0.png?itok=hs_TMG5b",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/porefessional-agent-zero-shine",
@@ -13515,7 +13516,7 @@
     price: "44.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hello-flawless-component0_2.png?itok=uXFWqH_i",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/hello-flawless",
@@ -13550,7 +13551,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/dallas-component2.png?itok=faVNQISZ",
     product_link: "https://www.benefitcosmetics.com/ca/en-gb/product/dallas",
     website_link: "https://www.benefitcosmetics.com",
@@ -13574,7 +13575,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/rockateur-component0_0.png?itok=v8BJdMkW",
     product_link: "https://www.benefitcosmetics.com/ca/en-gb/product/rockateur",
     website_link: "https://www.benefitcosmetics.com",
@@ -13598,7 +13599,7 @@
     price: "75.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/cheekathon-blush-kit-component.png?itok=6ih0smf9",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/cheekathon",
@@ -13623,7 +13624,7 @@
     price: "20.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hoola-bop-travel-size-mini-component.png?itok=LKwNE-XE",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/hoola-travel-size-mini",
@@ -13648,7 +13649,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/dew-the-hoola-component.png?itok=gu3O77Hr",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/dew-the-hoola",
@@ -13673,7 +13674,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hoola-component0_0.png?itok=C1YPXstp",
     product_link: "https://www.benefitcosmetics.com/ca/en-gb/product/hoola",
     website_link: "https://www.benefitcosmetics.com",
@@ -13697,7 +13698,7 @@
     price: "29.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/1high-brow-glow-component_0.png?itok=9l5JyWCo",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/high-brow-glow-new",
@@ -13722,7 +13723,7 @@
     price: "29.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/1high-brow-component_0.png?itok=XpUgoe35",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/high-brow-new",
@@ -13747,7 +13748,7 @@
     price: "42.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/1brow-zings-component_0.png?itok=I0xVlW54",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/brow-zings-new",
@@ -13779,7 +13780,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/browvo-conditioning-primer-component_0.png?itok=PRNTJlTU",
     product_link: "https://www.benefitcosmetics.com/ca/en-gb/product/browvo",
     website_link: "https://www.benefitcosmetics.com",
@@ -13803,7 +13804,7 @@
     price: "30.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/precisely-my-brow-pencil-component_0.png?itok=oOfirtAR",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/precisely-my-brow",
@@ -13835,7 +13836,7 @@
     price: "30.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/ka-brow-component_new.png?itok=ToSDWDUX",
     product_link: "https://www.benefitcosmetics.com/ca/en-gb/product/ka-brow",
     website_link: "https://www.benefitcosmetics.com",
@@ -13866,7 +13867,7 @@
     price: "30.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/goof-proof-pencil-component_0.png?itok=djbpd-ut",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/goof-proof",
@@ -13898,7 +13899,7 @@
     price: "30.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/gimme-brow-component_new_0.png?itok=Yl4Nqi2O",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/gimme-brow-new",
@@ -13927,7 +13928,7 @@
     price: "44.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/bigger-and-bolder-brows-kit-component_0.png?itok=MzPgohjf",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/bigger-bolder-brows-kit",
@@ -13956,7 +13957,7 @@
     price: "44.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/defined-and-refined-brows-kit-component_0.png?itok=vzyOChYY",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/defined-refined-brows-kit",
@@ -13985,7 +13986,7 @@
     price: "44.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/soft-and-natural-brows-kit-component_0.png?itok=wJqiVHDe",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/soft-natural-brows-kit",
@@ -14014,7 +14015,7 @@
     price: "23.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hydra-smooth-lip-color-component_0.png?itok=GGUNA2l1",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/hydra-smooth-lip-color",
@@ -14050,7 +14051,7 @@
     price: "38.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/theyre-real-big-sexy-lip-kit-component_0.png?itok=1CmB3i_p",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/big-sexy-lipstick-set",
@@ -14075,7 +14076,7 @@
     price: "19.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/ultra-plush-lip-gloss-component_0.png?itok=nE6ZOF2q",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/ultra-plush-lip-gloss",
@@ -14107,7 +14108,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hoola-ultra-plush-component0.png?itok=jqBC3b39",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/hoola-ultra-plush",
@@ -14132,7 +14133,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/coralista-ultra-plush-component0.png?itok=S2p8Q27d",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/coralista-ultra-plush",
@@ -14157,7 +14158,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/rockateur-ultra-plush-component1_0.png?itok=SqcjeObE",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/rockateur-ultra-plush",
@@ -14182,7 +14183,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hervana-ultra-plush-component1_0.png?itok=mXZqkMhX",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/hervana-ultra-plush",
@@ -14207,7 +14208,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/dandelion-ultra-plush-component0.png?itok=VUqn4q2i",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/dandelion-ultra-plush",
@@ -14232,7 +14233,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/sugarbomb-ultra-plush-component0.png?itok=LovnHt5G",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/sugarbomb-ultra-plush",
@@ -14257,7 +14258,7 @@
     price: "23.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/lollibalm-component0.png?itok=_RkBaJKu",
     product_link: "https://www.benefitcosmetics.com/ca/en-gb/product/lollibalm",
     website_link: "https://www.benefitcosmetics.com",
@@ -14281,7 +14282,7 @@
     price: "23.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/chachabalm-component0.png?itok=F10VJpJ8",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/chachabalm",
@@ -14306,7 +14307,7 @@
     price: "23.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/posiebalm-component0.png?itok=uj9d8EN0",
     product_link: "https://www.benefitcosmetics.com/ca/en-gb/product/posiebalm",
     website_link: "https://www.benefitcosmetics.com",
@@ -14330,7 +14331,7 @@
     price: "23.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/benebalm-component0.png?itok=CnuRI5tn",
     product_link: "https://www.benefitcosmetics.com/ca/en-gb/product/benebalm",
     website_link: "https://www.benefitcosmetics.com",
@@ -14354,7 +14355,7 @@
     price: "26.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/badgal-waterproof-mascara-component2.png?itok=g5fmS1l0",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/badgal-waterproof-mascara",
@@ -14379,7 +14380,7 @@
     price: "16.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/theyre-real-mascara-deluxe-sample-retail-component0.png?itok=JAWnw4xM",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/theyre-real-mascara-travel-size-mini",
@@ -14404,7 +14405,7 @@
     price: "26.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/badgal-lash-mascara-component2.png?itok=BMvTkD5q",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/badgal-lash-mascara",
@@ -14429,7 +14430,7 @@
     price: "31.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/roller-lash-component.png?itok=WykBVxJg",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/roller-lash",
@@ -14457,7 +14458,7 @@
     price: "31.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/theyre-real-mascara-component3_1.png?itok=4eQeb-E5",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/theyre-real-mascara",
@@ -14486,7 +14487,7 @@
     price: "31.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/theyre-real-tinted-primer-component.png?itok=QQ8ln7QJ",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/theyre-real-tinted-eyelash-primer",
@@ -14511,7 +14512,7 @@
     price: "26.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/badgal-liner-waterproof-component0.png?itok=I2WcFQwj",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/badgal-liner-waterproof",
@@ -14540,7 +14541,7 @@
     price: "26.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/creaseless-cream-shadow-component_0.png?itok=EhRALVSZ",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/creaseless-cream-eyeshadow",
@@ -14576,7 +14577,7 @@
     price: "31.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/theyre-real-push-liner-component0_1.png?itok=x3Y9-QVl",
     product_link:
       "https://www.benefitcosmetics.com/ca/en-gb/product/theyre-real-gel-eyeliner-pen",
@@ -14607,7 +14608,7 @@
     price: "34.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_61636_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17653/34880/Lips-Cheek/Bronzer/Bronze-Lights/NEW",
@@ -14636,7 +14637,7 @@
     price: "29.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_35746_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17652/17772/Lips-Cheek/Blush/O-Glow",
@@ -14662,7 +14663,7 @@
     price: "32.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_35600_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17653/17761/Lips-Cheek/Bronzer/Baked-Fusion-Soft-Lights",
@@ -14688,7 +14689,7 @@
     price: "35.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_69716_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17652/40409/Lips-Cheek/Blush/LA-Lights-Palette/New",
@@ -14714,7 +14715,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_62913_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6026/35635/eyes/brow/brow-tech-highlight-stick/new",
@@ -14743,7 +14744,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_62911_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6026/35634/eyes/brow/brow-tech-gloss-stick/new",
@@ -14774,7 +14775,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_62907_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6026/35633/eyes/brow/brow-tech-matte-pencil",
@@ -14805,7 +14806,7 @@
     price: "25.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_68193_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6026/39350/eyes/brow/brow-tech-shaping-powder/new",
@@ -14836,7 +14837,7 @@
     price: "28.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_35627_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6026/17808/eyes/brow/brow-tech-to-go/self-healthy-beauty-award-2011",
@@ -14865,7 +14866,7 @@
     price: "25.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_62862_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17619/35610/Face/BB-CC/24-Hour-CC-Spot-Concealer/NEW",
@@ -14899,7 +14900,7 @@
     price: "25.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_48698_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17619/26033/Face/BB-CC/Camera-Ready-BB-Cream-Eyes-SPF-15",
@@ -14934,7 +14935,7 @@
     price: "42.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_60243_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6035/33839/Face/Foundation-Powder/Photo-Filter-Foundation",
@@ -14971,7 +14972,7 @@
     price: "49.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_54411_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6035/29915/Face/Foundation-Powder/Halo-Hydrating-Powder",
@@ -15006,7 +15007,7 @@
     price: "45.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_48688_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6035/26031/Face/Foundation-Powder/Halo-HD-Foundation-SPF-15/Award-Winner",
@@ -15038,7 +15039,7 @@
     price: "42.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_47699_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17619/25337/Face/BB-CC/Camera-Ready-CC-Cream/SPF-30",
@@ -15073,7 +15074,7 @@
     price: "39.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_42069_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17619/21835/Face/BB-CC/Camera-Ready-BB-Cream-SPF-35/Studio-Artist-Favorite",
@@ -15108,7 +15109,7 @@
     price: "42.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_62894_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17619/35631/Face/BB-CC/Camera-Ready-BB-Water-SPF-30/New",
@@ -15142,7 +15143,7 @@
     price: "42.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_71596_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6035/22769/Face/Foundation-Powder/STUDIO-SKIN-15-HOUR-WEAR-HYDRATING-FOUNDATION",
@@ -15191,7 +15192,7 @@
     price: "23.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_35576_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6030/17799/eyes/mascara/hyperlash-mascara",
@@ -15217,7 +15218,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_54401_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6030/29914/eyes/mascara/full-exposure-waterproof-mascara",
@@ -15243,7 +15244,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_37089_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6030/18515/eyes/mascara/full-exposure-mascara",
@@ -15269,7 +15270,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_68232_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6030/39356/eyes/mascara/indecent-exposure-mascara/new",
@@ -15295,7 +15296,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_68233_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6030/39357/eyes/mascara/x-rated-mascara/new",
@@ -15321,7 +15322,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_68234_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6030/39358/eyes/mascara/photo-finish-lash-primer/new",
@@ -15347,7 +15348,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_46012_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6028/24181/eyes/eye-liner/jet-set-waterproof-eye-liner",
@@ -15376,7 +15377,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_61621_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6028/34878/eyes/eye-liner/photo-angle-gel-liner/new",
@@ -15406,7 +15407,7 @@
     price: "19.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_35566_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6028/17778/eyes/eye-liner/limitless-eye-liner",
@@ -15432,7 +15433,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_35713_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6028/17818/eyes/eye-liner/limitless-liquid-liner/allure-best-of-beauty-editors-choice",
@@ -15461,7 +15462,7 @@
     price: "20.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_52687_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6028/28676/eyes/eye-liner/always-sharp-3d-liner",
@@ -15496,7 +15497,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_48721_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6028/26041/eyes/eye-liner/always-sharp-waterproof-kohl-liner/award-winner",
@@ -15531,7 +15532,7 @@
     price: "50.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_60680_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/34190/eyes/eye-shadow/double-exposure-palette/with-full-exposure-mascara",
@@ -15572,7 +15573,7 @@
     price: "55.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_62978_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6026/35669/eyes/brow/shapematters-palette/new",
@@ -15598,7 +15599,7 @@
     price: "25.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_56725_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/31330/eyes/eye-shadow/mini-full-exposure-palette/new",
@@ -15629,7 +15630,7 @@
     price: "52.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_60560_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/34102/eyes/eye-shadow/full-exposure-palette",
@@ -15655,7 +15656,7 @@
     price: "25.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_69731_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/40422/eyes/eye-shadow/photo-matte-eyes-mini/new",
@@ -15690,7 +15691,7 @@
     price: "49.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_69718_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6026/40410/eyes/brow/photo-matte-eyes",
@@ -15716,7 +15717,7 @@
     price: "49.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_74764_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/44139/eyes/eye-shadow/matte-exposure-palette/new",
@@ -15742,7 +15743,7 @@
     price: "28.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_38180_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/19065/eyes/eye-shadow/eye-shadow-trio",
@@ -15772,7 +15773,7 @@
     price: "18.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_73232_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/42940/eyes/eye-shadow/photo-op-eye-shadow-singles/new",
@@ -15809,7 +15810,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_56395_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6126/31301/Lips-Cheek/Lipstick-Liner/BE-LEGENDARY-LONG-WEAR-LIP-LACQUER",
@@ -15839,7 +15840,7 @@
     price: "29.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_61630_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/17652/34879/Lips-Cheek/Blush/LA-Lights-Cheek-Lip-Color/NEW",
@@ -15874,7 +15875,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_56417_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6126/31303/Lips-Cheek/Lipstick-Liner/Always-Sharp-Lip-Liner",
@@ -15916,7 +15917,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_68224_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6126/39354/Lips-Cheek/Lipstick-Liner/Insta-Matte-Lipstick-Transformer/NEW",
@@ -15942,7 +15943,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_75476_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6126/44787/Lips-Cheek/Lipstick-Liner/BE-LEGENDARY-LIPSTICK-FOSTER-SISTERS",
@@ -15971,7 +15972,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_40950_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6126/39351/Lips-Cheek/Lipstick-Liner/Be-Legendary-Lipstick/NEW-SHADES",
@@ -16118,7 +16119,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_72279_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6126/42295/Lips-Cheek/Lipstick-Liner/ALWAYS-ON-LIQUID-LIPSTICK/New",
@@ -16165,7 +16166,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f15f238ecfe181067f7b6158ade61f6e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-quad-bronzer-sunkissed_120876.html",
@@ -16195,7 +16196,7 @@
     price: "46.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/66cae20898e4b7204024554a17e382d6_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/stila-stay-all-day-bronzer-in-medium_108656.html",
@@ -16224,7 +16225,7 @@
     price: "37.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/40e119c70f452a919de32dcca0dac778_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/mineral-fusion-bronzer-duo_119093.html",
@@ -16253,7 +16254,7 @@
     price: "10.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/deedb7bd74bda43f062a09aab2ee1ec8_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-mosaic-powder-blush-paradise_106230.html?cat=328",
@@ -16279,7 +16280,7 @@
     price: "30.96",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4f8578c9a7588249e95d463078b84de1_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/saint-cosmetics-bronzer_116816.html",
@@ -16308,7 +16309,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1f2cd5b946f5e1d5bea2a7a7273c6fa4_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-monochromatic-bronzer_94564.html",
@@ -16334,7 +16335,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0bd612799d7958f7b1b98cc02bad5d09_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/annabelle-biggy-bronzer-haute-gold_108729.html",
@@ -16363,7 +16364,7 @@
     price: "44.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a94849792814b6d5a22d5cf8084d0211_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/dr-hauschka-bronzing-powder-compact_34473.html",
@@ -16389,7 +16390,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/870e044cfb1d2b136cec2ce814871191_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/physicians-formula-super-bb_112035.html",
@@ -16415,7 +16416,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/acdcb23975bea28a1bc06123664e4c09_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-big-bronzer_87536.html",
@@ -16441,7 +16442,7 @@
     price: "30.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/56e62153a7df93ef3ec4cfd96d8fe99d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-matte-bronzer_87532.html",
@@ -16467,7 +16468,7 @@
     price: "30.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e9721906a06fe5eaf7447ade8de3731c_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/cargo-cosmetics-bronzer_87681.html",
     website_link: "https://well.ca",
@@ -16495,7 +16496,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/60f9f4f29be5221ff70cf20fabc03564_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-trublend-bronzer_112764.html",
@@ -16521,7 +16522,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ad40b33db806e7c0f0edcddf331dc182_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-argan-wear_102669.html",
@@ -16547,7 +16548,7 @@
     price: "7.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/43c49769e362a003f88479de225c6dd6_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/elf-bronzer-palette_117847.html",
     website_link: "https://well.ca",
@@ -16577,7 +16578,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/991799d3e70b8856686979f8ff6dcfe0_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-face-studio-master_88837.html",
@@ -16603,7 +16604,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9359d3b10235c72fc904dd314b951b70_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/fake-bake-beauty-bronzer_50205.html",
@@ -16629,7 +16630,7 @@
     price: "20.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7b33d70c5494b72f23edf9d07acf599d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-bronze-booster_61146.html",
@@ -16658,7 +16659,7 @@
     price: "14.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d03d4a62759d7805ff8b41caebb4cbb0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-smart-shade-powder-bronzer_92877.html",
@@ -16684,7 +16685,7 @@
     price: "3.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fc7ddf787472683b7f20e43bafb6f2ea_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/elf-bronzers_117884.html",
     website_link: "https://well.ca",
@@ -16714,7 +16715,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/df8c3964f9e20d2906eb065a877c4322_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/earth-lab-loose-mineral-bronzer_78790.html",
@@ -16740,7 +16741,7 @@
     price: "29.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ceed96b9e7270082e045f539ff2f89c7_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-swimmables-water_106013.html",
@@ -16766,7 +16767,7 @@
     price: "10.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d4f7d82b4858c622bb3c1cef07b9d850_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-fit-me-bronzer_31265.html",
@@ -16792,7 +16793,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8969af04326145997e95fe8f91e2c88e_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-bronze-booster_70977.html",
@@ -16820,7 +16821,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4e90929a9c24a51c3db3988b205f3b43_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-clean-glow-bronzer_78622.html",
@@ -16846,7 +16847,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1b01ce49ace4842e034664361f1310de_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/milani-baked-bronzer_108614.html",
     website_link: "https://well.ca",
@@ -16877,7 +16878,7 @@
     price: "21.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9b404b7840f4f3a78426c166aa584216_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-organic-wear-100_12031.html",
@@ -16906,7 +16907,7 @@
     price: "45.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/08fe5abc37bb3d483909774d43c438e4_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/dr-hauschka-translucent-bronzing_93615.html?cat=328",
@@ -16932,7 +16933,7 @@
     price: "12.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/01195de6de1092125f703c5662d99af9_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-loose-mineral-luminous_93637.html",
@@ -16958,7 +16959,7 @@
     price: "32.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ebf3bbabc1ef4fddc2a8675e2e8be0e1_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-hd-bronzer_87523.html",
@@ -16984,7 +16985,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7a965c3cfc7955d4e156a88f87950168_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-bronze-booster_90009.html?cat=328",
@@ -17010,7 +17011,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5bff7471d5030f2e808476e2ef735b82_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/elf-studio-bronzer_93458.html",
     website_link: "https://well.ca",
@@ -17040,7 +17041,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4f731de249cbd4cb819ea7f5f4cfb5c3_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-facestudio-master-contour_120303.html?cat=328",
@@ -17070,7 +17071,7 @@
     price: "10.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/24df710e2cd9c9695cebec8732f47356_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-mosaic-powder-blush-spice_106233.html?cat=328",
@@ -17096,7 +17097,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a20f3622d08d7b87492ca0af0319bf73_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/fake-bake-blush-legal-sunburn_103989.html",
@@ -17122,7 +17123,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e91bc936934a3e027f3e8e38f819c15a_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/nyx-ombre-blush_118021.html",
     website_link: "https://well.ca",
@@ -17147,7 +17148,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0b8787d62ced45700c0693b869645542_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-trublend-blush-in-light_112758.html",
@@ -17173,7 +17174,7 @@
     price: "32.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c976f8b3aabe8368fdc673e556159a13_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-hd-picture-perfect_87679.html",
@@ -17202,7 +17203,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4117cc2bd124776298f0671de94f07bf_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-contour-palette_87501.html",
@@ -17232,7 +17233,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7a31b075cf9c0ae4e6eba9ca61c587a7_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/loreal-paris-infallible-pro-contour_112644.html?cat=328",
@@ -17262,7 +17263,7 @@
     price: "28.96",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ed6e230c6394a3c6d1904fcd02a4ae3a_ra,w158,h184_pa,w158,h184.png",
     product_link: "https://well.ca/products/saint-cosmetics-blush_116825.html",
     website_link: "https://well.ca",
@@ -17293,7 +17294,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4621032a92cb428ad640c105b944b39c_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-face-studio-master_88831.html",
@@ -17319,7 +17320,7 @@
     price: "23.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b5dc625e10b6324d1d74a31641f42fa3_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/sante-rouge_51620.html",
     website_link: "https://well.ca",
@@ -17344,7 +17345,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d8969d390fd94976aee71df780f512f2_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-trublend-blush-in-medium_112759.html",
@@ -17370,7 +17371,7 @@
     price: "7.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0af800d01a052da93b9145fb59f849ba_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/annabelle-blush_108726.html",
     website_link: "https://well.ca",
@@ -17401,7 +17402,7 @@
     price: "7.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e4842a84c9c0522ba29f1a856d841b1c_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/nyx-high-definition-blush_118146.html",
@@ -17438,7 +17439,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/490e2f5a880ab9d39c44876a0ea89f44_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-nude-wear-touch_102684.html?cat=328",
@@ -17464,7 +17465,7 @@
     price: "31.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1bc9b62be0eb02ff7d07c2619dee18d1_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/dr-hauschka-rouge-powder_34480.html?cat=328",
@@ -17494,7 +17495,7 @@
     price: "29.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0909a58a190eceee8bd042d9fc80b047_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-swimmables-water_87611.html",
@@ -17523,7 +17524,7 @@
     price: "32.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f1c6dea6717aeaa8796a5f62992d8979_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/mineral-fusion-blush_91619.html",
     website_link: "https://well.ca",
@@ -17552,7 +17553,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/bb0b0c2057205b8e39823c5c7fc6af45_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-clean-glow-blush_78621.html",
@@ -17578,7 +17579,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/48492123aba0c6d096945d57a070361d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-clean-glow-blush_78620.html",
@@ -17604,7 +17605,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8df6f68abe9f6bf47546254706f54e37_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-nude-wear-glowing_90087.html",
@@ -17630,7 +17631,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d095a226cf2698dba1eba4c6e2ce9896_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-cheekers-blush_74131.html",
@@ -17656,7 +17657,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/73da123512d4ca1f2aebf5149e065d86_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-studio-blush-palette-dark_99359.html",
@@ -17687,7 +17688,7 @@
     price: "13.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/dd6ee943412a416ecfe9e4a1b2bed107_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/revlon-powder-blush_100975.html",
     website_link: "https://well.ca",
@@ -17720,7 +17721,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e8c59b78ebeaec5c4b6aeba49a9ff0f6_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-face-studio-master_88836.html",
@@ -17746,7 +17747,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f315b0da1a165666f67a8755c6f105ec_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-nude-wear-glowing_90088.html",
@@ -17772,7 +17773,7 @@
     price: "3.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/adf90395cfffa4f3c2298b9f53622c81_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-contouring-blush-bronzing_117823.html?cat=328",
@@ -17801,7 +17802,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1d1668b02148a8823eb19c1ce4157a4e_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-cheekers-blush_74128.html",
@@ -17827,7 +17828,7 @@
     price: "14.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f939707421649b0ceab58c0534ec44de_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-smart-shade-powder-blush_84485.html",
@@ -17857,7 +17858,7 @@
     price: "16.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e4e4827631b874f898d41a90ab3de5a6_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/loreal-paris-true-match_4395.html",
     website_link: "https://well.ca",
@@ -17882,7 +17883,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cd18303ddee33a8e03e0ad53f51e38f1_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-happy-booster_61134.html",
@@ -17908,7 +17909,7 @@
     price: "12.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/187a238fb2afe03f3f7d0133305d845a_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/pure-anada-loose-mineral-luminous_93630.html",
@@ -17938,7 +17939,7 @@
     price: "15.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e096eb4264561b76a90a9a2bfb6cfca2_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-mineral-wear_70987.html",
@@ -17967,7 +17968,7 @@
     price: "7.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5361038d5de79bedaca6c64b48271161_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-instant-cheekbones_33230.html",
@@ -17993,7 +17994,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f79082caeb5359d5927f1a4a0aecf3b8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-happy-booster_61125.html",
@@ -18019,7 +18020,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9afdb02a47f0a04fe1f7aa78c5a49f63_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-studio-blush-palette-light_99360.html",
@@ -18050,7 +18051,7 @@
     price: "12.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/47169d3a86232fa7eec3a0c43ed1ad06_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-loose-mineral-velvet_83216.html",
@@ -18080,7 +18081,7 @@
     price: "10.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/53d5f825461117c0d96946e1029510b0_ra,w158,h184_pa,w158,h184.png",
     product_link: "https://well.ca/products/maybelline-fit-me-blush_31269.html",
     website_link: "https://well.ca",
@@ -18113,7 +18114,7 @@
     price: "21.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/57664a83a5b141160e76968fe51b51a7_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-organic-wear_11977.html",
@@ -18142,7 +18143,7 @@
     price: "12.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/43071cd57ecffc55c1e0bff29278c3a7_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-pressed-mineral-cheek_83224.html",
@@ -18183,7 +18184,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4c9db52b5d1cf54fe74fc60b00ffdaa1_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/milani-rose-powder-blush_101161.html",
@@ -18213,7 +18214,7 @@
     price: "7.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4ae353dcae46e9b97c4915566fc9190a_ra,w158,h184_pa,w158,h184.png",
     product_link: "https://well.ca/products/milani-baked-blush_32703.html",
     website_link: "https://well.ca",
@@ -18261,7 +18262,7 @@
     price: "26.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b684853d1ee1ffd6125cdbb0308cb9c7_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/cargo-cosmetics-blush_87602.html",
     website_link: "https://well.ca",
@@ -18295,7 +18296,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/006d1877c44b9f612c5a9805d02b1b02_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-contour-palette_87504.html",
@@ -18325,7 +18326,7 @@
     price: "32.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/87772297ba0794c272d7e9f751d3beac_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-beachblush_87472.html?cat=328",
@@ -18355,7 +18356,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/32d324c76a75429df71cd525d60318a8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-contouring-blush_93099.html?cat=328",
@@ -18384,7 +18385,7 @@
     price: "32.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/62507a6df269ba7ecba37157bc4bc3e9_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-beachblush_87477.html?cat=328",
@@ -18415,7 +18416,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7c674b3490001af91546b73c5fc45f94_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-argan-wear_102667.html",
@@ -18441,7 +18442,7 @@
     price: "51.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ad55adbfdae0bb8adfe72bcbc41893ac_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/stila-convertible-colour-palette_120775.html",
@@ -18467,7 +18468,7 @@
     price: "51.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6bb8e9566e2b42bfaf85b9abe36e7cde_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/stila-convertible-colour-palette_120773.html",
@@ -18493,7 +18494,7 @@
     price: "27.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3fd71730443a4f57b798668c24d0ad19_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/anna-suicream-cheek-colour_115150.html",
@@ -18526,7 +18527,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7e559a82a8c8b56d75ae5f108d8449ba_ra,w158,h184_pa,w158,h184.png",
     product_link: "https://well.ca/products/nyx-rouge-cream-blush_105937.html",
     website_link: "https://well.ca",
@@ -18563,7 +18564,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4099ce5656b195d2ec1b845d2b678e25_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-visible-lift-blur_96606.html",
@@ -18592,7 +18593,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8d1dc771f1dbdf2fe5e3cb378c44f1fb_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/marcelle-cream-blush_94562.html",
     website_link: "https://well.ca",
@@ -18622,7 +18623,7 @@
     price: "13.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1b84cb453bc5527d4ecb11b5967cd135_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-photoready-cream-blush_84552.html",
@@ -18648,7 +18649,7 @@
     price: "15.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3a23201f66be485784f542c43a4b3569_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/dalish-lip-cheek-balm_98198.html?cat=1978",
@@ -18680,7 +18681,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/468d19513d1f01f1e59806ccdd4222fe_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-super-bb-all-in-1_102736.html",
@@ -18706,7 +18707,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/51eacb9efebbaee39399e65ffe3d9416_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-dream-bouncy-blush_50689.html",
@@ -18737,7 +18738,7 @@
     price: "26.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1c87435efe0a260a66b3df7cd58aaed0_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/anna-sui-lip-colour-stain_115171.html",
@@ -18770,7 +18771,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/df00e1e6268dc7d208b993d5692c9772_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorstay-moisture-stain_100976.html",
@@ -18796,7 +18797,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cf54199ffb803951bf6342b59e3c58a5_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorburst-balm-stain_53709.html",
@@ -18830,7 +18831,7 @@
     price: "3.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/be634f08e36f3a6f18feed1c68065596_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/wet-n-wild-mega-slicks-lip-balm_86420.html",
@@ -18862,7 +18863,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/58650edc46ff5ed6705f5dfdb0776b5d_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/nyx-ombre-lip-duo_118288.html?cat=477",
@@ -18888,7 +18889,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5ede5c35db258a2416472fe8f93c2d75_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-forever-sharp-waterproof_120903.html",
@@ -18921,7 +18922,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a4e135cd10297f09958503e830d58124_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/nyx-ombre-lip-duo_118291.html?cat=477",
@@ -18947,7 +18948,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9b00f1bed71b9d46399663a8ef364a9a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-lip-perfection-lipliner_74475.html",
@@ -18973,7 +18974,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/2daab464be400117104710b2d0a93246_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-waterproof-lip-definition_100259.html",
@@ -19006,7 +19007,7 @@
     price: "19.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/41643c6b163f42085540373b8858196b_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-reverse-lip-liner_87685.html",
@@ -19032,7 +19033,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/12b80abdb096e4bd949309febf299e66_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-2-in-1-retractable-plumping_100256.html",
@@ -19065,7 +19066,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6762de575de61e3987070e2cde8009b7_ra,w158,h184_pa,w158,h184.png",
     product_link: "https://well.ca/products/nyx-lip-primer_105941.html",
     website_link: "https://well.ca",
@@ -19096,7 +19097,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4d5dae99dd3884292e941f95392201b9_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/bonne-bell-lip-liner_101856.html",
     website_link: "https://well.ca",
@@ -19126,7 +19127,7 @@
     price: "11.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0d3cb34004a3290519b914ceaa0d67c8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-colour-riche-lip-liner_50854.html",
@@ -19161,7 +19162,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/bc487b5ce253ed22f045302a4f0b051c_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/annabelle-stay-sharp-waterproof_97733.html",
@@ -19194,7 +19195,7 @@
     price: "8.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6607c1b7eb717dfbd3c228b61e4c5148_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-sensational_14541.html",
@@ -19225,7 +19226,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0b1191651b7aef22b11e96f8c7c548d4_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/loreal-paris-infallible-never-fail_51407.html",
@@ -19259,7 +19260,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/aa363598f8a9d629d3ade5c140e373d0_ra,w158,h184_pa,w158,h184.png",
     product_link: "https://well.ca/products/nyx-slim-lip-pencil_106558.html",
     website_link: "https://well.ca",
@@ -19299,7 +19300,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/2220d3e4e86c537c59ea5f3cea99e2cc_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-lip-primer-plumper_93439.html",
@@ -19325,7 +19326,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/afcbc5e035eab277db61144a9a3de035_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-colorstay-lip-liner_3841.html",
@@ -19359,7 +19360,7 @@
     price: "3.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/386b5089c2fac40c4b01e0a17dc7a1f0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/milani-color-statement-lipliner_89094.html",
@@ -19393,7 +19394,7 @@
     price: "20.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d203321e1481ff3e90906b92c960c524_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/sante-lip-duo-contour-and-gloss_51588.html",
@@ -19421,7 +19422,7 @@
     price: "17.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/00148ac1311be275b6653eec741b135a_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-flawless-compact-foundation_120920.html",
@@ -19454,7 +19455,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c4d5400687c823f37bf21301859c616d_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/revlon-photoready-insta-fix-makeup_101108.html",
@@ -19490,7 +19491,7 @@
     price: "22.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4ca356be704dce025868182946e52080_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-bb-cream-to-powder-makeup_100226.html?cat=581",
@@ -19519,7 +19520,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4d7d79376ed827d7e587d849e16f2136_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-super-bb-all-in-1_102737.html?cat=581",
@@ -19548,7 +19549,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/2f58780bf027e35f8f354a8f9b7acc3e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-nude-wear-touch_102685.html",
@@ -19574,7 +19575,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fd47eaa9241a010e48fc32cf4611d772_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-olay-simply-ageless_74462.html",
@@ -19600,7 +19601,7 @@
     price: "27.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e468ef6f9534484e1f21e0f971d92c48_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/sante-soft-cream-foundation_51624.html",
@@ -19626,7 +19627,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1aa7e9e399d24c2a747137df51026ed2_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-ultimate-finish-liquid_76722.html",
@@ -19652,7 +19653,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/037b446c36900da96e12fde1be625a76_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-colorstay-whipped-creme_54357.html",
@@ -19684,7 +19685,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fb79e7facf701176d4113527c284613f_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-dream-smooth-mousse_28944.html",
@@ -19710,7 +19711,7 @@
     price: "18.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3b9b3cd1bce690e330f335cd696bb098_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-new-complexion-one-step_3998.html",
@@ -19743,7 +19744,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d04e7c2ed65dabe1dca4eed9aa268e95_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-fit-me-shine-free_79864.html",
@@ -19776,7 +19777,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/029889b345c76a70e8bb978b73ed1a87_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-dream-matte-mousse_3747.html",
@@ -19809,7 +19810,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b9a2310c06b11611ab850051c90d06b0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-hd-mattifying-cream_93392.html",
@@ -19835,7 +19836,7 @@
     price: "37.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ad193b9a7696d646f5d398e1550f2f04_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/mineral-fusion-sheer-tint-foundation_119082.html",
@@ -19861,7 +19862,7 @@
     price: "25.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ffcc22368c1a34e5478730e6cba8790d_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/pure-anada-loose-mineral-foundation_120386.html",
@@ -19908,7 +19909,7 @@
     price: "35.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/85f0104f060f5f6e76dc18f5c8e728e6_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/dr-hauschka-translucent-face-powder_34481.html",
@@ -19934,7 +19935,7 @@
     price: "20.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3c711478d1b8a9f1c7d9f2c1cdffdb41_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/physicians-formula-mineral-wear_112333.html",
@@ -19964,7 +19965,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f502dbd04258fd8b613887935f0daa53_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-mineral-stick-foundation_105944.html",
@@ -20009,7 +20010,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ae8ef30ce1bbfbc56d28f98343d54f4d_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-stay-matte-but-not-flat-powder_106554.html?cat=582",
@@ -20039,7 +20040,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/296c3f69ab7abdc797d6f0f7092f7a58_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/milani-cream-to-powder-makeup_12180.html?cat=581",
@@ -20070,7 +20071,7 @@
     price: "29.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c150e6cb030d8b4c8c63a12e6e599332_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-mineral-wear_58605.html?cat=1977",
@@ -20096,7 +20097,7 @@
     price: "29.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/83eaa459937a099c51594ef9578b3821_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-mineral-wear_58609.html?cat=582",
@@ -20122,7 +20123,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cca454e907546544ca9b5b183bb8a96c_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-mineral-wear_58593.html?cat=582",
@@ -20151,7 +20152,7 @@
     price: "19.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e604b3ea443d37f002b6e74d12733427_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-pressed-sheer-matte_83508.html",
@@ -20180,7 +20181,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c77ad2da76259cfd67a9a9432f635bfb_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-mineral-power-natural_5900.html?cat=582",
@@ -20206,7 +20207,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9ad93ab35e838c5a1669cc934c6d93b6_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-mineral-wear_58573.html?cat=582",
@@ -20236,7 +20237,7 @@
     price: "12.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5d746a1619119260de309df7396e5d7c_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-loose-mineral-foundation_83210.html",
@@ -20287,7 +20288,7 @@
     price: "12.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b074403f4a1c12a7920199e4d8fabe78_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/covergirl-outlast-stay-luminous_105789.html",
@@ -20318,7 +20319,7 @@
     price: "37.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/28f3263536f9d9650997790baf329bbe_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/mineral-fusion-liquid-foundation_119099.html",
@@ -20354,7 +20355,7 @@
     price: "18.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/24517c6c81c92eda31cd32b6327c1298_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-dream-velvet-foundation_112738.html?cat=581",
@@ -20393,7 +20394,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c7d967ef502ecd79ab7ab466c4952d82_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-superstay-better-skin_112548.html",
@@ -20425,7 +20426,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b5a40b7f3a55feb97f7b16987f1fe8c7_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-stay-matte-but-not-flat-liquid_106808.html",
@@ -20457,7 +20458,7 @@
     price: "16.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/2a38b2c75a247fe6d1038431964dd24c_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/loreal-paris-true-match-lumi-glow_107479.html",
@@ -20487,7 +20488,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/414eb9180f66dd8a75ddd34b307e3a36_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-ready-set-gorgeous-liquid_97267.html",
@@ -20521,7 +20522,7 @@
     price: "12.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5b6bdfe942b6ffccbd2ca3f37e500744_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-outlast-stay-fabulous_74018.html",
@@ -20547,7 +20548,7 @@
     price: "44.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e98af12555201b5d34a30e3029191c6d_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/dalish-silk-to-matte-foundation_98219.html",
@@ -20577,7 +20578,7 @@
     price: "18.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c207687e567547445338321ae28c9b96_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-visible-lift-blur_96664.html",
@@ -20612,7 +20613,7 @@
     price: "9.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/19422d63bf6e51c128bc2fa457fa61dc_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-clean-liquid-makeup-normal_74981.html",
@@ -20638,7 +20639,7 @@
     price: "42.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/369c6a7dc5ce002dd66b2271256b84c9_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-liquid-foundation_87617.html",
@@ -20676,7 +20677,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/edd3139c31a9f0561b93d1b68b21a442_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-smoothers-all-day_75020.html",
@@ -20702,7 +20703,7 @@
     price: "9.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/700e432a504f4784792e84d498c982b7_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-clean-oil-control-makeup_74942.html",
@@ -20728,7 +20729,7 @@
     price: "18.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b94e7fe160e5564b9a8282938d3dabae_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-nude-wear-touch_102682.html",
@@ -20754,7 +20755,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ccb99ad6ac7f31a2a73454bdbda01d99_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-dream-wonder-liquid-touch_96732.html",
@@ -20780,7 +20781,7 @@
     price: "12.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9b13eee88cc626be90db443abb6e8bb9_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-advanced-radiance-age_75009.html",
@@ -20806,7 +20807,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b0d39978c1aeee0d1dd0dfe186e25c75_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/revlon-photoready-airbrush-effect_101107.html",
@@ -20845,7 +20846,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0215f4c5565bd4e8215969c6aa93e89c_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-age-defying-firming-lifting_92471.html",
@@ -20871,7 +20872,7 @@
     price: "26.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0350aac08c86bccd97c2a5ca26b15ae9_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-paris-true-match-lumi_112632.html",
@@ -20906,7 +20907,7 @@
     price: "28.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/04c6f1353fdaf82d48a9d3ecf0d619f4_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-onebase-for-face_87688.html",
@@ -20957,7 +20958,7 @@
     price: "18.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/99d879544d3e44842f2437e17c9ef52a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-youthful-wear_90013.html",
@@ -20986,7 +20987,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c1b6c4f04c4f2c43ec1331049e65c280_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/annabelle-skintrue-foundation_97867.html",
@@ -21018,7 +21019,7 @@
     price: "17.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/afcbd92c05ea8b6452eabc80e2b9d549_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-smart-shade-skintone-matching_92875.html",
@@ -21048,7 +21049,7 @@
     price: "20.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/39be9facd53cf124ff38e9a25de09e10_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-visible-lift-serum-absolute_27672.html",
@@ -21079,7 +21080,7 @@
     price: "17.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/39ef46015c299f19fad898e6ce14f131_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-smart-shade-anti-aging_92874.html",
@@ -21109,7 +21110,7 @@
     price: "17.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f080c72085d7746687375cdcfdf62a94_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-truly-lasting-color-makeup_6586.html",
@@ -21139,7 +21140,7 @@
     price: "12.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f047b24948adf8c9d5f6b795db107920_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-outlast-stay-fabulous_74021.html",
@@ -21165,7 +21166,7 @@
     price: "20.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7d8276b94863d7cff212d0161b5c632e_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-true-match-lumi_55277.html",
@@ -21197,7 +21198,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/268da4d7967fad9c153af24ee8d2e026_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-paris-infallible-pro-matte_102002.html",
@@ -21233,7 +21234,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/197e268a36cdc0b05fc8758a2d959485_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-colorstay-makeup-for-normal_3936.html",
@@ -21264,7 +21265,7 @@
     price: "39.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/965ec1b8b64ab44496aa44f6b4a1ea01_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/dr-hauschka-foundation_103110.html",
     website_link: "https://well.ca",
@@ -21295,7 +21296,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f930f8fcd14f31ce1700faf24c4606f5_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-flawless-finish_93427.html",
@@ -21324,7 +21325,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1ca6a4a442b9aa6b5f3d94da77d8846c_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-dream-liquid-mousse_12303.html",
@@ -21356,7 +21357,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/257993e12625cc45a72ec03636ffa5c5_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/maybelline-fit-me-matte-poreless_100974.html",
@@ -21394,7 +21395,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/844f8a41bfd962e75295db3b75ad3167_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-colorstay-makeup-for_3937.html",
@@ -21424,7 +21425,7 @@
     price: "18.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c71a2c6a4f7d41ceb60f068780bcfba5_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-true-match-super_4385.html",
@@ -21461,7 +21462,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/eccb88d484b8c929fd349b0995a5dba2_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-fit-me-foundation-with_31187.html",
@@ -21492,7 +21493,7 @@
     price: "25.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/066dd839fc77495347ecfe44a4636e57_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/pure-anada-smooth-conceal-liquid_97726.html",
@@ -21532,7 +21533,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fa4c4e189875760b7d75f327706096f9_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-studio-tinted-moisturizer_93466.html?cat=580",
@@ -21562,7 +21563,7 @@
     price: "10.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d9b88855df583049fa9f995c88781338_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/almay-intense-i-color-everyday_106741.html",
@@ -21588,7 +21589,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e8be715d17f0bcc25ffe81f4286ffac0_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-trunaked-eyeshadow_112732.html",
@@ -21614,7 +21615,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/302303dd9945c08bc0334544602599be_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-studio-baked-eyeshadow-trio_99357.html",
@@ -21644,7 +21645,7 @@
     price: "29.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d6bf791aee472d5cc9d402a4227b10b8_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-colour-riche-la-palette-nude_104229.html",
@@ -21670,7 +21671,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0a001646e27fecf93ffd46d731ae0d1f_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/dr-hauschka-eye-shadow_34273.html",
     website_link: "https://well.ca",
@@ -21705,7 +21706,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c924006882e8e313d445a3a5394e4729_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-expert-wear-eye-shadow_79611.html",
@@ -21731,7 +21732,7 @@
     price: "24.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a7bde92c185b56ec210838dea41d9bec_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/sante-eyeshadow-trio_51611.html",
     website_link: "https://well.ca",
@@ -21760,7 +21761,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3f9f894b56e0616e44c5ee01dea45217_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-eyestudio-color-tattoo_114535.html",
@@ -21797,7 +21798,7 @@
     price: "15.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cefc37500e17a39af22b2be42ac00abf_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_102731.html",
@@ -21823,7 +21824,7 @@
     price: "4.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/07ea2b4f18a9b6e9d174352220462bd8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/wet-n-wild-color-icon-eyeshadow-trio_89761.html",
@@ -21849,7 +21850,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/19b83ad09d00473a3258b74f69dfbb20_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-essential-little-black-beauty_93244.html",
@@ -21875,7 +21876,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8a7832489e0792cb0a1e4d4d24bf3efd_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/milani-everyday-eyes-powder_117798.html",
@@ -21901,7 +21902,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/757cf4197fe84ed9c1e2c21ed63d1be3_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-intense-i-color-liquid-shadow_84473.html",
@@ -21931,7 +21932,7 @@
     price: "15.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9cd3466b7ce77448e4fd11338f0d7f20_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_70957.html",
@@ -21957,7 +21958,7 @@
     price: "4.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e1e4b13a264fe9a7cbccaea373c24d9d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-eye-enhancers-1-kit-shadow_74146.html",
@@ -21983,7 +21984,7 @@
     price: "6.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e48da5acde28bd3b1bcc2bff5b9d4a56_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-eye-enhancers-3-kit_59872.html",
@@ -22013,7 +22014,7 @@
     price: "14.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b35505ef545ea7e478d0da882d8e93d8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-photoready-primer-shadow_67144.html",
@@ -22039,7 +22040,7 @@
     price: "5.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/355a8d67acc1b30be6be8dce5b1c8ef0_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-hot-singles-eye-shadow_106074.html",
@@ -22110,7 +22111,7 @@
     price: "16.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/62ffaaf4299a6b30dc048c689bd064d0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_89998.html",
@@ -22136,7 +22137,7 @@
     price: "17.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/201350fd3e173307ade44520dc87d8fb_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-the-nudes-eye-shadow_95144.html",
@@ -22162,7 +22163,7 @@
     price: "14.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7fb45dded4fbe7603a9aa9f56a65eeca_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/pacifica-super-powder-supernatural_110252.html",
@@ -22192,7 +22193,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fa63b99f27bbcb78998db3f2436b4764_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-mad-for-matte-eyeshadow_117826.html",
@@ -22218,7 +22219,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1b860dc0654fdc410beea95c6ba89b8d_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-studio-baked-eyeshadow-trio_99356.html",
@@ -22244,7 +22245,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cf21d194ab14ee3c527d02682c358a7a_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-eye-studio-color-tattoo_95143.html",
@@ -22276,7 +22277,7 @@
     price: "43.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/be56826f6ed902203a0616930c4de5ea_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/dr-hauschka-eye-shadow-palette_34275.html",
@@ -22302,7 +22303,7 @@
     price: "6.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7d13530ed0a2ec9edc3736dcc0944a6b_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-eye-enhancers-4-kit_4266.html",
@@ -22328,7 +22329,7 @@
     price: "28.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8b25aa939044e24c7de93036977901d8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pacifica-mystical-supernatural-eye_86672.html",
@@ -22359,7 +22360,7 @@
     price: "56.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d45c12626255b3ebd4d674060e1a38b3_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/mistura-6-in-1-beauty-solution_30539.html?cat=323",
@@ -22385,7 +22386,7 @@
     price: "17.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/49d98e112e77d2a9a0c8fad28df89a1e_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-the-nudes-eyeshadow_107498.html",
@@ -22411,7 +22412,7 @@
     price: "6.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/197ae5defd213aa7967e20756d370be8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-eye-enhancers-3-kit_4258.html",
@@ -22437,7 +22438,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7282990c0ae826129a437ff3cb823cab_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-studio-prism-eyeshadow_105278.html",
@@ -22470,7 +22471,7 @@
     price: "28.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/eea39137208ea1ea7754c6c6e95689c5_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pacifica-enlighten-eye-brightening_77797.html",
@@ -22501,7 +22502,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9c602a66c3a2d8492389d48adbf2c7fe_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/wet-n-wild-color-icon-eye-shadow_81697.html",
@@ -22527,7 +22528,7 @@
     price: "8.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4daf84bee451c265ec04f7cc1b8bb7c3_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-loose-luminous-eye-colour_93638.html",
@@ -22567,7 +22568,7 @@
     price: "1.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7d6da9fa070a3d82c6a8e8fc4c8110c2_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/wet-n-wild-color-icon-eyeshadow_86421.html",
@@ -22596,7 +22597,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c2ddacc79f4fdd3d23664581c76546bc_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-eye-studio-color-tattoo_50692.html",
@@ -22627,7 +22628,7 @@
     price: "28.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4395f2c09aebd1b8d8f183168bc5d00f_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pacifica-radiant-shimmer_77804.html?cat=1977",
@@ -22657,7 +22658,7 @@
     price: "10.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/66d22b6cffd1cc8b2394e41b1c60501f_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-matte-collection_58064.html",
@@ -22683,7 +22684,7 @@
     price: "19.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/12b1caa07e20c2e9535fc67120f4abb1_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-eye-shadow-single_87586.html",
@@ -22717,7 +22718,7 @@
     price: "8.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9b489f80495f5d059d0f49ef38c36664_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-pressed-mineral-eye-color_83502.html",
@@ -22770,7 +22771,7 @@
     price: "60.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/baf991d5944d310d8c337423486b77ea_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pacifica-natural-minerals-solar_86675.html?cat=328",
@@ -22796,7 +22797,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/58d07d24e39142e0c5a178b00b6b31f1_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-eye-studio-color-tattoo_67270.html",
@@ -22826,7 +22827,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d21a214b11528337f27647cbbd93de6b_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-trunaked-waterproof_112747.html",
@@ -22852,7 +22853,7 @@
     price: "28.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5e2dd70493281c257ad9e77b8840d570_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/anna-sui-eye-brightener_115440.html?cat=324",
@@ -22878,7 +22879,7 @@
     price: "10.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/269abb578dd790ab8379025f81fcbfae_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/anna-sui-sharpener_115554.html?cat=324",
@@ -22904,7 +22905,7 @@
     price: "9.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a7598160bc46504c98c26a241e3047e2_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-bombshell-powder-brow_113683.html",
@@ -22930,7 +22931,7 @@
     price: "26.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/88d74b22173b3f912b2263c4fd505a2b_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/anna-sui-pencil-eyeliner-wp_115449.html",
@@ -22962,7 +22963,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/92d2bd2c93f465c5565009f3f604fae6_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-trunaked-waterproof_112746.html",
@@ -22988,7 +22989,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/117b7491bce3c01899a12df69d4629e1_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/revlon-photoready-kajal-matte-eye_112535.html",
@@ -23014,7 +23015,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a08c2b2466bf97e899cfc1445cd6cd9f_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_112259.html",
@@ -23040,7 +23041,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/72bab061829b3185368d8dcb24a6a630_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-full-lash-bloom-mascara_108466.html?cat=324",
@@ -23066,7 +23067,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/08f663a61b796cb57fd6aef86dbb5cc1_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-infallible-smokissime-powder_102005.html",
@@ -23095,7 +23096,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d64ebc772679cbca5c93fd10cc2f3c56_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_102727.html",
@@ -23121,7 +23122,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0e085149c3fbedd0aa6661c6b3d143cf_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/milani-supreme-kohl-kajal-eyeliner_108625.html",
@@ -23147,7 +23148,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d579558b853bc13b92292106cfc2ed15_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/annabelle-retractable-eyeliner_97807.html",
@@ -23176,7 +23177,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4448f8a937851a10afe049b1c374f448_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-lux-cream-eye-shadow_100215.html",
@@ -23207,7 +23208,7 @@
     price: "19.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/edee76f18bae96a69164f4058e6b3c32_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-swimmables-eye_87606.html",
@@ -23240,7 +23241,7 @@
     price: "16.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4f99def0f8d14a1a498118d7fca9fa89_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/pacifica-magical-multi-pencil-prime_110265.html?cat=477",
@@ -23266,7 +23267,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/541b71a4d119bdae25eb1c3690bacf68_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/annabelle-smudgeliner_97765.html",
     website_link: "https://well.ca",
@@ -23291,7 +23292,7 @@
     price: "19.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3691e75a871b476e86f1e240ce784e70_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/mineral-fusion-eye-pencil_91719.html",
@@ -23319,7 +23320,7 @@
     price: "1.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/52cb90513c65303b9ac96b0bb8f5e74c_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/wet-n-wild-sharpen-up-dual-pencil_114005.html",
@@ -23345,7 +23346,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/db7299d1c75f3e217b911e9a7be8783c_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-ink-it-by-perfect-point_78616.html",
@@ -23371,7 +23372,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e1b909a32d2c8a8075ac11972511e936_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/annabelle-stay-sharp-waterproof-kohl_97762.html",
@@ -23404,7 +23405,7 @@
     price: "16.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b2c0bdd88398baadd69b710d27893ca2_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pacifica-natural-eye-pencil_94342.html",
@@ -23430,7 +23431,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0e4882c00b6639844d9168d71f43c3ed_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-liquiline-blast-eyeliner_74467.html",
@@ -23456,7 +23457,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/25372c697046520c10607be4c235d3ba_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/annabelle-smoothliner_97768.html",
     website_link: "https://well.ca",
@@ -23481,7 +23482,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/268575c4edd3108568af16e39ad69517_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-waterproof-eyeliner_100319.html",
@@ -23522,7 +23523,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b5c7acadc4e472a567e428979d68357c_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_70958.html",
@@ -23548,7 +23549,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a132f78e0b9e4aa4cca37c9f05267897_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-infallible-silkissime_96632.html",
@@ -23582,7 +23583,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cf225e409760daf4dea62290990008a6_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-extra-intense-liquid_29589.html",
@@ -23608,7 +23609,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e4763257a2290da070bd300212d16db8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-ink-it-by-perfect-point_78614.html",
@@ -23634,7 +23635,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4ce7e1ce460841dfc5f42c29221cf5c1_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_61188.html",
@@ -23660,7 +23661,7 @@
     price: "7.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/74749bda64dcfe89dfdbf3f2f248cd3a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-perfect-point-plus_74584.html",
@@ -23686,7 +23687,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4c7b17775d8a73cf4585e20761098b79_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/milani-brow-eye-highlighter-duo_89096.html?cat=324",
@@ -23715,7 +23716,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/2f7610f4a82cc1c7abb8ddc33ab236f0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-infallible-never-fail_10010.html",
@@ -23745,7 +23746,7 @@
     price: "17.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9006e43a8083b3dff963ecbfa02c3707_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/sante-kajal-eyeliner-pencil_51514.html",
@@ -23775,7 +23776,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/62462de8cb4b6d0759b9e4b13bc602ed_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/dr-hauschka-kajal-eyeliner_34277.html",
@@ -23806,7 +23807,7 @@
     price: "7.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4e88f928ad91c88e2ecb8596431ce799_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-line-express-eyeliner_9738.html",
@@ -23832,7 +23833,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/384c7e6d20cf4ad138b7120b43a8a310_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-intense-i-colour-bring-out_4442.html",
@@ -23862,7 +23863,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/bab89a9fe13b34235e0dd1f4f44c05cf_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-unstoppable-eyeliner_3737.html",
@@ -23891,7 +23892,7 @@
     price: "14.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4b8ab1da556c57a01854b5bf23016f48_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-pureline-pencil-eye-liner_83251.html",
@@ -23920,7 +23921,7 @@
     price: "9.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/94a08dc5666ab926584801c34140b29e_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-colour-riche-le-khol_85924.html",
@@ -23949,7 +23950,7 @@
     price: "18.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e43ef102523ce5c38bd92ce1cb562395_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/earth-lab-vegan-mineral-eye-pencil_78793.html",
@@ -23975,7 +23976,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f8d347e5c094ab100de0f04bc163eb79_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-colorstay-eye-liner_3845.html",
@@ -24001,7 +24002,7 @@
     price: "5.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c2fcd605bbf3941b521fb74bfa942ac6_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-show-kohl-liner_101020.html",
@@ -24036,7 +24037,7 @@
     price: "36.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f70d6757e11ac6303da25cfa2c6cd3dc_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/stila-la-quill-eye-liner-brush_108693.html?cat=2312",
@@ -24062,7 +24063,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c53e6de2dbf4c4679ba491247a5ab608_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/nyx-super-fat-eye-marker_118091.html",
@@ -24088,7 +24089,7 @@
     price: "9.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/49400a1459a15523535e61d0db29e57d_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-bombshell-powder-brow_113684.html",
@@ -24114,7 +24115,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9c98f99f2033bb942286fa1bb32b4c51_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-eye-studio-master-graphic_112723.html",
@@ -24140,7 +24141,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/28f0f546d02a7c4330b4d186d42e3c32_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/covergirl-intensify-me-liquid-liner_105497.html",
@@ -24166,7 +24167,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b6ca6fa1ab5021b55d9ca0ca3ed40437_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/loreal-paris-infallible-black_112606.html",
@@ -24192,7 +24193,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/be5757ecba60adb5369518ee5eb5d16e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/milani-eye-tech-bold-liquid-eyeliner_108628.html",
@@ -24218,7 +24219,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c1a77bb86938bd9d825c6718216cee58_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-texasliner-liquid_87491.html",
@@ -24244,7 +24245,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/917bddd5782d5f05820f61f0bef8f23e_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/wet-n-wild-proline-graphic-marker_113994.html?cat=324",
@@ -24273,7 +24274,7 @@
     price: "15.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7edeec469ab0103287cdc2c984b39d28_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/pysicians-formula-eye-booster_112247.html",
@@ -24299,7 +24300,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e36fc76e51587b115b3358c336d0fb50_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/annabelle-eyeink2-liquid-eyeliner_108647.html",
@@ -24328,7 +24329,7 @@
     price: "8.96",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/295d6b52d5dc093aa4f7ce001ba30c58_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/annabelle-glitterama-liquid-eyeliner_97305.html",
@@ -24354,7 +24355,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/32cde2248ec2fb43fd0b165521965b3f_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/wet-n-wild-proline-felt-tip-eyeliner_113998.html",
@@ -24383,7 +24384,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f091348f64e2245afa02f30fcb139444_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-double-precision-liquid_100316.html",
@@ -24409,7 +24410,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8ca9c5677e8b27321069490cc08b3d46_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/annabelle-eyeink2-mistake-proof_108750.html",
@@ -24438,7 +24439,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5b4b8ad9a7d0264fa6b66d4027aa0f7e_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-ink-it-by-perfect-point_97199.html",
@@ -24464,7 +24465,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/bb7368014d95f21e66c99b0f4d5bf91b_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-kajal-kohl-eyeliner_100255.html",
@@ -24490,7 +24491,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8ff7034e32f516c8df2ab96d77535570_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/wet-n-wild-h2o-proof-liquid-eyeliner_113995.html",
@@ -24519,7 +24520,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/db9cbca2c6fac992ed5ccff1adab5070_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/milani-eye-tech-extreme-liquid_108629.html",
@@ -24545,7 +24546,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7bb485ce33465552ef0991e552d449ca_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-waterproof-liquid-dip-pen_100216.html",
@@ -24576,7 +24577,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1e27825577015c0144768f2a5d9e9233_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-sexy-booster-cat_102725.html",
@@ -24602,7 +24603,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6e912cfe1f08dc802ad241f4adcb36e9_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/physicians-formula-argan-wear_112335.html",
@@ -24628,7 +24629,7 @@
     price: "5.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a972397ff3150eab0984483fcd226440_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/wet-n-wild-megaliner-liquid-eyeliner_113997.html",
@@ -24657,7 +24658,7 @@
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorstay-skinny-liquid-liner_101103.html",
@@ -24693,7 +24694,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ac56e10c3ae7d7ec6af4c09ac868831b_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_90002.html",
@@ -24719,7 +24720,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3dc157e4a7e28f90dbe7e9849ccfc87a_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/zorah-liquid-liner_99339.html",
     website_link: "https://well.ca",
@@ -24747,7 +24748,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/98ff3db1b142c3f9f915a2e9a0dafa92_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/milani-fierce-foil-eyeliner_101204.html",
@@ -24778,7 +24779,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/98c26c4923f92c11e36f7dbc28e800a9_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-shimmer-strips_70971.html",
@@ -24804,7 +24805,7 @@
     price: "27.96",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/33227552d3b079b7a8c30777e426fb0b_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pacifica-natural-minerals-smolder_86682.html?cat=323",
@@ -24836,7 +24837,7 @@
     price: "16.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fffdf1e1c3948940e37d5b304275c0bd_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/suncoat-sugar-based-natural-liquid_10691.html",
@@ -24862,7 +24863,7 @@
     price: "30.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a16a04e59251404056169188139a9137_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/dr-hauschka-liquid-eyeliner_34272.html",
@@ -24888,7 +24889,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e66b09555d41920597781babffee41dc_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/almay-liquid-liner_4466.html",
     website_link: "https://well.ca",
@@ -24916,7 +24917,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c8f4a975e002711a67113fcf53b7dad0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-infallible-super-slim-12h_86289.html",
@@ -24942,7 +24943,7 @@
     price: "3.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/805d4c650b7c29c004f7f48d3dc96cb2_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-intense-ink-eyeliner_117825.html",
@@ -24968,7 +24969,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/587c92f6ba640ab943fd1a69b23e541f_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-eyeliner-shadow_93285.html",
@@ -24994,7 +24995,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d8a23eb4d183b3b215d46ef39a6e781b_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-telescopic-explosion_27942.html",
@@ -25020,7 +25021,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/511628443d092564dafbb56371d62748_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-precision-liquid_93378.html",
@@ -25046,7 +25047,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6edd2cadd1894a94f264ceb19f3d344b_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-eyestudio-master-precise_40535.html",
@@ -25072,7 +25073,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6cf30fccb626b5b1eacc9db7b29dc6c2_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-intense-i-colour-play-up_4443.html",
@@ -25101,7 +25102,7 @@
     price: "10.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/350d6c6c2fa3add8ee40189cd19bfe0a_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-line-stiletto-ultimate_17295.html",
@@ -25130,7 +25131,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a1fe077c09f5e903412fe2a6c344e115_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-eye-primer-liner_93038.html?cat=2312",
@@ -25156,7 +25157,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d02f86bc79a8d2f105672d99474300df_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-colorstay-liquid-eye-liner_3842.html",
@@ -25185,7 +25186,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/86cde1cfdb47caee6387cdfc7ac0696e_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-lineur-intense-felt_4407.html",
@@ -25211,7 +25212,7 @@
     price: "14.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/74826a1dae74e388480d2c8a30f9eb03_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-eye-booster-lash_61209.html",
@@ -25241,7 +25242,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/316d25ac5676470d83612b9391678b0d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-liquid-eyeliner_3739.html",
@@ -25267,7 +25268,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/571e52ec2ce167c2cd5ee2047015a1ed_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-cream-eyeliner_93286.html",
@@ -25296,7 +25297,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/2054f702d243c286219e0330af836bf5_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-eye-studio-lasting-drama_23247.html",
@@ -25326,7 +25327,7 @@
     price: "7.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f56b44752218960e8ff15d1364510544_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-lineexact-liquid-eyeliner_74839.html",
@@ -25352,7 +25353,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f426b2e2e9ff8e01788a0947aad93512_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/moov-cosmetics-st-tropez-collection_116031.html",
@@ -25387,7 +25388,7 @@
     price: "15.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/eea60b0c4f3b6539c1573415a610230d_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/anna-sui-nail-colour_115246.html",
     website_link: "https://well.ca",
@@ -25442,7 +25443,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5c2071e6bcb6457ea57fcf3725e2aa92_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-infallible-nail-polish-in_102199.html",
@@ -25468,7 +25469,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/678f91758b7a611d673124f7ad1f00d0_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/moov-cosmetics-caribbean-wedding_116039.html",
@@ -25507,7 +25508,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/23d8770e2765d0ecd6faf613e5817cea_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-infallible-nail-polish-in_102187.html",
@@ -25533,7 +25534,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b90ec1716dfb0c840e32da08d95acc7d_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-infallible-nail-polish-in_102191.html",
@@ -25559,7 +25560,7 @@
     price: "9.39",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a0e2af7b4c21ab132512dba3483d35de_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/misa-nail-laquer_50188.html",
     website_link: "https://well.ca",
@@ -25601,7 +25602,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8bfba92993344fec7c4179ddd74ddde4_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-infallible-nail-polish-in_102197.html",
@@ -25627,7 +25628,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/345fc4da3d9055f3742272714aace73b_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/salon-perfect-nail-lacquer_114045.html",
@@ -25685,7 +25686,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/65ca894afba3c4351a3db71c24234c50_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/moov-cosmetics-home-grown-canuck_116061.html",
@@ -25726,7 +25727,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/69ca8bd686b0c24e44a2033f4aacf035_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-infallible-nail-polish-in_102190.html",
@@ -25752,7 +25753,7 @@
     price: "13.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/648283e42d7fafb7c03e8c60274cd5e0_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/orly-epix-flexible-sealcoat_106342.html?cat=678",
@@ -25778,7 +25779,7 @@
     price: "8.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/65bd0249fe43da8261d6f0b5f78b1826_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/orly-nail-lacquer_61017.html",
     website_link: "https://well.ca",
@@ -25808,7 +25809,7 @@
     price: "13.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/27739f49c78555db95538d22383f4da2_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/orly-epix-flexible-color_106334.html",
@@ -25864,7 +25865,7 @@
     price: "8.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4e761b6e77b356384470b15229b31023_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/orly-nail-lacquer_61019.html",
     website_link: "https://well.ca",
@@ -25900,7 +25901,7 @@
     price: "1.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6f53a1fba843dde57271decf3b5c7ad0_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/wet-n-wild-wild-shine-nail-colour_114017.html",
@@ -25929,7 +25930,7 @@
     price: "4.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f6239cbcd84fa838c461f020b86924aa_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-show-nail-lacquer_96730.html",
@@ -25955,7 +25956,7 @@
     price: "4.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/64cbcfbd001435c3abc3d8f77c16a0bf_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-show-nail-lacquer_96731.html",
@@ -25981,7 +25982,7 @@
     price: "21.5",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/694782ea45c04cdbedeed096fb82f297_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/pacifica-7-free-nail-polish-set_105174.html",
@@ -26007,7 +26008,7 @@
     price: "7.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/bfca70deb100137b3f23bb3a0f887420_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-colour-riche-gold-dust-nail_102185.html",
@@ -26039,7 +26040,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/284a3bf668e98f69cc51a58ff9de1d1a_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-extraordinaire-gel-lacque_102255.html",
@@ -26065,7 +26066,7 @@
     price: "21.5",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/135731beb1a0634f04ebea869dd45f03_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/7-free-nail-polish-set-red_105172.html",
@@ -26091,7 +26092,7 @@
     price: "8.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/11a61e4741fd3299bbf2dbd6b653f0d4_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/china-glaze-nail-lacquer_61013.html",
@@ -26120,7 +26121,7 @@
     price: "10.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7dab50d3ac08ea9c5f2373531a47dd17_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/essie-encrusted-nail-polish_86382.html",
@@ -26150,7 +26151,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5a4b4326f96cafe4c8bfc58ad60559e6_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-transforming-effects-top_101118.html?cat=678",
@@ -26184,7 +26185,7 @@
     price: "19.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e7bf82336f5e267d5d0b491c12fdb7cd_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/sante-nail-polish_51679.html",
     website_link: "https://well.ca",
@@ -26211,7 +26212,7 @@
     price: "15.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/28f6ca4ea2ce4e10d766f4c7cd9bf3d3_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-princess-cosmetics-sugar_93643.html?cat=678",
@@ -26237,7 +26238,7 @@
     price: "7.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/dec895e124125238709b4dbac19d53c0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-colour-riche_96634.html",
@@ -26269,7 +26270,7 @@
     price: "4.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a05aa31a7e30d9d262ae36d0be2c4f87_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-show-nail-lacquer_78068.html",
@@ -26297,7 +26298,7 @@
     price: "15.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/729f14bbcaa15888a91cd7ad200c3a90_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-princess-cosmetics-be_93640.html?cat=678",
@@ -26323,7 +26324,7 @@
     price: "10.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5a8e814bb61cd9168941f448d4ea8a1c_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/essie-nail-colour-cashmere-matte_102081.html",
@@ -26354,7 +26355,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/588d0b742409c3ad227d9b9c616e5772_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-top-speed-enamel-nail_31523.html",
@@ -26387,7 +26388,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/739ca23d0c2ee60e0b19c38568b9d9b6_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/butter-london-patent-shine-10x-nail_106514.html",
@@ -26438,7 +26439,7 @@
     price: "9.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/877c15ed5cbbbf0c92ff3a6d74396b25_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/suncoat-polish-peel-super-natural_55983.html",
@@ -26464,7 +26465,7 @@
     price: "10.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f9cf806594b794ebb2f10ce217a90adb_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/essie-mirror-metallics_55512.html",
     website_link: "https://well.ca",
@@ -26493,7 +26494,7 @@
     price: "10.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3184a0a50b398f81e7284b1a04befc9a_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/pure-anada-nail-polish_93647.html",
     website_link: "https://well.ca",
@@ -26559,7 +26560,7 @@
     price: "2.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/49011c715277e5f39fd63a8e05cd71ef_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/sinful-colours-nail-polish_92340.html",
@@ -26624,7 +26625,7 @@
     price: "10.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/affda4fa0d0c8263549fe901eda814cc_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/mineral-fusion-nail-polish_91622.html",
@@ -26663,7 +26664,7 @@
     price: "5.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ad5297ce5c35c04daa3c85b6906aaedc_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-outlast-stay-brilliant_107374.html",
@@ -26695,7 +26696,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e960bba3ac7a8cb393b2293a976c2b61_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/revlon-nail-enamel_4017.html",
     website_link: "https://well.ca",
@@ -26750,7 +26751,7 @@
     price: "10.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/bec95851afb08acd6f00242e97535f98_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/essie-nail-colour_33987.html",
     website_link: "https://well.ca",
@@ -26842,7 +26843,7 @@
     price: "22.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0c72c8cb27e4c89746e353a332474c81_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/suncoat-girl-nail-beauty-kit-with_74571.html",
@@ -26868,7 +26869,7 @@
     price: "22.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a05895c3b7792308c116e07ff7325f3a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/suncoat-girl-nail-beauty-kit-with_74570.html",
@@ -26894,7 +26895,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/92adb254b0183b5652c581280301cb93_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-infallible-nail-polish-in_102192.html",
@@ -26920,7 +26921,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b52e199adc7a7a95d3b910cc234ffd65_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/piggy-paint-nail-polish_81387.html",
     website_link: "https://well.ca",
@@ -27002,7 +27003,7 @@
     price: "8.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/492cefdf71c66968dd5c6da10cd9c385_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/suncoat-girl-water-based-nail-polish_11968.html",
@@ -27046,7 +27047,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/2d46e82f21b11f658a4378abcbd1c31b_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/covergirl-outlast-longwear-lipstick_105803.html",
@@ -27076,7 +27077,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/00bee78599bf386be435237a1515fdb7_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/covergirl-outlast-lipcolor_103284.html",
@@ -27102,7 +27103,7 @@
     price: "28.96",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/53776859a9fc7bea891c66135f40d645_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/butter-london-moisture-matte_115254.html",
@@ -27141,7 +27142,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a368eac7a50f7aa3fcc773b06915eb39_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/loreal-paris-colour-riche-le-matte_112642.html",
@@ -27176,7 +27177,7 @@
     price: "10.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c88809fbffe05fb9594103e635387152_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/covergirl-colorlicious-lipstick_103162.html",
@@ -27205,7 +27206,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/be04329866e96a0077545d230489d7a9_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-outlast-lipcolor-plum_97226.html",
@@ -27238,7 +27239,7 @@
     price: "12.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8980a2195fbd6f4a47e5b57ac2148e9b_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/mineral-fusion-sheer-moisture-lip_119085.html?cat=330",
@@ -27270,7 +27271,7 @@
     price: "27.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5876ec738df72b74a0aac649415a452f_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/dr-hauschka-limited-edition_117899.html",
@@ -27295,7 +27296,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0fbba5395dcc750a7b43b3e3fefb6015_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-rouge-xpression-lipstick_100283.html",
@@ -27342,7 +27343,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d0b6855d9b603a00f776de498c971b88_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-sensational-vivid_114538.html",
@@ -27378,7 +27379,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/97f6225468596320404785ab71cb1e02_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/revlon-ultra-hd-lip-lacquer_101023.html",
@@ -27417,7 +27418,7 @@
     price: "5.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6b7a0f4f93839573bf046e149d4927df_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-jumbo-lip-pencil_106054.html?cat=330",
@@ -27465,7 +27466,7 @@
     price: "32.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1855452da6a7fb08fe4154311ccb3369_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-colorstick_87544.html?cat=330",
@@ -27496,7 +27497,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4992a5ad01b474ae1de4a955d6224aca_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-colorburst-lacquer-balm_84514.html",
@@ -27526,7 +27527,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5e51a2c8ce9316c8342ac47fdc0ebd1d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/cargo-cosmetics-essential-lip-color_87598.html",
@@ -27564,7 +27565,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5d0df885cb5721b74b32f64884736ce4_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-paris-colour-riche_107475.html",
@@ -27596,7 +27597,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7e72bc983d7988c6e9b9f35d7703fbe4_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-extra-creamy-round-lipstick_106073.html",
@@ -27695,7 +27696,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fb9e6485500135d94163577da4c3579b_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-sensational-rebel_101920.html",
@@ -27727,7 +27728,7 @@
     price: "22.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6804e2a3b19200e7a7a67456421763c4_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/dalish-lipstick-matte-collection_98202.html",
@@ -27758,7 +27759,7 @@
     price: "7.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ec1e1f8ef1fcf76d2fd21d231bbfac7c_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/elf-gotta-glow-lip-tint_117870.html",
@@ -27783,7 +27784,7 @@
     price: "11.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a1151b59f69491a75d9f8d80827bc1ee_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-lip-studio-color-blur_106565.html",
@@ -27818,7 +27819,7 @@
     price: "13.96",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/739bc21253ce772c2b2e7ad40d9d3f44_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-color-riche-extraordinaire_86250.html",
@@ -27845,7 +27846,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c4033d18bed5b281e0340d437b81370c_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/almay-smart-shade-butter-kiss_101160.html",
@@ -27883,7 +27884,7 @@
     price: "1.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/31b7ac34f3370824a7d7ed41d21092a3_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/wet-n-wild-silk-finish-lipstick_114014.html",
@@ -27912,7 +27913,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6709b779907bbb8410a81c3156ac5a1c_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-colour-riche-crystal_4425.html",
@@ -27937,7 +27938,7 @@
     price: "34.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6598776755f921413532606f6db6c8f8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/dr-hauschka-lipstick_34479.html",
     website_link: "https://well.ca",
@@ -27966,7 +27967,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8e5fad1f09c17ff8b312508a2a7da161_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/revlon-ultra-hd-matte-lipcolor_112322.html",
@@ -27995,7 +27996,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8768b6e9ad0890545f5f261980727caa_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/loreal-infallible-lipstick_101922.html",
@@ -28035,7 +28036,7 @@
     price: "14.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6ca3ee39a1dde0039b18d0ebdb7c2603_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/revlon-colorstay-ultimate-suede_67106.html",
@@ -28080,7 +28081,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/520ec3a925b375de902b75008f492794_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-ultra-hd-lipstick_101021.html",
@@ -28124,7 +28125,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a9c19212339fb2ed792af559b2a4208d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-colour-riche_96596.html",
@@ -28156,7 +28157,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/27afa69db661563a1d6135bb5f6079dd_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-sensational-the_88857.html",
@@ -28190,7 +28191,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0d31f41c37fd18dfc02daa1671719378_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-sensational-vivids_66103.html",
@@ -28222,7 +28223,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/54eca0da1259fdc4eed0346e6fdcb590_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pacifica-devocean-natural-lipstick_94362.html",
@@ -28247,7 +28248,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cffae93a3ef7d0c543b36a74684735ad_ra,w158,h184_pa,w158,h184.png",
     product_link: "https://well.ca/products/burts-bees-lipstick_113124.html",
     website_link: "https://well.ca",
@@ -28286,7 +28287,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/81fd80f898674d00f1860cd0724460f4_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-sensational-creamy_100322.html",
@@ -28322,7 +28323,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5409595e1888807b979036e77ef7e496_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-colour-riche-lipstick_4424.html",
@@ -28356,7 +28357,7 @@
     price: "11.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ee024f34ca91f5fa1358d47284f07fb0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/revlon-matte-lipstick_10014.html",
     website_link: "https://well.ca",
@@ -28383,7 +28384,7 @@
     price: "14.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6750098db06175dee7493eca3f711fc3_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-colorstay-ultimate-liquid_12504.html",
@@ -28416,7 +28417,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b1c627d5a7e341e53754c8dee92d2878_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-color-sensational_14537.html",
@@ -28447,7 +28448,7 @@
     price: "8.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/1dd732e9af6067d5adb4b3b1ba4a4f8c_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/nyx-soft-matte-lip-cream_106555.html",
@@ -28494,7 +28495,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ab45997fcda6fc649959ea74507c28e3_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/burts-bees-lip-crayon_101173.html",
     website_link: "https://well.ca",
@@ -28523,7 +28524,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5f81d4f36c4ba153bcc62e81bc93573f_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-matte-lip-color_93437.html",
@@ -28556,7 +28557,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6618c0f47d043084550818a74e6250aa_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-super-lustrous-lipstick_3928.html",
@@ -28605,7 +28606,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a782e8566462ce85fbf46a791f0004e5_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/milani-color-statement-moisture_103488.html",
@@ -28645,7 +28646,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5adaa808a071d0f63933cb75fa9a1dfc_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/milani-color-statement-lipstick_89090.html",
@@ -28703,7 +28704,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/76076d06ebd517f1ae7e359d96d50b32_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorburst-matte-balm_84513.html",
@@ -28735,7 +28736,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/9e370b087244262131cab9db8b6725c7_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-moisturizing-lipstick_93441.html",
@@ -28767,7 +28768,7 @@
     price: "14.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b66c56aeb8d078123cca4c9c64d17cb9_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pure-anada-petal-perfect-lipstick_83247.html",
@@ -28813,7 +28814,7 @@
     price: "19.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b8c71c36c73225905314a6ba0d5b5f6b_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/mineral-fusion-lengthening-mascara_91732.html",
@@ -28841,7 +28842,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c28f5756cc3f81f36baebfd753207c58_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-professional-mascara_97246.html",
@@ -28866,7 +28867,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c7fe159f81fff4e0b8269782b20048ac_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-professional-mascara_97245.html",
@@ -28891,7 +28892,7 @@
     price: "13.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cd24f2eacba5d03d916a924afaadbee5_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-voluminous-butterfly_96670.html",
@@ -28916,7 +28917,7 @@
     price: "27.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/dba2438dde72fe06c8f7a672b9618b0a_ra,w158,h184_pa,w158,h184.jpg",
     product_link: "https://well.ca/products/zorah-mascara-lengthing_99331.html",
     website_link: "https://well.ca",
@@ -28940,7 +28941,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/e4bd2eaff5e2b0c9c8c29ecd86d0c7e6_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-lashblast-fusion-water_74846.html",
@@ -28965,7 +28966,7 @@
     price: "19.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/16ace93b48cdc67bb76c81eaec10ff45_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/physicians-formula-eye-booster_102681.html",
@@ -28990,7 +28991,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/47b1c14f64fe1e4b6ad46fcd67a34012_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-voluminous-million_86096.html",
@@ -29015,7 +29016,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b02f002545c5dc18be53297faaf04b7a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-lastblast-clump-crusher_74595.html",
@@ -29040,7 +29041,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/65c2bc9cc03b915be08e68b8e4acb919_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-intense-i-color-volumizing_84475.html",
@@ -29070,7 +29071,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/bd505b8626119f31924057a086e542bf_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/covergirl-lashblast-full-lash-bloom_103273.html",
@@ -29095,7 +29096,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cb7bdcebdc593ba34c0f40b41a3ff44c_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-professional-super-thick_97251.html",
@@ -29120,7 +29121,7 @@
     price: "12.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a28e1387642c86f2d2e0cf446b2137aa_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-volumexpress-falsies-big_78175.html",
@@ -29145,7 +29146,7 @@
     price: "13.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/3f10d95aaf893f1f0cfdd62b803f4212_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-voluminous-butterfly_86375.html",
@@ -29174,7 +29175,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/d44d5338e9dfa2b5234a02d25af64a26_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-professional-waterproof_97253.html",
@@ -29199,7 +29200,7 @@
     price: "15.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/91995140b7749badeb17c41a7e035354_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-organic-wear-cc_90023.html",
@@ -29227,7 +29228,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6f521dc72d362855a605105854a6a54f_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/marcelle-ultimate-lash-mascara_100275.html",
@@ -29255,7 +29256,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8797938435b2e7f995aa632d5f2b2ba2_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/elf-studio-lengthening_93445.html",
     website_link: "https://well.ca",
@@ -29279,7 +29280,7 @@
     price: "3.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/8b5c28e396504d8fb54c91c791f36749_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/wet-n-wild-mega-protein-mascara_82250.html",
@@ -29304,7 +29305,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/527f52aaaba663227d70de7c0a34ff80_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/covergirl-lashblast-volume-blasting_74927.html",
@@ -29329,7 +29330,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fcd915ee80b8b9cfaa71225020b8df3b_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/covergirl-lashblast-fusion-mascara_74817.html",
@@ -29354,7 +29355,7 @@
     price: "6.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/fa655a2751adc3d38050d08325f2d97f_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-professional-natural-lash_97249.html",
@@ -29379,7 +29380,7 @@
     price: "10.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/cf9136ade1dd304b8cb81deb4b87e333_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-define-a-lash-lengthening_3744.html",
@@ -29404,7 +29405,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/df2f212e8449edcaff4876f592c4311e_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/covergirl-lastblast-clump-crusher_74593.html",
@@ -29429,7 +29430,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c4d0fba49172b419bc64cd92d31544c2_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-one-coat-get-up-grow-mascara_30881.html",
@@ -29458,7 +29459,7 @@
     price: "7.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6cce75ce02a6694e1c89f7d5a68c8174_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-great-lash-clear_3752.html",
@@ -29483,7 +29484,7 @@
     price: "15.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/f0aa3e9c67743493c5caf4ecccccf57a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-organic-wear_58516.html",
@@ -29511,7 +29512,7 @@
     price: "33.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/85c6b509ae9d55d4cf6ab9208ea98aee_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/dr-hauschka-mascara_34274.html",
     website_link: "https://well.ca",
@@ -29539,7 +29540,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/90787a47b829c5d11e1e4f001e68d90d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-waterproof-lengthening_93449.html",
@@ -29564,7 +29565,7 @@
     price: "13.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7bcefaf1f12f609b2d3d1df2cfbcf6db_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-extra-volume-collagen_12581.html",
@@ -29589,7 +29590,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a49009aa8bdc3aab2b07a78fbfe0bcb8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/almay-one-coat-thickening-mascara_17457.html",
@@ -29617,7 +29618,7 @@
     price: "7.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0795abd7feaf855f88055e181652d65a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-great-lash-big-mascara_15818.html",
@@ -29646,7 +29647,7 @@
     price: "4.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/be704396ee7b24ec4783787df9be1eeb_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/elf-studio-mineral-infused_93447.html",
@@ -29671,7 +29672,7 @@
     price: "24.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/823cecb5e0d139ff5a98c253aa68c876_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/earth-lab-raw-mascara_78795.html",
     website_link: "https://well.ca",
@@ -29695,7 +29696,7 @@
     price: "7.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/6b4d354890177a73b4d6630d723c2f21_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-great-lash-mascara_3735.html",
@@ -29723,7 +29724,7 @@
     price: "14.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/45fea1eb913d55d6e1586ea66c1c82a0_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-double-extend-beauty_9193.html",
@@ -29748,7 +29749,7 @@
     price: "13.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/a5add7c57e2a69456749c0e8263175f7_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-telescopic-mascara_4410.html",
@@ -29773,7 +29774,7 @@
     price: "16.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/04362753156bc96b10e1a3f16d585ff0_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/suncoat-sugar-based-mascara_10692.html",
@@ -29798,7 +29799,7 @@
     price: "21.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5e9ec049ea72f7ec853bcdb996201dd7_ra,w158,h184_pa,w158,h184.jpeg",
     product_link: "https://well.ca/products/pacifica-aquarian-gaze_93483.html",
     website_link: "https://well.ca",
@@ -29822,7 +29823,7 @@
     price: "15.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/78e3d20b744ec40691dd7357c9db6dd3_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-organic-wear-100_58518.html",
@@ -29850,7 +29851,7 @@
     price: "9.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/5d6e0d96f6dedbc3aadd88d9403cb26e_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-volum-express-colossal_7663.html",
@@ -29878,7 +29879,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c9288fc106afdf3f7039a5128e0f621d_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-voluminous-volume_4415.html",
@@ -29906,7 +29907,7 @@
     price: "11.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/086bd6bba51f630f60511cdc24c68096_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-illegal-length-fiber_84357.html",
@@ -29931,7 +29932,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/0b04408a84154f14800e4c9477f8a924_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-volum-express-the-rocket_84350.html",
@@ -29959,7 +29960,7 @@
     price: "13.29",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/7a372820b4a151ec62a6ce4261948421_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-voluminous-million_28968.html",
@@ -29989,7 +29990,7 @@
     price: "7.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/dfaf77464a8cb52a1a8f2a15e8abf920_ra,w158,h184_pa,w158,h184.png",
     product_link:
       "https://well.ca/products/maybelline-great-lash-lots-of-lashes_50739.html",
@@ -30017,7 +30018,7 @@
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/812b5ae27df9be983052063d52d7ab7a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-lash-stiletto-ultimate_17287.html",
@@ -30042,7 +30043,7 @@
     price: "9.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/af1f35f15ee64cc1003f1ccfc6451d71_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-volumexpress-the-falsies_26311.html",
@@ -30067,7 +30068,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/18790b1fce6ddd2c7c20e73ce964eadd_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/covergirl-lashblast-volume-blasting_74922.html",
@@ -30092,7 +30093,7 @@
     price: "28.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b4a5f31a499b42938980fb369d0213ab_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/pacifica-stellar-gaze-length_90822.html",
@@ -30117,7 +30118,7 @@
     price: "15.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/2b3d5588b073bfae89c6308dcfe96436_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-organic-wear_70944.html",
@@ -30145,7 +30146,7 @@
     price: "15.79",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/ca3136ce9bff5df45b34b25b3bbf99aa_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/physicians-formula-organic-wear-lash_58514.html",
@@ -30173,7 +30174,7 @@
     price: "9.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/4d671a9af4d2ce8d310ae263569018fb_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/l-oreal-paris-voluminous-mascara_25094.html",
@@ -30202,7 +30203,7 @@
     price: "14.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/afefede002b8d94f6e53ea07dd4070f9_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/pure-anada-natural-mascara_83255.html",

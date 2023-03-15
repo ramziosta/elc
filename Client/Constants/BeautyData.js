@@ -89,7 +89,7 @@ const data = [
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.purpicks.com/wp-content/uploads/2018/03/rejuva-minerals-bronzer.jpg",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-bronzer-caribbean/",
@@ -121,7 +121,7 @@ const data = [
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorstay-skinny-liquid-liner_101103.html",
@@ -152,7 +152,7 @@ const data = [
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/812b5ae27df9be983052063d52d7ab7a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-lash-stiletto-ultimate_17287.html",
@@ -178,7 +178,7 @@ const data = [
     price: "23.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0929603_f092960100.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/primers/pr-primers-y0929603_f092960100-2-in-1-prime-colour-correct-face-eyes-lips.html",
@@ -210,7 +210,7 @@ const data = [
     price: "0.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715928_F071592864.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0715928_f071592864-vibrant-colour-powderblush.html",
@@ -239,7 +239,7 @@ const data = [
     price: "18.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c207687e567547445338321ae28c9b96_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-visible-lift-blur_96664.html",
@@ -275,7 +275,7 @@ const data = [
     price: "14.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b35505ef545ea7e478d0da882d8e93d8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-photoready-primer-shadow_67144.html",
@@ -302,7 +302,7 @@ const data = [
     price: "52.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_60560_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/34102/eyes/eye-shadow/full-exposure-palette",
@@ -336,7 +336,7 @@ const data = [
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027830.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0027830_f002783028-couture-colour-from-satin-to-matte-comfort-wear.html",
@@ -370,7 +370,7 @@ const data = [
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa19d7c26/ProductImages/Lips/Liquid_Suede_Cream_Lipstick/liquidsuedecreamlipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/liquid-suede-cream-lipstick/NYX_201.html?cgid=lipstick",
@@ -403,7 +403,7 @@ const data = [
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa801b855/ProductImages/2016/Eyes/Colored_Felt_Tip_Liner/coloredfelttipliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/colored-felt-tip-liner/NYX_307.html?cgid=eyeliner",
@@ -491,7 +491,7 @@ const highlyRated = [
     id: "1", //id
     brand: "Rare Beauty",
     name: "Soft Pinch Liquid Blush",
-    image_link: require("../assets/images/demo.png"), //image_Link
+    api_featured_image: require("../assets/images/demo.png"), //api_featured_image
     accessibility: "Ergonomic Design", //tag_list
     buyItAgain: 92, //! NEW
     numberOfReviews: 1598, //! NEW
@@ -504,7 +504,7 @@ const highlyRated = [
     id: "2",
     brand: "YSL",
     name: "Slim Matte Longwear Lipstick",
-    image_link: require("../assets/images/m11.jpeg"),
+    api_featured_image: require("../assets/images/m11.jpeg"),
     accessibility: "Texture",
     buyItAgain: 90,
     numberOfReviews: 2014,
@@ -517,7 +517,7 @@ const highlyRated = [
     id: "3",
     brand: "SkinCeuticals",
     name: "C E Ferulic (1 fl. oz.)",
-    image_link: require("../assets/images/m4.jpeg"),
+    api_featured_image: require("../assets/images/m4.jpeg"),
     accessibility: "Easy Apply",
     buyItAgain: 88,
     numberOfReviews: 666,
@@ -530,7 +530,7 @@ const highlyRated = [
     id: "4",
     brand: "TOM FORD",
     name: "Eye Color Bold Eyeshadow Palette",
-    image_link: require("../assets/images/m7.jpeg"),
+    api_featured_image: require("../assets/images/m7.jpeg"),
     accessibility: "No Tools",
     buyItAgain: 92,
     numberOfReviews: 1294,
@@ -543,7 +543,7 @@ const highlyRated = [
     id: "5",
     brand: "Cosmetic",
     name: "Daily Dose",
-    image_link: require("../assets/images/m5.jpeg"),
+    api_featured_image: require("../assets/images/m5.jpeg"),
     accessibility: "Tactile Markers",
     buyItAgain: 97,
     numberOfReviews: 894,
@@ -555,7 +555,7 @@ const highlyRated = [
     id: "6",
     brand: "CORS",
     name: "Releaf Balm",
-    image_link: require("../assets/images/m6.jpeg"),
+    api_featured_image: require("../assets/images/m6.jpeg"),
     accessibility: "No Tools",
     buyItAgain: 86,
     numberOfReviews: 789,
@@ -570,7 +570,7 @@ const recentlyAdded = [
     id: "1", //id
     text: "Brush blissful", //name
     brand: "YSL",
-    image_link: require("../assets/images/m11.jpeg"), //image_Link
+    api_featured_image: require("../assets/images/m11.jpeg"), //api_featured_image
     review: "Pending Review", //!NEW
     screenName: "ThreeD",
   },
@@ -578,7 +578,7 @@ const recentlyAdded = [
     id: "2",
     text: "Rejuvenate bubbly",
     brand: "Forbiden Beauty",
-    image_link: require("../assets/images/m14.jpeg"),
+    api_featured_image: require("../assets/images/m14.jpeg"),
     review: "Pending Review",
     screenName: "ThreeD2",
   },
@@ -586,7 +586,7 @@ const recentlyAdded = [
     id: "3",
     text: "Fabulous glowy",
     brand: "Gucci",
-    image_link: require("../assets/images/m17.jpeg"),
+    api_featured_image: require("../assets/images/m17.jpeg"),
     review: "Pending Review",
     screenName: "ThreeD3",
   },
@@ -594,21 +594,21 @@ const recentlyAdded = [
     id: "4",
     text: "Fluffly cream dream",
     brand: "Bobbi Brown",
-    image_link: require("../assets/images/m16.jpeg"),
+    api_featured_image: require("../assets/images/m16.jpeg"),
     review: "Pending Review",
   },
   {
     id: "5",
     text: "Lipstick Berlin marvelous",
     brand: "Chanel",
-    image_link: require("../assets/images/m13.jpeg"),
+    api_featured_image: require("../assets/images/m13.jpeg"),
     review: "Pending Review",
   },
   {
     id: "6",
     text: "Hydrating lotion serene",
     brand: "Miss Swiss",
-    image_link: require("../assets/images/m15.jpeg"),
+    api_featured_image: require("../assets/images/m15.jpeg"),
     review: "Pending Review",
   },
 ];
@@ -618,42 +618,42 @@ const accessibleBrands = [
     id: "1", //id
     brand: "Rare Beauty",
     text: "Ergonomic Design", //tag_list
-    image_link: require("../assets/images/m7.jpeg"),
+    api_featured_image: require("../assets/images/m7.jpeg"),
     brandLogo: require("../assets/icons/icon1.png"), //< assets????
   },
   {
     id: "2",
     brand: "Kohls Kreative",
     text: "Texture",
-    image_link: require("../assets/images/m8.jpeg"),
+    api_featured_image: require("../assets/images/m8.jpeg"),
     brandLogo: require("../assets/icons/icon2.png"),
   },
   {
     id: "3",
     brand: "Nora",
     text: "No Tools",
-    image_link: require("../assets/images/m9.jpeg"),
+    api_featured_image: require("../assets/images/m9.jpeg"),
     brandLogo: require("../assets/icons/icon3.png"),
   },
   {
     id: "4",
     brand: "CORS",
     text: "Tactile Markers",
-    image_link: require("../assets/images/m10.jpeg"),
+    api_featured_image: require("../assets/images/m10.jpeg"),
     brandLogo: require("../assets/icons/icon4.png"),
   },
   {
     id: "5",
     brand: "YSL",
     text: "Easy To Open",
-    image_link: require("../assets/images/m11.jpeg"),
+    api_featured_image: require("../assets/images/m11.jpeg"),
     brandLogo: require("../assets/icons/icon5.png"),
   },
   {
     id: "6",
     brand: "Poko",
     text: "Easy To Apply",
-    image_link: require("../assets/images/m12.jpeg"),
+    api_featured_image: require("../assets/images/m12.jpeg"),
     brandLogo: require("../assets/icons/icon6.png"),
   },
 ];

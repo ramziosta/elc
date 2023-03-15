@@ -7,6 +7,7 @@ const Product = ({ productId, children } ) => {
     const [resultsIndex, setResultsIndex] = React.useState(0)
     
     React.useEffect(()=>{
+      
         const fetchData = async()=>{
             const query = {
                 // "operationName": "Query",
@@ -45,6 +46,7 @@ const Product = ({ productId, children } ) => {
                   }`,
                 // "variables": {}
             };
+
             return graphQLQuery(token, query).then(d => {
                 setResultsIndex(pv=>pv+resultsPerQuery)
                 setProductData(d.data.products)

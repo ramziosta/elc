@@ -1,4 +1,4 @@
-export const Data= [
+export const Data = [
   {
     id: 1,
     brand: "rejuva minerals",
@@ -6,7 +6,7 @@ export const Data= [
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link: "../assets/images/demo.png",
+    api_featured_image: "../assets/images/demo.png",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-bronzer-caribbean/",
     website_link: "https://purpicks.com/",
@@ -47,7 +47,7 @@ export const Data= [
     price: "11.99",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://well.ca/products/revlon-colorstay-skinny-liquid-liner_101103.html",
@@ -88,7 +88,7 @@ export const Data= [
     price: "10.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/812b5ae27df9be983052063d52d7ab7a_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/maybelline-lash-stiletto-ultimate_17287.html",
@@ -124,7 +124,7 @@ export const Data= [
     price: "23.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0929603_f092960100.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/primers/pr-primers-y0929603_f092960100-2-in-1-prime-colour-correct-face-eyes-lips.html",
@@ -166,7 +166,7 @@ export const Data= [
     price: "0.0",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715928_F071592864.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0715928_f071592864-vibrant-colour-powderblush.html",
@@ -205,7 +205,7 @@ export const Data= [
     price: "18.99",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/c207687e567547445338321ae28c9b96_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/loreal-paris-visible-lift-blur_96664.html",
@@ -251,7 +251,7 @@ export const Data= [
     price: "14.49",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://d3t32hsnjxo7q6.cloudfront.net/i/b35505ef545ea7e478d0da882d8e93d8_ra,w158,h184_pa,w158,h184.jpeg",
     product_link:
       "https://well.ca/products/revlon-photoready-primer-shadow_67144.html",
@@ -288,7 +288,7 @@ export const Data= [
     price: "52.0",
     price_sign: null,
     currency: null,
-    image_link:
+    api_featured_image:
       "https://www.smashbox.com/media/images/products/388x396/sbx_sku_60560_388x396_0.jpg",
     product_link:
       "http://www.smashbox.com/product/6029/34102/eyes/eye-shadow/full-exposure-palette",
@@ -332,7 +332,7 @@ export const Data= [
     price: "27.5",
     price_sign: "£",
     currency: "GBP",
-    image_link:
+    api_featured_image:
       "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027830.jpg",
     product_link:
       "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/lips/lipsticks/pr-lipsticks-y0027830_f002783028-couture-colour-from-satin-to-matte-comfort-wear.html",
@@ -376,7 +376,7 @@ export const Data= [
     price: "7.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa19d7c26/ProductImages/Lips/Liquid_Suede_Cream_Lipstick/liquidsuedecreamlipstick_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/liquid-suede-cream-lipstick/NYX_201.html?cgid=lipstick",
@@ -419,7 +419,7 @@ export const Data= [
     price: "10.0",
     price_sign: "$",
     currency: "USD",
-    image_link:
+    api_featured_image:
       "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa801b855/ProductImages/2016/Eyes/Colored_Felt_Tip_Liner/coloredfelttipliner_main.jpg?sw=390\u0026sh=390\u0026sm=fit",
     product_link:
       "https://www.nyxcosmetics.com/colored-felt-tip-liner/NYX_307.html?cgid=eyeliner",

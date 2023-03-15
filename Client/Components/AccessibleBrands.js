@@ -9,7 +9,6 @@ import {
 } from "react-native";
 
 const AccessibleBrands = ({ data, handlePress }) => {
-
   const renderItem = ({ item }) => (
     //< DATA HERE -------ID-----
     <TouchableOpacity
@@ -19,7 +18,10 @@ const AccessibleBrands = ({ data, handlePress }) => {
     >
       <View style={styles.items}>
         {/* //<  DATA HERE------- */}
-        <Image source={item.image_link} style={styles.accessibleImage} />
+        <Image
+          source={item.api_featured_image}
+          style={styles.accessibleImage}
+        />
 
         <View style={styles.iconContainer}>
           {/* //< DATA HERE  needs to come from DB but this one is tricky as not easy to obtain for a product, need a DB of brand logos!?----------- */}
