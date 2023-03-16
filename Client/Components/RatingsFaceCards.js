@@ -14,22 +14,28 @@ const RatingsFaceCards = ({ data, onPress }) => {
     require("../assets/icons/gg_smile-sad-white.png")
   );
 
-  const handlePress = (value) => {
-    // Reset the state of previously selected button
-    if (selectedButton !== null) {
-      setImageSource(require("../assets/icons/gg_smile-mouth-open-black.png"));
+const handlePress = (value) => {
+  // Reset the state of previously selected button
+  if (selectedButton !== null) {
+    if (selectedButton === 0) {
+      setImageSource(require("../assets/icons/gg_smile-mouth-open.png"));
+    } else if (selectedButton === 1) {
+      setImageSource2(require("../assets/icons/gg_smile-neutral-white.png"));
+    } else if (selectedButton === 2) {
+      setImageSource3(require("../assets/icons/gg_smile-sad-white.png"));
     }
-    setSelectedButton(value);
+  }
+  setSelectedButton(value);
 
-    // Update the state of newly selected button
-    if (value === 0) {
-      setImageSource(require("../assets/icons/gg_smile-mouth-open-black.png"));
-    } else if (value === 1) {
-      setImageSource(require("../assets/icons/gg_smile-neutral-white.png"));
-    } else if (value === 2) {
-      setImageSource(require("../assets/icons/gg_smile-sad-white.png"));
-    }
-  };
+  // Update the state of newly selected button
+  if (value === 0) {
+    setImageSource(require("../assets/icons/gg_smile-mouth-open-black.png"));
+  } else if (value === 1) {
+    setImageSource2(require("../assets/icons/gg_smile-neutral-black.png"));
+  } else if (value === 2) {
+    setImageSource3(require("../assets/icons/gg_smile-sad-black.png"));
+  }
+};
 
   const buttonStyle = (value) => {
     if (selectedButton === value) {
