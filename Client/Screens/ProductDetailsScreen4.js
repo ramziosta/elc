@@ -154,7 +154,7 @@ const ProductDetailsScreen4 = (props) => {
       <ScrollView>
         <Image
           style={styles.image}
-          source={require("../assets/images/m7.jpeg")}
+          source={require("../assets/images/eyeshadow.png")}
         />
 
         <Text

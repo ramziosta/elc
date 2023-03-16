@@ -528,9 +528,9 @@ const highlyRated = [
   },
   {
     id: "4",
-    brand: "TOM FORD",
-    name: "Eye Color Bold Eyeshadow Palette",
-    api_featured_image: require("../assets/images/m7.jpeg"),
+    brand: "Venus Marbel",
+    name: "Venus Marbel 9 Color Eye Shadow Palatte VM001",
+    api_featured_image: require("../assets/images/eyeshadow.png"),
     accessibility: "No Tools",
     buyItAgain: 92,
     numberOfReviews: 1294,
@@ -616,9 +616,9 @@ const recentlyAdded = [
 const accessibleBrands = [
   {
     id: "1", //id
-    brand: "Rare Beauty",
+    brand: "Venus Marbel",
     text: "Ergonomic Design", //tag_list
-    api_featured_image: require("../assets/images/m7.jpeg"),
+    api_featured_image: require("../assets/images/eyeshadow.png"),
     brandLogo: require("../assets/icons/icon1.png"), //< assets????
   },
   {

@@ -12,7 +12,6 @@ import { TouchableOpacity, Text, StyleSheet,ScrollView, FlatList } from 'react-n
 
   return (
     <FlatList
-      key={item.id}
       data={data}
       renderItem={renderItem}
       keyExtractor={(item) => item.key}

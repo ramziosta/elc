@@ -7,8 +7,11 @@ import {
   Image,
   StyleSheet,
 } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 const HighlyRated = ({ data, handlePress }) => {
+  
+  const nav = useNavigation();
   const [number_of_reviews, setNumReviews] = useState(0);
   const [favorites, setFavorites] = useState([]);
 

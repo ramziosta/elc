@@ -21,7 +21,7 @@ const ThreeDScreen4 = () => {
       <Button
         title="Back"
         onPress={() => {
-          nav.navigate("ProductDetails3");
+          nav.navigate("ProductDetails4");
         }}
       />
     </SafeAreaView>

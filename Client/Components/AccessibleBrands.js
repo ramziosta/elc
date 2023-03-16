@@ -7,8 +7,10 @@ import {
   Image,
   StyleSheet,
 } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 const AccessibleBrands = ({ data, handlePress }) => {
+  const nav = useNavigation();
   const renderItem = ({ item }) => (
     //< DATA HERE -------ID-----
     <TouchableOpacity

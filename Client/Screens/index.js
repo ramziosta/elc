@@ -20,6 +20,8 @@ import ThreeDScreen3 from "./ThreeDScreen3";
 import ThreeDScreen4 from "./ThreeDScreen4";
 
 import ARScreen from "./ARScreen";
+import HomeAR from "../AR/screens/HomeAR"
+import MainAR from "../AR/screens/MainAR"
 
 import FavoriteScreen from "./FavoriteScreen";
 import AccountScreen from "./AccountScreen";
@@ -52,6 +54,9 @@ export {
   ThreeDScreen4,
 
   ARScreen,
+  HomeAR,
+  MainAR,
+  
   FavoriteScreen,
   CategoryScreen,
   AccountScreen,

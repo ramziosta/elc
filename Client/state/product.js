@@ -35,7 +35,7 @@ export const fetchAllProducts = async(token, resultsIndex) => {
 		// "variables": {}
 	};
 	return graphQLQuery(token, query).then(v => {
-		// console.log(v)
+		 console.log(v)
 		return {
 			type: resultsIndex == 0 ? "init_fetch" : "fetch_more",
 			data: { allProducts: { ...v.paginationResolver }, resultsIndex: resultsIndex + resultsPerQuery }

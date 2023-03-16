@@ -176,6 +176,36 @@ const Reviews = ({ navigation }) => {
   );
 };
 
+const PinkButton = () => {
+  const [isOnYou, setIsOnYou] = useState(false);
+  const nav = useNavigation();
+
+  const handlePress = () => {
+    if (isOnYou) {
+      setIsOnYou(false);
+      nav.navigate("ThreeD");
+    } else {
+      setIsOnYou(true);
+      nav.navigate("AR");
+    }
+  };
+
+  return (
+    <View style={styles.container}>
+      <View style={styles.buttonContainer}>
+        <TouchableOpacity
+          style={[styles.button, isOnYou ? styles.onYou : null]}
+          onPress={handlePress}
+        >
+          <Text style={styles.buttonText}>
+            {isOnYou ? "On you" : "View 3d"}
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+
 //! NEEDS ALL NEW WORK!!!!!!!!!!!!
 const ColorOptionsIcons = ({ data }) => {
   const renderItem = ({ item }) => (
@@ -226,7 +256,9 @@ return (
         >
           ← Back
         </Text> 
+
         <View style={styles.buttonsContainer}>
+
           <TouchableOpacity
             style={[styles.button, styles.viewInThreeD]}
             title="View In 3D"
@@ -248,11 +280,14 @@ return (
               Try It On
             </Text>
           </TouchableOpacity>
+          
         </View>
 
         <View style={styles.productNameContainer}>
           <View>
+            {/* //< DATA HERE ____item.brand */}
             <Text style={styles.brandName}>{}Rare Beauty</Text>
+             {/* //< DATA HERE ____item.name */}
             <Text style={styles.productName}>{}Soft Pinch Liquid Blush</Text>
           </View>
           <TouchableOpacity

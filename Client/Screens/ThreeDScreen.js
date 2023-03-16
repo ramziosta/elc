@@ -2,13 +2,13 @@ import React from "react";
 import { StyleSheet, Text, View, SafeAreaView, Button } from "react-native";
 import { WebView } from "react-native-webview";
 import { useNavigation } from "@react-navigation/native";
-
-
+// import SlideButton from 'rn-slide-button';
 const ThreeDScreen = () => {
 
   const nav = useNavigation();
   // //< FOT THE DATA TO BE DYNAMIC< ROUTE CAN BE SAVED IN DB ↓
-  const { uri } = route.params;
+  // const { uri } = route.params;
+
 
 
   return (
@@ -21,6 +21,10 @@ const ThreeDScreen = () => {
         style={styles.iframe}
         source={{ uri: "https://app.vectary.com/p/6pjbbQ2acabreCDAOL9ZhH"  }}
       />
+   
+
+
+{/* <SlideButton title="Slide To Unlock"/>; */}
 
       <Button
         title="Try It On"
@@ -40,6 +44,7 @@ const ThreeDScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
+   
     flex: 1,
   },
   iframe: {

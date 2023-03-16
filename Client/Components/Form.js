@@ -8,7 +8,7 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
 } from "react-native";
-import { globalStyles } from "../styles/Styles";
+import { globalStyles } from "../Styles/Styles";
 import { Formik } from "formik";
 import Button from "./Button.js";
 import * as Yup from "yup";

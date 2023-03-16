@@ -4,6 +4,8 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import {
   ARScreen,
+  HomeAR,
+  MainAR,
   HomeScreen,
   CategoryScreen,
   ProductDetailsScreen,
@@ -39,6 +41,8 @@ const ProductStack = () => {
       <Stack.Screen name="ThreeD3" component={ThreeDScreen3} />
       <Stack.Screen name="ThreeD4" component={ThreeDScreen4} />
       <Stack.Screen name="AR" component={ARScreen} />
+      <Stack.Screen name="HomeAR" component={HomeAR} />
+      <Stack.Screen name="MainAR" component={MainAR} />
     </Stack.Navigator>
   );
 };

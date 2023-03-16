@@ -28,10 +28,10 @@ const HomeScreen = (props) => {
         />
         <DropdownSearchBar />
         <View style={styles.scroll}>
-          <FeaturesList data={Data} />
-          <HighlyRated data={Data} />
-          <AccessibleBrands data={Data} />
-          <RecentlyAdded data={Data} />
+          <FeaturesList data={features} />
+          <HighlyRated data={highlyRated} />
+          <AccessibleBrands data={accessibleBrands} />
+          <RecentlyAdded data={highlyRated} />
         </View>
       </ScrollView>
     </View>

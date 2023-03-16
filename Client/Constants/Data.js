@@ -30,6 +30,7 @@ export const Data = [
       { hex_value: "#B05665", colour_name: "Pink Shimmer" },
       { hex_value: "#783F30", colour_name: "Sunset Bronze" },
     ],
+    accessibilityIcon: "string",
     reviews: [
       { accessible: null },
       { buyAgain: "yes" },
@@ -38,6 +39,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails",
   },
 
   {
@@ -79,6 +81,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails2",
   },
 
   {
@@ -115,6 +118,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails3",
   },
 
   {
@@ -157,6 +161,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails4",
   },
 
   {
@@ -196,6 +201,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails",
   },
 
   {
@@ -242,6 +248,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails",
   },
 
   {
@@ -279,6 +286,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails",
   },
 
   {
@@ -323,6 +331,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails",
   },
 
   {
@@ -367,6 +376,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails",
   },
 
   {
@@ -410,6 +420,7 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails",
   },
 
   {
@@ -454,5 +465,6 @@ export const Data = [
       { firebaseUser: "Miss Kitten" },
       { title: "I love it" },
     ],
+    navigate: "ProductDetails",
   },
 ];
