@@ -5,14 +5,12 @@ import {
   StyleSheet,
   SafeAreaView,
   Platform,
-  ScrollView,
   TouchableOpacity,
   Image,
 } from "react-native";
 import { Camera } from "expo-camera";
 import * as Permissions from "expo-permissions";
 import * as FaceDetector from "expo-face-detector";
-import * as StatusBar from "expo-status-bar";
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 import Filter from "./Filter";
 import { useNavigation } from "@react-navigation/native";
@@ -91,9 +89,7 @@ const MainAR = () => {
         </View>
       </View>
       <View style={styles.buttonContainer}>
-        <TouchableOpacity
-          onPress={() => nav.navigate("MainAR")}
-        >
+        <TouchableOpacity onPress={() => nav.navigate("MainAR")}>
           <View style={styles.button}>
             <Text style={styles.buttonText}>Try Out</Text>
           </View>
