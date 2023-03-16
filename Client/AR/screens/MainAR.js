@@ -1,45 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   View,
   Text,
-  StyleSheet,
-  SafeAreaView,
-  Platform,
-  ScrollView,
-  TouchableOpacity,
   Image,
+  TouchableOpacity,
+  StyleSheet,
+  Platform,
+  StatusBar,
 } from "react-native";
 import { Camera } from "expo-camera";
 import * as Permissions from "expo-permissions";
-import * as FaceDetector from "expo-face-detector";
-import * as StatusBar from "expo-status-bar";
-import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
-import Filter from "./Filter";
-import { useNavigation } from "@react-navigation/native";
 
-const data = {
-  lips: [{ id: 1, image: require("../assets/Frapp-04.png") }],
-  fullmakeup: [
-    { id: 4, image: require("../assets/Frapp-00.png") },
-    { id: 5, image: require("../assets/Frapp-01.png") },
-  ],
-  blush: [
-    { id: 2, image: require("../assets/Frapp-02.png") },
-    { id: 3, image: require("../assets/Frapp-03.png") },
-  ],
-};
-const categories = ["lips", "fullmakeup", "blush"];
-
-const MainAR = () => {
-  const nav = useNavigation();
+const MainAR = ({ navigation: nav }) => {
   const [hasCamPerms, setHasCamPerms] = useState(null);
   const [faces, setFaces] = useState([]);
-  const [currentFilter, setCurrentFilter] = useState("Filter1");
-  const [selectedCategory, setSelectedCategory] = useState("lips");
-
-  useEffect(() => {
-    Permissions.askAsync(Permissions.CAMERA).then(onCamPerms);
-  }, []);
 
   const onCamPerms = (status) => {
     setHasCamPerms(status.status === "granted");
@@ -52,6 +26,10 @@ const MainAR = () => {
   const onFaceDetectionError = (err) => {
     console.log(err);
   };
+
+  useEffect(() => {
+    Permissions.askAsync(Permissions.CAMERA).then(onCamPerms);
+  }, []);
 
   if (hasCamPerms === null) {
     return <View />;
@@ -68,7 +46,6 @@ const MainAR = () => {
   return (
     <View style={styles.container}>
       <SafeAreaView style={styles.droidSafeArea} />
-
       <View style={styles.contentContainer}>
         <View style={{ flex: 0.5 }}>
           <Text style={styles.contentText}>
@@ -90,18 +67,43 @@ const MainAR = () => {
           </View>
         </View>
       </View>
-      <View style={styles.buttonContainer}>
-        <TouchableOpacity
-          onPress={() => nav.navigate("MainAR")}
+      <View style={styles.cameraStyle}>
+        <Camera
+          style={{ flex: 1 }}
+          type={Camera.Constants.Type.front}
+          onFacesDetected={onFacesDetected}
+          onFacesDetectionError={onFaceDetectionError}
+          faceDetectorSettings={{
+            mode: FaceDetector.Constants.Mode.accurate,
+            detectLandmarks: FaceDetector.Constants.Landmarks.all,
+            runClassifications: FaceDetector.Constants.Classifications.all,
+          }}
         >
-          <View style={styles.button}>
-            <Text style={styles.buttonText}>Try Out</Text>
-          </View>
-        </TouchableOpacity>
-      </View>
-    </View>
-  );
-}
+          <View style={styles.framesContainer}>
+            <View style={styles.categoryContainer}>
+              <TouchableOpacity style={styles.filterImageContainer}>
+                <Image
+                  source={require("../assets/Frapp-03.png")}
+                  style={{ height: 32, width: 32 }}
+                />
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.filterImageContainer}>
+                <Image
+                  source={require("../assets/Frapp-02.png")}
+                  style={{ height: 32, width: 32 }}
+                />
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.filterImageContainer}>
+                <Image
+                  source={require("../assets/Frapp-01.png")}
+                  style={{ height: 32, width: 32 }}
+                />
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.filterImageContainer}>
+                <Image
+                  source={
+
+
 
 export default MainAR;
 // const styles = StyleSheet.create({
