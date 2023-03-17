@@ -117,14 +117,14 @@ const Reviews = ({ data }) => {
   );
 };
 
-const ColorOptionsIcons = ({ data }) => {
+const product_colors = ({ data }) => {
   const renderItem = ({ item }) => (
     <View style={styles.colorOptionsContainer}>
       <TouchableOpacity>
         <Image
-          source={item.ColorOptionsIcon}
+          source={item.product_colors}
           style={styles.icon}
-          data={item.iconHex}
+          data={item.colour_name}
         />
       </TouchableOpacity>
 
@@ -158,13 +158,13 @@ const ProductDetailsScreen2 = (props) => {
           source={require("../assets/images/m11.jpeg")}
         />
 
-       <Text
+        <Text
           style={styles.backButton}
           title="Back"
           onPress={() => props.navigation.goBack()}
         >
           ← Back
-        </Text> 
+        </Text>
         <View style={styles.buttonsContainer}>
           <TouchableOpacity
             style={[styles.button, styles.viewInThreeD]}
@@ -209,7 +209,7 @@ const ProductDetailsScreen2 = (props) => {
         <View>
           <Text style={styles.pageText}>Color Options:</Text>
           <View>
-            <ColorOptionsIcons data={productColorsIcons} />
+            <product_colors data={productColorsIcons} />
           </View>
         </View>
 

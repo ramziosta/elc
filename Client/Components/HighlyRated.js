@@ -32,19 +32,17 @@ const HighlyRated = ({ data }) => {
     <TouchableOpacity
       key={item.id}
       onPress={() => {
-        nav.navigate(item.navRoute);
+        nav.navigate("ProductDetails", { product: item });
       }}
       style={styles.container}
     >
       <View>
-        {/* //< --DATA HERE Image------- */}
-        <Image source={item.api_featured_image} style={styles.image} />
+        <Image source={{ uri: item.api_featured_image }} style={styles.image} />
 
         <TouchableOpacity
           style={styles.heartIconContainer}
           onPress={() => toggleFavorite(item.id)}
         >
-          {/* //<HEART TOGGLE FAVORITE HERE Icon can stay in App----------- */}
           <Image
             source={
               isFavorite(item.id)
@@ -58,7 +56,7 @@ const HighlyRated = ({ data }) => {
         <View style={styles.pendingIconContainer}>
           {/* //< DATA HERE Rating----------- */}
           <View style={styles.ratingContainer}>
-            <Text style={styles.rating}>{item.rating}</Text>
+            <Text style={styles.rating}>/*TODO update*/</Text>
           </View>
         </View>
       </View>
@@ -66,14 +64,13 @@ const HighlyRated = ({ data }) => {
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
         </Text>
-        {/* //< DATA HERE  Name-----------*/}
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
-        <ProductAccessibilityTags data={features.slice(0, 1)} />
+        <ProductAccessibilityTags data={features.slice(0, 1)} /> //TODO grab the tags from reviews
         {/* //< ------DATA HERE needs to have logic based YES --------------Buy It Again  */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          {item.buyAgain}% would buy again
+          {item.reviews.length} reviews
         </Text>
       </View>
     </TouchableOpacity>
@@ -84,7 +81,8 @@ const HighlyRated = ({ data }) => {
       <View style={styles.horizontal}>
         <Text style={styles.text}>Highly Rated</Text>
         {/* //< navigation only needs to go to category based on search result */}
-        <TouchableOpacity onPress={() => nav.navigate("Category")}>
+        <TouchableOpacity onPress={() => nav.navigate("Category", {query: ""})}> 
+        {/* // update query to pull in the demo products  */}
           <Text style={styles.text2}>See All ⌲</Text>
         </TouchableOpacity>
       </View>

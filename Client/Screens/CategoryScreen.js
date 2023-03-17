@@ -8,6 +8,7 @@ import {
   Image,
   TouchableOpacity,
   SafeAreaView,
+  ScrollView,
 } from "react-native";
 import DropdownSearchBar from "../Components/DropdownSearchBar";
 import { highlyRated, features } from "../Constants/BeautyData";
@@ -67,12 +68,18 @@ const HighlyRated = ({ data }) => {
     return (
       <View>
         <View>
-          <TouchableOpacity onPress={() => nav.navigate(item.navRoute)}>
+          <TouchableOpacity
+            accessibilityRole="button"
+            accessibilityLabel={`Go to ${item.name} page`}
+            onPress={() => nav.navigate(item.navRoute)}
+          >
             {/* //< -------- data here ---------- */}
             <Image source={item.api_featured_image} style={styles.image} />
           </TouchableOpacity>
 
           <TouchableOpacity
+            accessibilityRole="button"
+            accessibilityLabel={`${isFavorited ? "Remove from" : "Add to"} favorites`}
             style={styles.heartIconContainer}
             onPress={() => handleFavoriteToggle(item.id)}
           >
@@ -87,13 +94,17 @@ const HighlyRated = ({ data }) => {
             />
           </TouchableOpacity>
 
-          <View style={styles.ratingIconContainer}>
+          <View 
+            style={styles.ratingIconContainer}>
             {/* //< -------- data here  need the rating for the product Pending or ABCDF---------- */}
             <ProductRatingImage rating={item.rating} />
           </View>
         </View>
 
-        <TouchableOpacity style={styles.textContainer}>
+        <TouchableOpacity 
+         accessibilityRole="button"
+         accessibilityLabel={`View details for ${item.brand} ${item.name}`}
+          style={styles.textContainer}>
           <Text style={styles.brand} numberOfLines={2}>
             {/* //< -------- data here ---------- */}
             {item.brand}
@@ -138,6 +149,7 @@ const CategoryScreen = (props) => {
 
   return (
     <SafeAreaView style={styles.body}>
+      <ScrollView>
       <DropdownSearchBar />
       <View style={styles.scroll}>
         <View style={styles.horizontal}>
@@ -146,6 +158,7 @@ const CategoryScreen = (props) => {
         </View>
         <HighlyRated data={highlyRated} handlePress={handlePress} />
       </View>
+      </ScrollView>
     </SafeAreaView>
   );
 };

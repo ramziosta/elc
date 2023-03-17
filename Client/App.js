@@ -8,7 +8,10 @@ const Stack = createNativeStackNavigator();
 const App = () => {
   const atlasToken = getAtlasToken();
   return (
-    <NavigationContainer>
+    <NavigationContainer
+      accessibilityLabel="ELC Makeup App"
+      accessibilityText="A mobile app for purchasing makeup products from ELC."
+    >
       <AtlasContext.Provider value={atlasToken}>
        <OnBoardingNavigation />
       </AtlasContext.Provider>
@@ -18,14 +21,6 @@ const App = () => {
 
 export default App;
 
-
-// const theme = {
-//   ...DefaultTheme,
-//   colors: {
-//     ...DefaultTheme.colors,
-//     background: "grey",
-//   },
-// };
 
 export const AtlasContext = createContext(undefined);
 

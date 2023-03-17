@@ -1,18 +1,17 @@
 export const Data = [
   {
     id: 1,
-    brand: "rejuva minerals",
-    name: "Bronzer - loose",
-    price: "11.99",
+    brand:  "Rare Beauty",
+    name:  "Soft Pinch Liquid Blush",
+    price: "31.99",
     price_sign: "$",
     currency: "USD",
-    api_featured_image: "../assets/images/demo.png",
+    api_featured_image: "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
     product_link:
       "https://www.purpicks.com/product/rejuva-minerals-bronzer-caribbean/",
     website_link: "https://purpicks.com/",
     description:
       "Caribbean is a multi-purpose shade that is suitable for medium-tan skin tones. This shade may be used as a bronzer, or as a contour shade. \u003cul\u003e\u003cli\u003eOur bronzer has been enhanced with Fruits, Botanicals and Clays for their natural color, fragrance and antioxidant benefits!\u003c/li\u003e\u003cli\u003eBlended with Certified Organics Fruits and Botanicals\u003c/li\u003e\u003cli\u003eFormulated with common skin irritants.\u003c/li\u003e\u003cli\u003eOur bronzer will offer a natural “ultra sheer” semi-matte finish.\u003c/li\u003e\u003cli\u003eMade without any gluten containing ingredients\u003c/li\u003e\u003cli\u003eVEGAN!\u003c/li\u003e\u003cli\u003eEco Friendly jars!\u003c/li\u003e\u003c/ul\u003e",
-    rating: 4.5,
     buy_it_again: 456,
     number_of_reviews: 10,
     category: "powder",
@@ -74,12 +73,15 @@ export const Data = [
       { hex_value: "#63453b", colour_name: "Mahogany Flame " },
     ],
     reviews: [
-      { accessible: null },
-      { buyAgain: "yes" },
-      { content: "This is a very good product" },
-      { created_at: "2018-06-30T19:19:3" },
-      { firebaseUser: "Miss Kitten" },
-      { title: "I love it" },
+      {
+       accessible: null ,
+       rating: 1,
+       buyAgain: "yes" ,
+       content: "This is a very good product" ,
+       created_at: "2018-06-30T19:19:3" ,
+       firebaseUser: "Miss Kitten" ,
+       title: "I love it" 
+    }
     ],
     navigate: "ProductDetails2",
   },

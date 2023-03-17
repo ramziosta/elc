@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Image, StyleSheet } from "react-native";
 import ProductStack from "./ProductStack";
 import { FavoriteScreen, AccountScreen } from "../Screens";
-import ProductsListTest from "../Screens/DBComponent";
+import ProductsListTest from "../graveyard/DBComponent";
 
 const Tab = createBottomTabNavigator();
 

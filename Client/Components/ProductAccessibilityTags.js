@@ -19,7 +19,7 @@ const ProductAccessibilityTags = ({ data }) => {
     );
   
     return (
-      <View>
+      <View style={styles.container}>
         <FlatList
           
           data={data}
@@ -39,15 +39,21 @@ const ProductAccessibilityTags = ({ data }) => {
 
 
   const styles = StyleSheet.create({
+
+      
     tagsBackgroundColor: {
       backgroundColor: "#FFF3C3",
       borderRadius: 50,
       marginTop: 10,
       marginBottom: 20,
+      marginHorizontal: 10,
     },
     tags: {
-      paddingHorizontal: 10,
-      marginVertical: 5,
+      width: 100,
+      marginVertical: 10,
+      marginHorizontal: 10,
+      textAlign: "center",
+     
     },
    
   });

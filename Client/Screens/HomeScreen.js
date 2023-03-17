@@ -31,7 +31,7 @@ const HomeScreen = (props) => {
           <FeaturesList data={features} />
           <HighlyRated data={highlyRated} />
           <AccessibleBrands data={accessibleBrands} />
-          <RecentlyAdded data={highlyRated} />
+          <FetchComponent props={RecentlyAdded}/>
         </View>
       </ScrollView>
     </View>

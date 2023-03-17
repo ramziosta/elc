@@ -6,6 +6,7 @@ import {
   Platform,
   TouchableWithoutFeedback,
   Keyboard,
+  Button,
   StyleSheet,
   Text,
   View,
@@ -22,11 +23,13 @@ import ProductAccessibilityTags from "../Components/ProductAccessibilityTags";
 import Card from "../Components/ReviewCard";
 import { db } from "../config";
 import { collection, getDocs } from "firebase/firestore";
-
-
+import { Ionicons } from "@expo/vector-icons";
 
 const ToggleProductDescription = ({ data }) => {
-  const [isProductDescriptionModalVisible, setIsProductDescriptionModalVisible] = useState(false);
+  const [
+    isProductDescriptionModalVisible,
+    setIsProductDescriptionModalVisible,
+  ] = useState(false);
 
   const handleTextClick = () => {
     setIsProductDescriptionModalVisible(true);
@@ -49,15 +52,11 @@ const ToggleProductDescription = ({ data }) => {
           style={styles.toggleImage}
           source={require("../assets/icons/tabler_chevron-down.png")}
         />
-
-
       </TouchableOpacity>
       <Modal visible={isProductDescriptionModalVisible} animationType="slide">
-
         <SafeAreaView>
           {/* //< DATA HERE {item.description}  --------------------- */}
           <Text style={styles.text}>Product Decription goes here </Text>
-
 
           <TouchableOpacity onPress={handleModalClose}>
             <Text style={styles.text}>Close</Text>
@@ -92,12 +91,10 @@ const ToggleHowToUse = ({ data }) => {
           style={styles.toggleImage}
           source={require("../assets/icons/tabler_chevron-down.png")}
         />
-
       </TouchableOpacity>
       <Modal visible={isHowToModal} animationType="slide">
         <SafeAreaView>
-
-      {/* //< DATA HERE ----------- {item.content} */}
+          {/* //< DATA HERE ----------- {item.content} */}
           <Text style={styles.text}>This is the content of the modal</Text>
           <TouchableOpacity onPress={handleModalClose}>
             <Text style={styles.text}>Close modal</Text>
@@ -122,7 +119,10 @@ const LeaveReviewButton = ({ data }) => {
 
   return (
     <View>
-      <TouchableOpacity style={styles.leaveReviewButton} onPress={()=>nav.navigate("Review")}>
+      <TouchableOpacity
+        style={styles.leaveReviewButton}
+        onPress={() => nav.navigate("Review")}
+      >
         <Text style={styles.leaveReviewText}>Leave Review </Text>
       </TouchableOpacity>
     </View>
@@ -133,7 +133,6 @@ const Reviews = ({ navigation }) => {
   const nav = useNavigation();
 
   const [Articles, setArticles] = useState([]);
-
 
   //> ------retrieve data from database----------
   useEffect(() => {
@@ -155,19 +154,15 @@ const Reviews = ({ navigation }) => {
 
   //< ---------send data to the database-------------
 
-
- 
   return (
-    <View >
+    <View>
       <FlatList
         data={Articles}
         renderItem={({ item }) => (
-          <TouchableOpacity
-            onPress={() => nav.navigate("ReviewDetails", item)}
-          >
+          <TouchableOpacity onPress={() => nav.navigate("ReviewDetails", item)}>
             {/* //< DATA HERE -----------------------  */}
             <Card>
-              <Text style={{color: "black",}}>{item.title}</Text>
+              <Text style={{ color: "black" }}>{item.title}</Text>
             </Card>
           </TouchableOpacity>
         )}
@@ -210,11 +205,12 @@ const PinkButton = () => {
 const ColorOptionsIcons = ({ data }) => {
   const renderItem = ({ item }) => (
     <View style={styles.colorOptionsContainer}>
+      {/* */}
       <TouchableOpacity>
         <Image
-          source={item.ColorOptionsIcon}
+          source={item.product_colors}
           style={styles.icon}
-          data={item.iconHex}
+          data={item.colour_name}
         />
       </TouchableOpacity>
 
@@ -236,12 +232,79 @@ const ColorOptionsIcons = ({ data }) => {
   );
 };
 
+const MyModal = () => {
+  return (
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      <TouchableOpacity onPress={() => setModalVisible(true)}>
+        <Text>Show Modal</Text>
+      </TouchableOpacity>
+    </View>
+  );
+};
+
+const AccordionModal = () => {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalHeight, setModalHeight] = useState(new Animated.Value(0));
+
+  const toggleModal = () => {
+    if (modalVisible) {
+      Animated.timing(modalHeight, {
+        toValue: 0,
+        duration: 300,
+        useNativeDriver: false,
+      }).start(() => setModalVisible(false));
+    } else {
+      setModalVisible(true);
+      Animated.timing(modalHeight, {
+        toValue: 300,
+        duration: 300,
+        useNativeDriver: false,
+      }).start();
+    }
+  };
+
+  return (
+    <View style={{ flex: 1 }}>
+      <TouchableWithoutFeedback onPress={toggleModal}>
+        <View style={{ backgroundColor: "lightblue", padding: 20 }}>
+          <Text style={{ fontSize: 20, fontWeight: "bold" }}>
+            Accordion Modal
+          </Text>
+        </View>
+      </TouchableWithoutFeedback>
+
+      <Modal visible={modalVisible} transparent={true}>
+        <TouchableWithoutFeedback onPress={toggleModal}>
+          <View style={{ flex: 1, backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
+            <Animated.View
+              style={{
+                backgroundColor: "white",
+                height: modalHeight,
+                padding: 20,
+              }}
+            >
+              <Text style={{ fontSize: 16 }}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                aliquam, erat quis porttitor pharetra, sem mi imperdiet leo, ac
+                venenatis tellus nunc eget sapien. Aenean vel neque id arcu
+                dictum convallis. Sed sed turpis at lectus aliquet blandit vel
+                vitae mi.
+              </Text>
+            </Animated.View>
+          </View>
+        </TouchableWithoutFeedback>
+      </Modal>
+    </View>
+  );
+};
+
 const ProductDetailsScreen = (props) => {
+  const [modalVisible, setModalVisible] = useState(false);
   const [favorite, setFavorite] = useState(false);
   const [listKey, setListKey] = useState(5);
   const nav = useNavigation();
-
-return (
+  const { item } = props.params;
+  return (
     <SafeAreaView style={styles.body}>
       <ScrollView>
         <Image
@@ -255,10 +318,9 @@ return (
           onPress={() => props.navigation.goBack()}
         >
           ← Back
-        </Text> 
+        </Text>
 
         <View style={styles.buttonsContainer}>
-
           <TouchableOpacity
             style={[styles.button, styles.viewInThreeD]}
             title="View In 3D"
@@ -280,16 +342,15 @@ return (
               Try It On
             </Text>
           </TouchableOpacity>
-          
         </View>
 
         <View style={styles.productNameContainer}>
           <View>
-            {/* //< DATA HERE ____item.brand */}
-            <Text style={styles.brandName}>{}Rare Beauty</Text>
-             {/* //< DATA HERE ____item.name */}
-            <Text style={styles.productName}>{}Soft Pinch Liquid Blush</Text>
+            <Text style={styles.brandName}>{item.brand}</Text>
+
+            <Text style={styles.productName}>{item.name}</Text>
           </View>
+
           <TouchableOpacity
             onPress={() => {
               setFavorite(!favorite);
@@ -297,7 +358,12 @@ return (
           >
             <Image
               style={styles.favoriteIcon}
-              source={require("../assets/icons/mdi_cards-heart-outline-white.png")}
+              //< DATA HERE ----------ICON can stay in App
+              source={
+                favorite
+                  ? require("../assets/icons/mdi_cards-heart-pink.png")
+                  : require("../assets/icons/mdi_cards-heart-outline-white.png")
+              }
             />
           </TouchableOpacity>
         </View>
@@ -305,6 +371,7 @@ return (
         <View>
           <Text style={styles.pageText}>Color Options:</Text>
           <View>
+            {/* //< NEEDS TO TO TAKE HEX VALUES --- use item.hex_colors object array */}
             <ColorOptionsIcons data={productColorsIcons} />
           </View>
         </View>
@@ -313,8 +380,12 @@ return (
 
         <View style={styles.productHighlight}>
           <Text style={styles.highlightHeader}>Product Highlights</Text>
+          <View style={styles.productAccessibilityTagsContainer}>
+            <ProductAccessibilityTags data={features.slice(0, 3)} />{" "}
+            {/* //! potentially update this to pull features list from existing review
+            "pros" */}
+          </View>
 
-          <ProductAccessibilityTags data={features.slice(0, 3)} />
           <View style={styles.toggleBackground}>
             <ToggleProductDescription data={productColorsIcons} />
           </View>
@@ -325,7 +396,10 @@ return (
           <View style={[styles.divider, styles.gap]}></View>
         </View>
 
-        <TouchableOpacity style={styles.howRatingsWork}>
+        <TouchableOpacity
+          style={styles.howRatingsWork}
+          onPress={() => setModalVisible(true)}
+        >
           <MaterialCommunityIcons
             name="help-circle"
             size={32}
@@ -335,6 +409,31 @@ return (
           <Text style={styles.howRatingsWorkText}> How Rating Works</Text>
         </TouchableOpacity>
 
+        <Modal
+          visible={modalVisible}
+          animationType="none"
+          onRequestClose={() => setModalVisible(false)}
+        >
+          <View style={ModalStyles.howRatingsModal}>
+            <Text>Rate Products</Text>
+            <TouchableOpacity onPress={() => setModalVisible(false)}>
+              <Text>Close </Text>
+              <Ionicons name="close" size={24} color="black" />
+            </TouchableOpacity>
+            <View>
+              <Text>
+                Customer feedback on whether or not they found the product
+                accessible-complient is aggregates into a total rating.
+              </Text>
+              <Text>
+                For example, a positive review can be mapped to an "A" rating, a
+                neutral review can be mapped to a "C" rating and a negative
+                review can be mapped to an "F" rating.
+              </Text>
+            </View>
+          </View>
+        </Modal>
+
         <View style={styles.ratingsContainer}>
           <Text style={styles.ratingsHeaderText}>Accessibility Rating</Text>
           {/* <Image
@@ -342,10 +441,10 @@ return (
             source={require("../assets/icons/Rating-circle-large.png")}
           /> */}
           <View style={styles.ratingsTextContainer}>
-          <Text style={styles.ratingsText}>Maybe</Text>
+            <Text style={styles.ratingsText}>Maybe</Text>
           </View>
           <Text style={styles.numberOfReviewsText}>
-            40{productColorsIcons.numberOfReviews} Total Reviews
+            {item.reviews.length} reviews
           </Text>
         </View>
 
@@ -400,7 +499,7 @@ return (
           <Text style={styles.reviewText}>User Reviews</Text>
           <LeaveReviewButton />
         </View>
-        
+
         <Reviews data={productColorsIcons} />
       </ScrollView>
     </SafeAreaView>
@@ -409,15 +508,13 @@ return (
 
 export default ProductDetailsScreen;
 
-
-const Modaltyles = StyleSheet.create({
+const ModalStyles = StyleSheet.create({
   container: {
     marginTop: 10,
     flex: 1,
     padding: 20,
     backgroundColor: "cyan",
   },
-
   texts: {
     marginTop: 50,
     padding: 40,
@@ -433,33 +530,35 @@ const Modaltyles = StyleSheet.create({
     marginVertical: 8,
     lineHeight: 18,
   },
-  lableText:{
-
-  },
-  input:{
-    borderColor: 'black',
+  lableText: {},
+  input: {
+    borderColor: "black",
     borderWidth: 1,
-    color: 'black',
+    color: "black",
     height: 40,
-    borderRadius:4,
+    borderRadius: 4,
   },
-  formField:{
-    marginVertical: 8
+  formField: {
+    marginVertical: 8,
   },
-  button:{},
+  button: {},
   container2: {
     flex: 1,
   },
   errorText: {
-    color: 'crimson',
-    fontWeight: 'bold',
+    color: "crimson",
+    fontWeight: "bold",
     marginBottom: 10,
     marginTop: 6,
-    textAlign: 'center',
+    textAlign: "center",
   },
+  howRatingsModal:{
+    backgroundColor:"red",
+    display: "flex",
+    flexDirection: "row",
 
-   });
-
+  }
+});
 
 const styles = StyleSheet.create({
   body: {
@@ -552,6 +651,11 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 16,
   },
+  productAccessibilityTagsContainer: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+  },
   tagsBackgroundColor: {
     backgroundColor: "#FFF3C3",
     marginHorizontal: 10,
@@ -617,13 +721,11 @@ const styles = StyleSheet.create({
     marginVertical: 20,
     paddingHorizontal: 10,
     paddingVertical: 27,
-
   },
   ratingsText: {
     color: "white",
-   fontSize:18,
+    fontSize: 18,
     fontWeight: 700,
-
   },
   ratingsImage: {
     marginVertical: 10,

@@ -5,7 +5,7 @@ const assets = [
     WhiteHeart: require("../assets/icons/ri_hand-heart-line.png"),
     redHeart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     pendingIcon: require("../assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48.png"),
+    product_colors: require("../assets/icons/Ellipse%48.png"),
     iconColorName: "Greatful",
     brandLogo: require("../assets/icons/icon1.png"), //< assets????
   },
@@ -14,7 +14,7 @@ const assets = [
     image: require("../assets/icons/icon-park-outline_foundation-makeup.png"),
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     pendingIcon: require("../assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-1.png"),
+    product_colors: require("../assets/icons/Ellipse%48-1.png"),
     iconColorName: "Joy",
     brandLogo: require("../assets/icons/icon2.png"),
   },
@@ -23,7 +23,7 @@ const assets = [
     image: require("../assets/icons/mdi_lock-open-outline.png"),
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     pendingIcon: require("../assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-2.png"),
+    product_colors: require("../assets/icons/Ellipse%48-2.png"),
     iconColorName: "Happy",
     brandLogo: require("../assets/icons/icon3.png"),
   },
@@ -32,7 +32,7 @@ const assets = [
     image: require("../assets/icons/tabler_brush-off.png"),
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     pendingIcon: require("../assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-3.png"),
+    product_colors: require("../assets/icons/Ellipse%48-3.png"),
     iconColorName: "Lucky",
     brandLogo: require("../assets/icons/icon4.png"),
   },
@@ -41,7 +41,7 @@ const assets = [
     image: require("../assets/icons/tabler_texture.png"),
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     pendingIcon: require("../assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-4.png"),
+    product_colors: require("../assets/icons/Ellipse%48-4.png"),
     iconColorName: "Bliss",
     brandLogo: require("../assets/icons/icon5.png"),
   },
@@ -50,33 +50,33 @@ const assets = [
     image: require("../assets/icons/brail.png"),
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
     pendingIcon: require("../assets/icons/rating-circle-small.png"),
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-5.png"),
+    product_colors: require("../assets/icons/Ellipse%48-5.png"),
     iconColorName: "Faith",
     brandLogo: require("../assets/icons/icon6.png"),
   },
   {
     id: "7",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-6.png"),
+    product_colors: require("../assets/icons/Ellipse%48-6.png"),
     iconColorName: "Grace",
   },
   {
     id: "8",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-7.png"),
+    product_colors: require("../assets/icons/Ellipse%48-7.png"),
     iconColorName: "Love",
   },
   {
     id: "9",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-8.png"),
+    product_colors: require("../assets/icons/Ellipse%48-8.png"),
     iconColorName: "Hope",
   },
   {
     id: "10",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-9.png"),
+    product_colors: require("../assets/icons/Ellipse%48-9.png"),
     iconColorName: "Believe",
   },
   {
     id: "11",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-10.png"),
+    product_colors: require("../assets/icons/Ellipse%48-10.png"),
     iconColorName: "Courage",
   },
 ];
@@ -443,7 +443,7 @@ const features = [
   },
   {
     id: "2",
-    tag_list: "Ergonomic\n Design",
+    tag_list: "No Tools",
     accessibilityIcon: require("../assets/icons/icon-park-outline_foundation-makeup.png"),
     rating: "B",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
@@ -461,7 +461,7 @@ const features = [
   },
   {
     id: "4",
-    tag_list: "No Tools",
+    tag_list: "Ergonomic\n Design",
     accessibilityIcon: require("../assets/icons/tabler_brush-off.png"),
     rating: "A",
     heart: require("../assets/icons/mdi_cards-heart-outline-white.png"),
@@ -490,7 +490,7 @@ const highlyRated = [
   {
     id: "1", //id
     brand: "Rare Beauty",
-    name: "Soft Pinch Liquid Blush",
+    name: "Rare Beauty",
     api_featured_image: require("../assets/images/demo.png"), //api_featured_image
     accessibility: "Ergonomic Design", //tag_list
     buyItAgain: 92, //! NEW
@@ -661,67 +661,67 @@ const accessibleBrands = [
 const productColorsIcons = [
   {
     id: "1",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48.png"),
+    product_colors: require("../assets/icons/Ellipse%48.png"),
     iconColorName: "Greatful", //! NEW product_colors[color].product_name
     accessibility: "Easy Open", //tag_list
   },
   {
     id: "2",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-1.png"),
+    product_colors: require("../assets/icons/Ellipse%48-1.png"),
     iconColorName: "Joy",
     accessibility: "Easy Open",
   },
   {
     id: "3",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-2.png"),
+    product_colors: require("../assets/icons/Ellipse%48-2.png"),
     iconColorName: "Happy",
     accessibility: "Easy Open",
   },
   {
     id: "4",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-3.png"),
+    product_colors: require("../assets/icons/Ellipse%48-3.png"),
     iconColorName: "Lucky",
     accessibility: "Easy Open",
   },
   {
     id: "5",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-4.png"),
+    product_colors: require("../assets/icons/Ellipse%48-4.png"),
     iconColorName: "Bliss",
     accessibility: "Easy Open",
   },
   {
     id: "6",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-5.png"),
+    product_colors: require("../assets/icons/Ellipse%48-5.png"),
     iconColorName: "Faith",
     accessibility: "Easy Open",
   },
   {
     id: "7",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-6.png"),
+    product_colors: require("../assets/icons/Ellipse%48-6.png"),
     iconColorName: "Grace",
     accessibility: "Easy Open",
   },
   {
     id: "8",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-7.png"),
+    product_colors: require("../assets/icons/Ellipse%48-7.png"),
     iconColorName: "Love",
     accessibility: "Easy Open",
   },
   {
     id: "9",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-8.png"),
+    product_colors: require("../assets/icons/Ellipse%48-8.png"),
     iconColorName: "Hope",
     accessibility: "Easy Open",
   },
   {
     id: "10",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-9.png"),
+    product_colors: require("../assets/icons/Ellipse%48-9.png"),
     iconColorName: "Believe",
     accessibility: "Easy Open",
   },
   {
     id: "11",
-    ColorOptionsIcon: require("../assets/icons/Ellipse%48-10.png"),
+    product_colors: require("../assets/icons/Ellipse%48-10.png"),
     iconColorName: "Courage",
     accessibility: "Easy Open",
   },
