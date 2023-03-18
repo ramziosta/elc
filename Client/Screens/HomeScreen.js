@@ -15,7 +15,8 @@ import {
   accessibleBrands,
 } from "../Constants/BeautyData";
 import {Data} from '../Constants/Data'
-console.log(Data);
+import { FetchComponent } from "../Components/FetchComponent";
+// console.log(Data);
 
 const HomeScreen = (props) => {
   return (
@@ -29,9 +30,9 @@ const HomeScreen = (props) => {
         <DropdownSearchBar />
         <View style={styles.scroll}>
           <FeaturesList data={features} />
-          <HighlyRated data={highlyRated} />
-          <AccessibleBrands data={accessibleBrands} />
-          <FetchComponent props={RecentlyAdded}/>
+          {/* <HighlyRated data={highlyRated} />
+          <AccessibleBrands data={accessibleBrands} /> */}
+          <FetchComponent RenderComponent={RecentlyAdded}/>
         </View>
       </ScrollView>
     </View>

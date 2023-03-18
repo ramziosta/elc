@@ -3,13 +3,10 @@ import { StyleSheet, Text, View, SafeAreaView, Button } from "react-native";
 import { WebView } from "react-native-webview";
 import { useNavigation } from "@react-navigation/native";
 // import SlideButton from 'rn-slide-button';
-const ThreeDScreen = () => {
+const ThreeDScreen = (props) => {
 
   const nav = useNavigation();
-  // //< FOT THE DATA TO BE DYNAMIC< ROUTE CAN BE SAVED IN DB ↓
-  // const { uri } = route.params;
-
-
+  const item = props.route.params;
 
   return (
     <SafeAreaView style={styles.container}>
@@ -35,7 +32,7 @@ const ThreeDScreen = () => {
       <Button
         title="Back"
         onPress={() => {
-          nav.navigate("ProductDetails");
+          nav.navigate("ProductDetails", {item});
         }}
       />
     </SafeAreaView>

@@ -1,17 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
+import {
+  FlatList,
+  TouchableOpacity,
+  View,
+  Text,
+  Image,
+  StyleSheet,
+} from "react-native";
+import { AtlasContext } from "../App";
+import { graphQLQuery } from "../state/product";
 const resultsPerQuery = 25;
 export const FetchComponent = ({ RenderComponent }) => {
   const [productData, setProductData] = React.useState(null);
   const [loading, setLoading] = React.useState(true);
   const [errors, setErrors] = React.useState([]);
   const [resultsIndex, setResultsIndex] = React.useState(0);
-
+  const token = useContext(AtlasContext);
   React.useEffect(() => {
     const fetchData = async () => {
       const query = {
         // "operationName": "Query",
         query: `query{
-                    products(){
+                  paginationResolver(input:{limit:${resultsPerQuery}, offset:${resultsIndex}}){
+                      _id
                       id,
                       brand,
                       name,
@@ -49,24 +60,26 @@ export const FetchComponent = ({ RenderComponent }) => {
       return graphQLQuery(token, query)
         .then((d) => {
           setResultsIndex((pv) => pv + resultsPerQuery);
-          setProductData(d.data.products);
-          setLoading(false);
+          setProductData(d.paginationResolver);
+          console.log(d.paginationResolver);
         })
         .catch((err) => {
           console.log(err);
-          setErrors((pv) => pv.push(err));
+          setErrors((pv) => [...pv, err]);
         });
     };
-    fetchData()
-      .then((d) => setProductData(d.data.product))
+    fetchData().then(d=>setLoading(false))
       .catch((err) => {
         console.log(err);
-        setErrors((pv) => pv.push(err));
+        setErrors((pv) => [...pv, err]);
       });
   }, []);
-
-  if (loading) return <Text>Loading...</Text>;
-  if (errors.length) return <Text>Error :( {errors}</Text>;
+  if(loading) console.log("loading..")
+  if(errors.length) console.log({errors})
+  if (loading) 
+    return (<View><Text>{"Loading..."}</Text></View>);
+  if (errors.length) 
+    return (<View><Text>Error :( {errors}</Text></View>);
 
   const {
     id,
@@ -89,11 +102,6 @@ export const FetchComponent = ({ RenderComponent }) => {
     product_colors,
     reviews,
   } = productData;
+  return React.createElement(RenderComponent, {data: productData})
 
-  return (
-    //maybe use context or something to pass data to children, this component should pass data into the UI component for product details
-    <RenderComponent data={productData} />
-  );
 };
-
-export default Product;

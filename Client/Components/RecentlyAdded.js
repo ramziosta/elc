@@ -8,11 +8,11 @@ import {
   StyleSheet,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { ScrollView } from "react-native-gesture-handler";
 
-const HighlyRated = ({ data, handlePress }) => {
+const RecentlyAdded = ({ data }) => {
   
   const nav = useNavigation();
-  const [number_of_reviews, setNumReviews] = useState(0);
   const [favorites, setFavorites] = useState([]);
 
   const toggleFavorite = (id) => {
@@ -30,12 +30,14 @@ const HighlyRated = ({ data, handlePress }) => {
   const renderItem = ({ item }) => (
     <TouchableOpacity
       key={item.id}
-      onPress={handlePress}
+      onPress={() => {
+        nav.navigate("ProductDetails", {item});
+      }}
       style={styles.container}
     >
       <View>
         {/* //< DATA HERE Image------- */}
-        <Image source={item.api_featured_image} style={styles.image} />
+        <Image source={{uri: item.api_featured_image.replace(/^\/\//, "https://")}} style={styles.image} />
 
         <TouchableOpacity
           style={styles.heartIconContainer}
@@ -55,7 +57,7 @@ const HighlyRated = ({ data, handlePress }) => {
         <View style={styles.pendingIconContainer}>
           <View style={styles.ratingContainer}>
             {/* //< DATA HERE --------------- */}
-            <Text style={styles.rating}>{item.pending}</Text>
+            <Text style={styles.rating}>...</Text>
           </View>
         </View>
       </View>
@@ -72,16 +74,17 @@ const HighlyRated = ({ data, handlePress }) => {
 
         {/* //< DATA HERE ----------- need number of reviews from DB */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          {number_of_reviews
-            ? number_of_reviews + "reviews"
-            : "Pending Reviews"}
+          {item?.reviews
+            ? item?.reviews.length + "reviews"
+            : "Pending Review"}
         </Text>
       </View>
     </TouchableOpacity>
   );
 
   return (
-    <View>
+    <ScrollView>
+      <Text>TEST RECENTLY ADDED</Text>
       <View style={styles.horizontal}>
         <Text style={styles.text}>Recently Added</Text>
         {/* //< SEE ALL Navigates to Category Screen  */}
@@ -93,13 +96,12 @@ const HighlyRated = ({ data, handlePress }) => {
         data={data}
         horizontal={true}
         renderItem={renderItem}
-        keyExtractor={(item) => item.key}
+        keyExtractor={(item) => item._id}
       />
-    </View>
+    </ScrollView>
   );
 };
-
-export default HighlyRated;
+export default RecentlyAdded;
 
 const styles = StyleSheet.create({
   text: {

@@ -225,7 +225,7 @@ const ColorOptionsIcons = ({ data }) => {
       <FlatList
         data={data}
         renderItem={renderItem}
-        keyExtractor={(item) => item.key}
+        keyExtractor={(item) => item.id}
         numColumns={6}
       />
     </View>
@@ -301,15 +301,14 @@ const AccordionModal = () => {
 const ProductDetailsScreen = (props) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [favorite, setFavorite] = useState(false);
-  const [listKey, setListKey] = useState(5);
   const nav = useNavigation();
-  const { item } = props.params;
+  const { item } = props.route.params;
   return (
     <SafeAreaView style={styles.body}>
       <ScrollView>
         <Image
           style={styles.image}
-          source={require("../assets/images/demo.png")}
+          source={{uri: item.api_featured_image.replace(/^\/\//, "https://")}}
         />
 
         <Text
@@ -325,7 +324,7 @@ const ProductDetailsScreen = (props) => {
             style={[styles.button, styles.viewInThreeD]}
             title="View In 3D"
             onPress={() => {
-              nav.navigate("ThreeD");
+              nav.navigate("ThreeD", {item});
             }}
           >
             <Text style={styles.buttonText}>View In 3D</Text>
@@ -372,7 +371,7 @@ const ProductDetailsScreen = (props) => {
           <Text style={styles.pageText}>Color Options:</Text>
           <View>
             {/* //< NEEDS TO TO TAKE HEX VALUES --- use item.hex_colors object array */}
-            <ColorOptionsIcons data={productColorsIcons} />
+            {/* <ColorOptionsIcons data={productColorsIcons} /> */}
           </View>
         </View>
 
@@ -381,7 +380,7 @@ const ProductDetailsScreen = (props) => {
         <View style={styles.productHighlight}>
           <Text style={styles.highlightHeader}>Product Highlights</Text>
           <View style={styles.productAccessibilityTagsContainer}>
-            <ProductAccessibilityTags data={features.slice(0, 3)} />{" "}
+            <ProductAccessibilityTags data={features.slice(0, 3)} />
             {/* //! potentially update this to pull features list from existing review
             "pros" */}
           </View>
@@ -444,7 +443,7 @@ const ProductDetailsScreen = (props) => {
             <Text style={styles.ratingsText}>Maybe</Text>
           </View>
           <Text style={styles.numberOfReviewsText}>
-            {item.reviews.length} reviews
+            {item.reviews ? item.reviews.length : "0"} reviews
           </Text>
         </View>
 
@@ -500,7 +499,7 @@ const ProductDetailsScreen = (props) => {
           <LeaveReviewButton />
         </View>
 
-        <Reviews data={productColorsIcons} />
+        {/* <Reviews data={productColorsIcons} /> */}
       </ScrollView>
     </SafeAreaView>
   );

@@ -15,7 +15,7 @@ export const graphQLQuery = async (token, query) => {
   try {
     const response = await fetch(endpoint, options);
     const json = await response.json();
-    console.log(json.errors);
+    console.log(json);
     return json?.data;
   } catch (err) {
     console.log(err);

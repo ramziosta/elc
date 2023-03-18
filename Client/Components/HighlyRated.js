@@ -67,10 +67,10 @@ const HighlyRated = ({ data }) => {
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
-        <ProductAccessibilityTags data={features.slice(0, 1)} /> //TODO grab the tags from reviews
+        <ProductAccessibilityTags data={features.slice(0, 1)} /> {/*TODO grab the tags from reviews*/}
         {/* //< ------DATA HERE needs to have logic based YES --------------Buy It Again  */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          {item.reviews.length} reviews
+          reviews
         </Text>
       </View>
     </TouchableOpacity>
