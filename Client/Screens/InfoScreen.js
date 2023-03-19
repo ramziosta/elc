@@ -1,176 +1,227 @@
-import React from "react";
-import { useNavigation } from "@react-navigation/native";
+import React, { useState } from "react";
 import {
   StyleSheet,
-  View,
-  Text,
-  Image,
-  Button,
+  ScrollView,
   SafeAreaView,
+  View,
+  FlatList,
   TouchableOpacity,
 } from "react-native";
+import { Input, Button, Text } from "react-native-elements";
+import { useForm, Controller } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+import Icon from "react-native-vector-icons/FontAwesome";
+import Card from "../Components/Card"
 
-const InfoScreen = (props) => {
-  const nav = useNavigation();
+const prosCategories = [
+  "Easy Open",
+  "No Tools",
+  "Ergonomic Design",
+  "Has Tactile Markers",
+  "No Tools ",
+  "Easy Apply",
+];
+
+const consCategories = [
+  "Hard to Open",
+  "Tools required",
+  "Messy",
+  "No tactile markers",
+  "Inconvenient Design",
+  "Difficult to Apply",
+];
+
+const schema = yup.object().shape({
+  title: yup.string().required("Title is required"),
+  body: yup.string().required("Body is required"),
+  cons: yup
+    .array()
+    .of(yup.string())
+    .min(3, "Select exactly 3 cons")
+    .max(3, "Select exactly 3 cons"),
+});
+
+const ReviewForm = () => {
+  const [selectedPros, setSelectedPros] = useState([]);
+  const [selectedCons, setSelectedCons] = useState([]);
+  const {
+    control,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    resolver: yupResolver(schema),
+  });
+
+
+
+  const pros = ({ item, index }) => {
+    const pros = item;
+    return (
+      <TouchableOpacity
+        key={index}
+        onPress={() => handleProsButtonClick(pros)}
+        style={[
+          styles.consButton,
+          selectedPros.includes(pros) && styles.selectedConsButton, // Fix here
+        ]}
+        accessible={true}
+        accessibilityLabel={`Pros button ${pros}`}
+        accessibilityHint={`Select ${pros} as a pro if applicable`}
+        accessibilityRole="button"
+      >
+        <Text style={styles.consButtonText}>{pros}</Text>
+      </TouchableOpacity>
+    );
+  };
+  
+  const cons = ({ item, index }) => {
+    const cons = item;
+    return (
+      <TouchableOpacity
+        key={index}
+        onPress={() => handleConsButtonClick(cons)}
+        style={[
+          styles.consButton,
+          selectedCons.includes(cons) && styles.selectedConsButton,
+        ]}
+        accessible={true}
+        accessibilityLabel={`Cons button ${cons}`}
+        accessibilityHint={`Select ${cons} as a con if applicable`}
+        accessibilityRole="button"
+      >
+        <Text style={styles.consButtonText}>{cons}</Text>
+      </TouchableOpacity>
+    );
+  };
+
+  // In the render function
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
+
+  const handleProsButtonClick = (pros) => {
+    if (selectedPros.includes(pros)) {
+      setSelectedPros(selectedPros.filter((item) => item !== pros));
+    } else if (selectedPros.length < 3) {
+      setSelectedPros([...selectedPros, pros]);
+    }
+  };
+  const handleConsButtonClick = (cons) => {
+    if (selectedCons.includes(cons)) {
+      setSelectedCons(selectedCons.filter((item) => item !== cons));
+    } else if (selectedCons.length < 3) {
+      setSelectedCons([...selectedCons, cons]);
+    }
+  };
 
   return (
     <SafeAreaView style={styles.container}>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => nav.navigate("Tabs")}
-      >
-        <Text style={styles.skip}>Skip</Text>
-      </TouchableOpacity>
-      <Text style={styles.title}>Your Virtual product testing studio</Text>
-  
-      <View style={styles.layout}>
-        <View style={styles.info}>
-        <Text style={[styles.text, styles.howItWorks]}>How it works:</Text>
-        <View style={styles.infoContainer}>
-            {/* //< DATA HERE icon can stay in with the APP */}
-            <Image
-              source={require("../assets/icons/material-symbols_search-rounded-pink.png")}
-            />
-            <Text style={styles.text}>
-              Find beauty and care products that work for you
-            </Text>
-          </View>
-          
-          <View style={styles.infoContainer}>
-            {/* //< DATA HERE icon can stay in with the APP */}
-            <Image
-              source={require("../assets/icons/material-symbols_familiar-face-and-zone-outline-rounded.png")}
-            />
-            <Text style={styles.text}>
-              View and test products virtually using AR technology
-            </Text>
-          </View>
+      <ScrollView >
 
-          <View style={styles.infoContainer}>
-            {/* //< DATA HERE icon can stay in with the APP */}
-            <Image
-              source={require("../assets/icons/Group.png")}
-            />
-            <Text style={styles.text}>
-              Rate products and contribute to the product accessibility score
-            </Text>
-          </View>
-     
-      
-          <View style={styles.infoContainer}>
-            {/* //< DATA HERE icon can stay in with the APP */}
-            <Image
-              source={require("../assets/icons/Vector.png")}
-            />
-          
-            <Text style={styles.text}>
-              Share your experience with others
-            </Text>
-          </View>
-        </View>
+        <Card />
+ 
   
-        <View style={styles.buttonContainer}>
-  
-            <TouchableOpacity
-              style={styles.signUp}
-              onPress={() => nav.navigate("SignUp")}
-            >
-              <Text style={styles.buttonText}>Sign Up</Text>
-            </TouchableOpacity>
-  
-  
-            <TouchableOpacity
-              style={styles.login}
-              onPress={() => nav.navigate("SignIn")}
-            >
-              <Text style={[styles.buttonText, {color: "#E3C3FF"}]}>LogIn</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-  
+      {/* PROS */}
+      <FlatList
+        data={prosCategories}
+        renderItem={pros}
+        keyExtractor={(item, index) => index.toString()}
+        contentContainerStyle={styles.consContainer}
+        numColumns={2}
+      />
+      {/* CONS */}
+      <FlatList
+        data={consCategories}
+        renderItem={cons}
+        keyExtractor={(item, index) => index.toString()}
+        contentContainerStyle={styles.consContainer}
+        numColumns={2}
+      />
+     {/* Title input */}
+     <Controller
+        control={control}
+        render={({ field: { onChange, onBlur, value } }) => (
+          <Input
+            label="Title"
+            placeholder="Title"
+            onBlur={onBlur}
+            onChangeText={(value) => onChange(value)}
+            value={value}
+            errorMessage={errors.title?.message}
+            accessible={true}
+            accessibilityLabel="Review title input"
+            accessibilityHint="Enter the review title"
+          />
+        )}
+        name="title"
+      />
+
+      {/* Body input */}
+      <Controller
+        control={control}
+        render={({ field: { onChange, onBlur, value } }) => (
+          <Input
+            label="Body"
+            placeholder="Body"
+            onBlur={onBlur}
+            onChangeText={(value) => onChange(value)}
+            value={value}
+            errorMessage={errors.body?.message}
+            multiline={true}
+            numberOfLines={4}
+            accessible={true}
+            accessibilityLabel="Review body input"
+            accessibilityHint="Enter the review body"
+          />
+        )}
+        name="body"
+      />
+      {/* Submit button */}
+      <Button
+        title="Submit"
+        icon={<Icon name="paper-plane" size={20} color="white" />}
+        onPress={handleSubmit(onSubmit)}
+        accessible={true}
+        accessibilityLabel="Submit review button"
+        accessibilityHint="Press to submit the review"
+        accessibilityRole="button"
+      />
+      </ScrollView>
     </SafeAreaView>
   );
-
-  
 };
 
-export default InfoScreen;
+export default ReviewForm;
 
 const styles = StyleSheet.create({
   container: {
-    height: "100%",
-    padding: 20,
     backgroundColor: "#111111",
+    flex: 1,
+    padding: 16,
   },
-  layout: {
-    justifyContent: "center",
-  },
-  skip: {
-    display: "flex",
-    alignSelf: "flex-end",
-    marginRight: 30,
-    color: "white",
+  consLabel: {
     fontSize: 18,
-    textDecorationLine: "underline",
+    fontWeight: "bold",
+    marginBottom: 8,
   },
-  title: {
-    color: "#fff",
-    margin: 24,
-    fontSize: 28,
-    fontWeight: 700,
-  },
-  howItWorks: {
-    color: "#e3c3ff",
-    fontWeight: 700,
-    left: -10,
-  },
-  text: {
-    color: "white",
-    margin: 15,
-    fontSize: 18,
-    fontWeight: 700,
-    paddingVertical: 8,
-  },
-  infoContainer: {
-    maxWidth: "90%",
+  consContainer: {
     flexDirection: "row",
-    alignItems: "center",
+    flexWrap: "wrap",
+    marginBottom: 16,
   },
-  info: {
-    display: "flex",
-    alignSelf: "center",
-    justifyContent: "center",
-    maxWidth: 370,
-    backgroundColor: "#434343",
-    width: "100%",
-    borderRadius: 20,
-    paddingHorizontal: 20,
-    marginVertical: 1,
+  consButton: {
+    backgroundColor: "#ffffff",
+    paddingHorizontal: 8,
+    margin: 4,
   },
-  buttonContainer: {
-    display: "flex",
-    alignItems: "center",
-    width: "100%",
+  selectedConsButton: {
+    backgroundColor: "#fff3c3",
   },
-  signUp: {
-    backgroundColor: "#E3C3FF",
-    width: "90%",
-    borderRadius: 50,
-    paddingHorizontal: 20,
-    paddingVertical: 15,
-    marginVertical: 30,
-  },
-  buttonText: {
-    textAlign: "center",
-    fontSize: 18,
-    fontWeight: 700,
-  },
-  login: {
-    borderColor: "#E3C3FF",
-    borderWidth: 2,
-    width: "90%",
-    borderRadius: 50,
-    paddingHorizontal: 0,
-    paddingVertical: 15,
+  consButtonText: {
+    color: "black",
+    fontWeight: "700",
   },
 });
