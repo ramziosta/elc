@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TouchableOpacity, View, Text, Image, StyleSheet } from "react-native";
 
-const RatingsFaceCards = ({ data, onPress }) => {
+const RatingsFaceCards = ({ value, onChange }) => {
   const [selectedButton, setSelectedButton] = useState(null);
   //< DATA HERE ICONS Can stay in App
   const [imageSource, setImageSource] = useState(
@@ -14,28 +14,29 @@ const RatingsFaceCards = ({ data, onPress }) => {
     require("../assets/icons/gg_smile-sad-white.png")
   );
 
-const handlePress = (value) => {
-  // Reset the state of previously selected button
-  if (selectedButton !== null) {
-    if (selectedButton === 0) {
-      setImageSource(require("../assets/icons/gg_smile-mouth-open.png"));
-    } else if (selectedButton === 1) {
-      setImageSource2(require("../assets/icons/gg_smile-neutral-white.png"));
-    } else if (selectedButton === 2) {
-      setImageSource3(require("../assets/icons/gg_smile-sad-white.png"));
+  const handlePress = (value) => {
+    // Reset the state of previously selected button
+    if (selectedButton !== null) {
+      if (selectedButton === 0) {
+        setImageSource(require("../assets/icons/gg_smile-mouth-open.png"));
+      } else if (selectedButton === 1) {
+        setImageSource2(require("../assets/icons/gg_smile-neutral-white.png"));
+      } else if (selectedButton === 2) {
+        setImageSource3(require("../assets/icons/gg_smile-sad-white.png"));
+      }
+      onChange(value);
     }
-  }
-  setSelectedButton(value);
+    setSelectedButton(value);
 
-  // Update the state of newly selected button
-  if (value === 0) {
-    setImageSource(require("../assets/icons/gg_smile-mouth-open-black.png"));
-  } else if (value === 1) {
-    setImageSource2(require("../assets/icons/gg_smile-neutral-black.png"));
-  } else if (value === 2) {
-    setImageSource3(require("../assets/icons/gg_smile-sad-black.png"));
-  }
-};
+    // Update the state of newly selected button
+    if (value === 0) {
+      setImageSource(require("../assets/icons/gg_smile-mouth-open-black.png"));
+    } else if (value === 1) {
+      setImageSource2(require("../assets/icons/gg_smile-neutral-black.png"));
+    } else if (value === 2) {
+      setImageSource3(require("../assets/icons/gg_smile-sad-black.png"));
+    }
+  };
 
   const buttonStyle = (value) => {
     if (selectedButton === value) {
@@ -64,6 +65,7 @@ const handlePress = (value) => {
 };
 
 export default RatingsFaceCards;
+
 
 
 const styles = StyleSheet.create({

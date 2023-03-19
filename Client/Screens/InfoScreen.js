@@ -12,7 +12,8 @@ import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import Icon from "react-native-vector-icons/FontAwesome";
-import Card from "../Components/Card"
+import Card from "../Components/Card";
+import RatingsFaceCards from "../Components/RatingsFaceCards";
 
 const prosCategories = [
   "Easy Open",
@@ -40,6 +41,11 @@ const schema = yup.object().shape({
     .of(yup.string())
     .min(3, "Select exactly 3 cons")
     .max(3, "Select exactly 3 cons"),
+  rating: yup
+    .number()
+    .required("Rating is required")
+    .min(0, "Invalid rating")
+    .max(2, "Invalid rating"),
 });
 
 const ReviewForm = () => {
@@ -52,8 +58,6 @@ const ReviewForm = () => {
   } = useForm({
     resolver: yupResolver(schema),
   });
-
-
 
   const pros = ({ item, index }) => {
     const pros = item;
@@ -74,7 +78,7 @@ const ReviewForm = () => {
       </TouchableOpacity>
     );
   };
-  
+
   const cons = ({ item, index }) => {
     const cons = item;
     return (
@@ -101,7 +105,6 @@ const ReviewForm = () => {
     console.log(data);
   };
 
-
   const handleProsButtonClick = (pros) => {
     if (selectedPros.includes(pros)) {
       setSelectedPros(selectedPros.filter((item) => item !== pros));
@@ -119,76 +122,88 @@ const ReviewForm = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView >
-
+      <ScrollView>
         <Card />
- 
-  
-      {/* PROS */}
-      <FlatList
-        data={prosCategories}
-        renderItem={pros}
-        keyExtractor={(item, index) => index.toString()}
-        contentContainerStyle={styles.consContainer}
-        numColumns={2}
-      />
-      {/* CONS */}
-      <FlatList
-        data={consCategories}
-        renderItem={cons}
-        keyExtractor={(item, index) => index.toString()}
-        contentContainerStyle={styles.consContainer}
-        numColumns={2}
-      />
-     {/* Title input */}
-     <Controller
-        control={control}
-        render={({ field: { onChange, onBlur, value } }) => (
-          <Input
-            label="Title"
-            placeholder="Title"
-            onBlur={onBlur}
-            onChangeText={(value) => onChange(value)}
-            value={value}
-            errorMessage={errors.title?.message}
-            accessible={true}
-            accessibilityLabel="Review title input"
-            accessibilityHint="Enter the review title"
-          />
-        )}
-        name="title"
-      />
 
-      {/* Body input */}
-      <Controller
-        control={control}
-        render={({ field: { onChange, onBlur, value } }) => (
-          <Input
-            label="Body"
-            placeholder="Body"
-            onBlur={onBlur}
-            onChangeText={(value) => onChange(value)}
-            value={value}
-            errorMessage={errors.body?.message}
-            multiline={true}
-            numberOfLines={4}
-            accessible={true}
-            accessibilityLabel="Review body input"
-            accessibilityHint="Enter the review body"
-          />
-        )}
-        name="body"
-      />
-      {/* Submit button */}
-      <Button
-        title="Submit"
-        icon={<Icon name="paper-plane" size={20} color="white" />}
-        onPress={handleSubmit(onSubmit)}
-        accessible={true}
-        accessibilityLabel="Submit review button"
-        accessibilityHint="Press to submit the review"
-        accessibilityRole="button"
-      />
+        {/* PROS */}
+        <FlatList
+          data={prosCategories}
+          renderItem={pros}
+          keyExtractor={(item, index) => index.toString()}
+          contentContainerStyle={styles.consContainer}
+          numColumns={2}
+        />
+        {/* CONS */}
+        <FlatList
+          data={consCategories}
+          renderItem={cons}
+          keyExtractor={(item, index) => index.toString()}
+          contentContainerStyle={styles.consContainer}
+          numColumns={2}
+        />
+
+         {/* Rating Face Card input */}
+         <Controller
+          control={control}
+          render={({ field: { onChange, value } }) => (
+            <RatingsFaceCards
+              value={value}
+              onChange={onChange}
+            />
+          )}
+          name="rating"
+        />
+        {/* Title input */}
+        <Controller
+          control={control}
+          render={({ field: { onChange, onBlur, value } }) => (
+            <Input
+              label="Title"
+              placeholder="Title"
+              onBlur={onBlur}
+              onChangeText={(value) => onChange(value)}
+              value={value}
+              errorMessage={errors.title?.message}
+              accessible={true}
+              accessibilityLabel="Review title input"
+              accessibilityHint="Enter the review title"
+            />
+          )}
+          name="title"
+        />
+
+       
+
+        {/* Body input */}
+        <Controller
+          control={control}
+          render={({ field: { onChange, onBlur, value } }) => (
+            <Input
+              label="Body"
+              placeholder="Body"
+              onBlur={onBlur}
+              onChangeText={(value) => onChange(value)}
+              value={value}
+              errorMessage={errors.body?.message}
+              multiline={true}
+              numberOfLines={4}
+              accessible={true}
+              accessibilityLabel="Review body input"
+              accessibilityHint="Enter the review body"
+            />
+          )}
+          name="body"
+        />
+        {/* Submit button */}
+        <Button
+          title="Submit"
+          icon={<Icon name="paper-plane" size={20} color="white" />}
+          onPress={handleSubmit(onSubmit)}
+          accessible={true}
+          accessibilityLabel="Submit review button"
+          accessibilityHint="Press to submit the review"
+          accessibilityRole="button"
+        />
       </ScrollView>
     </SafeAreaView>
   );
