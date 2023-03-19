@@ -14,6 +14,7 @@ import {
   ProductDetailsScreen3,
   ProductDetailsScreen4,
   ReviewScreen,
+  ConfirmationScreen,
   ReviewDetailsScreen,
   ThreeDScreen,
   ThreeDScreen2,
@@ -40,6 +41,7 @@ const ProductStack = () => {
       <Stack.Screen name="ProductDetails4" component={ProductDetailsScreen4} />
       {/* //> */}
       <Stack.Screen name="Review" component={ReviewScreen} />
+      <Stack.Screen name="Confirmation" component={ConfirmationScreen} />
       <Stack.Screen name="ReviewDetails" component={ReviewDetailsScreen} />
 
       <Stack.Screen name="ThreeD" component={ThreeDScreen} />
