@@ -25,18 +25,8 @@ const InfoScreen = (props) => {
   
       <View style={styles.layout}>
         <View style={styles.info}>
-          <Text style={[styles.text, styles.howItWorks]}>How it works:</Text>
-  
-          <View style={styles.infoContainer}>
-            {/* //< DATA HERE icon can stay in with the APP */}
-            <Image
-              source={require("../assets/icons/material-symbols_star-rate-rounded.png")}
-            />
-            <Text style={styles.text}>
-              Rate products and share your experience
-            </Text>
-          </View>
-          <View style={styles.infoContainer}>
+        <Text style={[styles.text, styles.howItWorks]}>How it works:</Text>
+        <View style={styles.infoContainer}>
             {/* //< DATA HERE icon can stay in with the APP */}
             <Image
               source={require("../assets/icons/material-symbols_search-rounded-pink.png")}
@@ -45,6 +35,7 @@ const InfoScreen = (props) => {
               Find beauty and care products that work for you
             </Text>
           </View>
+          
           <View style={styles.infoContainer}>
             {/* //< DATA HERE icon can stay in with the APP */}
             <Image
@@ -52,6 +43,28 @@ const InfoScreen = (props) => {
             />
             <Text style={styles.text}>
               View and test products virtually using AR technology
+            </Text>
+          </View>
+
+          <View style={styles.infoContainer}>
+            {/* //< DATA HERE icon can stay in with the APP */}
+            <Image
+              source={require("../assets/icons/Group.png")}
+            />
+            <Text style={styles.text}>
+              Rate products and contribute to the product accessibility score
+            </Text>
+          </View>
+     
+      
+          <View style={styles.infoContainer}>
+            {/* //< DATA HERE icon can stay in with the APP */}
+            <Image
+              source={require("../assets/icons/Vector.png")}
+            />
+          
+            <Text style={styles.text}>
+              Share your experience with others
             </Text>
           </View>
         </View>
@@ -107,6 +120,8 @@ const styles = StyleSheet.create({
     fontWeight: 700,
   },
   howItWorks: {
+    color: "#e3c3ff",
+    fontWeight: 700,
     left: -10,
   },
   text: {
@@ -130,7 +145,7 @@ const styles = StyleSheet.create({
     width: "100%",
     borderRadius: 20,
     paddingHorizontal: 20,
-    marginVertical: 30,
+    marginVertical: 1,
   },
   buttonContainer: {
     display: "flex",

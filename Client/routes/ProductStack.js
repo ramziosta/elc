@@ -1,5 +1,5 @@
 // This page contain use of Stack Navigation only. We have 2 stacks
-// 1. Main Stack 2. Product Stack 
+// 1. Main Stack 2. Product Stack
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import {
@@ -7,6 +7,7 @@ import {
   HomeAR,
   MainAR,
   HomeScreen,
+  FeaturesScreen,
   CategoryScreen,
   ProductDetailsScreen,
   ProductDetailsScreen2,
@@ -29,8 +30,9 @@ const ProductStack = () => {
       screenOptions={{ headerShown: false }}
     >
       <Stack.Screen name="Main" component={HomeScreen} />
-      <Stack.Screen name="ProductDetails" component={ProductDetailsScreen} /> 
+      <Stack.Screen name="ProductDetails" component={ProductDetailsScreen} />
 
+      <Stack.Screen name="Features" component={FeaturesScreen} />
       <Stack.Screen name="Category" component={CategoryScreen} />
       {/* //>  */}
       <Stack.Screen name="ProductDetails2" component={ProductDetailsScreen2} />
@@ -40,20 +42,17 @@ const ProductStack = () => {
       <Stack.Screen name="Review" component={ReviewScreen} />
       <Stack.Screen name="ReviewDetails" component={ReviewDetailsScreen} />
 
-      
       <Stack.Screen name="ThreeD" component={ThreeDScreen} />
-       {/* //> */}
+      {/* //> */}
       <Stack.Screen name="ThreeD2" component={ThreeDScreen2} />
       <Stack.Screen name="ThreeD3" component={ThreeDScreen3} />
       <Stack.Screen name="ThreeD4" component={ThreeDScreen4} />
-       {/* //> */}
+      {/* //> */}
       <Stack.Screen name="AR" component={ARScreen} />
       <Stack.Screen name="HomeAR" component={HomeAR} />
       <Stack.Screen name="MainAR" component={MainAR} />
     </Stack.Navigator>
   );
 };
-
-
 
 export default ProductStack;

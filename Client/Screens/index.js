@@ -4,6 +4,7 @@ import InfoScreen from "./InfoScreen";
 import SignInScreen from "./SignInScreen";
 import SignUpScreen from "./SignUpScreen";
 import HomeScreen from "./HomeScreen";
+import FeaturesScreen  from "./FeaturesScreen";
 import CategoryScreen from "./CategoryScreen";
 
 import ProductDetailsScreen from "./ProductDetailsScreen";
@@ -39,6 +40,7 @@ export {
   SignInScreen,
 
   HomeScreen,
+  FeaturesScreen,
 
   ProductDetailsScreen,
   ProductDetailsScreen2,
