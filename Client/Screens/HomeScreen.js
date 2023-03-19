@@ -6,16 +6,18 @@ import React from "react";
 import { StyleSheet, ScrollView, Image, View } from "react-native";
 import DropdownSearchBar from "../Components/DropdownSearchBar";
 import FeaturesList from "../Components/FeaturesList";
-import HighlyRated from "../Components/HighlyRated";
+import HighlyRated from "../graveyard/HighlyRated";
 import AccessibleBrands from "../Components/AccessibleBrands";
-import RecentlyAdded from "../Components/RecentlyAdded";
 import {
   features,
   highlyRated,
   accessibleBrands,
 } from "../Constants/BeautyData";
-import {Data} from '../Constants/Data'
-import { FetchComponent } from "../Components/FetchComponent";
+import { FetchRecentlyAdded } from "../Components/FetchRecentlyAdded";
+import { FetchHighlyRated } from "../Components/FetchHighlyRated";
+import HomePageFlatList from "../Components/HomePageFlatList";
+import { FetchSearchData } from "../Components/FetchSearchData";
+
 // console.log(Data);
 
 const HomeScreen = (props) => {
@@ -30,9 +32,9 @@ const HomeScreen = (props) => {
         <DropdownSearchBar />
         <View style={styles.scroll}>
           <FeaturesList data={features} />
-          {/* <HighlyRated data={highlyRated} />
-          <AccessibleBrands data={accessibleBrands} /> */}
-          <FetchComponent RenderComponent={RecentlyAdded}/>
+          <FetchSearchData term="elf" RenderComponent={HomePageFlatList} title={"Highly Rated"}/>
+          <AccessibleBrands data={accessibleBrands} />
+          <FetchRecentlyAdded RenderComponent={HomePageFlatList} title={"RecentlyAdded"}/>
         </View>
       </ScrollView>
     </View>

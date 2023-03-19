@@ -25,7 +25,7 @@ import { db } from "../config";
 import { collection, getDocs } from "firebase/firestore";
 import { Ionicons } from "@expo/vector-icons";
 
-const ToggleProductDescription = ({ data }) => {
+const ToggleProductDescription = ({ item }) => {
   const [
     isProductDescriptionModalVisible,
     setIsProductDescriptionModalVisible,
@@ -56,7 +56,7 @@ const ToggleProductDescription = ({ data }) => {
       <Modal visible={isProductDescriptionModalVisible} animationType="slide">
         <SafeAreaView>
           {/* //< DATA HERE {item.description}  --------------------- */}
-          <Text style={styles.text}>Product Decription goes here </Text>
+          <Text style={styles.text}>{item.description}</Text>
 
           <TouchableOpacity onPress={handleModalClose}>
             <Text style={styles.text}>Close</Text>
@@ -123,7 +123,7 @@ const LeaveReviewButton = ({ data }) => {
         style={styles.leaveReviewButton}
         onPress={() => nav.navigate("Review")}
       >
-        <Text style={styles.leaveReviewText}>Leave Review </Text>
+        <Text style={styles.leaveReviewText}>Leave Review</Text>
       </TouchableOpacity>
     </View>
   );
@@ -380,13 +380,13 @@ const ProductDetailsScreen = (props) => {
         <View style={styles.productHighlight}>
           <Text style={styles.highlightHeader}>Product Highlights</Text>
           <View style={styles.productAccessibilityTagsContainer}>
-            <ProductAccessibilityTags data={features.slice(0, 3)} />
+            <ProductAccessibilityTags data={item.tag_list.length ? item.tag_list : ["No Tags"]} />
             {/* //! potentially update this to pull features list from existing review
             "pros" */}
           </View>
 
           <View style={styles.toggleBackground}>
-            <ToggleProductDescription data={productColorsIcons} />
+            <ToggleProductDescription item={item} />
           </View>
           <View style={styles.toggleBackground}>
             <ToggleHowToUse data={productColorsIcons} />
@@ -653,19 +653,19 @@ const styles = StyleSheet.create({
   productAccessibilityTagsContainer: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "flex-start",
   },
   tagsBackgroundColor: {
     backgroundColor: "#FFF3C3",
     marginHorizontal: 10,
     borderRadius: 50,
     marginTop: 10,
-    marginBottom: 20,
+    marginBottom: 10,
   },
   tags: {
     paddingHorizontal: 20,
     marginHorizontal: 20,
-    marginVertical: 10,
+    marginVertical: 20,
   },
   toggleContainer: {
     display: "flex",

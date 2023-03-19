@@ -9,12 +9,12 @@ import {
 
 const ProductAccessibilityTags = ({ data }) => {
 
-    const renderItem = ({ item }) => (
+    const renderItem = ({item, index}) => (
       
-      <View key={item.id}
+      <View key={index}
       style={styles.tagsBackgroundColor}>
         {/* //< DATA HERE ----Tag List------ */}
-        <Text style={styles.tags}>{item.tag_list}</Text>
+        <Text style={styles.tags}>{item}</Text>
       </View>
     );
   
@@ -25,7 +25,6 @@ const ProductAccessibilityTags = ({ data }) => {
           data={data}
           horizontal={false}
           renderItem={renderItem}
-          keyExtractor={(item) => item.key}
           numColumns={3}
           initialNumToRender={3}
           maxToRenderPerBatch={3}

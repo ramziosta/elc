@@ -38,7 +38,7 @@
     price_sign: "$",
     currency: "USD",
     api_featured_image:
-      "https://d3t32hsnjxo7q6.cloudfront.net/i/808647e541dad521fcc1fa0d728dd47e_ra,w158,h184_pa,w158,h184.jpg",
+      " ",
     product_link:
       "https://well.ca/products/revlon-colorstay-skinny-liquid-liner_101103.html",
     website_link: "https://well.ca",

@@ -7,12 +7,13 @@ import {
   Image,
   StyleSheet,
 } from "react-native";
+import ProductAccessibilityTags from "../Components/ProductAccessibilityTags";
+import { features } from "../Constants/BeautyData";
 import { useNavigation } from "@react-navigation/native";
-import { ScrollView } from "react-native-gesture-handler";
 
-const RecentlyAdded = ({ data }) => {
-  
+const HighlyRated = ({ data }) => {
   const nav = useNavigation();
+
   const [favorites, setFavorites] = useState([]);
 
   const toggleFavorite = (id) => {
@@ -27,23 +28,21 @@ const RecentlyAdded = ({ data }) => {
     return favorites.includes(id);
   };
 
-  const renderItem = ({ item }) => (
+  const renderItem = ({ item, id }) => (
     <TouchableOpacity
       key={item.id}
       onPress={() => {
-        nav.navigate("ProductDetails", {item});
+        nav.navigate("ProductDetails", { product: item });
       }}
       style={styles.container}
     >
       <View>
-        {/* //< DATA HERE Image------- */}
-        <Image source={{uri: item.api_featured_image.replace(/^\/\//, "https://")}} style={styles.image} />
+        <Image source={{ uri: item.api_featured_image }} style={styles.image} />
 
         <TouchableOpacity
           style={styles.heartIconContainer}
           onPress={() => toggleFavorite(item.id)}
         >
-          {/* //<HEART TOGGLE FAVORITE HERE Icon can stay In App ----------- */}
           <Image
             source={
               isFavorite(item.id)
@@ -55,40 +54,35 @@ const RecentlyAdded = ({ data }) => {
         </TouchableOpacity>
 
         <View style={styles.pendingIconContainer}>
+          {/* //< DATA HERE Rating----------- */}
           <View style={styles.ratingContainer}>
-            {/* //< DATA HERE --------------- */}
-            <Text style={styles.rating}>...</Text>
+            <Text style={styles.rating}>/*TODO update*/</Text>
           </View>
         </View>
       </View>
-
       <View style={styles.textContainer}>
-        {/* //< DATA HERE ___________ */}
         <Text style={styles.brand} numberOfLines={2}>
           {item.brand}
         </Text>
-        {/* //< DATA HERE ___________ */}
         <Text style={styles.brandNameText} numberOfLines={1}>
           {item.name}
         </Text>
-
-        {/* //< DATA HERE ----------- need number of reviews from DB */}
+        <ProductAccessibilityTags data={features.slice(0, 1)} /> {/*TODO grab the tags from reviews*/}
+        {/* //< ------DATA HERE needs to have logic based YES --------------Buy It Again  */}
         <Text style={styles.buyItAgain} numberOfLines={1}>
-          {item?.reviews
-            ? item?.reviews.length + "reviews"
-            : "Pending Review"}
+          reviews
         </Text>
       </View>
     </TouchableOpacity>
   );
 
   return (
-    <ScrollView>
-      <Text>TEST RECENTLY ADDED</Text>
+    <View>
       <View style={styles.horizontal}>
-        <Text style={styles.text}>Recently Added</Text>
-        {/* //< SEE ALL Navigates to Category Screen  */}
-        <TouchableOpacity onPress={() => nav.navigate("Category")}>
+        <Text style={styles.text}>Highly Rated</Text>
+        {/* //< navigation only needs to go to category based on search result */}
+        <TouchableOpacity onPress={() => nav.navigate("Category", {query: ""})}> 
+        {/* // update query to pull in the demo products  */}
           <Text style={styles.text2}>See All ⌲</Text>
         </TouchableOpacity>
       </View>
@@ -98,10 +92,11 @@ const RecentlyAdded = ({ data }) => {
         renderItem={renderItem}
         keyExtractor={(item) => item._id}
       />
-    </ScrollView>
+    </View>
   );
 };
-export default RecentlyAdded;
+
+export default HighlyRated;
 
 const styles = StyleSheet.create({
   text: {
@@ -121,6 +116,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    marginTop: 30,
 
     marginBottom: 20,
     marginLeft: 10,

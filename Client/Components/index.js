@@ -1,12 +1,11 @@
 import DropdownSearchBar from "./DropdownSearchBar";
-import Card from "./Card";
 import RatingsButtons from "./RatingsButtons";
 import RatingsFaceCards from "./RatingsFaceCards";
 import FeaturesList from "./FeaturesList";
-import HighlyRated from "./HighlyRated";
+import HighlyRated from "../graveyard/HighlyRated";
 import ProductAccessibilityTags from "./ProductAccessibilityTags";
 import Form from "./Form";
-import RecentlyAdded from "./RecentlyAdded";
+import HomePageFlatList from "./HomePageFlatList";
 import ReviewCard from "./ReviewCard";
 import FireBaseCard from "./FireBaseCard"
 
@@ -15,8 +14,7 @@ export {
     FeaturesList,
     HighlyRated,
     ProductAccessibilityTags,
-    RecentlyAdded,
-    Card,
+    HomePageFlatList,
     RatingsButtons,
     RatingsFaceCards,
     ReviewCard,

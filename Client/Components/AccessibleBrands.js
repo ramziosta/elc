@@ -51,7 +51,7 @@ const AccessibleBrands = ({ data, handlePress }) => {
       <View style={styles.horizontal}>
         <Text style={styles.text}>Accessible Brands</Text>
         {/* //< SEE ALL navigates to Category screen */}
-        <TouchableOpacity onPress={() => nav.navigate("Category")}>
+        <TouchableOpacity onPress={() => nav.navigate("Category", {queryTerm: item.brand})}>
           <Text style={styles.text2}>See All ⌲</Text>
         </TouchableOpacity>
       </View>

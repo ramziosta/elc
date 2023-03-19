@@ -1,5 +1,14 @@
 const resultsPerQuery = 25;
-
+// export const buildQuery = (rawQuery, page=0)=>{
+//     const resultsPerQuery = 25;
+//     let resultsIndex = resultsPerQuery * page;
+//     const updatedRaw = rawQuery.raw().replace(/^_resultsPerQuery_/, resultsPerQuery).replace(/^_offset_/, resultsIndex);
+//     console.log(updatedRaw)
+//     const query = {
+//       query: updatedRaw
+//     };
+//     return query;
+//   }
 export const graphQLQuery = async (token, query) => {
   const endpoint =
     "https://us-central1.gcp.realm.mongodb.com/api/client/v2.0/app/elc-makeup-app-kerwc/graphql";
